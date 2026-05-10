@@ -1,0 +1,868 @@
+{
+  "url": "https://www.nikeliga.sk/zapas/2686-pod-slo",
+  "meta": {
+    "home_team": "FK Železiarne Podbrezová",
+    "away_team": "ŠK Slovan Bratislava",
+    "home_score": 1,
+    "away_score": 3,
+    "home_score_ht": 1,
+    "away_score_ht": 3,
+    "date": "sobota 01.11.2025, 15:30",
+    "stadium": "Zelpo Arena",
+    "round": "13. kolo",
+    "attendance": 3048,
+    "referee": "Peter Kráľovič, Milan Štrbo, Tomáš Vorel"
+  },
+  "events": [
+    {
+      "type": "goal",
+      "team": "home",
+      "player": "Radek Šiler",
+      "minute": null
+    },
+    {
+      "type": "goal",
+      "team": "away",
+      "player": "Róbert Mak",
+      "minute": null
+    },
+    {
+      "type": "goal",
+      "team": "away",
+      "player": "Kelvin Ofori",
+      "minute": null
+    },
+    {
+      "type": "goal",
+      "team": "away",
+      "player": "Nino Marcelli",
+      "minute": null
+    },
+    {
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Ridwan Sanusi",
+      "minute": 83
+    },
+    {
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Rash Rahim Ibrahim",
+      "minute": 68
+    },
+    {
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Nino Marcelli",
+      "minute": 74
+    }
+  ],
+  "stats": {
+    "total": {
+      "xg": {
+        "home": 1.58,
+        "away": 1.77
+      },
+      "possession": {
+        "home": 39.6,
+        "away": 60.4
+      },
+      "shots": {
+        "home": 14,
+        "away": 13
+      },
+      "shots_on_target": {
+        "home": 2,
+        "away": 4
+      },
+      "shot_accuracy": {
+        "home": 21.43,
+        "away": 53.85
+      },
+      "shots_off_target": {
+        "home": 9,
+        "away": 4
+      },
+      "shots_blocked": {
+        "home": 3,
+        "away": 5
+      },
+      "corners": {
+        "home": 1,
+        "away": 7
+      },
+      "offsides": {
+        "home": 1,
+        "away": 2
+      },
+      "yellow_cards": {
+        "home": 1,
+        "away": 2
+      },
+      "red_cards": {
+        "home": 0,
+        "away": 0
+      },
+      "passes": {
+        "home": 358,
+        "away": 547
+      },
+      "pass_accuracy": {
+        "home": 79.05,
+        "away": 85.56
+      },
+      "duels_won": {
+        "home": 46,
+        "away": 32
+      },
+      "fouls": {
+        "home": 16,
+        "away": 14
+      },
+      "saves": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "first_half": {
+      "xg": {
+        "home": 0.93,
+        "away": 1.66
+      },
+      "possession": {
+        "home": 32.9,
+        "away": 67.1
+      },
+      "shots": {
+        "home": 8,
+        "away": 10
+      },
+      "shots_on_target": {
+        "home": 1,
+        "away": 4
+      },
+      "shot_accuracy": {
+        "home": 25,
+        "away": 70
+      },
+      "shots_off_target": {
+        "home": 5,
+        "away": 3
+      },
+      "shots_blocked": {
+        "home": 2,
+        "away": 3
+      },
+      "corners": {
+        "home": 1,
+        "away": 2
+      },
+      "offsides": {
+        "home": 0,
+        "away": 1
+      },
+      "yellow_cards": {
+        "home": 0,
+        "away": 0
+      },
+      "red_cards": {
+        "home": 0,
+        "away": 0
+      },
+      "passes": {
+        "home": 158,
+        "away": 314
+      },
+      "pass_accuracy": {
+        "home": 76.58,
+        "away": 89.17
+      },
+      "duels_won": {
+        "home": 19,
+        "away": 14
+      },
+      "fouls": {
+        "home": 7,
+        "away": 7
+      },
+      "saves": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "second_half": {
+      "xg": {
+        "home": 0.65,
+        "away": 0.12
+      },
+      "possession": {
+        "home": 46.7,
+        "away": 53.3
+      },
+      "shots": {
+        "home": 6,
+        "away": 3
+      },
+      "shots_on_target": {
+        "home": 1,
+        "away": 0
+      },
+      "shot_accuracy": {
+        "home": 16.67,
+        "away": 0
+      },
+      "shots_off_target": {
+        "home": 4,
+        "away": 1
+      },
+      "shots_blocked": {
+        "home": 1,
+        "away": 2
+      },
+      "corners": {
+        "home": 0,
+        "away": 5
+      },
+      "offsides": {
+        "home": 1,
+        "away": 1
+      },
+      "yellow_cards": {
+        "home": 1,
+        "away": 2
+      },
+      "red_cards": {
+        "home": 0,
+        "away": 0
+      },
+      "passes": {
+        "home": 200,
+        "away": 233
+      },
+      "pass_accuracy": {
+        "home": 81,
+        "away": 80.69
+      },
+      "duels_won": {
+        "home": 27,
+        "away": 18
+      },
+      "fouls": {
+        "home": 9,
+        "away": 7
+      },
+      "saves": {
+        "home": 0,
+        "away": 1
+      }
+    }
+  },
+  "lineups": {
+    "home": [
+      {
+        "name": "M. Jurička",
+        "number": 95,
+        "position": "B",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 29,
+        "fouls": 0
+      },
+      {
+        "name": "J. Luka",
+        "number": 37,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 52,
+        "fouls": 0
+      },
+      {
+        "name": "P. Kováčik",
+        "number": 77,
+        "position": "O",
+        "starter": true,
+        "sub_minute": 73,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 19,
+        "fouls": 0
+      },
+      {
+        "name": "F. Mielke",
+        "number": 3,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 44,
+        "fouls": 0
+      },
+      {
+        "name": "A. Marković",
+        "number": 18,
+        "position": "O",
+        "starter": true,
+        "sub_minute": 46,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 17,
+        "fouls": 0
+      },
+      {
+        "name": "S. Štefánik",
+        "number": 26,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 73,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 32,
+        "fouls": 2
+      },
+      {
+        "name": "R. Galčík",
+        "number": 7,
+        "position": "S",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 1,
+        "passes": 31,
+        "fouls": 2
+      },
+      {
+        "name": "R. Sanusi",
+        "number": 27,
+        "position": "S",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 23,
+        "fouls": 3
+      },
+      {
+        "name": "K. Palumets",
+        "number": 80,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 84,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 31,
+        "fouls": 1
+      },
+      {
+        "name": "M. Marcin",
+        "number": 11,
+        "position": "U",
+        "starter": true,
+        "sub_minute": 46,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 8,
+        "fouls": 2
+      },
+      {
+        "name": "R. Šiler",
+        "number": 10,
+        "position": "U",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 1,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 1,
+        "passes": 17,
+        "fouls": 2
+      },
+      {
+        "name": "I. Rehák",
+        "number": 1,
+        "position": "B",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "B. Niňaj",
+        "number": 88,
+        "position": "O",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "A. Havrylenko",
+        "number": 44,
+        "position": "S",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "S. Tatolna",
+        "number": 14,
+        "position": "S",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "R. Paraj",
+        "number": 15,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 46,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 20,
+        "fouls": 2
+      },
+      {
+        "name": "V. Chyla",
+        "number": 13,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 73,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 10,
+        "fouls": 1
+      },
+      {
+        "name": "O. Deml",
+        "number": 8,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 46,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 12,
+        "fouls": 1
+      },
+      {
+        "name": "D. Hakobyan",
+        "number": 45,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 73,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 9,
+        "fouls": 0
+      },
+      {
+        "name": "O. Kujabi",
+        "number": 19,
+        "position": "U",
+        "starter": false,
+        "sub_minute": 84,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 4,
+        "fouls": 0
+      }
+    ],
+    "away": [
+      {
+        "name": "D. Takáč",
+        "number": 71,
+        "position": "B",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 40,
+        "fouls": 0
+      },
+      {
+        "name": "K. Bajrič",
+        "number": 12,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 63,
+        "fouls": 3
+      },
+      {
+        "name": "K. Wimmer",
+        "number": 6,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 65,
+        "fouls": 0
+      },
+      {
+        "name": "A. Mustafić",
+        "number": 4,
+        "position": "S",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 44,
+        "fouls": 0
+      },
+      {
+        "name": "A. Gajdoš",
+        "number": 8,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 63,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 37,
+        "fouls": 2
+      },
+      {
+        "name": "R. Ibrahim",
+        "number": 5,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 77,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 37,
+        "fouls": 5
+      },
+      {
+        "name": "K. Ofori",
+        "number": 97,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 77,
+        "sub_type": "out",
+        "goals": 1,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 1,
+        "passes": 39,
+        "fouls": 0
+      },
+      {
+        "name": "N. Marcelli",
+        "number": 18,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 77,
+        "sub_type": "out",
+        "goals": 1,
+        "assists": 1,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "shots": 2,
+        "passes": 24,
+        "fouls": 0
+      },
+      {
+        "name": "R. Mak",
+        "number": 21,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 88,
+        "sub_type": "out",
+        "goals": 1,
+        "assists": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 1,
+        "passes": 39,
+        "fouls": 1
+      },
+      {
+        "name": "D. Ihnatenko",
+        "number": 77,
+        "position": "S",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 71,
+        "fouls": 2
+      },
+      {
+        "name": "S. Zuberu",
+        "number": 23,
+        "position": "U",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 42,
+        "fouls": 0
+      },
+      {
+        "name": "M. Macík",
+        "number": 44,
+        "position": "B",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "J. Medveděv",
+        "number": 71,
+        "position": "O",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "S. Fogning",
+        "number": 19,
+        "position": "O",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "K. Savvidis",
+        "number": 88,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 63,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 21,
+        "fouls": 0
+      },
+      {
+        "name": "F. Lichý",
+        "number": 6,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 88,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 0,
+        "fouls": 0
+      },
+      {
+        "name": "V. Weiss",
+        "number": 7,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 77,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 9,
+        "fouls": 0
+      },
+      {
+        "name": "P. Pokorný",
+        "number": 3,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 77,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 9,
+        "fouls": 1
+      },
+      {
+        "name": "A. Šporar",
+        "number": 99,
+        "position": "U",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "A. Yirajang",
+        "number": 14,
+        "position": "U",
+        "starter": false,
+        "sub_minute": 77,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 7,
+        "fouls": 0
+      }
+    ]
+  },
+  "match_id": 2686,
+  "season": 2025
+}

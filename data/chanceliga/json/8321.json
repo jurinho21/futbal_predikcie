@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8321-duk-fcb",
+  "meta": {
+    "home_team": "FK Dukla Praha",
+    "away_team": "FC Baník Ostrava",
+    "round": "5. kolo, Skupina o záchranu | sobota 23/05/2026, 14:00 |",
+    "date": "23/05/2026 14:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 21,
+        "away": 26
+      },
+      "góly_proti": {
+        "home": 45,
+        "away": 47
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 298,
+        "away": 432
+      },
+      "úspěšnost_přihrávek": {
+        "home": 71.4,
+        "away": 78.8
+      },
+      "possession": {
+        "home": 43.2,
+        "away": 52.4
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8321
+}

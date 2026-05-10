@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8293-hkr-lib",
+  "meta": {
+    "home_team": "FC Hradec Králové",
+    "away_team": "FC Slovan Liberec",
+    "round": "3. kolo, Skupina o titul | středa 13/05/2026, 17:30 |",
+    "date": "13/05/2026 17:30"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 44,
+        "away": 44
+      },
+      "góly_proti": {
+        "home": 37,
+        "away": 34
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 328,
+        "away": 431
+      },
+      "úspěšnost_přihrávek": {
+        "home": 76.6,
+        "away": 73.7
+      },
+      "possession": {
+        "home": 46,
+        "away": 47.7
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8293
+}

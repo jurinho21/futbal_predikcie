@@ -1,0 +1,35 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8314-zc8-zc7",
+  "meta": {
+    "home_team": "vítěz 8/9",
+    "away_team": "vítěz 7/10",
+    "round": ", Play-off o umístění | sobota 16/05/2026, 17:00 |",
+    "date": "16/05/2026 17:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "průměrný_věk": {
+        "home": 0,
+        "away": 0
+      },
+      "součet_zápasů": {
+        "home": 0,
+        "away": 0
+      },
+      "hráči_s_titulem": {
+        "home": null,
+        "away": null
+      },
+      "počet_národností": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8314
+}

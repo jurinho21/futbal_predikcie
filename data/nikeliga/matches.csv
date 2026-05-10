@@ -1,0 +1,185 @@
+match_id,season,date,round,referee,home_team,away_team,home_score,away_score,home_xg,away_xg,home_shots,away_shots,home_shots_on_target,away_shots_on_target,home_corners,away_corners,home_fouls,away_fouls,home_yellow,away_yellow,home_red,away_red,home_possession,away_possession,attendance
+2614,2025,"sobota 26.07.2025, 18:03",1. kolo,Matej Choreň,KFC Komárno,AS Trenčín,1,2,2.35,1.22,21,14,9,5,15,5,8,11,0,2,0,0,49.7,50.3,452
+2615,2025,"nedeľa 27.07.2025, 17:00",1. kolo,Michal Smolák,FK Železiarne Podbrezová,FC Košice,3,1,2.87,1.79,13,20,6,9,8,8,13,8,1,1,0,0,43.5,56.5,1008
+2616,2025,"sobota 26.07.2025, 20:30",1. kolo,Peter Kráľovič,FC Tatran Prešov,ŠK Slovan Bratislava,2,2,2.08,1.04,10,21,5,4,4,10,14,7,1,2,0,0,25.8,74.2,6320
+2617,2025,"nedeľa 27.07.2025, 19:03",1. kolo,Filip Glova,FC Spartak Trnava,MFK Ružomberok,3,0,2,0.55,19,10,7,4,5,6,10,18,0,0,0,1,66.4,33.6,4273
+2618,2025,"sobota 26.07.2025, 18:00",1. kolo,Erik Gemzický,FC DAC 1904 Dunajská Streda,MFK Zemplín Michalovce,1,1,2.06,0.72,15,11,4,6,5,2,13,16,0,3,0,0,60.9,39.1,4075
+2619,2025,"nedeľa 27.07.2025, 17:00",1. kolo,Bálint Kišš,MFK Skalica,MŠK Žilina,0,0,1.23,2.48,11,15,3,6,4,8,14,16,1,3,0,0,42,58,613
+2620,2025,"sobota 02.08.2025, 18:00",2. kolo,Igor Valent,MFK Zemplín Michalovce,KFC Komárno,3,1,2.77,1.91,21,15,9,6,3,5,11,16,1,1,0,0,57.8,42.2,1584
+2621,2025,"utorok 12.08.2025, 18:00",2. kolo,Ivan Kružliak,MFK Ružomberok,MFK Skalica,1,3,0.91,0.59,9,11,3,5,4,1,13,11,2,3,0,0,60.4,39.6,1055
+2622,2025,"sobota 02.08.2025, 20:30",2. kolo,Michal Očenáš,ŠK Slovan Bratislava,FK Železiarne Podbrezová,4,1,1.76,1.99,14,13,5,4,4,7,18,21,2,2,0,0,54.5,45.5,6436
+2623,2025,"streda 01.10.2025, 18:00",2. kolo,Lukáš Dzivjak,FC Košice,FC DAC 1904 Dunajská Streda,0,2,0.83,1.41,20,12,4,5,5,3,13,8,0,1,0,0,53.2,46.8,2182
+2624,2025,"nedeľa 03.08.2025, 19:00",2. kolo,Martin Dohál,MŠK Žilina,FC Tatran Prešov,1,0,1.63,0.28,18,6,3,0,5,4,11,11,3,5,0,0,56.9,43.1,1864
+2625,2025,"nedeľa 03.08.2025, 17:00",2. kolo,Peter Ziemba,AS Trenčín,FC Spartak Trnava,0,1,0.46,0.99,8,18,0,5,4,3,18,13,1,3,1,2,54.6,45.4,4489
+2626,2025,"streda 29.10.2025, 18:00",3. kolo,Boris Marhefka,KFC Komárno,ŠK Slovan Bratislava,2,3,1.37,1.92,13,22,4,4,1,9,15,7,1,2,0,0,24.8,75.2,1289
+2627,2025,"sobota 09.08.2025, 18:00",3. kolo,Boris Benedik,MFK Skalica,FK Železiarne Podbrezová,2,2,1.85,1.08,13,11,3,4,4,5,14,16,2,2,0,1,43.4,56.6,543
+2628,2025,"nedeľa 10.08.2025, 17:00",3. kolo,Peter Kráľovič,FC Košice,AS Trenčín,0,1,2.69,0.47,32,9,11,2,5,5,13,14,1,2,0,0,49.9,50.1,3288
+2629,2025,"sobota 09.08.2025, 20:33",3. kolo,Marián Ruc,FC DAC 1904 Dunajská Streda,MFK Ružomberok,2,0,3.4,0.41,22,5,10,2,10,1,15,16,0,1,0,1,80.6,19.4,3868
+2630,2025,"nedeľa 10.08.2025, 19:00",3. kolo,Michal Smolák,FC Spartak Trnava,FC Tatran Prešov,1,0,2.35,0.89,21,13,8,2,6,6,17,12,0,2,0,0,63.7,36.3,5078
+2631,2025,"sobota 09.08.2025, 18:00",3. kolo,Filip Glova,MFK Zemplín Michalovce,MŠK Žilina,2,4,1.51,1.83,22,7,9,4,12,3,15,14,1,0,0,1,59.4,40.6,2738
+2632,2025,"sobota 16.08.2025, 18:03",4. kolo,Bálint Kišš,FK Železiarne Podbrezová,KFC Komárno,2,1,0.84,0.88,10,15,4,4,6,8,16,16,2,1,0,0,44.1,55.9,865
+2633,2025,"sobota 16.08.2025, 18:00",4. kolo,Michal Očenáš,MFK Ružomberok,MFK Zemplín Michalovce,0,1,1.11,1.55,10,14,4,6,5,7,12,13,0,2,0,0,52.3,47.7,868
+2634,2025,"sobota 16.08.2025, 18:00",4. kolo,Lukáš Dzivjak,ŠK Slovan Bratislava,MFK Skalica,1,0,1.19,0.73,13,11,3,5,4,7,7,17,0,2,0,0,68.4,31.6,4868
+2635,2025,"streda 29.10.2025, 18:00",4. kolo,Ivan Kružliak,FC Spartak Trnava,FC Košice,3,1,2.21,1.18,7,13,6,1,1,3,19,15,2,2,0,0,54.4,45.6,3538
+2636,2025,"nedeľa 17.08.2025, 19:00",4. kolo,Erik Gemzický,AS Trenčín,MŠK Žilina,2,1,2.97,0.43,27,9,8,2,9,3,13,7,1,0,0,0,56.3,43.7,2109
+2637,2025,"sobota 16.08.2025, 20:30",4. kolo,Martin Dohál,FC Tatran Prešov,FC DAC 1904 Dunajská Streda,0,0,0.7,0.9,9,16,1,4,7,3,14,13,4,4,0,0,33.5,66.5,6254
+2638,2025,"nedeľa 24.08.2025, 17:00",5. kolo,Boris Marhefka,KFC Komárno,FC Spartak Trnava,1,4,1.46,2.83,14,10,7,4,9,4,13,13,3,1,0,1,46.4,53.6,2987
+2639,2025,"sobota 23.08.2025, 18:00",5. kolo,Igor Valent,MFK Skalica,FC Tatran Prešov,2,2,0.78,1.03,9,18,3,6,3,10,10,9,2,3,0,0,34.1,65.9,737
+2640,2025,"nedeľa 24.08.2025, 19:00",5. kolo,Jaroslav Sučka,MŠK Žilina,FK Železiarne Podbrezová,3,0,3.07,1.29,19,14,10,4,5,5,11,15,0,3,0,0,41.2,58.8,1908
+2641,2025,"sobota 23.08.2025, 18:00",5. kolo,Filip Malárik,FC Košice,MFK Ružomberok,3,1,1.81,1.54,19,13,8,6,5,6,10,12,2,3,0,0,55.9,44.1,3211
+2642,2025,"sobota 23.08.2025, 20:30",5. kolo,Matej Choreň,FC DAC 1904 Dunajská Streda,AS Trenčín,4,1,2.28,0.35,27,8,13,4,5,4,13,15,2,3,0,1,67.9,32.1,3993
+2643,2025,"nedeľa 24.08.2025, 19:00",5. kolo,Peter Ziemba,MFK Zemplín Michalovce,ŠK Slovan Bratislava,1,1,1.24,1.5,15,20,4,5,3,10,10,7,3,1,0,0,37.9,62.1,4286
+2644,2025,"sobota 30.08.2025, 18:00",6. kolo,Filip Glova,FC Tatran Prešov,AS Trenčín,2,3,1.22,1.34,12,18,7,5,5,5,14,12,2,5,1,0,36.5,63.5,6380
+2645,2025,"nedeľa 31.08.2025, 17:00",6. kolo,Erik Gemzický,ŠK Slovan Bratislava,FC Košice,3,2,1.32,1.36,12,16,7,10,6,4,10,15,0,2,0,0,54.2,45.8,6421
+2646,2025,"sobota 30.08.2025, 18:00",6. kolo,Boris Benedik,KFC Komárno,MFK Skalica,1,0,0.64,0.43,10,7,4,1,4,4,17,15,4,4,0,0,38.1,61.9,322
+2647,2025,"sobota 30.08.2025, 20:30",6. kolo,Lukáš Dzivjak,FK Železiarne Podbrezová,MFK Zemplín Michalovce,2,2,2.25,1.07,24,15,5,5,2,2,15,10,2,1,0,0,55.1,44.9,527
+2648,2025,"nedeľa 31.08.2025, 19:00",6. kolo,Michal Smolák,FC Spartak Trnava,FC DAC 1904 Dunajská Streda,0,3,1.49,0.77,19,13,2,5,7,1,17,13,5,4,0,0,55,45,9362
+2649,2025,"nedeľa 31.08.2025, 17:00",6. kolo,Peter Kráľovič,MFK Ružomberok,MŠK Žilina,3,3,3.06,2.08,21,15,9,6,7,3,11,12,2,2,0,0,39,61,1567
+2650,2025,"sobota 13.09.2025, 18:00",7. kolo,Boris Marhefka,FC Košice,KFC Komárno,2,3,1.68,1.39,13,15,3,7,4,1,14,6,1,4,1,0,48.9,51.1,4395
+2651,2025,"nedeľa 14.09.2025, 19:00",7. kolo,Ivan Kružliak,FC DAC 1904 Dunajská Streda,FK Železiarne Podbrezová,2,0,1.65,0.79,21,16,4,5,5,5,13,13,2,3,0,0,51.3,48.7,4682
+2652,2025,"sobota 13.09.2025, 18:02",7. kolo,Matej Choreň,MFK Skalica,FC Spartak Trnava,0,4,0.13,2.6,4,17,1,4,5,6,16,15,2,1,1,0,34.4,65.6,3013
+2653,2025,"sobota 13.09.2025, 18:00",7. kolo,Michal Očenáš,AS Trenčín,MFK Ružomberok,0,3,0.28,0.57,8,9,2,2,8,3,16,15,5,3,0,0,66,34,1713
+2654,2025,"sobota 13.09.2025, 20:30",7. kolo,Martin Dohál,MŠK Žilina,ŠK Slovan Bratislava,3,3,2.1,2.25,5,23,3,9,3,16,16,13,3,2,0,1,35,65,5599
+2655,2025,"nedeľa 14.09.2025, 17:00",7. kolo,Bálint Kišš,MFK Zemplín Michalovce,FC Tatran Prešov,1,2,0.89,1.62,11,12,6,2,8,7,19,12,5,5,0,0,67.7,32.3,2896
+2656,2025,"sobota 20.09.2025, 18:00",8. kolo,Igor Valent,FK Železiarne Podbrezová,AS Trenčín,2,0,2.2,1.64,14,15,5,3,0,7,14,16,3,2,0,0,39.2,60.8,825
+2657,2025,"nedeľa 21.09.2025, 17:00",8. kolo,Marián Ruc,KFC Komárno,MŠK Žilina,1,3,2.58,2.13,18,11,6,6,4,4,13,11,2,3,1,0,46.7,53.3,415
+2658,2025,"sobota 20.09.2025, 18:00",8. kolo,Peter Ziemba,MFK Skalica,FC Košice,1,0,0.59,0.85,10,15,4,5,5,2,12,20,1,5,0,0,38.3,61.7,623
+2659,2025,"sobota 20.09.2025, 18:00",8. kolo,Erik Gemzický,FC Tatran Prešov,MFK Ružomberok,1,3,1.49,1.68,21,10,3,7,8,5,6,17,1,2,1,0,70,30,6369
+2660,2025,"sobota 20.09.2025, 20:30",8. kolo,Peter Kráľovič,ŠK Slovan Bratislava,FC DAC 1904 Dunajská Streda,3,2,1.85,1.89,10,15,6,4,4,6,15,14,1,0,0,0,42.6,57.4,9487
+2661,2025,"nedeľa 21.09.2025, 19:00",8. kolo,Filip Glova,FC Spartak Trnava,MFK Zemplín Michalovce,0,1,2.68,0.18,31,3,7,2,14,3,10,13,2,6,0,1,67.9,32.1,5379
+2662,2025,"sobota 27.09.2025, 18:04",9. kolo,Ivan Kružliak,FC DAC 1904 Dunajská Streda,KFC Komárno,1,1,2.79,0.47,37,10,10,3,6,3,7,13,1,1,0,0,70,30,5650
+2663,2025,"sobota 27.09.2025, 18:00",9. kolo,Boris Marhefka,MFK Zemplín Michalovce,MFK Skalica,2,0,1.33,0.42,18,8,11,0,8,3,13,9,1,0,0,0,50.5,49.5,1173
+2664,2025,"nedeľa 28.09.2025, 19:00",9. kolo,Michal Smolák,MŠK Žilina,FC Spartak Trnava,2,2,1.82,1.38,11,18,4,3,0,7,10,19,0,3,0,0,42.2,57.8,4261
+2665,2025,"sobota 27.09.2025, 20:32",9. kolo,Michal Očenáš,FC Košice,FC Tatran Prešov,2,2,1.99,1,21,8,8,6,8,2,21,8,5,2,0,0,61.5,38.5,8111
+2666,2025,"sobota 27.09.2025, 18:00",9. kolo,Lukáš Dzivjak,AS Trenčín,ŠK Slovan Bratislava,1,2,1.82,2.87,17,11,5,3,3,7,20,15,2,3,0,0,46.6,53.4,4318
+2667,2025,"nedeľa 28.09.2025, 17:00",9. kolo,Martin Dohál,MFK Ružomberok,FK Železiarne Podbrezová,1,0,0.52,0.52,10,11,3,2,4,2,11,11,3,2,0,0,47.1,52.9,1141
+2668,2025,"sobota 04.10.2025, 18:00",10. kolo,Michal Smolák,KFC Komárno,FC Tatran Prešov,0,0,1.68,0.67,19,11,3,2,4,7,16,10,1,1,0,0,45.6,54.4,375
+2669,2025,"nedeľa 05.10.2025, 17:00",10. kolo,Marián Ruc,MFK Skalica,FC DAC 1904 Dunajská Streda,1,1,1.49,2.79,10,23,2,8,5,6,13,13,2,1,1,0,33.4,66.6,661
+2670,2025,"sobota 04.10.2025, 20:30",10. kolo,Matej Choreň,MŠK Žilina,FC Košice,4,1,2.41,1.76,14,18,9,5,2,8,8,10,1,2,0,0,42.5,57.5,1756
+2671,2025,"streda 03.12.2025, 18:00",10. kolo,Filip Glova,ŠK Slovan Bratislava,MFK Ružomberok,1,2,1.68,0.97,18,13,7,5,8,2,12,11,3,4,0,0,75.4,24.6,3119
+2672,2025,"sobota 04.10.2025, 18:00",10. kolo,Boris Benedik,MFK Zemplín Michalovce,AS Trenčín,2,0,2.15,0.69,19,9,9,0,8,5,16,12,2,1,0,0,51.2,48.8,1208
+2673,2025,"streda 03.12.2025, 18:00",10. kolo,Bálint Kišš,FK Železiarne Podbrezová,FC Spartak Trnava,1,3,1.15,1.37,15,11,5,6,10,5,17,9,5,3,0,1,63.5,36.5,727
+2674,2025,"nedeľa 19.10.2025, 15:30",11. kolo,Boris Marhefka,FC Košice,MFK Zemplín Michalovce,3,2,1.44,0.77,12,9,4,2,2,3,12,13,2,2,0,0,39.1,60.9,5076
+2675,2025,"sobota 18.10.2025, 18:02",11. kolo,Erik Gemzický,FC Spartak Trnava,ŠK Slovan Bratislava,0,2,0.55,0.79,9,9,3,2,6,1,26,13,5,2,1,0,46.2,53.8,17011
+2676,2025,"sobota 18.10.2025, 15:30",11. kolo,Peter Ziemba,MFK Ružomberok,KFC Komárno,0,1,0.79,0.36,10,7,3,1,6,2,11,12,2,3,0,0,58.1,41.9,737
+2677,2025,"sobota 18.10.2025, 15:30",11. kolo,Peter Kráľovič,AS Trenčín,MFK Skalica,1,1,2.07,1.03,17,13,4,2,3,8,8,13,0,2,0,0,63.3,36.7,1015
+2678,2025,"nedeľa 19.10.2025, 18:00",11. kolo,Lukáš Dzivjak,FC DAC 1904 Dunajská Streda,MŠK Žilina,1,2,2.67,1.49,26,13,6,3,9,1,13,16,3,2,0,0,65.8,34.2,4768
+2679,2025,"sobota 18.10.2025, 15:30",11. kolo,Martin Dohál,FC Tatran Prešov,FK Železiarne Podbrezová,2,2,2.41,1.78,15,15,3,4,6,8,7,11,2,6,0,0,43.5,56.5,6098
+2680,2025,"nedeľa 26.10.2025, 18:00",12. kolo,Filip Glova,ŠK Slovan Bratislava,FC Tatran Prešov,0,1,0.49,1.85,5,19,1,5,3,4,11,9,5,1,1,0,53.6,46.4,6498
+2681,2025,"sobota 25.10.2025, 18:00",12. kolo,Ivan Kružliak,FC Košice,FK Železiarne Podbrezová,2,4,0.73,2.22,8,16,3,8,2,1,12,13,0,1,0,0,44.6,55.4,2234
+2682,2025,"sobota 25.10.2025, 15:30",12. kolo,Jaroslav Sučka,AS Trenčín,KFC Komárno,0,1,0.74,1.27,11,10,2,4,1,3,14,26,3,2,1,0,62.7,37.3,988
+2683,2025,"nedeľa 26.10.2025, 15:30",12. kolo,Michal Očenáš,MFK Ružomberok,FC Spartak Trnava,1,1,0.72,1.07,11,14,5,5,6,7,15,14,0,2,1,1,33.9,66.1,1434
+2684,2025,"sobota 25.10.2025, 15:30",12. kolo,Matej Choreň,MFK Zemplín Michalovce,FC DAC 1904 Dunajská Streda,2,4,0.63,2.88,11,20,5,11,3,5,15,13,1,3,0,0,44.5,55.5,1153
+2685,2025,"sobota 25.10.2025, 15:30",12. kolo,Bálint Kišš,MŠK Žilina,MFK Skalica,3,2,2.34,1.78,15,18,8,6,5,6,9,12,3,3,0,0,47.4,52.6,1423
+2686,2025,"sobota 01.11.2025, 15:30",13. kolo,Peter Kráľovič,FK Železiarne Podbrezová,ŠK Slovan Bratislava,1,3,1.58,1.77,14,13,2,4,1,7,16,14,1,2,0,0,39.6,60.4,3048
+2687,2025,"nedeľa 02.11.2025, 18:00",13. kolo,Marián Ruc,FC Spartak Trnava,AS Trenčín,4,0,2.42,1.13,16,8,8,2,3,3,15,12,3,2,0,0,50.5,49.5,3937
+2688,2025,"nedeľa 02.11.2025, 15:30",13. kolo,Erik Gemzický,KFC Komárno,MFK Zemplín Michalovce,1,1,1.52,2.37,8,13,1,2,5,5,11,17,0,1,1,0,46.2,53.8,280
+2689,2025,"sobota 01.11.2025, 18:00",13. kolo,Michal Očenáš,FC DAC 1904 Dunajská Streda,FC Košice,3,1,1.59,0.35,27,8,9,3,9,3,8,12,1,2,0,1,73.4,26.6,4085
+2690,2025,"sobota 01.11.2025, 15:30",13. kolo,Boris Benedik,MFK Skalica,MFK Ružomberok,0,0,0.73,0.37,13,7,5,2,9,5,10,12,0,0,0,0,63.9,36.1,473
+2691,2025,"sobota 01.11.2025, 15:30",13. kolo,Michal Smolák,FC Tatran Prešov,MŠK Žilina,0,4,0.45,2.23,9,13,2,6,4,5,6,13,2,2,0,0,57.5,42.5,6160
+2692,2025,"sobota 08.11.2025, 15:30",14. kolo,Peter Ziemba,AS Trenčín,FC Košice,2,0,2.24,0.77,13,11,7,3,7,7,9,17,3,3,0,0,50.2,49.8,940
+2693,2025,"nedeľa 09.11.2025, 15:30",14. kolo,Martin Dohál,ŠK Slovan Bratislava,KFC Komárno,3,2,1.31,0.57,13,11,7,6,4,6,13,12,4,2,0,0,62.8,37.2,4897
+2694,2025,"nedeľa 09.11.2025, 18:00",14. kolo,Ivan Kružliak,FC Tatran Prešov,FC Spartak Trnava,2,1,0.96,0.43,8,5,3,2,4,5,15,20,4,4,0,1,35.7,64.3,6327
+2695,2025,"sobota 08.11.2025, 15:30",14. kolo,Lukáš Dzivjak,MFK Ružomberok,FC DAC 1904 Dunajská Streda,0,1,0.73,1.01,12,15,1,4,5,3,7,8,1,3,1,0,39.1,60.9,1155
+2696,2025,"sobota 08.11.2025, 18:00",14. kolo,Boris Marhefka,MŠK Žilina,MFK Zemplín Michalovce,2,0,1.6,0.54,16,8,6,3,5,7,15,13,1,2,0,0,48.1,51.9,1671
+2697,2025,"sobota 08.11.2025, 15:30",14. kolo,Filip Malárik,FK Železiarne Podbrezová,MFK Skalica,2,0,1.98,0.69,25,10,9,2,5,2,8,9,2,2,0,1,56.9,43.1,502
+2698,2025,"sobota 22.11.2025, 15:30",15. kolo,Erik Gemzický,MFK Skalica,ŠK Slovan Bratislava,0,1,0.81,1.06,11,14,1,5,1,6,10,10,0,1,0,0,32.4,67.6,1027
+2699,2025,"sobota 22.11.2025, 15:30",15. kolo,Bálint Kišš,MŠK Žilina,AS Trenčín,4,1,2.88,1.46,22,10,8,1,3,7,13,7,1,0,0,0,44.5,55.5,1354
+2700,2025,"sobota 22.11.2025, 18:00",15. kolo,Michal Očenáš,FC Košice,FC Spartak Trnava,1,2,1.06,1.98,14,12,3,6,1,4,14,8,4,3,0,0,40.3,59.7,2411
+2701,2025,"nedeľa 23.11.2025, 18:00",15. kolo,Matej Choreň,FC DAC 1904 Dunajská Streda,FC Tatran Prešov,0,0,1.3,0.25,19,7,4,5,6,2,7,9,0,2,1,0,66.4,33.6,3549
+2702,2025,"sobota 22.11.2025, 15:30",15. kolo,Igor Valent,KFC Komárno,FK Železiarne Podbrezová,1,0,2.16,1.24,13,19,5,3,3,3,9,13,3,2,0,0,37.9,62.1,230
+2703,2025,"nedeľa 23.11.2025, 15:30",15. kolo,Filip Glova,MFK Zemplín Michalovce,MFK Ružomberok,4,2,3.69,1.48,28,14,15,4,7,5,4,13,1,1,0,0,58.2,41.8,735
+2704,2025,"sobota 29.11.2025, 15:30",16. kolo,Boris Benedik,FC Spartak Trnava,KFC Komárno,2,0,1.01,0.41,14,8,3,1,3,4,14,19,1,1,0,0,55.8,44.2,3112
+2705,2025,"sobota 29.11.2025, 15:30",16. kolo,Boris Marhefka,FC Tatran Prešov,MFK Skalica,3,2,0.98,1.6,11,20,6,6,3,11,9,8,0,1,1,0,43.1,56.9,5356
+2706,2025,"nedeľa 30.11.2025, 18:00",16. kolo,Ivan Kružliak,FK Železiarne Podbrezová,MŠK Žilina,2,0,1.85,0.43,17,8,11,1,3,5,13,17,3,1,0,0,54.1,45.9,557
+2707,2025,"sobota 29.11.2025, 15:30",16. kolo,Peter Ziemba,MFK Ružomberok,FC Košice,1,1,2.26,0.74,14,10,6,5,7,1,12,14,2,1,0,0,57.3,42.7,676
+2708,2025,"sobota 29.11.2025, 18:00",16. kolo,Michal Smolák,AS Trenčín,FC DAC 1904 Dunajská Streda,0,3,0.55,1.32,9,12,3,6,8,4,12,10,0,0,0,0,44.2,55.8,744
+2709,2025,"nedeľa 30.11.2025, 15:30",16. kolo,Lukáš Dzivjak,ŠK Slovan Bratislava,MFK Zemplín Michalovce,3,2,0.96,1.18,15,14,6,3,5,3,15,10,3,1,0,1,67.3,32.7,3689
+2710,2025,"nedeľa 07.12.2025, 15:30",17. kolo,Peter Kráľovič,AS Trenčín,FC Tatran Prešov,0,0,0.58,0.91,12,12,2,4,2,5,13,8,1,3,0,0,63.7,36.3,967
+2711,2025,"sobota 06.12.2025, 18:00",17. kolo,Boris Marhefka,FC Košice,ŠK Slovan Bratislava,2,0,2.02,0.67,17,13,6,1,4,2,13,10,2,1,0,0,32.6,67.4,4378
+2712,2025,"sobota 06.12.2025, 15:30",17. kolo,Martin Dohál,MFK Skalica,KFC Komárno,1,1,0.58,1.63,7,16,2,4,2,6,16,16,1,4,0,0,38.4,61.6,303
+2713,2025,"sobota 06.12.2025, 15:30",17. kolo,Marián Ruc,MFK Zemplín Michalovce,FK Železiarne Podbrezová,0,4,0.4,0.8,9,7,1,5,4,6,8,17,1,4,1,0,41.5,58.5,815
+2714,2025,"nedeľa 07.12.2025, 18:00",17. kolo,Ivan Kružliak,FC DAC 1904 Dunajská Streda,FC Spartak Trnava,3,1,2.74,2.15,17,19,10,5,3,9,18,23,4,6,1,1,41.3,58.7,5184
+2715,2025,"sobota 06.12.2025, 15:30",17. kolo,Matej Choreň,MŠK Žilina,MFK Ružomberok,1,2,1.39,0.73,14,10,4,5,4,6,11,16,3,3,0,1,64.7,35.3,1536
+2716,2025,"nedeľa 14.12.2025, 15:30",18. kolo,Erik Gemzický,KFC Komárno,FC Košice,1,2,1.27,1.34,14,10,6,3,7,9,10,13,0,0,0,0,46.2,53.8,367
+2717,2025,"sobota 13.12.2025, 15:30",18. kolo,Michal Smolák,FK Železiarne Podbrezová,FC DAC 1904 Dunajská Streda,0,1,1.75,0.47,24,10,5,2,12,5,10,9,1,2,0,0,65.9,34.1,511
+2718,2025,"sobota 13.12.2025, 15:30",18. kolo,Filip Glova,FC Spartak Trnava,MFK Skalica,2,0,2.19,0.31,16,5,3,1,2,3,10,18,0,3,0,0,62.1,37.9,2964
+2719,2025,"sobota 13.12.2025, 15:30",18. kolo,Bálint Kišš,MFK Ružomberok,AS Trenčín,0,0,0.89,0.36,13,8,1,1,11,4,11,11,1,2,0,0,40.3,59.7,543
+2720,2025,"nedeľa 14.12.2025, 18:03",18. kolo,Peter Kráľovič,ŠK Slovan Bratislava,MŠK Žilina,3,2,1.62,1,8,9,4,3,3,4,9,14,1,1,0,0,51.1,48.9,5236
+2721,2025,"sobota 13.12.2025, 18:00",18. kolo,Michal Očenáš,FC Tatran Prešov,MFK Zemplín Michalovce,0,1,1.78,1.22,10,14,3,5,3,8,8,10,2,3,0,0,43.1,56.9,6007
+2722,2025,"sobota 07.02.2026, 15:30",19. kolo,Lukáš Dzivjak,AS Trenčín,FK Železiarne Podbrezová,0,4,1.18,1.73,17,18,8,10,7,2,5,16,4,1,0,0,63,37,978
+2723,2025,"nedeľa 08.02.2026, 15:30",19. kolo,Peter Ziemba,MŠK Žilina,KFC Komárno,1,0,1.93,0.34,12,7,7,2,4,5,11,21,1,3,0,0,57.8,42.2,1255
+2724,2025,"sobota 07.02.2026, 15:30",19. kolo,Ivan Kružliak,FC Košice,MFK Skalica,3,1,2.88,1.96,20,12,9,3,6,6,11,13,1,1,0,1,51.8,48.2,2847
+2725,2025,"sobota 07.02.2026, 15:30",19. kolo,Marián Ruc,MFK Ružomberok,FC Tatran Prešov,1,0,1.18,0.62,13,12,5,4,4,8,20,20,1,4,0,0,42.3,57.7,1158
+2726,2025,"sobota 07.02.2026, 18:00",19. kolo,Michal Očenáš,FC DAC 1904 Dunajská Streda,ŠK Slovan Bratislava,0,3,1.54,2.17,9,8,2,5,4,5,8,20,1,5,1,0,46,54,9301
+2727,2025,"nedeľa 08.02.2026, 18:00",19. kolo,Erik Gemzický,MFK Zemplín Michalovce,FC Spartak Trnava,1,1,1.18,1.63,8,12,4,2,4,4,13,21,2,2,0,0,50.2,49.8,1238
+2728,2025,"nedeľa 15.02.2026, 15:30",20. kolo,Matej Choreň,KFC Komárno,FC DAC 1904 Dunajská Streda,2,2,2.18,0.87,16,13,7,5,6,4,13,15,2,4,0,0,40.5,59.5,640
+2729,2025,"sobota 14.02.2026, 15:30",20. kolo,Filip Glova,MFK Skalica,MFK Zemplín Michalovce,2,1,0.52,1,6,16,3,2,5,8,17,10,2,2,1,0,27.9,72.1,312
+2730,2025,"nedeľa 15.02.2026, 18:00",20. kolo,Michal Smolák,FC Spartak Trnava,MŠK Žilina,0,0,1.05,0.44,16,9,3,5,6,7,14,15,0,0,0,0,50.9,49.1,3069
+2731,2025,"sobota 14.02.2026, 18:00",20. kolo,Boris Marhefka,FC Tatran Prešov,FC Košice,1,4,0.57,0.98,8,12,3,6,2,7,8,9,0,3,1,0,37,63,6398
+2732,2025,"sobota 14.02.2026, 15:30",20. kolo,Peter Kráľovič,ŠK Slovan Bratislava,AS Trenčín,0,2,1.97,0.81,22,12,3,4,12,5,4,13,0,0,0,0,71.6,28.4,4917
+2733,2025,"sobota 14.02.2026, 15:30",20. kolo,Martin Dohál,FK Železiarne Podbrezová,MFK Ružomberok,5,0,3.53,0.58,17,12,10,5,7,8,14,7,2,0,0,0,48.6,51.4,611
+2734,2025,"sobota 21.02.2026, 15:30",21. kolo,Peter Kráľovič,FC Tatran Prešov,KFC Komárno,1,1,1.24,0.73,16,11,7,3,2,4,11,25,0,1,0,1,58.7,41.3,3669
+2735,2025,"sobota 21.02.2026, 15:30",21. kolo,Boris Benedik,FC DAC 1904 Dunajská Streda,MFK Skalica,3,2,2.3,2.41,16,23,7,9,5,7,6,12,1,0,0,0,53.2,46.8,3515
+2736,2025,"nedeľa 22.02.2026, 18:00",21. kolo,Lukáš Dzivjak,FC Košice,MŠK Žilina,2,2,1.7,0.68,15,12,4,4,1,7,12,6,1,2,0,0,50.5,49.5,2482
+2737,2025,"nedeľa 22.02.2026, 15:30",21. kolo,Erik Gemzický,MFK Ružomberok,ŠK Slovan Bratislava,2,2,0.59,0.53,6,10,3,3,1,8,17,10,1,1,0,1,38.8,61.2,1513
+2738,2025,"sobota 21.02.2026, 15:30",21. kolo,Bálint Kišš,AS Trenčín,MFK Zemplín Michalovce,1,2,1.81,1.39,15,7,3,2,5,4,6,16,2,5,0,0,50.3,49.7,686
+2739,2025,"sobota 21.02.2026, 18:00",21. kolo,Filip Malárik,FC Spartak Trnava,FK Železiarne Podbrezová,0,5,1.07,1.87,17,12,2,8,7,2,13,14,2,1,0,0,61.9,38.1,2218
+2740,2025,"sobota 28.02.2026, 15:30",22. kolo,Peter Ziemba,MFK Zemplín Michalovce,FC Košice,0,2,0.7,0.69,11,10,1,2,7,5,16,22,2,2,0,0,59.3,40.7,2049
+2741,2025,"sobota 28.02.2026, 15:30",22. kolo,Lukáš Dzivjak,ŠK Slovan Bratislava,FC Spartak Trnava,4,0,1.79,1.15,14,14,6,6,3,7,10,15,3,3,0,0,45.2,54.8,14539
+2742,2025,"sobota 28.02.2026, 15:30",22. kolo,Filip Glova,KFC Komárno,MFK Ružomberok,1,1,1.15,0.65,9,6,4,1,3,5,18,14,2,1,0,0,52.7,47.3,283
+2743,2025,"sobota 28.02.2026, 15:30",22. kolo,Michal Očenáš,MFK Skalica,AS Trenčín,0,1,0.74,1.05,14,5,2,2,13,4,18,18,0,3,1,0,52,48,445
+2744,2025,"sobota 28.02.2026, 15:30",22. kolo,Ivan Kružliak,MŠK Žilina,FC DAC 1904 Dunajská Streda,0,0,0.34,0.96,6,17,3,3,3,5,13,12,2,1,0,0,53.4,46.6,2083
+2745,2025,"sobota 28.02.2026, 15:32",22. kolo,Matej Choreň,FK Železiarne Podbrezová,FC Tatran Prešov,4,1,2.61,1.43,11,14,7,2,2,2,21,10,3,3,0,0,58.6,41.4,1467
+2746,2025,"sobota 07.03.2026, 15:30",O titul - 1. kolo,Boris Marhefka,MFK Zemplín Michalovce,ŠK Slovan Bratislava,1,3,1.44,2.75,22,12,7,9,3,3,18,10,1,1,0,0,56.1,43.9,3487
+2747,2025,"sobota 07.03.2026, 18:00",O titul - 1. kolo,Marián Ruc,MŠK Žilina,FC Spartak Trnava,0,1,1.34,0.48,16,9,2,3,6,5,10,16,0,2,0,0,63.3,36.7,2247
+2748,2025,"nedeľa 08.03.2026, 18:00",O titul - 1. kolo,Peter Kráľovič,FC DAC 1904 Dunajská Streda,FK Železiarne Podbrezová,2,1,1.79,0.82,11,9,6,4,4,6,7,10,0,4,0,0,50.1,49.9,3916
+2749,2025,"nedeľa 15.03.2026, 18:00",O titul - 2. kolo,Peter Ziemba,ŠK Slovan Bratislava,MŠK Žilina,0,1,1.03,0.91,13,11,0,3,1,2,18,16,2,2,0,0,57.7,42.3,8479
+2750,2025,"sobota 14.03.2026, 15:30",O titul - 2. kolo,Jaroslav Sučka,FK Železiarne Podbrezová,MFK Zemplín Michalovce,0,1,0.66,0.86,3,15,2,3,1,9,12,18,4,3,0,0,51.7,48.3,737
+2751,2025,"streda 22.04.2026, 18:00",O titul - 2. kolo,Bálint Kišš,FC Spartak Trnava,FC DAC 1904 Dunajská Streda,2,1,1.23,1.44,11,16,6,3,3,2,19,13,3,3,0,0,63.6,36.4,4351
+2752,2025,"nedeľa 22.03.2026, 18:00",O titul - 3. kolo,Bálint Kišš,ŠK Slovan Bratislava,FK Železiarne Podbrezová,2,0,1.53,1.07,9,14,4,4,4,7,8,18,2,3,0,0,49.8,50.2,6039
+2753,2025,"sobota 21.03.2026, 15:30",O titul - 3. kolo,Filip Glova,MFK Zemplín Michalovce,FC Spartak Trnava,1,0,1.32,1.54,14,17,3,5,4,6,14,13,4,1,0,1,44.3,55.7,2106
+2754,2025,"sobota 21.03.2026, 15:30",O titul - 3. kolo,Peter Kráľovič,MŠK Žilina,FC DAC 1904 Dunajská Streda,3,1,1.92,0.57,18,11,5,3,4,1,9,17,0,0,0,0,45,55,1810
+2755,2025,"sobota 04.04.2026, 15:30",O titul - 4. kolo,Martin Dohál,MFK Zemplín Michalovce,MŠK Žilina,2,1,1.21,2.17,24,19,7,4,9,6,13,10,3,2,0,0,48.1,51.9,2483
+2756,2025,"nedeľa 05.04.2026, 18:00",O titul - 4. kolo,Marián Ruc,FC Spartak Trnava,FK Železiarne Podbrezová,4,1,1.37,0.95,15,11,6,5,4,4,14,8,4,2,0,0,60.1,39.9,3550
+2757,2025,"sobota 04.04.2026, 18:00",O titul - 4. kolo,Ivan Kružliak,FC DAC 1904 Dunajská Streda,ŠK Slovan Bratislava,0,3,0.93,0.64,19,7,5,3,4,2,16,9,2,3,0,0,52.6,47.4,6230
+2758,2025,"sobota 11.04.2026, 15:30",O titul - 5. kolo,Peter Ziemba,FK Železiarne Podbrezová,MŠK Žilina,1,5,2.02,2.08,20,12,5,6,6,5,21,13,2,2,0,0,47.5,52.5,426
+2759,2025,"nedeľa 12.04.2026, 18:00",O titul - 5. kolo,Marián Ruc,FC DAC 1904 Dunajská Streda,MFK Zemplín Michalovce,3,0,1.75,0.52,14,9,6,3,4,3,11,11,2,1,0,0,60.3,39.7,3819
+2760,2025,"sobota 11.04.2026, 18:00",O titul - 5. kolo,Erik Gemzický,ŠK Slovan Bratislava,FC Spartak Trnava,2,2,1.41,0.79,13,7,5,2,5,2,17,21,2,6,0,0,58.6,41.4,13621
+2761,2025,"sobota 18.04.2026, 15:30",O titul - 6. kolo,Matej Choreň,FK Železiarne Podbrezová,FC DAC 1904 Dunajská Streda,1,2,1.11,1.87,12,15,4,4,7,5,16,22,1,5,0,0,58.2,41.8,459
+2762,2025,"sobota 18.04.2026, 18:00",O titul - 6. kolo,Bálint Kišš,MŠK Žilina,ŠK Slovan Bratislava,0,1,1.35,1.04,11,14,2,5,3,6,15,14,2,3,0,0,41.2,58.8,5866
+2763,2025,"sobota 18.04.2026, 15:30",O titul - 6. kolo,Martin Dohál,FC Spartak Trnava,MFK Zemplín Michalovce,3,0,2.57,0.68,16,12,5,4,4,5,18,14,2,0,0,0,53.7,46.3,3854
+2764,2025,"nedeľa 26.04.2026, 19:00",O titul - 7. kolo,Lukáš Dzivjak,FC Spartak Trnava,ŠK Slovan Bratislava,0,1,1.04,0.44,10,10,1,1,6,1,12,12,6,4,0,0,54,46,10437
+2765,2025,"sobota 25.04.2026, 20:30",O titul - 7. kolo,Erik Gemzický,FC DAC 1904 Dunajská Streda,MŠK Žilina,3,1,1.9,0.79,22,4,7,3,10,0,23,13,2,1,0,0,50.7,49.3,4269
+2766,2025,"sobota 25.04.2026, 18:00",O titul - 7. kolo,Boris Benedik,MFK Zemplín Michalovce,FK Železiarne Podbrezová,1,2,1.36,0.63,21,8,2,4,7,0,16,16,2,3,0,0,67.5,32.5,1542
+2767,2025,"utorok 05.05.2026, 18:00",O titul - 8. kolo,Filip Glova,MŠK Žilina,MFK Zemplín Michalovce,3,2,2.54,1.4,22,8,10,3,8,3,10,14,0,1,0,0,47.3,52.7,1049
+2768,2025,"sobota 02.05.2026, 20:30",O titul - 8. kolo,Peter Ziemba,ŠK Slovan Bratislava,FC DAC 1904 Dunajská Streda,1,0,0.75,0.76,10,14,3,3,6,9,11,21,0,2,0,1,59.5,40.5,11210
+2769,2025,"nedeľa 03.05.2026, 19:00",O titul - 8. kolo,Martin Dohál,FK Železiarne Podbrezová,FC Spartak Trnava,0,3,0.36,1.28,7,19,0,6,3,3,10,17,4,3,0,0,37.9,62.1,627
+2770,2025,"sobota 09.05.2026, 18:00",O titul - 9. kolo,Matej Choreň,MFK Zemplín Michalovce,FC DAC 1904 Dunajská Streda,2,1,1.77,2.26,10,21,3,3,2,9,14,13,2,1,0,0,46.7,53.3,2426
+2772,2025,"sobota 09.05.2026, 18:00",O titul - 9. kolo,Boris Benedik,FK Železiarne Podbrezová,ŠK Slovan Bratislava,1,2,1.35,2.14,14,17,4,6,7,12,16,12,2,1,0,0,36.6,63.4,1267
+2776,2025,"sobota 07.03.2026, 15:30",O udržanie sa - 1. kolo,Erik Gemzický,FC Košice,AS Trenčín,2,0,2.31,0.35,18,7,8,3,7,3,11,9,2,3,0,0,52,48,2692
+2777,2025,"sobota 07.03.2026, 15:30",O udržanie sa - 1. kolo,Ivan Kružliak,MFK Skalica,FC Tatran Prešov,1,0,1.41,1.13,8,15,2,4,1,3,12,19,0,3,0,0,36,64,402
+2778,2025,"nedeľa 08.03.2026, 15:32",O udržanie sa - 1. kolo,Martin Dohál,KFC Komárno,MFK Ružomberok,3,0,0.96,1.13,13,8,4,2,2,4,17,13,2,1,0,0,52.3,47.7,293
+2779,2025,"nedeľa 15.03.2026, 15:30",O udržanie sa - 2. kolo,Boris Benedik,AS Trenčín,MFK Skalica,2,1,0.49,0.9,9,15,4,3,4,4,13,19,2,4,0,0,52.3,47.7,1012
+2780,2025,"sobota 14.03.2026, 15:30",O udržanie sa - 2. kolo,Michal Smolák,MFK Ružomberok,FC Košice,1,1,0.72,1.09,4,13,3,3,2,3,11,10,1,2,0,0,48,52,1288
+2781,2025,"sobota 14.03.2026, 15:30",O udržanie sa - 2. kolo,Marián Ruc,FC Tatran Prešov,KFC Komárno,0,0,0.37,0.35,6,6,1,1,4,8,12,20,2,3,0,0,48.2,51.8,3299
+2782,2025,"sobota 21.03.2026, 18:00",O udržanie sa - 3. kolo,Ivan Kružliak,FC Košice,FC Tatran Prešov,2,1,2.22,0.44,17,5,8,2,5,5,12,11,2,1,0,0,35.5,64.5,7044
+2783,2025,"nedeľa 22.03.2026, 15:30",O udržanie sa - 3. kolo,Michal Smolák,MFK Skalica,KFC Komárno,2,1,0.59,0.87,8,17,2,2,0,5,14,15,1,1,0,0,36.1,63.9,457
+2784,2025,"sobota 04.04.2026, 15:30",O udržanie sa - 4. kolo,Bálint Kišš,FC Tatran Prešov,MFK Ružomberok,0,0,1.75,0.57,18,8,4,0,5,10,14,21,4,3,0,0,62.7,37.3,3487
+2785,2025,"sobota 04.04.2026, 15:30",O udržanie sa - 4. kolo,Erik Gemzický,FC Košice,MFK Skalica,2,0,2.81,0.39,24,8,7,2,8,2,9,8,1,2,0,0,48.9,51.1,2869
+2786,2025,"nedeľa 05.04.2026, 15:30",O udržanie sa - 4. kolo,Michal Očenáš,KFC Komárno,AS Trenčín,0,1,1.61,2.33,16,14,6,4,7,3,9,14,1,4,0,0,54.9,45.1,356
+2787,2025,"sobota 11.04.2026, 15:30",O udržanie sa - 5. kolo,Peter Kráľovič,MFK Ružomberok,MFK Skalica,0,0,1.34,0.64,16,9,6,1,4,7,7,14,0,1,0,0,55.4,44.6,778
+2788,2025,"nedeľa 12.04.2026, 15:30",O udržanie sa - 5. kolo,Boris Marhefka,KFC Komárno,FC Košice,1,2,2.72,1.86,24,21,10,7,4,7,3,15,0,3,0,0,55.5,44.5,340
+2789,2025,"sobota 11.04.2026, 15:30",O udržanie sa - 5. kolo,Filip Glova,AS Trenčín,FC Tatran Prešov,1,0,1.93,1.02,21,12,6,4,7,8,11,8,1,1,0,0,51.7,48.3,1095
+2790,2025,"sobota 18.04.2026, 15:30",O udržanie sa - 6. kolo,Filip Glova,MFK Ružomberok,KFC Komárno,2,1,1.7,1.5,8,14,3,4,3,6,14,10,1,3,1,0,52.6,47.4,858
+2791,2025,"nedeľa 19.04.2026, 15:30",O udržanie sa - 6. kolo,Michal Smolák,MFK Skalica,AS Trenčín,4,1,2.38,0.69,19,10,11,3,10,4,19,12,3,2,0,0,35.7,64.3,439
+2792,2025,"nedeľa 19.04.2026, 18:00",O udržanie sa - 6. kolo,Michal Očenáš,FC Tatran Prešov,FC Košice,2,1,1.34,0.44,12,9,5,4,7,2,2,17,2,2,0,0,38.2,61.8,4945
+2793,2025,"nedeľa 26.04.2026, 17:00",O udržanie sa - 7. kolo,Peter Kráľovič,FC Tatran Prešov,AS Trenčín,0,1,1.82,1.82,19,19,4,5,9,4,7,10,1,0,0,1,54.1,45.9,3466
+2794,2025,"sobota 25.04.2026, 18:00",O udržanie sa - 7. kolo,Ivan Kružliak,KFC Komárno,MFK Skalica,0,2,2.46,2.11,15,12,3,3,4,3,20,13,5,5,0,0,59.1,40.9,342
+2795,2025,"sobota 25.04.2026, 18:00",O udržanie sa - 7. kolo,Peter Ziemba,FC Košice,MFK Ružomberok,3,1,1.72,2.05,15,17,6,5,2,6,7,7,0,0,0,0,45.4,54.6,2518
+2796,2025,"utorok 05.05.2026, 18:00",O udržanie sa - 8. kolo,Boris Marhefka,MFK Skalica,FC Košice,3,1,2.45,0.96,22,11,6,4,7,5,9,11,1,0,0,0,46.1,53.9,1650
+2797,2025,"nedeľa 03.05.2026, 17:00",O udržanie sa - 8. kolo,Marián Ruc,AS Trenčín,KFC Komárno,1,2,0.83,0.9,14,11,4,5,4,5,8,15,0,3,0,0,58.4,41.6,909
+2798,2025,"sobota 02.05.2026, 18:00",O udržanie sa - 8. kolo,Bálint Kišš,MFK Ružomberok,FC Tatran Prešov,1,1,1.3,0.94,12,15,3,4,9,2,15,9,2,2,0,1,45.7,54.3,1551
+2799,2025,"sobota 09.05.2026, 20:30",O udržanie sa - 9. kolo,Erik Gemzický,FC Tatran Prešov,MFK Skalica,3,0,0.92,0.09,12,5,6,2,1,2,9,19,2,3,0,0,62.4,37.6,5525
+2801,2025,"sobota 09.05.2026, 18:00",O udržanie sa - 9. kolo,Lukáš Dzivjak,MFK Ružomberok,AS Trenčín,4,3,2.53,2.16,15,14,5,5,9,3,18,8,0,2,0,0,46.2,53.8,1448
+2805,2025,"sobota 21.03.2026, 15:30",O udržanie sa - 3. kolo,Matej Choreň,AS Trenčín,MFK Ružomberok,3,1,1.51,1.22,9,9,5,2,8,5,8,18,0,3,0,0,56.7,43.3,861

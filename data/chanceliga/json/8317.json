@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8317-fcb-fcz",
+  "meta": {
+    "home_team": "FC Baník Ostrava",
+    "away_team": "FC Zlín",
+    "round": "4. kolo, Skupina o záchranu | sobota 16/05/2026, 17:00 |",
+    "date": "16/05/2026 17:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 26,
+        "away": 40
+      },
+      "góly_proti": {
+        "home": 47,
+        "away": 50
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 432,
+        "away": 355
+      },
+      "úspěšnost_přihrávek": {
+        "home": 78.8,
+        "away": 68.8
+      },
+      "possession": {
+        "home": 52.4,
+        "away": 40.3
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8317
+}

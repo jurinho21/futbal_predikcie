@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8320-fcz-fcs",
+  "meta": {
+    "home_team": "FC Zlín",
+    "away_team": "1.FC Slovácko",
+    "round": "5. kolo, Skupina o záchranu | sobota 23/05/2026, 14:00 |",
+    "date": "23/05/2026 14:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 40,
+        "away": 28
+      },
+      "góly_proti": {
+        "home": 50,
+        "away": 46
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 355,
+        "away": 388
+      },
+      "úspěšnost_přihrávek": {
+        "home": 68.8,
+        "away": 76.8
+      },
+      "possession": {
+        "home": 40.3,
+        "away": 50.4
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8320
+}

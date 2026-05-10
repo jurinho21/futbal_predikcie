@@ -1,0 +1,44 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8294-sks-fkj",
+  "meta": {
+    "home_team": "SK Slavia Praha",
+    "away_team": "FK Jablonec",
+    "round": "3. kolo, Skupina o titul | středa 13/05/2026, 20:00 | Fortuna Arena |",
+    "date": "13/05/2026 20:00",
+    "stadium": "Fortuna Arena"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 65,
+        "away": 41
+      },
+      "góly_proti": {
+        "home": 24,
+        "away": 35
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 553,
+        "away": 353
+      },
+      "úspěšnost_přihrávek": {
+        "home": 77,
+        "away": 78.9
+      },
+      "possession": {
+        "home": 58,
+        "away": 48.7
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8294
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8295-hkr-sks",
+  "meta": {
+    "home_team": "FC Hradec Králové",
+    "away_team": "SK Slavia Praha",
+    "round": "4. kolo, Skupina o titul | neděle 17/05/2026, 17:00 |",
+    "date": "17/05/2026 17:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 44,
+        "away": 65
+      },
+      "góly_proti": {
+        "home": 37,
+        "away": 24
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 328,
+        "away": 553
+      },
+      "úspěšnost_přihrávek": {
+        "home": 76.6,
+        "away": 77
+      },
+      "possession": {
+        "home": 46,
+        "away": 58
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8295
+}

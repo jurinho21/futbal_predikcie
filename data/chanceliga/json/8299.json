@@ -1,0 +1,44 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8299-acs-hkr",
+  "meta": {
+    "home_team": "AC Sparta Praha",
+    "away_team": "FC Hradec Králové",
+    "round": "5. kolo, Skupina o titul | neděle 24/05/2026, 14:00 | epet ARENA |",
+    "date": "24/05/2026 14:00",
+    "stadium": "epet ARENA"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 62,
+        "away": 44
+      },
+      "góly_proti": {
+        "home": 33,
+        "away": 37
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 470,
+        "away": 328
+      },
+      "úspěšnost_přihrávek": {
+        "home": 85.2,
+        "away": 76.6
+      },
+      "possession": {
+        "home": 64.3,
+        "away": 46
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8299
+}

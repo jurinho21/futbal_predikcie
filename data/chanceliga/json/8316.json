@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8316-fcs-mbl",
+  "meta": {
+    "home_team": "1.FC Slovácko",
+    "away_team": "FK Mladá Boleslav",
+    "round": "4. kolo, Skupina o záchranu | sobota 16/05/2026, 17:00 |",
+    "date": "16/05/2026 17:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 28,
+        "away": 45
+      },
+      "góly_proti": {
+        "home": 46,
+        "away": 53
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 388,
+        "away": 389
+      },
+      "úspěšnost_přihrávek": {
+        "home": 76.8,
+        "away": 80.4
+      },
+      "possession": {
+        "home": 50.4,
+        "away": 54.9
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8316
+}

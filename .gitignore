@@ -1,0 +1,22 @@
+# Raw scraped HTML (regenerovateľné scrapermi)
+data/*/html/
+data/html/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

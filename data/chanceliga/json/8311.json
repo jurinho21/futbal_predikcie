@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8311-mbl-duk",
+  "meta": {
+    "home_team": "FK Mladá Boleslav",
+    "away_team": "FK Dukla Praha",
+    "round": "3. kolo, Skupina o záchranu | úterý 12/05/2026, 17:30 |",
+    "date": "12/05/2026 17:30"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 45,
+        "away": 21
+      },
+      "góly_proti": {
+        "home": 53,
+        "away": 45
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 389,
+        "away": 298
+      },
+      "úspěšnost_přihrávek": {
+        "home": 80.4,
+        "away": 71.4
+      },
+      "possession": {
+        "home": 54.9,
+        "away": 43.2
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8311
+}

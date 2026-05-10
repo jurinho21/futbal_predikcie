@@ -1,0 +1,44 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8298-sks-plz",
+  "meta": {
+    "home_team": "SK Slavia Praha",
+    "away_team": "FC Viktoria Plzeň",
+    "round": "5. kolo, Skupina o titul | neděle 24/05/2026, 14:00 | Fortuna Arena |",
+    "date": "24/05/2026 14:00",
+    "stadium": "Fortuna Arena"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 65,
+        "away": 55
+      },
+      "góly_proti": {
+        "home": 24,
+        "away": 35
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 553,
+        "away": 530
+      },
+      "úspěšnost_přihrávek": {
+        "home": 77,
+        "away": 79.4
+      },
+      "possession": {
+        "home": 58,
+        "away": 55.9
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8298
+}

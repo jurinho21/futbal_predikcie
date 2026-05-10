@@ -1,0 +1,1346 @@
+[
+  {
+    "id": 2798,
+    "url": "https://www.nikeliga.sk/zapas/2798-ruz-pre",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2768,
+    "url": "https://www.nikeliga.sk/zapas/2768-slo-dac",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2797,
+    "url": "https://www.nikeliga.sk/zapas/2797-tre-kfc",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2769,
+    "url": "https://www.nikeliga.sk/zapas/2769-pod-spa",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2767,
+    "url": "https://www.nikeliga.sk/zapas/2767-msk-mic",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2796,
+    "url": "https://www.nikeliga.sk/zapas/2796-ska-kos",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2770,
+    "url": "https://www.nikeliga.sk/zapas/2770-mic-dac",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2772,
+    "url": "https://www.nikeliga.sk/zapas/2772-pod-slo",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2801,
+    "url": "https://www.nikeliga.sk/zapas/2801-ruz-tre",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2799,
+    "url": "https://www.nikeliga.sk/zapas/2799-pre-ska",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2800,
+    "url": "https://www.nikeliga.sk/zapas/2800-kos-kfc",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2771,
+    "url": "https://www.nikeliga.sk/zapas/2771-spa-msk",
+    "stage": 1,
+    "date": "",
+    "finished": true
+  },
+  {
+    "id": 2618,
+    "url": "https://www.nikeliga.sk/zapas/2618-dac-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2614,
+    "url": "https://www.nikeliga.sk/zapas/2614-kfc-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2616,
+    "url": "https://www.nikeliga.sk/zapas/2616-pre-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2615,
+    "url": "https://www.nikeliga.sk/zapas/2615-pod-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2619,
+    "url": "https://www.nikeliga.sk/zapas/2619-ska-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2617,
+    "url": "https://www.nikeliga.sk/zapas/2617-spa-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2620,
+    "url": "https://www.nikeliga.sk/zapas/2620-mic-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2622,
+    "url": "https://www.nikeliga.sk/zapas/2622-slo-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2625,
+    "url": "https://www.nikeliga.sk/zapas/2625-tre-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2624,
+    "url": "https://www.nikeliga.sk/zapas/2624-msk-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2621,
+    "url": "https://www.nikeliga.sk/zapas/2621-ruz-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2623,
+    "url": "https://www.nikeliga.sk/zapas/2623-kos-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2631,
+    "url": "https://www.nikeliga.sk/zapas/2631-mic-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2627,
+    "url": "https://www.nikeliga.sk/zapas/2627-ska-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2629,
+    "url": "https://www.nikeliga.sk/zapas/2629-dac-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2628,
+    "url": "https://www.nikeliga.sk/zapas/2628-kos-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2630,
+    "url": "https://www.nikeliga.sk/zapas/2630-spa-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2626,
+    "url": "https://www.nikeliga.sk/zapas/2626-kfc-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2633,
+    "url": "https://www.nikeliga.sk/zapas/2633-ruz-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2634,
+    "url": "https://www.nikeliga.sk/zapas/2634-slo-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2632,
+    "url": "https://www.nikeliga.sk/zapas/2632-pod-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2637,
+    "url": "https://www.nikeliga.sk/zapas/2637-pre-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2636,
+    "url": "https://www.nikeliga.sk/zapas/2636-tre-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2635,
+    "url": "https://www.nikeliga.sk/zapas/2635-spa-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2639,
+    "url": "https://www.nikeliga.sk/zapas/2639-ska-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2641,
+    "url": "https://www.nikeliga.sk/zapas/2641-kos-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2642,
+    "url": "https://www.nikeliga.sk/zapas/2642-dac-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2638,
+    "url": "https://www.nikeliga.sk/zapas/2638-kfc-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2640,
+    "url": "https://www.nikeliga.sk/zapas/2640-msk-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2643,
+    "url": "https://www.nikeliga.sk/zapas/2643-mic-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2644,
+    "url": "https://www.nikeliga.sk/zapas/2644-pre-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2646,
+    "url": "https://www.nikeliga.sk/zapas/2646-kfc-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2647,
+    "url": "https://www.nikeliga.sk/zapas/2647-pod-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2649,
+    "url": "https://www.nikeliga.sk/zapas/2649-ruz-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2645,
+    "url": "https://www.nikeliga.sk/zapas/2645-slo-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2648,
+    "url": "https://www.nikeliga.sk/zapas/2648-spa-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2650,
+    "url": "https://www.nikeliga.sk/zapas/2650-kos-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2653,
+    "url": "https://www.nikeliga.sk/zapas/2653-tre-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2652,
+    "url": "https://www.nikeliga.sk/zapas/2652-ska-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2654,
+    "url": "https://www.nikeliga.sk/zapas/2654-msk-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2655,
+    "url": "https://www.nikeliga.sk/zapas/2655-mic-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2651,
+    "url": "https://www.nikeliga.sk/zapas/2651-dac-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2658,
+    "url": "https://www.nikeliga.sk/zapas/2658-ska-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2659,
+    "url": "https://www.nikeliga.sk/zapas/2659-pre-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2656,
+    "url": "https://www.nikeliga.sk/zapas/2656-pod-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2660,
+    "url": "https://www.nikeliga.sk/zapas/2660-slo-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2657,
+    "url": "https://www.nikeliga.sk/zapas/2657-kfc-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2661,
+    "url": "https://www.nikeliga.sk/zapas/2661-spa-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2666,
+    "url": "https://www.nikeliga.sk/zapas/2666-tre-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2663,
+    "url": "https://www.nikeliga.sk/zapas/2663-mic-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2662,
+    "url": "https://www.nikeliga.sk/zapas/2662-dac-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2665,
+    "url": "https://www.nikeliga.sk/zapas/2665-kos-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2667,
+    "url": "https://www.nikeliga.sk/zapas/2667-ruz-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2664,
+    "url": "https://www.nikeliga.sk/zapas/2664-msk-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2668,
+    "url": "https://www.nikeliga.sk/zapas/2668-kfc-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2672,
+    "url": "https://www.nikeliga.sk/zapas/2672-mic-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2670,
+    "url": "https://www.nikeliga.sk/zapas/2670-msk-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2669,
+    "url": "https://www.nikeliga.sk/zapas/2669-ska-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2671,
+    "url": "https://www.nikeliga.sk/zapas/2671-slo-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2673,
+    "url": "https://www.nikeliga.sk/zapas/2673-pod-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2676,
+    "url": "https://www.nikeliga.sk/zapas/2676-ruz-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2677,
+    "url": "https://www.nikeliga.sk/zapas/2677-tre-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2679,
+    "url": "https://www.nikeliga.sk/zapas/2679-pre-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2675,
+    "url": "https://www.nikeliga.sk/zapas/2675-spa-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2674,
+    "url": "https://www.nikeliga.sk/zapas/2674-kos-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2678,
+    "url": "https://www.nikeliga.sk/zapas/2678-dac-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2684,
+    "url": "https://www.nikeliga.sk/zapas/2684-mic-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2685,
+    "url": "https://www.nikeliga.sk/zapas/2685-msk-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2682,
+    "url": "https://www.nikeliga.sk/zapas/2682-tre-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2681,
+    "url": "https://www.nikeliga.sk/zapas/2681-kos-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2683,
+    "url": "https://www.nikeliga.sk/zapas/2683-ruz-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2680,
+    "url": "https://www.nikeliga.sk/zapas/2680-slo-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2686,
+    "url": "https://www.nikeliga.sk/zapas/2686-pod-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2690,
+    "url": "https://www.nikeliga.sk/zapas/2690-ska-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2691,
+    "url": "https://www.nikeliga.sk/zapas/2691-pre-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2689,
+    "url": "https://www.nikeliga.sk/zapas/2689-dac-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2688,
+    "url": "https://www.nikeliga.sk/zapas/2688-kfc-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2687,
+    "url": "https://www.nikeliga.sk/zapas/2687-spa-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2695,
+    "url": "https://www.nikeliga.sk/zapas/2695-ruz-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2697,
+    "url": "https://www.nikeliga.sk/zapas/2697-pod-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2692,
+    "url": "https://www.nikeliga.sk/zapas/2692-tre-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2696,
+    "url": "https://www.nikeliga.sk/zapas/2696-msk-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2693,
+    "url": "https://www.nikeliga.sk/zapas/2693-slo-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2694,
+    "url": "https://www.nikeliga.sk/zapas/2694-pre-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2698,
+    "url": "https://www.nikeliga.sk/zapas/2698-ska-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2699,
+    "url": "https://www.nikeliga.sk/zapas/2699-msk-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2702,
+    "url": "https://www.nikeliga.sk/zapas/2702-kfc-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2700,
+    "url": "https://www.nikeliga.sk/zapas/2700-kos-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2703,
+    "url": "https://www.nikeliga.sk/zapas/2703-mic-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2701,
+    "url": "https://www.nikeliga.sk/zapas/2701-dac-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2704,
+    "url": "https://www.nikeliga.sk/zapas/2704-spa-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2707,
+    "url": "https://www.nikeliga.sk/zapas/2707-ruz-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2705,
+    "url": "https://www.nikeliga.sk/zapas/2705-pre-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2708,
+    "url": "https://www.nikeliga.sk/zapas/2708-tre-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2709,
+    "url": "https://www.nikeliga.sk/zapas/2709-slo-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2706,
+    "url": "https://www.nikeliga.sk/zapas/2706-pod-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2715,
+    "url": "https://www.nikeliga.sk/zapas/2715-msk-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2712,
+    "url": "https://www.nikeliga.sk/zapas/2712-ska-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2713,
+    "url": "https://www.nikeliga.sk/zapas/2713-mic-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2711,
+    "url": "https://www.nikeliga.sk/zapas/2711-kos-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2710,
+    "url": "https://www.nikeliga.sk/zapas/2710-tre-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2714,
+    "url": "https://www.nikeliga.sk/zapas/2714-dac-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2717,
+    "url": "https://www.nikeliga.sk/zapas/2717-pod-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2718,
+    "url": "https://www.nikeliga.sk/zapas/2718-spa-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2719,
+    "url": "https://www.nikeliga.sk/zapas/2719-ruz-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2721,
+    "url": "https://www.nikeliga.sk/zapas/2721-pre-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2716,
+    "url": "https://www.nikeliga.sk/zapas/2716-kfc-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2720,
+    "url": "https://www.nikeliga.sk/zapas/2720-slo-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2725,
+    "url": "https://www.nikeliga.sk/zapas/2725-ruz-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2722,
+    "url": "https://www.nikeliga.sk/zapas/2722-tre-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2724,
+    "url": "https://www.nikeliga.sk/zapas/2724-kos-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2726,
+    "url": "https://www.nikeliga.sk/zapas/2726-dac-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2723,
+    "url": "https://www.nikeliga.sk/zapas/2723-msk-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2727,
+    "url": "https://www.nikeliga.sk/zapas/2727-mic-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2732,
+    "url": "https://www.nikeliga.sk/zapas/2732-slo-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2733,
+    "url": "https://www.nikeliga.sk/zapas/2733-pod-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2729,
+    "url": "https://www.nikeliga.sk/zapas/2729-ska-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2731,
+    "url": "https://www.nikeliga.sk/zapas/2731-pre-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2728,
+    "url": "https://www.nikeliga.sk/zapas/2728-kfc-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2730,
+    "url": "https://www.nikeliga.sk/zapas/2730-spa-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2734,
+    "url": "https://www.nikeliga.sk/zapas/2734-pre-kfc",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2735,
+    "url": "https://www.nikeliga.sk/zapas/2735-dac-ska",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2738,
+    "url": "https://www.nikeliga.sk/zapas/2738-tre-mic",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2739,
+    "url": "https://www.nikeliga.sk/zapas/2739-spa-pod",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2737,
+    "url": "https://www.nikeliga.sk/zapas/2737-ruz-slo",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2736,
+    "url": "https://www.nikeliga.sk/zapas/2736-kos-msk",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2740,
+    "url": "https://www.nikeliga.sk/zapas/2740-mic-kos",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2743,
+    "url": "https://www.nikeliga.sk/zapas/2743-ska-tre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2744,
+    "url": "https://www.nikeliga.sk/zapas/2744-msk-dac",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2741,
+    "url": "https://www.nikeliga.sk/zapas/2741-slo-spa",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2742,
+    "url": "https://www.nikeliga.sk/zapas/2742-kfc-ruz",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2745,
+    "url": "https://www.nikeliga.sk/zapas/2745-pod-pre",
+    "stage": 1,
+    "date": "so 26.07.202526.07.",
+    "finished": true
+  },
+  {
+    "id": 2746,
+    "url": "https://www.nikeliga.sk/zapas/2746-mic-slo",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2747,
+    "url": "https://www.nikeliga.sk/zapas/2747-msk-spa",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2748,
+    "url": "https://www.nikeliga.sk/zapas/2748-dac-pod",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2750,
+    "url": "https://www.nikeliga.sk/zapas/2750-pod-mic",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2749,
+    "url": "https://www.nikeliga.sk/zapas/2749-slo-msk",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2751,
+    "url": "https://www.nikeliga.sk/zapas/2751-spa-dac",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2753,
+    "url": "https://www.nikeliga.sk/zapas/2753-mic-spa",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2754,
+    "url": "https://www.nikeliga.sk/zapas/2754-msk-dac",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2752,
+    "url": "https://www.nikeliga.sk/zapas/2752-slo-pod",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2755,
+    "url": "https://www.nikeliga.sk/zapas/2755-mic-msk",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2757,
+    "url": "https://www.nikeliga.sk/zapas/2757-dac-slo",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2756,
+    "url": "https://www.nikeliga.sk/zapas/2756-spa-pod",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2758,
+    "url": "https://www.nikeliga.sk/zapas/2758-pod-msk",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2760,
+    "url": "https://www.nikeliga.sk/zapas/2760-slo-spa",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2759,
+    "url": "https://www.nikeliga.sk/zapas/2759-dac-mic",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2761,
+    "url": "https://www.nikeliga.sk/zapas/2761-pod-dac",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2763,
+    "url": "https://www.nikeliga.sk/zapas/2763-spa-mic",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2762,
+    "url": "https://www.nikeliga.sk/zapas/2762-msk-slo",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2766,
+    "url": "https://www.nikeliga.sk/zapas/2766-mic-pod",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2765,
+    "url": "https://www.nikeliga.sk/zapas/2765-dac-msk",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2764,
+    "url": "https://www.nikeliga.sk/zapas/2764-spa-slo",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2773,
+    "url": "https://www.nikeliga.sk/zapas/2773-dac-spa",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": false
+  },
+  {
+    "id": 2774,
+    "url": "https://www.nikeliga.sk/zapas/2774-slo-mic",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": false
+  },
+  {
+    "id": 2775,
+    "url": "https://www.nikeliga.sk/zapas/2775-msk-pod",
+    "stage": 2,
+    "date": "so 07.03.202607.03.",
+    "finished": false
+  },
+  {
+    "id": 2776,
+    "url": "https://www.nikeliga.sk/zapas/2776-kos-tre",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2777,
+    "url": "https://www.nikeliga.sk/zapas/2777-ska-pre",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2778,
+    "url": "https://www.nikeliga.sk/zapas/2778-kfc-ruz",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2780,
+    "url": "https://www.nikeliga.sk/zapas/2780-ruz-kos",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2781,
+    "url": "https://www.nikeliga.sk/zapas/2781-pre-kfc",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2779,
+    "url": "https://www.nikeliga.sk/zapas/2779-tre-ska",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2805,
+    "url": "https://www.nikeliga.sk/zapas/2805-tre-ruz",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2782,
+    "url": "https://www.nikeliga.sk/zapas/2782-kos-pre",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2783,
+    "url": "https://www.nikeliga.sk/zapas/2783-ska-kfc",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2784,
+    "url": "https://www.nikeliga.sk/zapas/2784-pre-ruz",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2785,
+    "url": "https://www.nikeliga.sk/zapas/2785-kos-ska",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2786,
+    "url": "https://www.nikeliga.sk/zapas/2786-kfc-tre",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2787,
+    "url": "https://www.nikeliga.sk/zapas/2787-ruz-ska",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2789,
+    "url": "https://www.nikeliga.sk/zapas/2789-tre-pre",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2788,
+    "url": "https://www.nikeliga.sk/zapas/2788-kfc-kos",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2790,
+    "url": "https://www.nikeliga.sk/zapas/2790-ruz-kfc",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2791,
+    "url": "https://www.nikeliga.sk/zapas/2791-ska-tre",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2792,
+    "url": "https://www.nikeliga.sk/zapas/2792-pre-kos",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2795,
+    "url": "https://www.nikeliga.sk/zapas/2795-kos-ruz",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2794,
+    "url": "https://www.nikeliga.sk/zapas/2794-kfc-ska",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2793,
+    "url": "https://www.nikeliga.sk/zapas/2793-pre-tre",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": true
+  },
+  {
+    "id": 2803,
+    "url": "https://www.nikeliga.sk/zapas/2803-tre-kos",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": false
+  },
+  {
+    "id": 2804,
+    "url": "https://www.nikeliga.sk/zapas/2804-ska-ruz",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": false
+  },
+  {
+    "id": 2802,
+    "url": "https://www.nikeliga.sk/zapas/2802-kfc-pre",
+    "stage": 3,
+    "date": "so 07.03.202607.03.",
+    "finished": false
+  }
+]

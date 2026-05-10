@@ -1,0 +1,1676 @@
+[
+  {
+    "id": 8042,
+    "url": "https://www.chanceliga.cz/zapas/8042-boh-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8043,
+    "url": "https://www.chanceliga.cz/zapas/8043-sks-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8044,
+    "url": "https://www.chanceliga.cz/zapas/8044-tep-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8045,
+    "url": "https://www.chanceliga.cz/zapas/8045-fkj-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8046,
+    "url": "https://www.chanceliga.cz/zapas/8046-fcs-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8047,
+    "url": "https://www.chanceliga.cz/zapas/8047-kar-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8048,
+    "url": "https://www.chanceliga.cz/zapas/8048-pce-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8049,
+    "url": "https://www.chanceliga.cz/zapas/8049-mbl-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8050,
+    "url": "https://www.chanceliga.cz/zapas/8050-sig-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8051,
+    "url": "https://www.chanceliga.cz/zapas/8051-lib-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8052,
+    "url": "https://www.chanceliga.cz/zapas/8052-acs-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8053,
+    "url": "https://www.chanceliga.cz/zapas/8053-fcz-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8054,
+    "url": "https://www.chanceliga.cz/zapas/8054-plz-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8055,
+    "url": "https://www.chanceliga.cz/zapas/8055-hkr-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8056,
+    "url": "https://www.chanceliga.cz/zapas/8056-fcb-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8057,
+    "url": "https://www.chanceliga.cz/zapas/8057-boh-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8058,
+    "url": "https://www.chanceliga.cz/zapas/8058-duk-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8059,
+    "url": "https://www.chanceliga.cz/zapas/8059-sig-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8060,
+    "url": "https://www.chanceliga.cz/zapas/8060-tep-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8061,
+    "url": "https://www.chanceliga.cz/zapas/8061-fkj-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8062,
+    "url": "https://www.chanceliga.cz/zapas/8062-fcs-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8063,
+    "url": "https://www.chanceliga.cz/zapas/8063-kar-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8064,
+    "url": "https://www.chanceliga.cz/zapas/8064-pce-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8065,
+    "url": "https://www.chanceliga.cz/zapas/8065-mbl-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8066,
+    "url": "https://www.chanceliga.cz/zapas/8066-lib-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8067,
+    "url": "https://www.chanceliga.cz/zapas/8067-acs-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8068,
+    "url": "https://www.chanceliga.cz/zapas/8068-fcz-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8069,
+    "url": "https://www.chanceliga.cz/zapas/8069-plz-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8070,
+    "url": "https://www.chanceliga.cz/zapas/8070-hkr-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8071,
+    "url": "https://www.chanceliga.cz/zapas/8071-fcb-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8072,
+    "url": "https://www.chanceliga.cz/zapas/8072-boh-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8073,
+    "url": "https://www.chanceliga.cz/zapas/8073-sks-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8074,
+    "url": "https://www.chanceliga.cz/zapas/8074-duk-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8075,
+    "url": "https://www.chanceliga.cz/zapas/8075-sig-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8076,
+    "url": "https://www.chanceliga.cz/zapas/8076-lib-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8077,
+    "url": "https://www.chanceliga.cz/zapas/8077-fkj-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8078,
+    "url": "https://www.chanceliga.cz/zapas/8078-fcs-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8079,
+    "url": "https://www.chanceliga.cz/zapas/8079-kar-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8080,
+    "url": "https://www.chanceliga.cz/zapas/8080-pce-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8081,
+    "url": "https://www.chanceliga.cz/zapas/8081-mbl-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8082,
+    "url": "https://www.chanceliga.cz/zapas/8082-acs-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8083,
+    "url": "https://www.chanceliga.cz/zapas/8083-fcz-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8084,
+    "url": "https://www.chanceliga.cz/zapas/8084-plz-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8085,
+    "url": "https://www.chanceliga.cz/zapas/8085-hkr-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8086,
+    "url": "https://www.chanceliga.cz/zapas/8086-fcb-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8087,
+    "url": "https://www.chanceliga.cz/zapas/8087-boh-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8088,
+    "url": "https://www.chanceliga.cz/zapas/8088-sks-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8089,
+    "url": "https://www.chanceliga.cz/zapas/8089-tep-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8090,
+    "url": "https://www.chanceliga.cz/zapas/8090-duk-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8091,
+    "url": "https://www.chanceliga.cz/zapas/8091-sig-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8092,
+    "url": "https://www.chanceliga.cz/zapas/8092-lib-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8093,
+    "url": "https://www.chanceliga.cz/zapas/8093-acs-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8094,
+    "url": "https://www.chanceliga.cz/zapas/8094-fcs-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8095,
+    "url": "https://www.chanceliga.cz/zapas/8095-kar-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8096,
+    "url": "https://www.chanceliga.cz/zapas/8096-pce-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8097,
+    "url": "https://www.chanceliga.cz/zapas/8097-mbl-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8098,
+    "url": "https://www.chanceliga.cz/zapas/8098-fcz-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8099,
+    "url": "https://www.chanceliga.cz/zapas/8099-plz-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8100,
+    "url": "https://www.chanceliga.cz/zapas/8100-hkr-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8101,
+    "url": "https://www.chanceliga.cz/zapas/8101-fcb-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8102,
+    "url": "https://www.chanceliga.cz/zapas/8102-boh-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8103,
+    "url": "https://www.chanceliga.cz/zapas/8103-sks-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8104,
+    "url": "https://www.chanceliga.cz/zapas/8104-tep-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8105,
+    "url": "https://www.chanceliga.cz/zapas/8105-fkj-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8106,
+    "url": "https://www.chanceliga.cz/zapas/8106-acs-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8107,
+    "url": "https://www.chanceliga.cz/zapas/8107-fcz-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8108,
+    "url": "https://www.chanceliga.cz/zapas/8108-mbl-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8109,
+    "url": "https://www.chanceliga.cz/zapas/8109-duk-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8110,
+    "url": "https://www.chanceliga.cz/zapas/8110-lib-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8111,
+    "url": "https://www.chanceliga.cz/zapas/8111-sig-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8112,
+    "url": "https://www.chanceliga.cz/zapas/8112-kar-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8113,
+    "url": "https://www.chanceliga.cz/zapas/8113-pce-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8114,
+    "url": "https://www.chanceliga.cz/zapas/8114-sks-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8115,
+    "url": "https://www.chanceliga.cz/zapas/8115-boh-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8116,
+    "url": "https://www.chanceliga.cz/zapas/8116-hkr-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8117,
+    "url": "https://www.chanceliga.cz/zapas/8117-fcb-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8118,
+    "url": "https://www.chanceliga.cz/zapas/8118-plz-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8119,
+    "url": "https://www.chanceliga.cz/zapas/8119-fcs-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8120,
+    "url": "https://www.chanceliga.cz/zapas/8120-tep-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8121,
+    "url": "https://www.chanceliga.cz/zapas/8121-fkj-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8122,
+    "url": "https://www.chanceliga.cz/zapas/8122-duk-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8123,
+    "url": "https://www.chanceliga.cz/zapas/8123-sig-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8124,
+    "url": "https://www.chanceliga.cz/zapas/8124-lib-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8125,
+    "url": "https://www.chanceliga.cz/zapas/8125-acs-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8126,
+    "url": "https://www.chanceliga.cz/zapas/8126-fcz-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8127,
+    "url": "https://www.chanceliga.cz/zapas/8127-plz-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8128,
+    "url": "https://www.chanceliga.cz/zapas/8128-pce-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8129,
+    "url": "https://www.chanceliga.cz/zapas/8129-mbl-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8130,
+    "url": "https://www.chanceliga.cz/zapas/8130-fcb-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8131,
+    "url": "https://www.chanceliga.cz/zapas/8131-boh-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8132,
+    "url": "https://www.chanceliga.cz/zapas/8132-sks-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8133,
+    "url": "https://www.chanceliga.cz/zapas/8133-tep-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8134,
+    "url": "https://www.chanceliga.cz/zapas/8134-fkj-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8135,
+    "url": "https://www.chanceliga.cz/zapas/8135-fcs-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8136,
+    "url": "https://www.chanceliga.cz/zapas/8136-kar-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8137,
+    "url": "https://www.chanceliga.cz/zapas/8137-pce-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8138,
+    "url": "https://www.chanceliga.cz/zapas/8138-duk-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8139,
+    "url": "https://www.chanceliga.cz/zapas/8139-sig-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8140,
+    "url": "https://www.chanceliga.cz/zapas/8140-lib-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8141,
+    "url": "https://www.chanceliga.cz/zapas/8141-acs-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8142,
+    "url": "https://www.chanceliga.cz/zapas/8142-fcz-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8143,
+    "url": "https://www.chanceliga.cz/zapas/8143-plz-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8144,
+    "url": "https://www.chanceliga.cz/zapas/8144-hkr-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8145,
+    "url": "https://www.chanceliga.cz/zapas/8145-mbl-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8146,
+    "url": "https://www.chanceliga.cz/zapas/8146-pce-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8147,
+    "url": "https://www.chanceliga.cz/zapas/8147-mbl-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8148,
+    "url": "https://www.chanceliga.cz/zapas/8148-fcs-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8149,
+    "url": "https://www.chanceliga.cz/zapas/8149-kar-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8150,
+    "url": "https://www.chanceliga.cz/zapas/8150-fkj-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8151,
+    "url": "https://www.chanceliga.cz/zapas/8151-tep-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8152,
+    "url": "https://www.chanceliga.cz/zapas/8152-boh-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8153,
+    "url": "https://www.chanceliga.cz/zapas/8153-sks-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8154,
+    "url": "https://www.chanceliga.cz/zapas/8154-fcb-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8155,
+    "url": "https://www.chanceliga.cz/zapas/8155-plz-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8156,
+    "url": "https://www.chanceliga.cz/zapas/8156-fcz-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8157,
+    "url": "https://www.chanceliga.cz/zapas/8157-acs-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8158,
+    "url": "https://www.chanceliga.cz/zapas/8158-hkr-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8159,
+    "url": "https://www.chanceliga.cz/zapas/8159-lib-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8160,
+    "url": "https://www.chanceliga.cz/zapas/8160-sig-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8161,
+    "url": "https://www.chanceliga.cz/zapas/8161-duk-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8162,
+    "url": "https://www.chanceliga.cz/zapas/8162-duk-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8163,
+    "url": "https://www.chanceliga.cz/zapas/8163-pce-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8164,
+    "url": "https://www.chanceliga.cz/zapas/8164-mbl-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8165,
+    "url": "https://www.chanceliga.cz/zapas/8165-fcs-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8166,
+    "url": "https://www.chanceliga.cz/zapas/8166-fkj-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8167,
+    "url": "https://www.chanceliga.cz/zapas/8167-kar-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8168,
+    "url": "https://www.chanceliga.cz/zapas/8168-tep-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8169,
+    "url": "https://www.chanceliga.cz/zapas/8169-sks-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8170,
+    "url": "https://www.chanceliga.cz/zapas/8170-fcb-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8171,
+    "url": "https://www.chanceliga.cz/zapas/8171-lib-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8172,
+    "url": "https://www.chanceliga.cz/zapas/8172-boh-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8173,
+    "url": "https://www.chanceliga.cz/zapas/8173-hkr-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8174,
+    "url": "https://www.chanceliga.cz/zapas/8174-sks-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8175,
+    "url": "https://www.chanceliga.cz/zapas/8175-fcz-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8176,
+    "url": "https://www.chanceliga.cz/zapas/8176-acs-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8177,
+    "url": "https://www.chanceliga.cz/zapas/8177-plz-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8178,
+    "url": "https://www.chanceliga.cz/zapas/8178-duk-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8179,
+    "url": "https://www.chanceliga.cz/zapas/8179-sig-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8180,
+    "url": "https://www.chanceliga.cz/zapas/8180-mbl-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8181,
+    "url": "https://www.chanceliga.cz/zapas/8181-fcs-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8182,
+    "url": "https://www.chanceliga.cz/zapas/8182-pce-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8183,
+    "url": "https://www.chanceliga.cz/zapas/8183-kar-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8184,
+    "url": "https://www.chanceliga.cz/zapas/8184-fkj-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8185,
+    "url": "https://www.chanceliga.cz/zapas/8185-tep-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8186,
+    "url": "https://www.chanceliga.cz/zapas/8186-plz-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8187,
+    "url": "https://www.chanceliga.cz/zapas/8187-fcz-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8188,
+    "url": "https://www.chanceliga.cz/zapas/8188-acs-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8189,
+    "url": "https://www.chanceliga.cz/zapas/8189-sks-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8190,
+    "url": "https://www.chanceliga.cz/zapas/8190-tep-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8191,
+    "url": "https://www.chanceliga.cz/zapas/8191-boh-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8192,
+    "url": "https://www.chanceliga.cz/zapas/8192-fcb-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8193,
+    "url": "https://www.chanceliga.cz/zapas/8193-hkr-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8194,
+    "url": "https://www.chanceliga.cz/zapas/8194-duk-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8195,
+    "url": "https://www.chanceliga.cz/zapas/8195-lib-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8196,
+    "url": "https://www.chanceliga.cz/zapas/8196-kar-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8197,
+    "url": "https://www.chanceliga.cz/zapas/8197-sig-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8198,
+    "url": "https://www.chanceliga.cz/zapas/8198-fcs-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8199,
+    "url": "https://www.chanceliga.cz/zapas/8199-mbl-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8200,
+    "url": "https://www.chanceliga.cz/zapas/8200-pce-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8201,
+    "url": "https://www.chanceliga.cz/zapas/8201-fkj-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8202,
+    "url": "https://www.chanceliga.cz/zapas/8202-hkr-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8203,
+    "url": "https://www.chanceliga.cz/zapas/8203-fcb-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8204,
+    "url": "https://www.chanceliga.cz/zapas/8204-plz-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8205,
+    "url": "https://www.chanceliga.cz/zapas/8205-fcz-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8206,
+    "url": "https://www.chanceliga.cz/zapas/8206-fkj-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8207,
+    "url": "https://www.chanceliga.cz/zapas/8207-tep-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8208,
+    "url": "https://www.chanceliga.cz/zapas/8208-boh-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8209,
+    "url": "https://www.chanceliga.cz/zapas/8209-sks-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8210,
+    "url": "https://www.chanceliga.cz/zapas/8210-duk-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8211,
+    "url": "https://www.chanceliga.cz/zapas/8211-sig-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8212,
+    "url": "https://www.chanceliga.cz/zapas/8212-acs-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8213,
+    "url": "https://www.chanceliga.cz/zapas/8213-lib-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8214,
+    "url": "https://www.chanceliga.cz/zapas/8214-fcs-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8215,
+    "url": "https://www.chanceliga.cz/zapas/8215-kar-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8216,
+    "url": "https://www.chanceliga.cz/zapas/8216-mbl-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8217,
+    "url": "https://www.chanceliga.cz/zapas/8217-pce-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8218,
+    "url": "https://www.chanceliga.cz/zapas/8218-plz-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8219,
+    "url": "https://www.chanceliga.cz/zapas/8219-hkr-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8220,
+    "url": "https://www.chanceliga.cz/zapas/8220-fcb-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8221,
+    "url": "https://www.chanceliga.cz/zapas/8221-boh-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8222,
+    "url": "https://www.chanceliga.cz/zapas/8222-sks-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8223,
+    "url": "https://www.chanceliga.cz/zapas/8223-tep-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8224,
+    "url": "https://www.chanceliga.cz/zapas/8224-fkj-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8225,
+    "url": "https://www.chanceliga.cz/zapas/8225-fcs-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8226,
+    "url": "https://www.chanceliga.cz/zapas/8226-duk-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8227,
+    "url": "https://www.chanceliga.cz/zapas/8227-sig-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8228,
+    "url": "https://www.chanceliga.cz/zapas/8228-lib-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8229,
+    "url": "https://www.chanceliga.cz/zapas/8229-acs-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8230,
+    "url": "https://www.chanceliga.cz/zapas/8230-fcz-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8231,
+    "url": "https://www.chanceliga.cz/zapas/8231-kar-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8232,
+    "url": "https://www.chanceliga.cz/zapas/8232-pce-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8233,
+    "url": "https://www.chanceliga.cz/zapas/8233-mbl-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8234,
+    "url": "https://www.chanceliga.cz/zapas/8234-tep-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8235,
+    "url": "https://www.chanceliga.cz/zapas/8235-fkj-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8236,
+    "url": "https://www.chanceliga.cz/zapas/8236-boh-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8237,
+    "url": "https://www.chanceliga.cz/zapas/8237-sks-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8238,
+    "url": "https://www.chanceliga.cz/zapas/8238-fcb-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8239,
+    "url": "https://www.chanceliga.cz/zapas/8239-hkr-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8240,
+    "url": "https://www.chanceliga.cz/zapas/8240-kar-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8241,
+    "url": "https://www.chanceliga.cz/zapas/8241-fcs-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8242,
+    "url": "https://www.chanceliga.cz/zapas/8242-hkr-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8243,
+    "url": "https://www.chanceliga.cz/zapas/8243-plz-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8244,
+    "url": "https://www.chanceliga.cz/zapas/8244-fcz-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8245,
+    "url": "https://www.chanceliga.cz/zapas/8245-lib-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8246,
+    "url": "https://www.chanceliga.cz/zapas/8246-duk-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8247,
+    "url": "https://www.chanceliga.cz/zapas/8247-acs-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8248,
+    "url": "https://www.chanceliga.cz/zapas/8248-sig-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8249,
+    "url": "https://www.chanceliga.cz/zapas/8249-mbl-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8250,
+    "url": "https://www.chanceliga.cz/zapas/8250-fcs-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8251,
+    "url": "https://www.chanceliga.cz/zapas/8251-sks-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8252,
+    "url": "https://www.chanceliga.cz/zapas/8252-fkj-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8253,
+    "url": "https://www.chanceliga.cz/zapas/8253-boh-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8254,
+    "url": "https://www.chanceliga.cz/zapas/8254-pce-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8255,
+    "url": "https://www.chanceliga.cz/zapas/8255-fcb-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8256,
+    "url": "https://www.chanceliga.cz/zapas/8256-tep-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8257,
+    "url": "https://www.chanceliga.cz/zapas/8257-kar-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8258,
+    "url": "https://www.chanceliga.cz/zapas/8258-duk-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8259,
+    "url": "https://www.chanceliga.cz/zapas/8259-sig-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8260,
+    "url": "https://www.chanceliga.cz/zapas/8260-lib-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8261,
+    "url": "https://www.chanceliga.cz/zapas/8261-acs-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8262,
+    "url": "https://www.chanceliga.cz/zapas/8262-fcz-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8263,
+    "url": "https://www.chanceliga.cz/zapas/8263-plz-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8264,
+    "url": "https://www.chanceliga.cz/zapas/8264-hkr-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8265,
+    "url": "https://www.chanceliga.cz/zapas/8265-fcb-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8266,
+    "url": "https://www.chanceliga.cz/zapas/8266-fkj-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8267,
+    "url": "https://www.chanceliga.cz/zapas/8267-sks-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8268,
+    "url": "https://www.chanceliga.cz/zapas/8268-boh-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8269,
+    "url": "https://www.chanceliga.cz/zapas/8269-tep-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8270,
+    "url": "https://www.chanceliga.cz/zapas/8270-fcs-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8271,
+    "url": "https://www.chanceliga.cz/zapas/8271-kar-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8272,
+    "url": "https://www.chanceliga.cz/zapas/8272-pce-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8273,
+    "url": "https://www.chanceliga.cz/zapas/8273-mbl-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8274,
+    "url": "https://www.chanceliga.cz/zapas/8274-fcb-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8275,
+    "url": "https://www.chanceliga.cz/zapas/8275-hkr-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8276,
+    "url": "https://www.chanceliga.cz/zapas/8276-fcz-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8277,
+    "url": "https://www.chanceliga.cz/zapas/8277-acs-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8278,
+    "url": "https://www.chanceliga.cz/zapas/8278-sig-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8279,
+    "url": "https://www.chanceliga.cz/zapas/8279-duk-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8280,
+    "url": "https://www.chanceliga.cz/zapas/8280-plz-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8281,
+    "url": "https://www.chanceliga.cz/zapas/8281-lib-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8282,
+    "url": "https://www.chanceliga.cz/zapas/8282-lib-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8283,
+    "url": "https://www.chanceliga.cz/zapas/8283-plz-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8285,
+    "url": "https://www.chanceliga.cz/zapas/8285-acs-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8286,
+    "url": "https://www.chanceliga.cz/zapas/8286-plz-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8287,
+    "url": "https://www.chanceliga.cz/zapas/8287-sks-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8288,
+    "url": "https://www.chanceliga.cz/zapas/8288-fkj-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8289,
+    "url": "https://www.chanceliga.cz/zapas/8289-acs-plz",
+    "finished": false,
+    "stage": 1
+  },
+  {
+    "id": 8290,
+    "url": "https://www.chanceliga.cz/zapas/8290-hkr-lib",
+    "finished": false,
+    "stage": 1
+  },
+  {
+    "id": 8291,
+    "url": "https://www.chanceliga.cz/zapas/8291-sks-fkj",
+    "finished": false,
+    "stage": 1
+  },
+  {
+    "id": 8292,
+    "url": "https://www.chanceliga.cz/zapas/8292-acs-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8293,
+    "url": "https://www.chanceliga.cz/zapas/8293-hkr-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8294,
+    "url": "https://www.chanceliga.cz/zapas/8294-sks-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8295,
+    "url": "https://www.chanceliga.cz/zapas/8295-hkr-sks",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8296,
+    "url": "https://www.chanceliga.cz/zapas/8296-lib-acs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8297,
+    "url": "https://www.chanceliga.cz/zapas/8297-plz-fkj",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8298,
+    "url": "https://www.chanceliga.cz/zapas/8298-sks-plz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8299,
+    "url": "https://www.chanceliga.cz/zapas/8299-acs-hkr",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8300,
+    "url": "https://www.chanceliga.cz/zapas/8300-fkj-lib",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8301,
+    "url": "https://www.chanceliga.cz/zapas/8301-kar-pce",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8302,
+    "url": "https://www.chanceliga.cz/zapas/8302-boh-sig",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8303,
+    "url": "https://www.chanceliga.cz/zapas/8303-pce-kar",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8304,
+    "url": "https://www.chanceliga.cz/zapas/8304-sig-boh",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8305,
+    "url": "https://www.chanceliga.cz/zapas/8305-fcb-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8306,
+    "url": "https://www.chanceliga.cz/zapas/8306-fcz-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8307,
+    "url": "https://www.chanceliga.cz/zapas/8307-tep-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8308,
+    "url": "https://www.chanceliga.cz/zapas/8308-mbl-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8309,
+    "url": "https://www.chanceliga.cz/zapas/8309-tep-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8310,
+    "url": "https://www.chanceliga.cz/zapas/8310-duk-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8311,
+    "url": "https://www.chanceliga.cz/zapas/8311-mbl-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8312,
+    "url": "https://www.chanceliga.cz/zapas/8312-fcz-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8313,
+    "url": "https://www.chanceliga.cz/zapas/8313-fcs-fcb",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8314,
+    "url": "https://www.chanceliga.cz/zapas/8314-zc8-zc7",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8315,
+    "url": "https://www.chanceliga.cz/zapas/8315-zc7-zc8",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8316,
+    "url": "https://www.chanceliga.cz/zapas/8316-fcs-mbl",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8317,
+    "url": "https://www.chanceliga.cz/zapas/8317-fcb-fcz",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8318,
+    "url": "https://www.chanceliga.cz/zapas/8318-tep-duk",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8319,
+    "url": "https://www.chanceliga.cz/zapas/8319-mbl-tep",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8320,
+    "url": "https://www.chanceliga.cz/zapas/8320-fcz-fcs",
+    "finished": true,
+    "stage": 1
+  },
+  {
+    "id": 8321,
+    "url": "https://www.chanceliga.cz/zapas/8321-duk-fcb",
+    "finished": true,
+    "stage": 1
+  }
+]

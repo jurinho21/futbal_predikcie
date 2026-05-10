@@ -1,0 +1,862 @@
+{
+  "url": "https://www.nikeliga.sk/zapas/2723-msk-kfc",
+  "meta": {
+    "home_team": "MŠK Žilina",
+    "away_team": "KFC Komárno",
+    "home_score": 1,
+    "away_score": 0,
+    "home_score_ht": 1,
+    "away_score_ht": 0,
+    "date": "nedeľa 08.02.2026, 15:30",
+    "stadium": "Štadión MŠK Žilina",
+    "round": "19. kolo",
+    "attendance": 1255,
+    "referee": "Peter Ziemba, Patrik Kmec, Simeon Vass"
+  },
+  "events": [
+    {
+      "type": "goal",
+      "team": "home",
+      "player": "Michal Faško",
+      "minute": null
+    },
+    {
+      "type": "goal",
+      "team": "away",
+      "player": "",
+      "minute": null
+    },
+    {
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Miroslav Káčer",
+      "minute": 10
+    },
+    {
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Filip Kiss",
+      "minute": 34
+    },
+    {
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Dominik Špiriak",
+      "minute": 53
+    },
+    {
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Martin Gamboš",
+      "minute": 78
+    }
+  ],
+  "stats": {
+    "total": {
+      "xg": {
+        "home": 1.93,
+        "away": 0.34
+      },
+      "possession": {
+        "home": 57.8,
+        "away": 42.2
+      },
+      "shots": {
+        "home": 12,
+        "away": 7
+      },
+      "shots_on_target": {
+        "home": 7,
+        "away": 2
+      },
+      "shot_accuracy": {
+        "home": 66.67,
+        "away": 28.57
+      },
+      "shots_off_target": {
+        "home": 3,
+        "away": 4
+      },
+      "shots_blocked": {
+        "home": 2,
+        "away": 1
+      },
+      "corners": {
+        "home": 4,
+        "away": 5
+      },
+      "offsides": {
+        "home": 1,
+        "away": 2
+      },
+      "yellow_cards": {
+        "home": 1,
+        "away": 3
+      },
+      "red_cards": {
+        "home": 0,
+        "away": 0
+      },
+      "passes": {
+        "home": 432,
+        "away": 307
+      },
+      "pass_accuracy": {
+        "home": 79.86,
+        "away": 69.71
+      },
+      "duels_won": {
+        "home": 62,
+        "away": 54
+      },
+      "fouls": {
+        "home": 11,
+        "away": 21
+      },
+      "saves": {
+        "home": 2,
+        "away": 6
+      }
+    },
+    "first_half": {
+      "xg": {
+        "home": 1.22,
+        "away": 0.11
+      },
+      "possession": {
+        "home": 64.2,
+        "away": 35.8
+      },
+      "shots": {
+        "home": 8,
+        "away": 1
+      },
+      "shots_on_target": {
+        "home": 5,
+        "away": 0
+      },
+      "shot_accuracy": {
+        "home": 75,
+        "away": 0
+      },
+      "shots_off_target": {
+        "home": 2,
+        "away": 1
+      },
+      "shots_blocked": {
+        "home": 1,
+        "away": 0
+      },
+      "corners": {
+        "home": 3,
+        "away": 1
+      },
+      "offsides": {
+        "home": 0,
+        "away": 0
+      },
+      "yellow_cards": {
+        "home": 1,
+        "away": 1
+      },
+      "red_cards": {
+        "home": 0,
+        "away": 0
+      },
+      "passes": {
+        "home": 261,
+        "away": 143
+      },
+      "pass_accuracy": {
+        "home": 83.52,
+        "away": 71.33
+      },
+      "duels_won": {
+        "home": 29,
+        "away": 25
+      },
+      "fouls": {
+        "home": 6,
+        "away": 7
+      },
+      "saves": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    "second_half": {
+      "xg": {
+        "home": 0.71,
+        "away": 0.23
+      },
+      "possession": {
+        "home": 50.1,
+        "away": 49.9
+      },
+      "shots": {
+        "home": 4,
+        "away": 6
+      },
+      "shots_on_target": {
+        "home": 2,
+        "away": 2
+      },
+      "shot_accuracy": {
+        "home": 50,
+        "away": 33.33
+      },
+      "shots_off_target": {
+        "home": 1,
+        "away": 3
+      },
+      "shots_blocked": {
+        "home": 1,
+        "away": 1
+      },
+      "corners": {
+        "home": 1,
+        "away": 4
+      },
+      "offsides": {
+        "home": 1,
+        "away": 2
+      },
+      "yellow_cards": {
+        "home": 0,
+        "away": 2
+      },
+      "red_cards": {
+        "home": 0,
+        "away": 0
+      },
+      "passes": {
+        "home": 171,
+        "away": 164
+      },
+      "pass_accuracy": {
+        "home": 74.27,
+        "away": 68.29
+      },
+      "duels_won": {
+        "home": 33,
+        "away": 29
+      },
+      "fouls": {
+        "home": 5,
+        "away": 14
+      },
+      "saves": {
+        "home": 2,
+        "away": 2
+      }
+    }
+  },
+  "lineups": {
+    "home": [
+      {
+        "name": "J. Badžgoň",
+        "number": 1,
+        "position": "B",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 28,
+        "fouls": 0
+      },
+      {
+        "name": "F. Kaša",
+        "number": 25,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 1,
+        "passes": 71,
+        "fouls": 0
+      },
+      {
+        "name": "K. Bari",
+        "number": 20,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 35,
+        "fouls": 1
+      },
+      {
+        "name": "T. Pališčák",
+        "number": 33,
+        "position": "O",
+        "starter": true,
+        "sub_minute": 51,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 41,
+        "fouls": 0
+      },
+      {
+        "name": "M. Okál",
+        "number": 2,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 64,
+        "fouls": 2
+      },
+      {
+        "name": "M. Káčer",
+        "number": 66,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 74,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 33,
+        "fouls": 1
+      },
+      {
+        "name": "M. Faško",
+        "number": 23,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 86,
+        "sub_type": "out",
+        "goals": 1,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 1,
+        "passes": 19,
+        "fouls": 2
+      },
+      {
+        "name": "T. Hranica",
+        "number": 21,
+        "position": "S",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 1,
+        "passes": 33,
+        "fouls": 0
+      },
+      {
+        "name": "P. Iľko",
+        "number": 16,
+        "position": "U",
+        "starter": true,
+        "sub_minute": 86,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 1,
+        "passes": 12,
+        "fouls": 2
+      },
+      {
+        "name": "L. Prokop",
+        "number": 34,
+        "position": "U",
+        "starter": true,
+        "sub_minute": 74,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 3,
+        "passes": 11,
+        "fouls": 1
+      },
+      {
+        "name": "F. Bzdyl",
+        "number": 11,
+        "position": "U",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 51,
+        "fouls": 1
+      },
+      {
+        "name": "J. Jokl",
+        "number": 22,
+        "position": "B",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "A. Narimanidze",
+        "number": 28,
+        "position": "O",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "J. Minárik",
+        "number": 17,
+        "position": "O",
+        "starter": false,
+        "sub_minute": 51,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 22,
+        "fouls": 0
+      },
+      {
+        "name": "S. Ďatko",
+        "number": 24,
+        "position": "S",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "X. Adang Mveng",
+        "number": 6,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 74,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 4,
+        "fouls": 0
+      },
+      {
+        "name": "A. Florea",
+        "number": 10,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 86,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 1,
+        "fouls": 0
+      },
+      {
+        "name": "F. Kóša",
+        "number": 7,
+        "position": "U",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "R. Szánthó",
+        "number": 8,
+        "position": "U",
+        "starter": false,
+        "sub_minute": 86,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 3,
+        "fouls": 0
+      },
+      {
+        "name": "L. Juliš",
+        "number": 39,
+        "position": "U",
+        "starter": false,
+        "sub_minute": 74,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 4,
+        "fouls": 1
+      }
+    ],
+    "away": [
+      {
+        "name": "B. Száraz",
+        "number": 13,
+        "position": "B",
+        "starter": true,
+        "sub_minute": 74,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 21,
+        "fouls": 0
+      },
+      {
+        "name": "R. Pillár",
+        "number": 21,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 33,
+        "fouls": 2
+      },
+      {
+        "name": "D. Špiriak",
+        "number": 5,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 28,
+        "fouls": 2
+      },
+      {
+        "name": "O. Rudzan",
+        "number": 24,
+        "position": "O",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 2,
+        "passes": 31,
+        "fouls": 2
+      },
+      {
+        "name": "J. Palán",
+        "number": 18,
+        "position": "O",
+        "starter": true,
+        "sub_minute": 46,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 4,
+        "fouls": 0
+      },
+      {
+        "name": "K. Domonkos",
+        "number": 10,
+        "position": "S",
+        "starter": true,
+        "sub_minute": 60,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 13,
+        "fouls": 1
+      },
+      {
+        "name": "M. Šimko",
+        "number": 3,
+        "position": "S",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 47,
+        "fouls": 1
+      },
+      {
+        "name": "D. Žák",
+        "number": 12,
+        "position": "S",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 31,
+        "fouls": 5
+      },
+      {
+        "name": "F. Kiss",
+        "number": 14,
+        "position": "S",
+        "starter": true,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 24,
+        "fouls": 1
+      },
+      {
+        "name": "E. Mashike",
+        "number": 99,
+        "position": "U",
+        "starter": true,
+        "sub_minute": 60,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 16,
+        "fouls": 3
+      },
+      {
+        "name": "N. Tamas",
+        "number": 22,
+        "position": "U",
+        "starter": true,
+        "sub_minute": 46,
+        "sub_type": "out",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 4,
+        "fouls": 0
+      },
+      {
+        "name": "F. Dlubáč",
+        "number": 1,
+        "position": "B",
+        "starter": false,
+        "sub_minute": 74,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 4,
+        "fouls": 0
+      },
+      {
+        "name": "A. Krčík",
+        "number": 37,
+        "position": "O",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "J. Pastorek",
+        "number": 7,
+        "position": "S",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "Z. Jones",
+        "number": 27,
+        "position": "S",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "M. Gamboš",
+        "number": 20,
+        "position": "S",
+        "starter": false,
+        "sub_minute": 60,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 8,
+        "fouls": 2
+      },
+      {
+        "name": "C. Nguidjol Bayemi",
+        "number": 17,
+        "position": "U",
+        "starter": false,
+        "sub_minute": null,
+        "sub_type": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": null,
+        "passes": null,
+        "fouls": null
+      },
+      {
+        "name": "M. Boďa",
+        "number": 9,
+        "position": "U",
+        "starter": false,
+        "sub_minute": 60,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 10,
+        "fouls": 0
+      },
+      {
+        "name": "G. Ganbold",
+        "number": 73,
+        "position": "U",
+        "starter": false,
+        "sub_minute": 46,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 15,
+        "fouls": 1
+      },
+      {
+        "name": "P. Szücs",
+        "number": 23,
+        "position": "U",
+        "starter": false,
+        "sub_minute": 46,
+        "sub_type": "in",
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes": 18,
+        "fouls": 1
+      }
+    ]
+  },
+  "match_id": 2723,
+  "season": 2025
+}

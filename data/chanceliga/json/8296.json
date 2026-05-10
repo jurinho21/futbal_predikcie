@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8296-lib-acs",
+  "meta": {
+    "home_team": "FC Slovan Liberec",
+    "away_team": "AC Sparta Praha",
+    "round": "4. kolo, Skupina o titul | neděle 17/05/2026, 17:00 |",
+    "date": "17/05/2026 17:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 44,
+        "away": 62
+      },
+      "góly_proti": {
+        "home": 34,
+        "away": 33
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 431,
+        "away": 470
+      },
+      "úspěšnost_přihrávek": {
+        "home": 73.7,
+        "away": 85.2
+      },
+      "possession": {
+        "home": 47.7,
+        "away": 64.3
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8296
+}

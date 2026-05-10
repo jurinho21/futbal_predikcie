@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8318-tep-duk",
+  "meta": {
+    "home_team": "FK Teplice",
+    "away_team": "FK Dukla Praha",
+    "round": "4. kolo, Skupina o záchranu | sobota 16/05/2026, 17:00 |",
+    "date": "16/05/2026 17:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 32,
+        "away": 21
+      },
+      "góly_proti": {
+        "home": 40,
+        "away": 45
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 331,
+        "away": 298
+      },
+      "úspěšnost_přihrávek": {
+        "home": 68.9,
+        "away": 71.4
+      },
+      "possession": {
+        "home": 41.6,
+        "away": 43.2
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8318
+}

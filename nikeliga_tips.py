@@ -1,0 +1,296 @@
+"""
+nikeliga_tips.py — správa tipov (ukladanie, vyhodnocovanie, história)
+
+Štruktúra tips.csv:
+    tip_id, recorded_at, match_id, home_team, away_team, match_date,
+    market, bet_type, line, direction,
+    model_prob, model_odds, bm_odds, edge, stake,
+    status, actual_value, profit
+"""
+
+import csv
+import json
+import hashlib
+import logging
+from pathlib import Path
+from datetime import datetime
+from typing import Optional
+
+import pandas as pd
+
+logger = logging.getLogger(__name__)
+
+TIPS_CSV_NAME = "tips.csv"
+
+# market → kľúč v stats.total JSON objektu
+MARKET_STAT_KEY = {
+    "fouls": "fouls",
+    "shots_on_target": "shots_on_target",
+    "corners": "corners",
+    "yellow_cards": "yellow_cards",
+}
+
+TIP_FIELDS = [
+    "tip_id", "recorded_at", "match_id", "home_team", "away_team", "match_date",
+    "market", "bet_type", "line", "direction",
+    "model_prob", "model_odds", "bm_odds", "edge", "stake",
+    "status", "actual_value", "profit",
+]
+
+
+def _tip_id(match_id, market, bet_type, line, direction) -> str:
+    key = f"{match_id}|{market}|{bet_type}|{line}|{direction}"
+    return hashlib.md5(key.encode()).hexdigest()[:12]
+
+
+def _to_num(v):
+    if v is None:
+        return None
+    try:
+        f = float(str(v))
+        return int(f) if f == int(f) else f
+    except (ValueError, TypeError):
+        return None
+
+
+def _migrate_sqlite_if_needed(data_dir: Path) -> None:
+    """Raz zmigruje tips.db → tips.csv, ak CSV ešte neexistuje."""
+    csv_path = Path(data_dir) / TIPS_CSV_NAME
+    db_path  = Path(data_dir) / "tips.db"
+    bak_path = Path(data_dir) / "tips.csv.bak"
+
+    if csv_path.exists():
+        return
+
+    # Obnov zálohu ak existuje
+    if bak_path.exists():
+        bak_path.rename(csv_path)
+        logger.info("Obnovená záloha: %s → %s", bak_path, csv_path)
+        return
+
+    # Zmigruj zo SQLite
+    if db_path.exists():
+        try:
+            import sqlite3
+            con = sqlite3.connect(db_path)
+            rows = con.execute("SELECT * FROM tips").fetchall()
+            cols = [d[0] for d in con.execute("SELECT * FROM tips LIMIT 0").description or []]
+            con.close()
+            if rows and cols:
+                with open(csv_path, "w", encoding="utf-8", newline="") as f:
+                    writer = csv.DictWriter(f, fieldnames=TIP_FIELDS)
+                    writer.writeheader()
+                    for row in rows:
+                        d = dict(zip(cols, row))
+                        writer.writerow({k: d.get(k, "") for k in TIP_FIELDS})
+                logger.info("Zmigrované %d tipov zo SQLite do CSV", len(rows))
+        except Exception as e:
+            logger.error("Migrácia zo SQLite zlyhala: %s", e)
+
+
+# ---------------------------------------------------------------------------
+# VEREJNÉ API
+# ---------------------------------------------------------------------------
+
+def save_tips(data_dir: Path, tips: list[dict], stake: float = 1.0) -> int:
+    """
+    Uloží nové tipy do CSV (preskočí duplicity).
+    Každý tip musí mať: match_id, home_team, away_team, match_date,
+                        market, bet_type, line, direction,
+                        model_prob, bm_odds, edge.
+    Vracia počet novo uložených tipov.
+    """
+    _migrate_sqlite_if_needed(data_dir)
+    tips_csv = Path(data_dir) / TIPS_CSV_NAME
+
+    existing_ids: set[str] = set()
+    if tips_csv.exists():
+        with open(tips_csv, encoding="utf-8", newline="") as f:
+            for row in csv.DictReader(f):
+                existing_ids.add(row["tip_id"])
+
+    new_rows = []
+    for t in tips:
+        tid = _tip_id(t["match_id"], t["market"], t["bet_type"], t["line"], t["direction"])
+        if tid in existing_ids:
+            continue
+        model_prob = float(t["model_prob"])
+        new_rows.append({
+            "tip_id":       tid,
+            "recorded_at":  datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "match_id":     t["match_id"],
+            "home_team":    t["home_team"],
+            "away_team":    t["away_team"],
+            "match_date":   t.get("match_date", ""),
+            "market":       t["market"],
+            "bet_type":     t["bet_type"],
+            "line":         t.get("line", ""),
+            "direction":    t["direction"],
+            "model_prob":   round(model_prob, 4),
+            "model_odds":   round(1.0 / model_prob, 2) if model_prob > 0 else "",
+            "bm_odds":      round(float(t["bm_odds"]), 2),
+            "edge":         round(float(t["edge"]), 4),
+            "stake":        stake,
+            "status":       "pending",
+            "actual_value": "",
+            "profit":       "",
+        })
+
+    if not new_rows:
+        return 0
+
+    write_header = not tips_csv.exists()
+    with open(tips_csv, "a", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=TIP_FIELDS)
+        if write_header:
+            writer.writeheader()
+        writer.writerows(new_rows)
+
+    return len(new_rows)
+
+
+def settle_tips(data_dir: Path) -> tuple[int, int]:
+    """
+    Vyhodnotí pending tipy podľa výsledkov v data/json/.
+    Vracia (vyhodnotené, chyby).
+    """
+    _migrate_sqlite_if_needed(data_dir)
+    tips_csv = Path(data_dir) / TIPS_CSV_NAME
+    if not tips_csv.exists():
+        return 0, 0
+
+    df = pd.read_csv(tips_csv, dtype=str)
+    json_dir = Path(data_dir) / "json"
+
+    def _has_complete_stats(d: dict) -> bool:
+        second_half = d.get("stats", {}).get("second_half", {})
+        for val in second_half.values():
+            if isinstance(val, dict):
+                if any(v not in (None, 0) for v in val.values()):
+                    return True
+        return False
+
+    def _needs_settle(row) -> bool:
+        if row["status"] == "pending":
+            return True
+        # Prepočítaj aj won/lost tipy ak zápas má teraz kompletné dáta
+        jp = json_dir / f"{row['match_id']}.json"
+        if not jp.exists():
+            return False
+        try:
+            with open(jp, encoding="utf-8") as f:
+                d = json.load(f)
+            return _has_complete_stats(d)
+        except Exception:
+            return False
+
+    settle_mask = df.apply(_needs_settle, axis=1)
+    if not settle_mask.any():
+        return 0, 0
+
+    settled = 0
+    errors = 0
+
+    for idx in df[settle_mask].index:
+        tip = df.loc[idx]
+        mid = str(tip["match_id"])
+        json_path = json_dir / f"{mid}.json"
+        if not json_path.exists():
+            continue
+
+        try:
+            with open(json_path, encoding="utf-8") as f:
+                d = json.load(f)
+
+            meta = d.get("meta", {})
+            if meta.get("home_score") is None:
+                continue
+
+            stats_root  = d.get("stats", {})
+            total_stats = stats_root.get("total", stats_root)
+
+            stat_key = MARKET_STAT_KEY.get(tip["market"])
+            if not stat_key:
+                errors += 1
+                continue
+
+            stat      = total_stats.get(stat_key, {})
+            home_val  = _to_num(stat.get("home"))
+            away_val  = _to_num(stat.get("away"))
+
+            if home_val is None or away_val is None:
+                errors += 1
+                continue
+
+            bet_type  = tip["bet_type"]
+            direction = tip["direction"]
+            line_str  = tip["line"]
+            line      = float(line_str) if line_str else None
+            bm_odds   = float(tip["bm_odds"])
+            stake     = float(tip["stake"])
+
+            if bet_type in ("total", "home", "away"):
+                if line is None:
+                    errors += 1
+                    continue
+                if bet_type == "total":
+                    actual = home_val + away_val
+                elif bet_type == "home":
+                    actual = home_val
+                else:
+                    actual = away_val
+                won = (actual > line) if direction == "O" else (actual < line)
+                actual_str = str(actual)
+
+            elif bet_type == "1x2":
+                if direction == "1":
+                    won = home_val > away_val
+                elif direction == "X":
+                    won = home_val == away_val
+                else:
+                    won = away_val > home_val
+                actual_str = f"{home_val}:{away_val}"
+
+            else:
+                errors += 1
+                continue
+
+            profit = round((bm_odds - 1) * stake if won else -stake, 2)
+            df.at[idx, "status"]       = "won" if won else "lost"
+            df.at[idx, "actual_value"] = actual_str
+            df.at[idx, "profit"]       = str(profit)
+            settled += 1
+
+        except Exception as e:
+            logger.error("Chyba vyhodnotenia tipu %s: %s", tip.get("tip_id"), e)
+            errors += 1
+
+    df.to_csv(tips_csv, index=False)
+    return settled, errors
+
+
+def load_tips(data_dir: Path) -> pd.DataFrame:
+    """Načíta tips.csv ako DataFrame. Vracia prázdny DF ak súbor neexistuje."""
+    _migrate_sqlite_if_needed(data_dir)
+    tips_csv = Path(data_dir) / TIPS_CSV_NAME
+    if not tips_csv.exists():
+        return pd.DataFrame(columns=TIP_FIELDS)
+    return pd.read_csv(tips_csv, dtype=str)
+
+
+def tips_summary(df: pd.DataFrame) -> dict:
+    """Vráti štatistiky: pending/won/lost, profit, ROI."""
+    if df.empty:
+        return {"pending": 0, "won": 0, "lost": 0, "profit": 0.0, "roi": None}
+    pending = int((df["status"] == "pending").sum())
+    won     = int((df["status"] == "won").sum())
+    lost    = int((df["status"] == "lost").sum())
+    settled = df[df["status"].isin(["won", "lost"])].copy()
+    profit, roi = 0.0, None
+    if not settled.empty:
+        profits      = pd.to_numeric(settled["profit"], errors="coerce").fillna(0)
+        stakes       = pd.to_numeric(settled["stake"],  errors="coerce").fillna(1)
+        profit       = float(profits.sum())
+        total_staked = float(stakes.sum())
+        roi = profit / total_staked if total_staked > 0 else None
+    return {"pending": pending, "won": won, "lost": lost, "profit": profit, "roi": roi}

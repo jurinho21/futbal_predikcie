@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8312-fcz-tep",
+  "meta": {
+    "home_team": "FC Zlín",
+    "away_team": "FK Teplice",
+    "round": "3. kolo, Skupina o záchranu | úterý 12/05/2026, 17:30 |",
+    "date": "12/05/2026 17:30"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 40,
+        "away": 32
+      },
+      "góly_proti": {
+        "home": 50,
+        "away": 40
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 355,
+        "away": 331
+      },
+      "úspěšnost_přihrávek": {
+        "home": 68.8,
+        "away": 68.9
+      },
+      "possession": {
+        "home": 40.3,
+        "away": 41.6
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8312
+}

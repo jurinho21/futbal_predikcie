@@ -1,0 +1,45 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8288-fkj-hkr",
+  "meta": {
+    "home_team": "FK Jablonec",
+    "away_team": "FC Hradec Králové",
+    "round": "2. kolo, Skupina o titul | neděle 10/05/2026, 18:30 | Stadion Střelnice |",
+    "date": "10/05/2026 18:30",
+    "stadium": "Stadion Střelnice",
+    "referee": "D. Černý"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 41,
+        "away": 44
+      },
+      "góly_proti": {
+        "home": 35,
+        "away": 37
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 353,
+        "away": 328
+      },
+      "úspěšnost_přihrávek": {
+        "home": 78.9,
+        "away": 76.6
+      },
+      "possession": {
+        "home": 48.7,
+        "away": 46
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8288
+}

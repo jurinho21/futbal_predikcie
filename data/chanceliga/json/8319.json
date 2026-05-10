@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8319-mbl-tep",
+  "meta": {
+    "home_team": "FK Mladá Boleslav",
+    "away_team": "FK Teplice",
+    "round": "5. kolo, Skupina o záchranu | sobota 23/05/2026, 14:00 |",
+    "date": "23/05/2026 14:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 45,
+        "away": 32
+      },
+      "góly_proti": {
+        "home": 53,
+        "away": 40
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 389,
+        "away": 331
+      },
+      "úspěšnost_přihrávek": {
+        "home": 80.4,
+        "away": 68.9
+      },
+      "possession": {
+        "home": 54.9,
+        "away": 41.6
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8319
+}

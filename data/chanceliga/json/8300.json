@@ -1,0 +1,43 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8300-fkj-lib",
+  "meta": {
+    "home_team": "FK Jablonec",
+    "away_team": "FC Slovan Liberec",
+    "round": "5. kolo, Skupina o titul | neděle 24/05/2026, 14:00 |",
+    "date": "24/05/2026 14:00"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 41,
+        "away": 44
+      },
+      "góly_proti": {
+        "home": 35,
+        "away": 34
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 353,
+        "away": 431
+      },
+      "úspěšnost_přihrávek": {
+        "home": 78.9,
+        "away": 73.7
+      },
+      "possession": {
+        "home": 48.7,
+        "away": 47.7
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8300
+}

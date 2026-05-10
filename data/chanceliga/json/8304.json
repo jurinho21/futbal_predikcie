@@ -1,0 +1,45 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8304-sig-boh",
+  "meta": {
+    "home_team": "SK Sigma Olomouc",
+    "away_team": "Bohemians Praha 1905",
+    "round": ", Play-off o umístění | neděle 10/05/2026, 15:00 | Andrův stadión |",
+    "date": "10/05/2026 15:00",
+    "stadium": "Andrův stadión",
+    "referee": "M. Panský"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "góly": {
+        "home": 37,
+        "away": 27
+      },
+      "góly_proti": {
+        "home": 35,
+        "away": 38
+      },
+      "vytvořené_šance": {
+        "home": 0,
+        "away": 0
+      },
+      "střely": {
+        "home": 374,
+        "away": 401
+      },
+      "úspěšnost_přihrávek": {
+        "home": 74.2,
+        "away": 71.8
+      },
+      "possession": {
+        "home": 50.9,
+        "away": 46.2
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8304
+}

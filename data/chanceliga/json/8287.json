@@ -1,0 +1,52 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8287-sks-acs",
+  "meta": {
+    "home_team": "SK Slavia Praha",
+    "away_team": "AC Sparta Praha",
+    "home_score": 3,
+    "away_score": 2,
+    "home_score_ht": 1,
+    "away_score_ht": 1,
+    "round": "2. kolo, Skupina o titul | sobota 09/05/2026, 19:00 | Fortuna Arena |",
+    "date": "09/05/2026 19:00",
+    "stadium": "Fortuna Arena",
+    "referee": "K. Rouček"
+  },
+  "events": [
+    {
+      "type": "red_card",
+      "team": "home",
+      "player": "Tomáš Chorý",
+      "minute": 59
+    },
+    {
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Sivert Mannsverk",
+      "minute": 19
+    },
+    {
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Kaan Kairinen",
+      "minute": 33
+    }
+  ],
+  "stats": {
+    "total": {
+      "yellow_cards": {
+        "home": 0,
+        "away": 2
+      },
+      "red_cards": {
+        "home": 1,
+        "away": 0
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8287
+}
