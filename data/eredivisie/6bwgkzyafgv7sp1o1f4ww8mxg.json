@@ -1,0 +1,247 @@
+{
+  "oid": "6bwgkzyafgv7sp1o1f4ww8mxg",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/twente-telstar/",
+  "date": "2025-11-07",
+  "status": "full_time",
+  "attendance": 29500,
+  "referee": "Martijn Vos",
+  "home_team": "FC Twente",
+  "away_team": "Telstar",
+  "home_score": 0,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 553,
+      "first_half": 310,
+      "second_half": 243
+    },
+    "shots_blocked": {
+      "total": 12,
+      "first_half": 1,
+      "second_half": 11
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 3,
+      "second_half": 10
+    },
+    "fouls_won": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 66,
+      "first_half": 67,
+      "second_half": 65
+    },
+    "secondYellow": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 15,
+      "first_half": 7,
+      "second_half": 8
+    },
+    "passes": {
+      "total": 627,
+      "first_half": 345,
+      "second_half": 282
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 27,
+      "first_half": 10,
+      "second_half": 17
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 4,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 9,
+      "second_half": 11
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 245,
+      "first_half": 129,
+      "second_half": 116
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 3,
+      "second_half": 10
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "corners_conceded": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "possession": {
+      "total": 33,
+      "first_half": 32,
+      "second_half": 34
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 44,
+      "first_half": 19,
+      "second_half": 25
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 321,
+      "first_half": 167,
+      "second_half": 154
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 11,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": []
+}

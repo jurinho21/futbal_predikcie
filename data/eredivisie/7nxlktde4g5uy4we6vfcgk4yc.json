@@ -1,0 +1,295 @@
+{
+  "oid": "7nxlktde4g5uy4we6vfcgk4yc",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/psv-heerenveen/",
+  "date": "2026-02-21",
+  "status": "full_time",
+  "attendance": 34600,
+  "referee": "Rob Dieperink",
+  "home_team": "PSV",
+  "away_team": "sc Heerenveen",
+  "home_score": 3,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 544,
+      "first_half": 312,
+      "second_half": 232
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "assists": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "possession": {
+      "total": 65,
+      "first_half": 65,
+      "second_half": 64
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 16,
+      "first_half": 8,
+      "second_half": 8
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 17,
+      "first_half": 6,
+      "second_half": 11
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 622,
+      "first_half": 349,
+      "second_half": 273
+    },
+    "shots": {
+      "total": 28,
+      "first_half": 10,
+      "second_half": 18
+    },
+    "tackles": {
+      "total": 22,
+      "first_half": 9,
+      "second_half": 13
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 10,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "tackles_won": {
+      "total": 15,
+      "first_half": 7,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 255,
+      "first_half": 147,
+      "second_half": 108
+    },
+    "shots_blocked": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 20,
+      "first_half": 12,
+      "second_half": 8
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 34,
+      "first_half": 34,
+      "second_half": 35
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 13,
+      "second_half": 6
+    },
+    "passes": {
+      "total": 337,
+      "first_half": 187,
+      "second_half": 150
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 9,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 6,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 21,
+      "team": "away",
+      "player": "L. Nordås",
+      "assist": "R. Meerveld",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 45,
+      "team": "home",
+      "player": "I. Perišić",
+      "assist": "J. Veerman",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 48,
+      "team": "home",
+      "player": "M. Boadu",
+      "assist": "P. Wanner",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 87,
+      "team": "home",
+      "player": "R. Pepi",
+      "assist": "I. Saibari",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

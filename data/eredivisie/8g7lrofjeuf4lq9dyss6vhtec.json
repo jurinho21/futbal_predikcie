@@ -1,0 +1,276 @@
+{
+  "oid": "8g7lrofjeuf4lq9dyss6vhtec",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/pec-zwolle-heracles/",
+  "date": "2026-05-03",
+  "status": "full_time",
+  "attendance": 13749,
+  "referee": "Rob Dieperink",
+  "home_team": "PEC Zwolle",
+  "away_team": "Heracles Almelo",
+  "home_score": 1,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 269,
+      "first_half": 145,
+      "second_half": 124
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 18,
+      "first_half": 7,
+      "second_half": 11
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 45,
+      "second_half": 44
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 27,
+      "first_half": 9,
+      "second_half": 18
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "passes": {
+      "total": 361,
+      "first_half": 193,
+      "second_half": 168
+    },
+    "shots": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 10,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 348,
+      "first_half": 185,
+      "second_half": 163
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 18,
+      "first_half": 7,
+      "second_half": 11
+    },
+    "fouls_won": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 55,
+      "first_half": 54,
+      "second_half": 55
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "secondYellow": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 20,
+      "first_half": 11,
+      "second_half": 9
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 425,
+      "first_half": 228,
+      "second_half": 197
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 10,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 19,
+      "team": "home",
+      "player": "A. MacNulty",
+      "assist": "R. Thomas",
+      "type": "goal",
+      "period": 1
+    }
+  ]
+}

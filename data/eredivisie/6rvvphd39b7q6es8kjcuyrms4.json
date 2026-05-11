@@ -1,0 +1,269 @@
+{
+  "oid": "6rvvphd39b7q6es8kjcuyrms4",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/ajax-feyenoord/",
+  "date": "2025-12-14",
+  "status": "full_time",
+  "attendance": 47506,
+  "referee": "Serdar Gözübüyük",
+  "home_team": "Ajax",
+  "away_team": "Feyenoord",
+  "home_score": 2,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 336,
+      "first_half": 192,
+      "second_half": 144
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 12,
+      "first_half": 2,
+      "second_half": 10
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 42,
+      "first_half": 44,
+      "second_half": 40
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 40,
+      "first_half": 16,
+      "second_half": 24
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 404,
+      "first_half": 223,
+      "second_half": 181
+    },
+    "shots": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 4,
+      "second_half": 16
+    },
+    "totalThrows": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 541,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 446,
+      "first_half": 237,
+      "second_half": 209
+    },
+    "shots_blocked": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 12,
+      "first_half": 2,
+      "second_half": 10
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 57,
+      "first_half": 55,
+      "second_half": 59
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "passes": {
+      "total": 520,
+      "first_half": 271,
+      "second_half": 249
+    },
+    "shots": {
+      "total": 18,
+      "first_half": 9,
+      "second_half": 9
+    },
+    "tackles": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 22,
+      "first_half": 10,
+      "second_half": 12
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 12,
+      "first_half": 2,
+      "second_half": 10
+    },
+    "tackles_won": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 13,
+      "team": "home",
+      "player": "D. Klaassen",
+      "assist": "O. Gloukh",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 94,
+      "team": "home",
+      "player": "J. Mokio",
+      "assist": "M. Godts",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

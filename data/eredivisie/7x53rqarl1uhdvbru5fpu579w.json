@@ -1,0 +1,287 @@
+{
+  "oid": "7x53rqarl1uhdvbru5fpu579w",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/feyenoord-excelsior/",
+  "date": "2026-03-15",
+  "status": "full_time",
+  "attendance": 47500,
+  "referee": "Serdar Gözübüyük",
+  "home_team": "Feyenoord",
+  "away_team": "Excelsior Rotterdam",
+  "home_score": 2,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 279,
+      "first_half": 158,
+      "second_half": 121
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 49,
+      "first_half": 47,
+      "second_half": 50
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 33,
+      "first_half": 12,
+      "second_half": 21
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 354,
+      "first_half": 188,
+      "second_half": 166
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 19,
+      "first_half": 5,
+      "second_half": 14
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 6,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 286,
+      "first_half": 169,
+      "second_half": 117
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 51,
+      "first_half": 52,
+      "second_half": 49
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 27,
+      "first_half": 13,
+      "second_half": 14
+    },
+    "passes": {
+      "total": 382,
+      "first_half": 215,
+      "second_half": 167
+    },
+    "shots": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 22,
+      "first_half": 12,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 26,
+      "first_half": 8,
+      "second_half": 18
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 28,
+      "team": "away",
+      "player": "A. Zagré",
+      "assist": "S. van Gassel",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 58,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "J. Bos",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 59,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "R. Sterling",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

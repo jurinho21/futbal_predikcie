@@ -1,0 +1,284 @@
+{
+  "oid": "7zxx4c64bsxovwlg8xfwrcsgk",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/feyenoord-ajax/",
+  "date": "2026-03-22",
+  "status": "full_time",
+  "attendance": 47500,
+  "referee": "Danny Desmond Makkelie",
+  "home_team": "Feyenoord",
+  "away_team": "Ajax",
+  "home_score": 1,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 399,
+      "first_half": 195,
+      "second_half": 204
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 16,
+      "first_half": 4,
+      "second_half": 12
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 53,
+      "first_half": 52,
+      "second_half": 54
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "passes": {
+      "total": 484,
+      "first_half": 238,
+      "second_half": 246
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 4,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 19,
+      "first_half": 9,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 18,
+      "first_half": 11,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 328,
+      "first_half": 175,
+      "second_half": 153
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 16,
+      "first_half": 4,
+      "second_half": 12
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 46,
+      "first_half": 48,
+      "second_half": 45
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 21,
+      "first_half": 10,
+      "second_half": 11
+    },
+    "passes": {
+      "total": 425,
+      "first_half": 220,
+      "second_half": 205
+    },
+    "shots": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "tackles": {
+      "total": 24,
+      "first_half": 12,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 8,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 54,
+      "team": "away",
+      "player": "S. Steur",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 85,
+      "team": "home",
+      "player": "J. Moder",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 2
+    }
+  ]
+}

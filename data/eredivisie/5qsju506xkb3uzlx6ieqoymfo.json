@@ -1,0 +1,269 @@
+{
+  "oid": "5qsju506xkb3uzlx6ieqoymfo",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/groningen-telstar/",
+  "date": "2025-09-20",
+  "status": "full_time",
+  "attendance": 22525,
+  "referee": "Erwin Blank",
+  "home_team": "FC Groningen",
+  "away_team": "Telstar",
+  "home_score": 2,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 370,
+      "first_half": 200,
+      "second_half": 170
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 56,
+      "second_half": 53
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 27,
+      "first_half": 11,
+      "second_half": 16
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 441,
+      "first_half": 237,
+      "second_half": 204
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 7,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 273,
+      "first_half": 146,
+      "second_half": 127
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 43,
+      "second_half": 46
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 23,
+      "first_half": 13,
+      "second_half": 10
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 365,
+      "first_half": 186,
+      "second_half": 179
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 6,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 25,
+      "first_half": 9,
+      "second_half": 16
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 29,
+      "team": "home",
+      "player": "Y. Taha",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 88,
+      "team": "home",
+      "player": "O. Zawada",
+      "assist": "W. Prins",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

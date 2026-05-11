@@ -1,0 +1,302 @@
+{
+  "oid": "5zfwulm2yzxqo6k2142mjnbpw",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/az-telstar/",
+  "date": "2025-10-05",
+  "status": "full_time",
+  "attendance": 18849,
+  "referee": "Jannick van der Laan",
+  "home_team": "AZ",
+  "away_team": "Telstar",
+  "home_score": 2,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 387,
+      "first_half": 234,
+      "second_half": 153
+    },
+    "shots_blocked": {
+      "total": 10,
+      "first_half": 8,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 59,
+      "first_half": 64,
+      "second_half": 54
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 4,
+      "second_half": 15
+    },
+    "passes": {
+      "total": 462,
+      "first_half": 275,
+      "second_half": 187
+    },
+    "shots": {
+      "total": 28,
+      "first_half": 19,
+      "second_half": 9
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 9,
+      "second_half": 4
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 238,
+      "first_half": 123,
+      "second_half": 115
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 14,
+      "first_half": 9,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 40,
+      "first_half": 36,
+      "second_half": 45
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 35,
+      "first_half": 15,
+      "second_half": 20
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 316,
+      "first_half": 157,
+      "second_half": 159
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 4,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 23,
+      "first_half": 12,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 15,
+      "team": "home",
+      "player": "M. Meerdink",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    },
+    {
+      "minute": 47,
+      "team": "home",
+      "player": "M. Šín",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 61,
+      "team": "away",
+      "player": "T. Noslin",
+      "assist": "K. Tejan",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "oid": "7d3zgassdrv22e6ftphiswr9w",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/sparta-rotterdam-groningen-2/",
+  "date": "2026-01-31",
+  "status": "full_time",
+  "attendance": 10031,
+  "referee": "Sander van der Eijk",
+  "home_team": "Sparta Rotterdam",
+  "away_team": "FC Groningen",
+  "home_score": 2,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 317,
+      "first_half": 181,
+      "second_half": 136
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "fouls_won": {
+      "total": 16,
+      "first_half": 5,
+      "second_half": 11
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 48,
+      "second_half": 42
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 35,
+      "first_half": 10,
+      "second_half": 25
+    },
+    "passes": {
+      "total": 414,
+      "first_half": 223,
+      "second_half": 191
+    },
+    "shots": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 10,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 21,
+      "first_half": 11,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 406,
+      "first_half": 200,
+      "second_half": 206
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 16,
+      "first_half": 5,
+      "second_half": 11
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 51,
+      "second_half": 57
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 23,
+      "first_half": 9,
+      "second_half": 14
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 481,
+      "first_half": 231,
+      "second_half": 250
+    },
+    "shots": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 55,
+      "team": "home",
+      "player": "S. Mito",
+      "assist": "Ayoni Santos",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 90,
+      "team": "home",
+      "player": "S. Mito",
+      "assist": "M. Kleijn",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

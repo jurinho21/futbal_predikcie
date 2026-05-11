@@ -1,0 +1,266 @@
+{
+  "oid": "7ip1l3ssxwmzvx9083pqgxclw",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/feyenoord-go-ahead-eagles/",
+  "date": "2026-02-15",
+  "status": "full_time",
+  "attendance": 47500,
+  "referee": "Marc Nagtegaal",
+  "home_team": "Feyenoord",
+  "away_team": "Go Ahead Eagles",
+  "home_score": 1,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 434,
+      "first_half": 216,
+      "second_half": 218
+    },
+    "shots_blocked": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 19,
+      "first_half": 8,
+      "second_half": 11
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 9,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 74,
+      "first_half": 69,
+      "second_half": 79
+    },
+    "shots_off_target": {
+      "total": 14,
+      "first_half": 5,
+      "second_half": 9
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 13,
+      "first_half": 12,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 489,
+      "first_half": 244,
+      "second_half": 245
+    },
+    "shots": {
+      "total": 33,
+      "first_half": 13,
+      "second_half": 20
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 3,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 11,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 19,
+      "first_half": 8,
+      "second_half": 11
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 1,
+      "second_half": 10
+    },
+    "formation": {
+      "total": 442,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 106,
+      "first_half": 69,
+      "second_half": 37
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 9,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "goalKicks": {
+      "total": 24,
+      "first_half": 12,
+      "second_half": 12
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 19,
+      "first_half": 8,
+      "second_half": 11
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 25,
+      "first_half": 30,
+      "second_half": 20
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 53,
+      "first_half": 25,
+      "second_half": 28
+    },
+    "passes": {
+      "total": 175,
+      "first_half": 109,
+      "second_half": 66
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 10,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 18,
+      "first_half": 6,
+      "second_half": 12
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 9,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 92,
+      "team": "home",
+      "player": "C. Tengstedt",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 2
+    }
+  ]
+}

@@ -10,11 +10,11 @@
   "stats": {
     "total": {
       "góly": {
-        "home": 44,
+        "home": 45,
         "away": 44
       },
       "góly_proti": {
-        "home": 37,
+        "home": 38,
         "away": 34
       },
       "vytvořené_šance": {
@@ -22,15 +22,15 @@
         "away": 0
       },
       "střely": {
-        "home": 328,
+        "home": 339,
         "away": 431
       },
       "úspěšnost_přihrávek": {
-        "home": 76.6,
+        "home": 76.7,
         "away": 73.7
       },
       "possession": {
-        "home": 46,
+        "home": 45.9,
         "away": 47.7
       }
     }

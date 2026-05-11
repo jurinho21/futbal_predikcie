@@ -1,0 +1,290 @@
+{
+  "oid": "72nji92rvwchtky1rey1mhst0",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/ajax-go-ahead-eagles/",
+  "date": "2026-01-17",
+  "status": "full_time",
+  "attendance": 53979,
+  "referee": "Serdar Gözübüyük",
+  "home_team": "Ajax",
+  "away_team": "Go Ahead Eagles",
+  "home_score": 2,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 445,
+      "first_half": 235,
+      "second_half": 210
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 51,
+      "first_half": 54,
+      "second_half": 48
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 27,
+      "first_half": 11,
+      "second_half": 16
+    },
+    "passes": {
+      "total": 507,
+      "first_half": 265,
+      "second_half": 242
+    },
+    "shots": {
+      "total": 18,
+      "first_half": 8,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 411,
+      "first_half": 187,
+      "second_half": 224
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "possession": {
+      "total": 49,
+      "first_half": 45,
+      "second_half": 52
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 20,
+      "first_half": 10,
+      "second_half": 10
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 474,
+      "first_half": 219,
+      "second_half": 255
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 1,
+      "second_half": 9
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 10,
+      "second_half": 4
+    },
+    "yellow_cards": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 15,
+      "team": "home",
+      "player": "D. Klaassen",
+      "assist": "M. Godts",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 28,
+      "team": "home",
+      "player": "K. Dolberg",
+      "assist": "D. Klaassen",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 53,
+      "team": "away",
+      "player": "T. Baeten",
+      "assist": "E. Linthorst",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 66,
+      "team": "away",
+      "player": "M. Smit",
+      "assist": "J. Breum",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

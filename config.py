@@ -18,7 +18,7 @@ YELLOW_REF_STRENGTH = 1.3  # rozhodca priamo udeľuje karty — vyšší vplyv a
 X1X2_SHRINKS = {
     "fouls": 0.6,
     "shots_on_target": 0.6,
-    "corners": 0.5,
+    "corners": 0.6,
     "yellow_cards": 0.6,
 }
 
@@ -92,6 +92,14 @@ TEAM_STAT_LABELS = {
     "shots_on_target": "SoT",
     "corners": "rohy",
     "yellow_cards": "žlté karty",
+}
+
+# Maximálny fair kurz pre X v 1X2 — ak by bol vyšší, prebytok sa prerozdelí na 1 a 2
+X1X2_MAX_DRAW_ODDS = {
+    "fouls": 15,
+    "shots_on_target": 9,
+    "corners": 10,
+    "yellow_cards": 4.5,
 }
 
 # Unifikovaný rozsah línií pre hit rate výpočty (oba moduly používali rôzne rozsahy: 35 vs 40)

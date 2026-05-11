@@ -1,0 +1,247 @@
+{
+  "oid": "6zggi255hpx00f6gwt0z6vd3o",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/groningen-nac-breda-2/",
+  "date": "2026-01-10",
+  "status": "full_time",
+  "attendance": 21991,
+  "referee": "Serdar Gözübüyük",
+  "home_team": "FC Groningen",
+  "away_team": "NAC Breda",
+  "home_score": 0,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 388,
+      "first_half": 193,
+      "second_half": 195
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 6,
+      "first_half": 6,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 55,
+      "first_half": 51,
+      "second_half": 59
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 26,
+      "first_half": 10,
+      "second_half": 16
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 481,
+      "first_half": 235,
+      "second_half": 246
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 7,
+      "second_half": 9
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 25,
+      "first_half": 12,
+      "second_half": 13
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 442,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 296,
+      "first_half": 175,
+      "second_half": 121
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 6,
+      "first_half": 6,
+      "second_half": 0
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 13,
+      "first_half": 4,
+      "second_half": 9
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 44,
+      "first_half": 48,
+      "second_half": 40
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 36,
+      "first_half": 13,
+      "second_half": 23
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 393,
+      "first_half": 221,
+      "second_half": 172
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 7,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 24,
+      "first_half": 10,
+      "second_half": 14
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 3412,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": []
+}

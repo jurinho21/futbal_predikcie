@@ -1,0 +1,339 @@
+{
+  "oid": "6px0fd3nljivftg9tojnh5udw",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/feyenoord-pec-zwolle/",
+  "date": "2025-12-06",
+  "status": "full_time",
+  "attendance": 47500,
+  "referee": "Marc Nagtegaal",
+  "home_team": "Feyenoord",
+  "away_team": "PEC Zwolle",
+  "home_score": 6,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 387,
+      "first_half": 242,
+      "second_half": 145
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "fouls": {
+      "total": 17,
+      "first_half": 8,
+      "second_half": 9
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 8,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 57,
+      "first_half": 60,
+      "second_half": 51
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 15,
+      "first_half": 4,
+      "second_half": 11
+    },
+    "passes": {
+      "total": 440,
+      "first_half": 270,
+      "second_half": 170
+    },
+    "shots": {
+      "total": 25,
+      "first_half": 10,
+      "second_half": 15
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 264,
+      "first_half": 139,
+      "second_half": 125
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 8,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 13,
+      "first_half": 5,
+      "second_half": 8
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 43,
+      "first_half": 39,
+      "second_half": 48
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 12,
+      "second_half": 7
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 337,
+      "first_half": 176,
+      "second_half": 161
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 0,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 9,
+      "first_half": 1,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 8,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 11,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "Gonçalo Borges",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 20,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "Q. Timber",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 37,
+      "team": "home",
+      "player": "Q. Timber",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    },
+    {
+      "minute": 42,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "G. Smal",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 55,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "L. Valente",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 84,
+      "team": "home",
+      "player": "C. Tengstedt",
+      "assist": "J. Bos",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 95,
+      "team": "away",
+      "player": "K. Kostons",
+      "assist": "K. de Rooij",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "oid": "6wnh14wm9f9o0bsje7pqddixg",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/feyenoord-twente/",
+  "date": "2025-12-21",
+  "status": "full_time",
+  "attendance": 47500,
+  "referee": "Dennis Johan Higler",
+  "home_team": "Feyenoord",
+  "away_team": "FC Twente",
+  "home_score": 1,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 311,
+      "first_half": 160,
+      "second_half": 151
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "fouls": {
+      "total": 15,
+      "first_half": 9,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 44,
+      "second_half": 47
+    },
+    "saves": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "secondYellow": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 33,
+      "first_half": 13,
+      "second_half": 20
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 397,
+      "first_half": 205,
+      "second_half": 192
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 4,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 5,
+      "second_half": 11
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 381,
+      "first_half": 207,
+      "second_half": 174
+    },
+    "shots_blocked": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "corners_taken": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 15,
+      "first_half": 9,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "shots_on_target": {
+      "total": 11,
+      "first_half": 8,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 55,
+      "second_half": 52
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 18,
+      "first_half": 4,
+      "second_half": 14
+    },
+    "passes": {
+      "total": 469,
+      "first_half": 258,
+      "second_half": 211
+    },
+    "shots": {
+      "total": 29,
+      "first_half": 14,
+      "second_half": 15
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "corners": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 19,
+      "team": "away",
+      "player": "D. Rots",
+      "assist": "B. van Rooij",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 74,
+      "team": "home",
+      "player": "Gonçalo Borges",
+      "assist": "A. Ahmedhodžić",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "oid": "6436wx3eeqvph521ys68rd1xw",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/nec-twente/",
+  "date": "2025-10-18",
+  "status": "full_time",
+  "attendance": 12650,
+  "referee": "Marc Nagtegaal",
+  "home_team": "N.E.C. Nijmegen",
+  "away_team": "FC Twente",
+  "home_score": 3,
+  "away_score": 3,
+  "home": {
+    "passes_accurate": {
+      "total": 339,
+      "first_half": 168,
+      "second_half": 171
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "fouls_won": {
+      "total": 21,
+      "first_half": 11,
+      "second_half": 10
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "penGoalsConceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "penaltyConceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 60,
+      "first_half": 58,
+      "second_half": 62
+    },
+    "shots_off_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 26,
+      "first_half": 10,
+      "second_half": 16
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 409,
+      "first_half": 210,
+      "second_half": 199
+    },
+    "shots": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 11,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 3142,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 197,
+      "first_half": 117,
+      "second_half": 80
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 21,
+      "first_half": 11,
+      "second_half": 10
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "ownGoals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyWon": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 39,
+      "first_half": 41,
+      "second_half": 37
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 38,
+      "first_half": 21,
+      "second_half": 17
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 272,
+      "first_half": 151,
+      "second_half": 121
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 8,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 27,
+      "first_half": 13,
+      "second_half": 14
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 24,
+      "team": "away",
+      "player": "R. van Wolfswinkel",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    },
+    {
+      "minute": 29,
+      "team": "home",
+      "player": "T. Ouwejan",
+      "assist": "K. Sano",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 55,
+      "team": "away",
+      "player": "M. Rots",
+      "assist": "S. Ørjasæter",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 66,
+      "team": "home",
+      "player": "Y. El Kachati",
+      "assist": "T. Ouwejan",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 83,
+      "team": "away",
+      "player": "A. Verschueren",
+      "assist": "",
+      "type": "own_goal",
+      "period": 2
+    },
+    {
+      "minute": 92,
+      "team": "away",
+      "player": "R. van Wolfswinkel",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "oid": "8en8vych2dmcgiq4x7yxkiihg",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/utrecht-nac-breda-2/",
+  "date": "2026-05-02",
+  "status": "full_time",
+  "attendance": 23034,
+  "referee": "Alex Bos",
+  "home_team": "FC Utrecht",
+  "away_team": "NAC Breda",
+  "home_score": 2,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 446,
+      "first_half": 187,
+      "second_half": 259
+    },
+    "shots_blocked": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 8,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 8,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 11,
+      "first_half": 1,
+      "second_half": 10
+    },
+    "possession": {
+      "total": 65,
+      "first_half": 55,
+      "second_half": 76
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "substitutions": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "clearances": {
+      "total": 28,
+      "first_half": 14,
+      "second_half": 14
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 505,
+      "first_half": 215,
+      "second_half": 290
+    },
+    "shots": {
+      "total": 28,
+      "first_half": 7,
+      "second_half": 21
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 5,
+      "second_half": 9
+    },
+    "corners": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 181,
+      "first_half": 134,
+      "second_half": 47
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 9,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 8,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 34,
+      "first_half": 44,
+      "second_half": 23
+    },
+    "saves": {
+      "total": 9,
+      "first_half": 1,
+      "second_half": 8
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "clearances": {
+      "total": 24,
+      "first_half": 8,
+      "second_half": 16
+    },
+    "passes": {
+      "total": 260,
+      "first_half": 173,
+      "second_half": 87
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 7,
+      "second_half": 12
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 442,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 86,
+      "team": "home",
+      "player": "D. de Wit",
+      "assist": "J. Karlsson",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 99,
+      "team": "home",
+      "player": "A. Blake",
+      "assist": "D. Min",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

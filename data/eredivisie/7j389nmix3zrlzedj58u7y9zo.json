@@ -1,0 +1,276 @@
+{
+  "oid": "7j389nmix3zrlzedj58u7y9zo",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heracles-nac-breda-2/",
+  "date": "2026-02-14",
+  "status": "full_time",
+  "attendance": 11789,
+  "referee": "Danny Desmond Makkelie",
+  "home_team": "Heracles Almelo",
+  "away_team": "NAC Breda",
+  "home_score": 0,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 278,
+      "first_half": 145,
+      "second_half": 133
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 52,
+      "first_half": 52,
+      "second_half": 53
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 26,
+      "first_half": 13,
+      "second_half": 13
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 375,
+      "first_half": 197,
+      "second_half": 178
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 4,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 13,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 23,
+      "first_half": 11,
+      "second_half": 12
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 258,
+      "first_half": 139,
+      "second_half": 119
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 9,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 47,
+      "first_half": 47,
+      "second_half": 46
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 31,
+      "first_half": 16,
+      "second_half": 15
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 340,
+      "first_half": 183,
+      "second_half": 157
+    },
+    "shots": {
+      "total": 13,
+      "first_half": 3,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 5,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 21,
+      "first_half": 14,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 80,
+      "team": "away",
+      "player": "C. Leemans",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 2
+    }
+  ]
+}

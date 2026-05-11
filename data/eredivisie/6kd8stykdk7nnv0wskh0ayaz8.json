@@ -1,0 +1,274 @@
+{
+  "oid": "6kd8stykdk7nnv0wskh0ayaz8",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/telstar-utrecht/",
+  "date": "2025-11-23",
+  "status": "full_time",
+  "attendance": 4500,
+  "referee": "Robin Hensgens",
+  "home_team": "Telstar",
+  "away_team": "FC Utrecht",
+  "home_score": 1,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 292,
+      "first_half": 165,
+      "second_half": 127
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 42,
+      "first_half": 43,
+      "second_half": 40
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 38,
+      "first_half": 15,
+      "second_half": 23
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 368,
+      "first_half": 199,
+      "second_half": 169
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 8,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 21,
+      "first_half": 11,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 399,
+      "first_half": 201,
+      "second_half": 198
+    },
+    "shots_blocked": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "corners_taken": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 58,
+      "first_half": 56,
+      "second_half": 59
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 18,
+      "first_half": 7,
+      "second_half": 11
+    },
+    "passes": {
+      "total": 493,
+      "first_half": 249,
+      "second_half": 244
+    },
+    "shots": {
+      "total": 17,
+      "first_half": 4,
+      "second_half": 13
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 11,
+      "second_half": 8
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 56,
+      "team": "home",
+      "player": "S. Hetli",
+      "assist": "G. Offerhaus",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 93,
+      "team": "away",
+      "player": "C. Bozdoğan",
+      "assist": "A. Engwanda",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

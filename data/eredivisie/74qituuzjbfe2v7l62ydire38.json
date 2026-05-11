@@ -1,0 +1,289 @@
+{
+  "oid": "74qituuzjbfe2v7l62ydire38",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heracles-twente/",
+  "date": "2026-01-18",
+  "status": "full_time",
+  "attendance": 12274,
+  "referee": "Sander van der Eijk",
+  "home_team": "Heracles Almelo",
+  "away_team": "FC Twente",
+  "home_score": 0,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 305,
+      "first_half": 157,
+      "second_half": 148
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 14,
+      "first_half": 4,
+      "second_half": 10
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 8,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 48,
+      "first_half": 40,
+      "second_half": 60
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "passes": {
+      "total": 376,
+      "first_half": 192,
+      "second_half": 184
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 2,
+      "second_half": 9
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 9,
+      "second_half": 11
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 442,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 319,
+      "first_half": 231,
+      "second_half": 88
+    },
+    "shots_blocked": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 14,
+      "first_half": 4,
+      "second_half": 10
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "goalKicks": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 51,
+      "first_half": 59,
+      "second_half": 39
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 26,
+      "first_half": 5,
+      "second_half": 21
+    },
+    "passes": {
+      "total": 412,
+      "first_half": 282,
+      "second_half": 130
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 18,
+      "first_half": 12,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 12,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 25,
+      "first_half": 16,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 14,
+      "first_half": 9,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 30,
+      "team": "away",
+      "player": "T. van den Belt",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 55,
+      "team": "away",
+      "player": "R. van Wolfswinkel",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 2
+    }
+  ]
+}

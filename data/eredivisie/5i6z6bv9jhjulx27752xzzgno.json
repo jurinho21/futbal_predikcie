@@ -1,0 +1,259 @@
+{
+  "oid": "5i6z6bv9jhjulx27752xzzgno",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/ajax-heracles/",
+  "date": "2025-08-24",
+  "status": "full_time",
+  "attendance": 54683,
+  "referee": "Marc Nagtegaal",
+  "home_team": "Ajax",
+  "away_team": "Heracles Almelo",
+  "home_score": 2,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 581,
+      "first_half": 314,
+      "second_half": 267
+    },
+    "shots_blocked": {
+      "total": 11,
+      "first_half": 2,
+      "second_half": 9
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 15,
+      "first_half": 10,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "possession": {
+      "total": 65,
+      "first_half": 66,
+      "second_half": 64
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 20,
+      "first_half": 11,
+      "second_half": 9
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 647,
+      "first_half": 346,
+      "second_half": 301
+    },
+    "shots": {
+      "total": 27,
+      "first_half": 10,
+      "second_half": 17
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 7,
+      "second_half": 12
+    },
+    "corners": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 257,
+      "first_half": 128,
+      "second_half": 129
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 15,
+      "first_half": 10,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "possession": {
+      "total": 34,
+      "first_half": 33,
+      "second_half": 35
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 22,
+      "first_half": 11,
+      "second_half": 11
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 337,
+      "first_half": 170,
+      "second_half": 167
+    },
+    "shots": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 8,
+      "second_half": 8
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 31,
+      "team": "home",
+      "player": "S. Berghuis",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 87,
+      "team": "home",
+      "player": "W. Weghorst",
+      "assist": "D. Klaassen",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

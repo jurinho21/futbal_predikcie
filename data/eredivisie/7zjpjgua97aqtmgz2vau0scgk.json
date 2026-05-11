@@ -1,0 +1,274 @@
+{
+  "oid": "7zjpjgua97aqtmgz2vau0scgk",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/utrecht-go-ahead-eagles/",
+  "date": "2026-03-22",
+  "status": "full_time",
+  "attendance": 22938,
+  "referee": "Jeroen Manschot",
+  "home_team": "FC Utrecht",
+  "away_team": "Go Ahead Eagles",
+  "home_score": 2,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 265,
+      "first_half": 172,
+      "second_half": 93
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "possession": {
+      "total": 43,
+      "first_half": 49,
+      "second_half": 35
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 4,
+      "second_half": 15
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 358,
+      "first_half": 223,
+      "second_half": 135
+    },
+    "shots": {
+      "total": 22,
+      "first_half": 10,
+      "second_half": 12
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 8,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 24,
+      "first_half": 14,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 395,
+      "first_half": 199,
+      "second_half": 196
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 57,
+      "first_half": 50,
+      "second_half": 64
+    },
+    "saves": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 22,
+      "first_half": 9,
+      "second_half": 13
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 483,
+      "first_half": 235,
+      "second_half": 248
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 7,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 4,
+      "second_half": 15
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 16,
+      "team": "home",
+      "player": "G. Zechiël",
+      "assist": "Ángel Alarcón",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 37,
+      "team": "home",
+      "player": "A. Stepanov",
+      "assist": "Y. Cathline",
+      "type": "goal",
+      "period": 1
+    }
+  ]
+}

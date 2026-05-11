@@ -1,0 +1,292 @@
+{
+  "oid": "7b565ks9ck6lu0ohky13olces",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heracles-fortuna-sittard/",
+  "date": "2026-02-01",
+  "status": "full_time",
+  "attendance": 11424,
+  "referee": "Richard Wilhelmus Martens",
+  "home_team": "Heracles Almelo",
+  "away_team": "Fortuna Sittard",
+  "home_score": 2,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 265,
+      "first_half": 189,
+      "second_half": 76
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 17,
+      "first_half": 6,
+      "second_half": 11
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 46,
+      "first_half": 57,
+      "second_half": 33
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 21,
+      "first_half": 3,
+      "second_half": 18
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 367,
+      "first_half": 252,
+      "second_half": 115
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 25,
+      "first_half": 14,
+      "second_half": 11
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 324,
+      "first_half": 131,
+      "second_half": 193
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 14,
+      "first_half": 5,
+      "second_half": 9
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 53,
+      "first_half": 42,
+      "second_half": 67
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 34,
+      "first_half": 25,
+      "second_half": 9
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 425,
+      "first_half": 188,
+      "second_half": 237
+    },
+    "shots": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 7,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 24,
+      "first_half": 9,
+      "second_half": 15
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 26,
+      "team": "home",
+      "player": "A. Hrustić",
+      "assist": "D. van der Kust",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 37,
+      "team": "away",
+      "player": "K. Sierhuis",
+      "assist": "K. Peterson",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 44,
+      "team": "home",
+      "player": "A. Van Hoorenbeeck",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    }
+  ]
+}

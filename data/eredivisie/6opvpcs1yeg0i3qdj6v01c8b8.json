@@ -1,0 +1,304 @@
+{
+  "oid": "6opvpcs1yeg0i3qdj6v01c8b8",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/excelsior-groningen/",
+  "date": "2025-12-05",
+  "status": "full_time",
+  "attendance": 4400,
+  "referee": "Martijn Vos",
+  "home_team": "Excelsior Rotterdam",
+  "away_team": "FC Groningen",
+  "home_score": 0,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 325,
+      "first_half": 162,
+      "second_half": 163
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 11,
+      "first_half": 8,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 41,
+      "second_half": 50
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 23,
+      "first_half": 16,
+      "second_half": 7
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 417,
+      "first_half": 207,
+      "second_half": 210
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 7,
+      "second_half": 9
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 7,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 11,
+      "first_half": 2,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 414,
+      "first_half": 247,
+      "second_half": 167
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 58,
+      "second_half": 49
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "secondYellow": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 15,
+      "first_half": 7,
+      "second_half": 8
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 502,
+      "first_half": 289,
+      "second_half": 213
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 20,
+      "first_half": 12,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 7,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 10,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 442,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 61,
+      "team": "away",
+      "player": "T. van Bergen",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 92,
+      "team": "away",
+      "player": "S. Resink",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 2
+    }
+  ]
+}

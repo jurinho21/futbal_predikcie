@@ -1,0 +1,289 @@
+{
+  "oid": "622a6vj4scm1tfvq7y6k33384",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/ajax-az/",
+  "date": "2025-10-18",
+  "status": "full_time",
+  "attendance": 54274,
+  "referee": "Jeroen Manschot",
+  "home_team": "Ajax",
+  "away_team": "AZ",
+  "home_score": 0,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 480,
+      "first_half": 271,
+      "second_half": 209
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 5,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 18,
+      "first_half": 11,
+      "second_half": 7
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 61,
+      "first_half": 66,
+      "second_half": 56
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 549,
+      "first_half": 303,
+      "second_half": 246
+    },
+    "shots": {
+      "total": 17,
+      "first_half": 6,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 23,
+      "first_half": 7,
+      "second_half": 16
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 11,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 281,
+      "first_half": 128,
+      "second_half": 153
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 19,
+      "first_half": 11,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 5,
+      "second_half": 8
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 38,
+      "first_half": 33,
+      "second_half": 44
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 21,
+      "first_half": 14,
+      "second_half": 7
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 349,
+      "first_half": 155,
+      "second_half": 194
+    },
+    "shots": {
+      "total": 13,
+      "first_half": 7,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 12,
+      "second_half": 2
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 1,
+      "second_half": 13
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 7,
+      "second_half": 1
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 25,
+      "team": "away",
+      "player": "Weslley Patati",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 42,
+      "team": "away",
+      "player": "T. Parrott",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "oid": "68jkplr9q740wag72yfsiv0gk",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/feyenoord-volendam/",
+  "date": "2025-11-01",
+  "status": "full_time",
+  "attendance": 47500,
+  "referee": "Marc Nagtegaal",
+  "home_team": "Feyenoord",
+  "away_team": "FC Volendam",
+  "home_score": 3,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 404,
+      "first_half": 227,
+      "second_half": 177
+    },
+    "shots_blocked": {
+      "total": 19,
+      "first_half": 9,
+      "second_half": 10
+    },
+    "corners_taken": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 58,
+      "second_half": 50
+    },
+    "shots_off_target": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 466,
+      "first_half": 255,
+      "second_half": 211
+    },
+    "shots": {
+      "total": 37,
+      "first_half": 18,
+      "second_half": 19
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "corners": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 338,
+      "first_half": 161,
+      "second_half": 177
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 13,
+      "first_half": 8,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 41,
+      "second_half": 50
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 36,
+      "first_half": 26,
+      "second_half": 10
+    },
+    "passes": {
+      "total": 398,
+      "first_half": 188,
+      "second_half": 210
+    },
+    "shots": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 19,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "G. Read",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 26,
+      "team": "home",
+      "player": "S. Steijn",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 59,
+      "team": "away",
+      "player": "H. Veerman",
+      "assist": "A. Oehlers",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 89,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "Hwang In-Beom",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

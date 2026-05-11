@@ -1,0 +1,277 @@
+{
+  "oid": "8cmwomad7hoqhnyr2v3iwzdas",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heerenveen-fortuna-sittard/",
+  "date": "2026-04-25",
+  "status": "full_time",
+  "attendance": 25164,
+  "referee": "Edwin van de Graaf",
+  "home_team": "sc Heerenveen",
+  "away_team": "Fortuna Sittard",
+  "home_score": 2,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 448,
+      "first_half": 245,
+      "second_half": 203
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 58,
+      "first_half": 58,
+      "second_half": 58
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 6,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "clearances": {
+      "total": 26,
+      "first_half": 10,
+      "second_half": 16
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 545,
+      "first_half": 294,
+      "second_half": 251
+    },
+    "shots": {
+      "total": 15,
+      "first_half": 9,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 9,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 295,
+      "first_half": 156,
+      "second_half": 139
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 7,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 41,
+      "first_half": 41,
+      "second_half": 42
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 25,
+      "first_half": 9,
+      "second_half": 16
+    },
+    "passes": {
+      "total": 386,
+      "first_half": 204,
+      "second_half": 182
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 11,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 28,
+      "first_half": 13,
+      "second_half": 15
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 11,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 12,
+      "team": "away",
+      "player": "P. Brittijn",
+      "assist": "D. Limnios",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 16,
+      "team": "home",
+      "player": "R. Meerveld",
+      "assist": "J. Trenskow",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 74,
+      "team": "home",
+      "player": "M. Linday",
+      "assist": "J. van Overeem",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

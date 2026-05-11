@@ -1,0 +1,264 @@
+{
+  "oid": "8fthqyd148qi2qulaanuqo93o",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/nec-telstar/",
+  "date": "2026-05-02",
+  "status": "full_time",
+  "attendance": 12650,
+  "referee": "Jeroen Manschot",
+  "home_team": "N.E.C. Nijmegen",
+  "away_team": "Telstar",
+  "home_score": 1,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 457,
+      "first_half": 240,
+      "second_half": 217
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "possession": {
+      "total": 69,
+      "first_half": 66,
+      "second_half": 72
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 536,
+      "first_half": 275,
+      "second_half": 261
+    },
+    "shots": {
+      "total": 21,
+      "first_half": 6,
+      "second_half": 15
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 5,
+      "second_half": 12
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 3412,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 159,
+      "first_half": 101,
+      "second_half": 58
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 20,
+      "first_half": 7,
+      "second_half": 13
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 30,
+      "first_half": 33,
+      "second_half": 27
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 50,
+      "first_half": 15,
+      "second_half": 35
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 247,
+      "first_half": 141,
+      "second_half": 106
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 32,
+      "team": "away",
+      "player": "S. van Duijn",
+      "assist": "C. Hatenboer",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 85,
+      "team": "home",
+      "player": "T. Chery",
+      "assist": "Danilo",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

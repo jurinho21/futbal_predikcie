@@ -19,6 +19,7 @@ from pathlib import Path
 from typing import Optional
 
 import requests
+import pandas as pd
 from bs4 import BeautifulSoup
 
 from chanceliga_scraper import fetch_html, parse_match, HEADERS
@@ -106,6 +107,14 @@ def discover_by_id_range(start_id: int, end_id: int) -> list[dict]:
 # 2. DÁVKOVÉ SŤAHOVANIE
 # ---------------------------------------------------------------------------
 
+def _load_blacklist(data_dir: Path) -> set:
+    path = Path(data_dir) / "blacklist.json"
+    if not path.exists():
+        return set()
+    with open(path, encoding="utf-8") as f:
+        return {str(x) for x in json.load(f)}
+
+
 def fetch_matches(
     matches: list[dict],
     data_dir: Path,
@@ -126,10 +135,14 @@ def fetch_matches(
     else:
         to_fetch = matches
 
+    blacklist = _load_blacklist(data_dir)
     downloaded = skipped = errors = 0
 
     for match in to_fetch:
         mid = match["id"]
+        if str(mid) in blacklist:
+            skipped += 1
+            continue
         json_path = json_dir / f"{mid}.json"
         html_path = html_dir / f"{mid}.html"
 
@@ -162,6 +175,81 @@ def fetch_matches(
     logger.info("Hotovo. Stiahnuté: %d, preskočené: %d, chyby: %d",
                 downloaded, skipped, errors)
     return downloaded, skipped, errors
+
+
+def refresh_recent(data_dir: Path, days_back: int = 14) -> tuple[int, int]:
+    """
+    Znovu stiahne JSON pre MINULÉ zápasy bez výsledku (home_score = None).
+    Oknuje sa na posledných <days_back> dní — budúce zápasy sa preskakujú.
+    Vracia (obnovené, chyby).
+    """
+    from datetime import datetime, timedelta
+    from dateutil import parser as dateparser
+
+    data_dir = Path(data_dir)
+    json_dir = data_dir / "json"
+    html_dir = data_dir / "html"
+    index_path = data_dir / "matches_index.json"
+
+    if not index_path.exists():
+        return 0, 0
+
+    with open(index_path, encoding="utf-8") as f:
+        matches = json.load(f)
+
+    now = datetime.now()
+    lookback = now - timedelta(days=days_back)
+    refreshed = 0
+    errors = 0
+
+    for m in matches:
+        mid = m["id"]
+        json_path = json_dir / f"{mid}.json"
+
+        if not json_path.exists():
+            continue
+
+        with open(json_path, encoding="utf-8") as f:
+            d = json.load(f)
+
+        meta = d.get("meta", {})
+
+        # Preskočí zápasy, ktoré už majú výsledok
+        if meta.get("home_score") is not None:
+            continue
+
+        # Obnov len zápasy v minulosti (nie budúce — tie výsledok ešte nemajú)
+        date_str = meta.get("date", m.get("date", ""))
+        if date_str:
+            try:
+                match_date = dateparser.parse(date_str, dayfirst=True)
+                if match_date and not (lookback <= match_date <= now):
+                    continue
+            except Exception:
+                pass
+        elif not date_str:
+            # Ak nie je dátum, preskočíme — nepoznáme kedy sa hral
+            continue
+
+        html_path = html_dir / f"{mid}.html"
+        if html_path.exists():
+            html_path.unlink()
+
+        url = m.get("url", "")
+        try:
+            html = fetch_html(url)
+            html_path.write_text(html, encoding="utf-8")
+            data = parse_match(html, url)
+            data["match_id"] = mid
+            with open(json_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            refreshed += 1
+            time.sleep(RATE_LIMIT_SLEEP)
+        except Exception as e:
+            logger.error("CHYBA refresh %d: %s", mid, e)
+            errors += 1
+
+    return refreshed, errors
 
 
 def _load_or_create_index(data_dir: Path, matches: list[dict]) -> list[dict]:
@@ -216,7 +304,10 @@ def export_csv(data_dir: Path):
         writer = csv.DictWriter(mf, fieldnames=fields)
         writer.writeheader()
 
+        blacklist = _load_blacklist(data_dir)
         for json_path in sorted(json_dir.glob("*.json")):
+            if json_path.stem in blacklist:
+                continue
             try:
                 with open(json_path, encoding="utf-8") as f:
                     d = json.load(f)
@@ -263,6 +354,20 @@ def export_csv(data_dir: Path):
             rows_written += 1
 
     logger.info("CSV exportovaný: %s (%d riadkov)", matches_csv, rows_written)
+
+    overrides_path = data_dir / "overrides.csv"
+    if overrides_path.exists():
+        df = pd.read_csv(matches_csv)
+        ov = pd.read_csv(overrides_path)
+        for _, row in ov.iterrows():
+            mask = df["match_id"] == row["match_id"]
+            for col in ov.columns:
+                if col == "match_id":
+                    continue
+                if col in df.columns:
+                    df.loc[mask & df[col].isna(), col] = row[col]
+        df.to_csv(matches_csv, index=False)
+        logger.info("Overrides aplikované z %s", overrides_path)
 
 
 # ---------------------------------------------------------------------------

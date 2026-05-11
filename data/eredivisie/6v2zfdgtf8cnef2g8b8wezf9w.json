@@ -1,0 +1,315 @@
+{
+  "oid": "6v2zfdgtf8cnef2g8b8wezf9w",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/telstar-nec/",
+  "date": "2025-12-13",
+  "status": "full_time",
+  "attendance": 5293,
+  "referee": "Richard Wilhelmus Martens",
+  "home_team": "Telstar",
+  "away_team": "N.E.C. Nijmegen",
+  "home_score": 2,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 159,
+      "first_half": 90,
+      "second_half": 69
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 7,
+      "second_half": 2
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 32,
+      "first_half": 32,
+      "second_half": 32
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 32,
+      "first_half": 18,
+      "second_half": 14
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 238,
+      "first_half": 127,
+      "second_half": 111
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 1,
+      "second_half": 9
+    },
+    "tackles": {
+      "total": 29,
+      "first_half": 18,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 18,
+      "first_half": 7,
+      "second_half": 11
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 18,
+      "first_half": 12,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 416,
+      "first_half": 234,
+      "second_half": 182
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltySave": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 67,
+      "first_half": 68,
+      "second_half": 67
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 20,
+      "first_half": 6,
+      "second_half": 14
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 497,
+      "first_half": 267,
+      "second_half": 230
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 5,
+      "second_half": 15
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 21,
+      "team": "home",
+      "player": "J. Hardeveld",
+      "assist": "T. Noslin",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 42,
+      "team": "away",
+      "player": "B. Linssen",
+      "assist": "B. Önal",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 61,
+      "team": "home",
+      "player": "J. Hardeveld",
+      "assist": "N. Rossen",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 77,
+      "team": "away",
+      "player": "K. Shiogai",
+      "assist": "K. Sano",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

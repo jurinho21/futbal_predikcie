@@ -1,0 +1,276 @@
+{
+  "oid": "6l5ltzvvk4fn2z9gyok9b3zmc",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/excelsior-nac-breda/",
+  "date": "2025-11-29",
+  "status": "full_time",
+  "attendance": 4600,
+  "referee": "Serdar Gözübüyük",
+  "home_team": "Excelsior Rotterdam",
+  "away_team": "NAC Breda",
+  "home_score": 1,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 264,
+      "first_half": 167,
+      "second_half": 97
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 22,
+      "first_half": 7,
+      "second_half": 15
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "goalKicks": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 42,
+      "first_half": 50,
+      "second_half": 34
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 28,
+      "first_half": 12,
+      "second_half": 16
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 350,
+      "first_half": 211,
+      "second_half": 139
+    },
+    "shots": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 3,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 362,
+      "first_half": 147,
+      "second_half": 215
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 22,
+      "first_half": 7,
+      "second_half": 15
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 57,
+      "first_half": 49,
+      "second_half": 65
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 13,
+      "first_half": 4,
+      "second_half": 9
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 17,
+      "first_half": 8,
+      "second_half": 9
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 452,
+      "first_half": 196,
+      "second_half": 256
+    },
+    "shots": {
+      "total": 22,
+      "first_half": 4,
+      "second_half": 18
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 10,
+      "second_half": 4
+    },
+    "totalThrows": {
+      "total": 31,
+      "first_half": 13,
+      "second_half": 18
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 532,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 23,
+      "team": "home",
+      "player": "N. Naujoks",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    }
+  ]
+}

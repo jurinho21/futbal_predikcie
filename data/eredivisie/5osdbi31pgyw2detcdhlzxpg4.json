@@ -1,0 +1,287 @@
+{
+  "oid": "5osdbi31pgyw2detcdhlzxpg4",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heracles-az/",
+  "date": "2025-09-14",
+  "status": "full_time",
+  "attendance": 11964,
+  "referee": "Bas Nijhuis",
+  "home_team": "Heracles Almelo",
+  "away_team": "AZ",
+  "home_score": 1,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 335,
+      "first_half": 208,
+      "second_half": 127
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 7,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 51,
+      "first_half": 56,
+      "second_half": 45
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 23,
+      "first_half": 12,
+      "second_half": 11
+    },
+    "passes": {
+      "total": 399,
+      "first_half": 238,
+      "second_half": 161
+    },
+    "shots": {
+      "total": 19,
+      "first_half": 5,
+      "second_half": 14
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 8,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 10,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 319,
+      "first_half": 147,
+      "second_half": 172
+    },
+    "shots_blocked": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 9,
+      "first_half": 7,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 48,
+      "first_half": 43,
+      "second_half": 54
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 40,
+      "first_half": 12,
+      "second_half": 28
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 375,
+      "first_half": 178,
+      "second_half": 197
+    },
+    "shots": {
+      "total": 25,
+      "first_half": 12,
+      "second_half": 13
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 11,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 7,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 9,
+      "team": "away",
+      "player": "Alexandre Penetra",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 29,
+      "team": "home",
+      "player": "D. Mirani",
+      "assist": "B. Limbombe",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 77,
+      "team": "away",
+      "player": "M. Meerdink",
+      "assist": "K. Smit",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

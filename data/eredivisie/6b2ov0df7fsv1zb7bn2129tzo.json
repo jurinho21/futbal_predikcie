@@ -1,0 +1,286 @@
+{
+  "oid": "6b2ov0df7fsv1zb7bn2129tzo",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/sparta-rotterdam-az/",
+  "date": "2025-11-02",
+  "status": "full_time",
+  "attendance": 10290,
+  "referee": "Danny Desmond Makkelie",
+  "home_team": "Sparta Rotterdam",
+  "away_team": "AZ",
+  "home_score": 0,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 270,
+      "first_half": 111,
+      "second_half": 159
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltySave": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 42,
+      "first_half": 32,
+      "second_half": 52
+    },
+    "saves": {
+      "total": 13,
+      "first_half": 9,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 23,
+      "first_half": 12,
+      "second_half": 11
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 345,
+      "first_half": 144,
+      "second_half": 201
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 409,
+      "first_half": 264,
+      "second_half": 145
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "shots_on_target": {
+      "total": 14,
+      "first_half": 9,
+      "second_half": 5
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 58,
+      "first_half": 67,
+      "second_half": 48
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 23,
+      "first_half": 1,
+      "second_half": 22
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 492,
+      "first_half": 300,
+      "second_half": 192
+    },
+    "shots": {
+      "total": 20,
+      "first_half": 15,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 4,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 69,
+      "team": "away",
+      "player": "K. Smit",
+      "assist": "I. Jensen",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "oid": "754ksdbz0snxc864cstwmdiqc",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/nac-breda-nec-2/",
+  "date": "2026-01-17",
+  "status": "full_time",
+  "attendance": 20109,
+  "referee": "Erwin Blank",
+  "home_team": "NAC Breda",
+  "away_team": "N.E.C. Nijmegen",
+  "home_score": 3,
+  "away_score": 4,
+  "home": {
+    "passes_accurate": {
+      "total": 226,
+      "first_half": 132,
+      "second_half": 94
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "assists": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 47,
+      "second_half": 43
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 31,
+      "first_half": 16,
+      "second_half": 15
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 322,
+      "first_half": 184,
+      "second_half": 138
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 8,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 25,
+      "first_half": 10,
+      "second_half": 15
+    },
+    "totalThrows": {
+      "total": 27,
+      "first_half": 12,
+      "second_half": 15
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 307,
+      "first_half": 169,
+      "second_half": 138
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 52,
+      "second_half": 57
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 22,
+      "first_half": 10,
+      "second_half": 12
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 396,
+      "first_half": 207,
+      "second_half": 189
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 8,
+      "second_half": 3
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 5,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 25,
+      "first_half": 15,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 3412,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 10,
+      "team": "away",
+      "player": "E. Dasa",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 17,
+      "team": "away",
+      "player": "S. Ouaissa",
+      "assist": "K. Ogawa",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 38,
+      "team": "home",
+      "player": "M. Soumano",
+      "assist": "R. Hillen",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 55,
+      "team": "home",
+      "player": "M. Soumano",
+      "assist": "C. Brym",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 69,
+      "team": "away",
+      "player": "D. Proper",
+      "assist": "T. Chery",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 81,
+      "team": "home",
+      "player": "B. Kemper",
+      "assist": "L. Holtby",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 94,
+      "team": "away",
+      "player": "K. Sano",
+      "assist": "N. Lebreton",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

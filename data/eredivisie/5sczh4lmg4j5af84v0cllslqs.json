@@ -1,0 +1,320 @@
+{
+  "oid": "5sczh4lmg4j5af84v0cllslqs",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/psv-ajax/",
+  "date": "2025-09-21",
+  "status": "full_time",
+  "attendance": 35700,
+  "referee": "Serdar Gözübüyük",
+  "home_team": "PSV",
+  "away_team": "Ajax",
+  "home_score": 2,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 432,
+      "first_half": 273,
+      "second_half": 159
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 17,
+      "first_half": 7,
+      "second_half": 10
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 61,
+      "first_half": 71,
+      "second_half": 51
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "clearances": {
+      "total": 15,
+      "first_half": 4,
+      "second_half": 11
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 497,
+      "first_half": 308,
+      "second_half": 189
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 6,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 27,
+      "first_half": 10,
+      "second_half": 17
+    },
+    "totalThrows": {
+      "total": 10,
+      "first_half": 8,
+      "second_half": 2
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 18,
+      "first_half": 8,
+      "second_half": 10
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 251,
+      "first_half": 94,
+      "second_half": 157
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 16,
+      "first_half": 6,
+      "second_half": 10
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 38,
+      "first_half": 28,
+      "second_half": 49
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 22,
+      "first_half": 12,
+      "second_half": 10
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 314,
+      "first_half": 123,
+      "second_half": 191
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 4,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 19,
+      "first_half": 9,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 11,
+      "second_half": 8
+    },
+    "yellow_cards": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 7,
+      "team": "home",
+      "player": "I. Saibari",
+      "assist": "I. Perišić",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 31,
+      "team": "away",
+      "player": "K. Taylor",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    },
+    {
+      "minute": 81,
+      "team": "home",
+      "player": "Yarek Gąsiorowski",
+      "assist": "Mauro Júnior",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 88,
+      "team": "away",
+      "player": "O. Gloukh",
+      "assist": "K. Taylor",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

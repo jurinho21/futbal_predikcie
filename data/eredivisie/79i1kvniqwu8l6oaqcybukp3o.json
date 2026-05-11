@@ -1,0 +1,261 @@
+{
+  "oid": "79i1kvniqwu8l6oaqcybukp3o",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/telstar-az/",
+  "date": "2026-01-25",
+  "status": "full_time",
+  "attendance": 5293,
+  "referee": "Robin Hensgens",
+  "home_team": "Telstar",
+  "away_team": "AZ",
+  "home_score": 0,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 279,
+      "first_half": 162,
+      "second_half": 117
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 5,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 48,
+      "first_half": 55,
+      "second_half": 42
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 30,
+      "first_half": 12,
+      "second_half": 18
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 367,
+      "first_half": 203,
+      "second_half": 164
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 12,
+      "second_half": 4
+    },
+    "totalThrows": {
+      "total": 22,
+      "first_half": 12,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 8,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 343,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 300,
+      "first_half": 127,
+      "second_half": 173
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 16,
+      "first_half": 7,
+      "second_half": 9
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 5,
+      "second_half": 8
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 51,
+      "first_half": 44,
+      "second_half": 57
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 31,
+      "first_half": 16,
+      "second_half": 15
+    },
+    "passes": {
+      "total": 402,
+      "first_half": 172,
+      "second_half": 230
+    },
+    "shots": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 27,
+      "first_half": 15,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 12,
+      "second_half": 8
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 14,
+      "first_half": 7,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 78,
+      "team": "away",
+      "player": "I. Jensen",
+      "assist": "T. Parrott",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

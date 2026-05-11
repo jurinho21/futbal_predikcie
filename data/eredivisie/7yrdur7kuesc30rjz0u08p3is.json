@@ -1,0 +1,277 @@
+{
+  "oid": "7yrdur7kuesc30rjz0u08p3is",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heerenveen-telstar/",
+  "date": "2026-03-14",
+  "status": "full_time",
+  "attendance": 24200,
+  "referee": "Sander van der Eijk",
+  "home_team": "sc Heerenveen",
+  "away_team": "Telstar",
+  "home_score": 3,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 318,
+      "first_half": 211,
+      "second_half": 107
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "possession": {
+      "total": 43,
+      "first_half": 47,
+      "second_half": 38
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "clearances": {
+      "total": 32,
+      "first_half": 12,
+      "second_half": 20
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 390,
+      "first_half": 248,
+      "second_half": 142
+    },
+    "shots": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 4,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 10,
+      "second_half": 4
+    },
+    "yellow_cards": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 426,
+      "first_half": 230,
+      "second_half": 196
+    },
+    "shots_blocked": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 5,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "possession": {
+      "total": 56,
+      "first_half": 52,
+      "second_half": 61
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 497,
+      "first_half": 269,
+      "second_half": 228
+    },
+    "shots": {
+      "total": 20,
+      "first_half": 6,
+      "second_half": 14
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 10,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 8,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 10,
+      "second_half": 1
+    },
+    "formation": {
+      "total": 343,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 24,
+      "team": "home",
+      "player": "L. Nordås",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 56,
+      "team": "home",
+      "player": "M. Rivera",
+      "assist": "J. Trenskow",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 71,
+      "team": "home",
+      "player": "J. Trenskow",
+      "assist": "J. van Overeem",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

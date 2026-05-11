@@ -1,0 +1,256 @@
+{
+  "oid": "5r6klm7a1szxc3tnga3ludpuc",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/fortuna-sittard-utrecht/",
+  "date": "2025-09-20",
+  "status": "full_time",
+  "attendance": 10623,
+  "referee": "Bas Nijhuis",
+  "home_team": "Fortuna Sittard",
+  "away_team": "FC Utrecht",
+  "home_score": 1,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 266,
+      "first_half": 172,
+      "second_half": 94
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 35,
+      "first_half": 41,
+      "second_half": 28
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 42,
+      "first_half": 12,
+      "second_half": 30
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "passes": {
+      "total": 343,
+      "first_half": 213,
+      "second_half": 130
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "tackles": {
+      "total": 24,
+      "first_half": 10,
+      "second_half": 14
+    },
+    "totalThrows": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 508,
+      "first_half": 256,
+      "second_half": 252
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 64,
+      "first_half": 58,
+      "second_half": 71
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 602,
+      "first_half": 295,
+      "second_half": 307
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 8,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 19,
+      "first_half": 8,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 22,
+      "first_half": 9,
+      "second_half": 13
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 15,
+      "team": "home",
+      "player": "M. Ihattaren",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    }
+  ]
+}

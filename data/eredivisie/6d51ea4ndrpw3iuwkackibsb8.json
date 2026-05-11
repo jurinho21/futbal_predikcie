@@ -1,0 +1,284 @@
+{
+  "oid": "6d51ea4ndrpw3iuwkackibsb8",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/fortuna-sittard-heerenveen/",
+  "date": "2025-11-08",
+  "status": "full_time",
+  "attendance": 10196,
+  "referee": "Jeroen Manschot",
+  "home_team": "Fortuna Sittard",
+  "away_team": "sc Heerenveen",
+  "home_score": 2,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 208,
+      "first_half": 123,
+      "second_half": 85
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 9,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 39,
+      "first_half": 41,
+      "second_half": 36
+    },
+    "saves": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 32,
+      "first_half": 15,
+      "second_half": 17
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "passes": {
+      "total": 290,
+      "first_half": 169,
+      "second_half": 121
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 8,
+      "second_half": 11
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 363,
+      "first_half": 189,
+      "second_half": 174
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 9,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 60,
+      "first_half": 58,
+      "second_half": 63
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 16,
+      "first_half": 8,
+      "second_half": 8
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 443,
+      "first_half": 228,
+      "second_half": 215
+    },
+    "shots": {
+      "total": 18,
+      "first_half": 7,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 8,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 23,
+      "first_half": 13,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 60,
+      "team": "home",
+      "player": "P. Gladon",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 66,
+      "team": "home",
+      "player": "M. Ihattaren",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 2
+    }
+  ]
+}

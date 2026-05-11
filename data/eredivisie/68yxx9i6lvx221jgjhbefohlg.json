@@ -1,0 +1,261 @@
+{
+  "oid": "68yxx9i6lvx221jgjhbefohlg",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/nac-breda-go-ahead-eagles-2/",
+  "date": "2025-11-01",
+  "status": "full_time",
+  "attendance": 20146,
+  "referee": "Dennis Johan Higler",
+  "home_team": "NAC Breda",
+  "away_team": "Go Ahead Eagles",
+  "home_score": 1,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 311,
+      "first_half": 206,
+      "second_half": 105
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 43,
+      "first_half": 53,
+      "second_half": 33
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 42,
+      "first_half": 14,
+      "second_half": 28
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 385,
+      "first_half": 239,
+      "second_half": 146
+    },
+    "shots": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 7,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "yellow_cards": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 413,
+      "first_half": 179,
+      "second_half": 234
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 56,
+      "first_half": 46,
+      "second_half": 66
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 28,
+      "first_half": 12,
+      "second_half": 16
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 505,
+      "first_half": 218,
+      "second_half": 287
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 3,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 9,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 48,
+      "team": "home",
+      "player": "J. Talvitie",
+      "assist": "M. Balard",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

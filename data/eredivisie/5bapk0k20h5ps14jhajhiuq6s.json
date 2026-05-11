@@ -1,0 +1,280 @@
+{
+  "oid": "5bapk0k20h5ps14jhajhiuq6s",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/utrecht-heracles/",
+  "date": "2025-08-10",
+  "status": "full_time",
+  "attendance": 21875,
+  "referee": "Erwin Blank",
+  "home_team": "FC Utrecht",
+  "away_team": "Heracles Almelo",
+  "home_score": 4,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 265,
+      "first_half": 145,
+      "second_half": 120
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 15,
+      "first_half": 7,
+      "second_half": 8
+    },
+    "assists": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 48,
+      "first_half": 47,
+      "second_half": 48
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 26,
+      "first_half": 13,
+      "second_half": 13
+    },
+    "passes": {
+      "total": 335,
+      "first_half": 182,
+      "second_half": 153
+    },
+    "shots": {
+      "total": 18,
+      "first_half": 11,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 8,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 23,
+      "first_half": 13,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 297,
+      "first_half": 167,
+      "second_half": 130
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 16,
+      "first_half": 8,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 51,
+      "first_half": 52,
+      "second_half": 51
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 27,
+      "first_half": 17,
+      "second_half": 10
+    },
+    "passes": {
+      "total": 372,
+      "first_half": 209,
+      "second_half": 163
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 21,
+      "first_half": 12,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 33,
+      "team": "home",
+      "player": "G. Zechiël",
+      "assist": "Y. Cathline",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 62,
+      "team": "home",
+      "player": "D. Min",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 70,
+      "team": "home",
+      "player": "V. Jensen",
+      "assist": "Y. Cathline",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 79,
+      "team": "home",
+      "player": "D. de Wit",
+      "assist": "D. Murkin",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

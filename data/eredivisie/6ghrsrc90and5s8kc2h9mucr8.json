@@ -1,0 +1,307 @@
+{
+  "oid": "6ghrsrc90and5s8kc2h9mucr8",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/go-ahead-eagles-feyenoord/",
+  "date": "2025-11-09",
+  "status": "full_time",
+  "attendance": 10116,
+  "referee": "Joey Kooij",
+  "home_team": "Go Ahead Eagles",
+  "away_team": "Feyenoord",
+  "home_score": 2,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 272,
+      "first_half": 176,
+      "second_half": 96
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 13,
+      "first_half": 5,
+      "second_half": 8
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 39,
+      "first_half": 49,
+      "second_half": 30
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "clearances": {
+      "total": 37,
+      "first_half": 13,
+      "second_half": 24
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 356,
+      "first_half": 215,
+      "second_half": 141
+    },
+    "shots": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "totalThrows": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 452,
+      "first_half": 180,
+      "second_half": 272
+    },
+    "shots_blocked": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 60,
+      "first_half": 50,
+      "second_half": 69
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 14,
+      "second_half": 5
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 536,
+      "first_half": 220,
+      "second_half": 316
+    },
+    "shots": {
+      "total": 21,
+      "first_half": 7,
+      "second_half": 14
+    },
+    "tackles": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "totalThrows": {
+      "total": 18,
+      "first_half": 12,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 13,
+      "team": "home",
+      "player": "M. Deijl",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    },
+    {
+      "minute": 86,
+      "team": "home",
+      "player": "D. James",
+      "assist": "M. Suray",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 89,
+      "team": "away",
+      "player": "T. Watanabe",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

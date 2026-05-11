@@ -1,0 +1,315 @@
+{
+  "oid": "8aofqtwtj6x4vyx8q1gucuk9g",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/feyenoord-groningen-2/",
+  "date": "2026-04-25",
+  "status": "full_time",
+  "attendance": 47500,
+  "referee": "Danny Desmond Makkelie",
+  "home_team": "Feyenoord",
+  "away_team": "FC Groningen",
+  "home_score": 3,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 352,
+      "first_half": 170,
+      "second_half": 182
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 47,
+      "first_half": 47,
+      "second_half": 48
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 419,
+      "first_half": 209,
+      "second_half": 210
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 11,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 390,
+      "first_half": 199,
+      "second_half": 191
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 52,
+      "first_half": 52,
+      "second_half": 52
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 12,
+      "second_half": 7
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 458,
+      "first_half": 235,
+      "second_half": 223
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 26,
+      "first_half": 12,
+      "second_half": 14
+    },
+    "totalThrows": {
+      "total": 15,
+      "first_half": 4,
+      "second_half": 11
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 11,
+      "team": "home",
+      "player": "J. Bos",
+      "assist": "L. Valente",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 22,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    },
+    {
+      "minute": 67,
+      "team": "home",
+      "player": "A. Ueda",
+      "assist": "O. Targhalline",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 86,
+      "team": "away",
+      "player": "T. van Bergen",
+      "assist": "D. Janse",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

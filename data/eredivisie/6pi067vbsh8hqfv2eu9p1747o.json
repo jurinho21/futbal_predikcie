@@ -1,0 +1,323 @@
+{
+  "oid": "6pi067vbsh8hqfv2eu9p1747o",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/volendam-nec/",
+  "date": "2025-12-07",
+  "status": "full_time",
+  "attendance": 6788,
+  "referee": "Rob Dieperink",
+  "home_team": "FC Volendam",
+  "away_team": "N.E.C. Nijmegen",
+  "home_score": 2,
+  "away_score": 3,
+  "home": {
+    "passes_accurate": {
+      "total": 223,
+      "first_half": 99,
+      "second_half": 124
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 43,
+      "first_half": 35,
+      "second_half": 51
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 28,
+      "first_half": 15,
+      "second_half": 13
+    },
+    "passes": {
+      "total": 294,
+      "first_half": 133,
+      "second_half": 161
+    },
+    "shots": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 13,
+      "first_half": 8,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 14,
+      "first_half": 8,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 320,
+      "first_half": 201,
+      "second_half": 119
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 56,
+      "first_half": 64,
+      "second_half": 48
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 21,
+      "first_half": 10,
+      "second_half": 11
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 387,
+      "first_half": 235,
+      "second_half": 152
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 8,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 27,
+      "first_half": 10,
+      "second_half": 17
+    },
+    "yellow_cards": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 3412,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 43,
+      "team": "home",
+      "player": "B. Kuwas",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    },
+    {
+      "minute": 46,
+      "team": "away",
+      "player": "D. Nejašmić",
+      "assist": "K. Ogawa",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 74,
+      "team": "away",
+      "player": "B. Önal",
+      "assist": "D. Fonville",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 90,
+      "team": "home",
+      "player": "M. Amevor",
+      "assist": "O. Kökçü",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 95,
+      "team": "away",
+      "player": "K. Shiogai",
+      "assist": "K. Sano",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

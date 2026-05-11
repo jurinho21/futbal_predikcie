@@ -1,0 +1,321 @@
+{
+  "oid": "6iswhjkm3amvhi9mmjvu04104",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heracles-go-ahead-eagles/",
+  "date": "2025-11-22",
+  "status": "full_time",
+  "attendance": 11824,
+  "referee": "Jeroen Manschot",
+  "home_team": "Heracles Almelo",
+  "away_team": "Go Ahead Eagles",
+  "home_score": 4,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 298,
+      "first_half": 119,
+      "second_half": 179
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "fouls_won": {
+      "total": 14,
+      "first_half": 5,
+      "second_half": 9
+    },
+    "assists": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "possession": {
+      "total": 46,
+      "first_half": 39,
+      "second_half": 52
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 39,
+      "first_half": 26,
+      "second_half": 13
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 376,
+      "first_half": 156,
+      "second_half": 220
+    },
+    "shots": {
+      "total": 22,
+      "first_half": 11,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 10,
+      "second_half": 4
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 442,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 359,
+      "first_half": 199,
+      "second_half": 160
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 15,
+      "first_half": 5,
+      "second_half": 10
+    },
+    "fouls_won": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 53,
+      "first_half": 60,
+      "second_half": 47
+    },
+    "saves": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "secondYellow": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 30,
+      "first_half": 15,
+      "second_half": 15
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 439,
+      "first_half": 241,
+      "second_half": 198
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 12,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 21,
+      "first_half": 9,
+      "second_half": 12
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 10,
+      "team": "home",
+      "player": "D. Mirani",
+      "assist": "L. Kulenović",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 34,
+      "team": "away",
+      "player": "M. Suray",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 38,
+      "team": "away",
+      "player": "M. Smit",
+      "assist": "M. Deijl",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 51,
+      "team": "home",
+      "player": "D. Mirani",
+      "assist": "W. Ould-Chikh",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 54,
+      "team": "home",
+      "player": "J. Hornkamp",
+      "assist": "L. Kulenović",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 93,
+      "team": "home",
+      "player": "L. Kulenović",
+      "assist": "A. Hrustić",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "oid": "84pk0p0m9o3vlw5trdy05zh1w",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/nac-breda-sparta-rotterdam-2/",
+  "date": "2026-04-05",
+  "status": "full_time",
+  "attendance": 20122,
+  "referee": "Robin Hensgens",
+  "home_team": "NAC Breda",
+  "away_team": "Sparta Rotterdam",
+  "home_score": 0,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 354,
+      "first_half": 155,
+      "second_half": 199
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 55,
+      "first_half": 50,
+      "second_half": 60
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 7,
+      "second_half": 12
+    },
+    "passes": {
+      "total": 435,
+      "first_half": 196,
+      "second_half": 239
+    },
+    "shots": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 8,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 29,
+      "first_half": 12,
+      "second_half": 17
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 282,
+      "first_half": 168,
+      "second_half": 114
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 19,
+      "first_half": 10,
+      "second_half": 9
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "corners_conceded": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 44,
+      "first_half": 49,
+      "second_half": 39
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 37,
+      "first_half": 10,
+      "second_half": 27
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 349,
+      "first_half": 198,
+      "second_half": 151
+    },
+    "shots": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 7,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": []
+}

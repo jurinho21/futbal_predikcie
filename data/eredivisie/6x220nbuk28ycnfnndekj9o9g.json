@@ -1,0 +1,334 @@
+{
+  "oid": "6x220nbuk28ycnfnndekj9o9g",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/fortuna-sittard-az/",
+  "date": "2025-12-21",
+  "status": "full_time",
+  "attendance": 10440,
+  "referee": "Marc Nagtegaal",
+  "home_team": "Fortuna Sittard",
+  "away_team": "AZ",
+  "home_score": 4,
+  "away_score": 3,
+  "home": {
+    "passes_accurate": {
+      "total": 163,
+      "first_half": 85,
+      "second_half": 78
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 11,
+      "first_half": 2,
+      "second_half": 9
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 8,
+      "first_half": 1,
+      "second_half": 7
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltySave": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 34,
+      "first_half": 30,
+      "second_half": 39
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 27,
+      "first_half": 8,
+      "second_half": 19
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 243,
+      "first_half": 126,
+      "second_half": 117
+    },
+    "shots": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "tackles": {
+      "total": 30,
+      "first_half": 18,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 409,
+      "first_half": 258,
+      "second_half": 151
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 8,
+      "first_half": 1,
+      "second_half": 7
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 66,
+      "first_half": 69,
+      "second_half": 60
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 22,
+      "first_half": 4,
+      "second_half": 18
+    },
+    "passes": {
+      "total": 465,
+      "first_half": 295,
+      "second_half": 170
+    },
+    "shots": {
+      "total": 21,
+      "first_half": 6,
+      "second_half": 15
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "corners": {
+      "total": 8,
+      "first_half": 1,
+      "second_half": 7
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 9,
+      "team": "home",
+      "player": "J. Lonwijk",
+      "assist": "M. Ihattaren",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 19,
+      "team": "away",
+      "player": "T. Parrott",
+      "assist": "M. de Wit",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 21,
+      "team": "away",
+      "player": "S. Mijnans",
+      "assist": "Alexandre Penetra",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 42,
+      "team": "home",
+      "player": "K. Sierhuis",
+      "assist": "R. Fosso",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 54,
+      "team": "home",
+      "player": "K. Sierhuis",
+      "assist": "Ivo Pinto",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 71,
+      "team": "away",
+      "player": "M. de Wit",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 86,
+      "team": "home",
+      "player": "P. Brittijn",
+      "assist": "M. Ihattaren",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

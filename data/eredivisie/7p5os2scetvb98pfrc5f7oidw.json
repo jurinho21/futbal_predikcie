@@ -1,0 +1,279 @@
+{
+  "oid": "7p5os2scetvb98pfrc5f7oidw",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/utrecht-az/",
+  "date": "2026-03-01",
+  "status": "full_time",
+  "attendance": 22635,
+  "referee": "Rob Dieperink",
+  "home_team": "FC Utrecht",
+  "away_team": "AZ",
+  "home_score": 2,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 257,
+      "first_half": 160,
+      "second_half": 97
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 4,
+      "second_half": 9
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 41,
+      "first_half": 49,
+      "second_half": 33
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 342,
+      "first_half": 199,
+      "second_half": 143
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 21,
+      "first_half": 10,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 7,
+      "second_half": 13
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 404,
+      "first_half": 169,
+      "second_half": 235
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 8,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 58,
+      "first_half": 50,
+      "second_half": 66
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 33,
+      "first_half": 22,
+      "second_half": 11
+    },
+    "passes": {
+      "total": 488,
+      "first_half": 207,
+      "second_half": 281
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 25,
+      "first_half": 13,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 11,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 9,
+      "team": "home",
+      "player": "Y. Cathline",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 35,
+      "team": "home",
+      "player": "A. Stepanov",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    }
+  ]
+}

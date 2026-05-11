@@ -1,0 +1,287 @@
+{
+  "oid": "7wqzxboir2zgebtjxwmzfhmac",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/volendam-fortuna-sittard/",
+  "date": "2026-03-14",
+  "status": "full_time",
+  "attendance": 6556,
+  "referee": "Danny Desmond Makkelie",
+  "home_team": "FC Volendam",
+  "away_team": "Fortuna Sittard",
+  "home_score": 1,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 342,
+      "first_half": 177,
+      "second_half": 165
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 61,
+      "first_half": 55,
+      "second_half": 67
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 21,
+      "first_half": 15,
+      "second_half": 6
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 448,
+      "first_half": 222,
+      "second_half": 226
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 4,
+      "second_half": 12
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 7,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 46,
+      "first_half": 15,
+      "second_half": 31
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 185,
+      "first_half": 130,
+      "second_half": 55
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 5,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 38,
+      "first_half": 44,
+      "second_half": 32
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 37,
+      "first_half": 8,
+      "second_half": 29
+    },
+    "passes": {
+      "total": 289,
+      "first_half": 173,
+      "second_half": 116
+    },
+    "shots": {
+      "total": 13,
+      "first_half": 12,
+      "second_half": 1
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 7,
+      "second_half": 13
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 11,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 19,
+      "team": "away",
+      "player": "P. Gladon",
+      "assist": "M. Ihattaren",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 43,
+      "team": "away",
+      "player": "D. Limnios",
+      "assist": "M. Ihattaren",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 80,
+      "team": "home",
+      "player": "R. Mühren",
+      "assist": "B. Ould-Chikh",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

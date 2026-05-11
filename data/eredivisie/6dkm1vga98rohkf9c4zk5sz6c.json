@@ -1,0 +1,276 @@
+{
+  "oid": "6dkm1vga98rohkf9c4zk5sz6c",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/pec-zwolle-sparta-rotterdam/",
+  "date": "2025-11-08",
+  "status": "full_time",
+  "attendance": 13872,
+  "referee": "Dennis Johan Higler",
+  "home_team": "PEC Zwolle",
+  "away_team": "Sparta Rotterdam",
+  "home_score": 1,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 251,
+      "first_half": 148,
+      "second_half": 103
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 36,
+      "first_half": 38,
+      "second_half": 33
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "clearances": {
+      "total": 45,
+      "first_half": 25,
+      "second_half": 20
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 329,
+      "first_half": 188,
+      "second_half": 141
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 5,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 18,
+      "first_half": 6,
+      "second_half": 12
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 480,
+      "first_half": 254,
+      "second_half": 226
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 63,
+      "first_half": 62,
+      "second_half": 66
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "secondYellow": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 17,
+      "first_half": 8,
+      "second_half": 9
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 568,
+      "first_half": 300,
+      "second_half": 268
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 8,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 21,
+      "first_half": 11,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 28,
+      "first_half": 12,
+      "second_half": 16
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 13,
+      "first_half": 8,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 31,
+      "team": "home",
+      "player": "K. de Rooij",
+      "assist": "Jamiro Monteiro",
+      "type": "goal",
+      "period": 1
+    }
+  ]
+}

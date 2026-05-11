@@ -1,0 +1,283 @@
+{
+  "oid": "7h2n0281tbgxr7kt9undasefo",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/ajax-fortuna-sittard/",
+  "date": "2026-02-14",
+  "status": "full_time",
+  "attendance": 54160,
+  "referee": "Rob Dieperink",
+  "home_team": "Ajax",
+  "away_team": "Fortuna Sittard",
+  "home_score": 4,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 523,
+      "first_half": 256,
+      "second_half": 267
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 1,
+      "second_half": 10
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "ownGoals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 55,
+      "first_half": 53,
+      "second_half": 57
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 15,
+      "first_half": 3,
+      "second_half": 12
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 575,
+      "first_half": 278,
+      "second_half": 297
+    },
+    "shots": {
+      "total": 20,
+      "first_half": 9,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 7,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 15,
+      "first_half": 5,
+      "second_half": 10
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 395,
+      "first_half": 216,
+      "second_half": 179
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 1,
+      "second_half": 8
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 44,
+      "first_half": 46,
+      "second_half": 42
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 464,
+      "first_half": 247,
+      "second_half": 217
+    },
+    "shots": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 26,
+      "first_half": 11,
+      "second_half": 15
+    },
+    "totalThrows": {
+      "total": 8,
+      "first_half": 8,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 21,
+      "first_half": 8,
+      "second_half": 13
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 7,
+      "team": "home",
+      "player": "J. Mokio",
+      "assist": "K. Dolberg",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 14,
+      "team": "home",
+      "player": "R. Bounida",
+      "assist": "M. Godts",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 24,
+      "team": "home",
+      "player": "M. Godts",
+      "assist": "J. Mokio",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 45,
+      "team": "home",
+      "player": "J. Šutalo",
+      "assist": "",
+      "type": "own_goal",
+      "period": 1
+    },
+    {
+      "minute": 81,
+      "team": "home",
+      "player": "M. Godts",
+      "assist": "W. Weghorst",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "oid": "73jgsx3o6mnizpojjic4clnh0",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/volendam-utrecht/",
+  "date": "2026-01-18",
+  "status": "full_time",
+  "attendance": 6921,
+  "referee": "Marc Nagtegaal",
+  "home_team": "FC Volendam",
+  "away_team": "FC Utrecht",
+  "home_score": 2,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 301,
+      "first_half": 131,
+      "second_half": 170
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 14,
+      "first_half": 9,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 14,
+      "first_half": 5,
+      "second_half": 9
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 43,
+      "second_half": 47
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 20,
+      "first_half": 6,
+      "second_half": 14
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 380,
+      "first_half": 164,
+      "second_half": 216
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 12,
+      "first_half": 3,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 366,
+      "first_half": 175,
+      "second_half": 191
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 14,
+      "first_half": 5,
+      "second_half": 9
+    },
+    "fouls_won": {
+      "total": 14,
+      "first_half": 9,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 56,
+      "second_half": 52
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 22,
+      "first_half": 6,
+      "second_half": 16
+    },
+    "passes": {
+      "total": 441,
+      "first_half": 212,
+      "second_half": 229
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 22,
+      "first_half": 9,
+      "second_half": 13
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 9,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4411,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 10,
+      "team": "home",
+      "player": "J. Ideho",
+      "assist": "B. Kuwas",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 42,
+      "team": "home",
+      "player": "B. Kuwas",
+      "assist": "D. Kwakman",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 49,
+      "team": "away",
+      "player": "V. Jensen",
+      "assist": "S. Haller",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

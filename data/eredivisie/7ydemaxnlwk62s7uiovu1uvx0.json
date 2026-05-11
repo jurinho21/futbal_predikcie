@@ -1,0 +1,298 @@
+{
+  "oid": "7ydemaxnlwk62s7uiovu1uvx0",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/psv-nec/",
+  "date": "2026-03-14",
+  "status": "full_time",
+  "attendance": 35000,
+  "referee": "Joey Kooij",
+  "home_team": "PSV",
+  "away_team": "N.E.C. Nijmegen",
+  "home_score": 2,
+  "away_score": 3,
+  "home": {
+    "passes_accurate": {
+      "total": 432,
+      "first_half": 189,
+      "second_half": 243
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 70,
+      "first_half": 64,
+      "second_half": 75
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 25,
+      "first_half": 19,
+      "second_half": 6
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 553,
+      "first_half": 237,
+      "second_half": 316
+    },
+    "shots": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 21,
+      "first_half": 9,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 39,
+      "first_half": 15,
+      "second_half": 24
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 139,
+      "first_half": 85,
+      "second_half": 54
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 12,
+      "first_half": 2,
+      "second_half": 10
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 29,
+      "first_half": 35,
+      "second_half": 24
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 52,
+      "first_half": 14,
+      "second_half": 38
+    },
+    "passes": {
+      "total": 236,
+      "first_half": 129,
+      "second_half": 107
+    },
+    "shots": {
+      "total": 17,
+      "first_half": 11,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 7,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 20,
+      "team": "away",
+      "player": "B. Linssen",
+      "assist": "S. Ouaissa",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 38,
+      "team": "away",
+      "player": "B. Linssen",
+      "assist": "K. Sano",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 42,
+      "team": "home",
+      "player": "K. Sildillia",
+      "assist": "I. Saibari",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 67,
+      "team": "away",
+      "player": "Y. El Kachati",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 93,
+      "team": "home",
+      "player": "C. Driouech",
+      "assist": "I. Saibari",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

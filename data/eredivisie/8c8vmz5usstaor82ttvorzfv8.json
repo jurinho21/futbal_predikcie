@@ -1,0 +1,314 @@
+{
+  "oid": "8c8vmz5usstaor82ttvorzfv8",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/psv-pec-zwolle/",
+  "date": "2026-04-23",
+  "status": "full_time",
+  "attendance": 31200,
+  "referee": "Marc Nagtegaal",
+  "home_team": "PSV",
+  "away_team": "PEC Zwolle",
+  "home_score": 6,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 634,
+      "first_half": 366,
+      "second_half": 268
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "assists": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goals": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "possession": {
+      "total": 67,
+      "first_half": 71,
+      "second_half": 62
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 702,
+      "first_half": 403,
+      "second_half": 299
+    },
+    "shots": {
+      "total": 17,
+      "first_half": 7,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 22,
+      "first_half": 7,
+      "second_half": 15
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 272,
+      "first_half": 123,
+      "second_half": 149
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "ownGoals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 32,
+      "first_half": 28,
+      "second_half": 38
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 27,
+      "first_half": 19,
+      "second_half": 8
+    },
+    "passes": {
+      "total": 339,
+      "first_half": 158,
+      "second_half": 181
+    },
+    "shots": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 11,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 8,
+      "team": "home",
+      "player": "R. Pepi",
+      "assist": "E. Bajraktarević",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 51,
+      "team": "away",
+      "player": "Z. Buurmeester",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 57,
+      "team": "home",
+      "player": "R. Pepi",
+      "assist": "E. Bajraktarević",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 72,
+      "team": "away",
+      "player": "S. Graves",
+      "assist": "",
+      "type": "own_goal",
+      "period": 2
+    },
+    {
+      "minute": 73,
+      "team": "home",
+      "player": "E. Bajraktarević",
+      "assist": "G. Til",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 79,
+      "team": "home",
+      "player": "C. Driouech",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 82,
+      "team": "home",
+      "player": "E. Bajraktarević",
+      "assist": "C. Driouech",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

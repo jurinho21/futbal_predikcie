@@ -1,0 +1,287 @@
+{
+  "oid": "5z20o8vxpngjqpnzic4kielg4",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/twente-heracles/",
+  "date": "2025-10-05",
+  "status": "full_time",
+  "attendance": 30000,
+  "referee": "Allard Lindhout",
+  "home_team": "FC Twente",
+  "away_team": "Heracles Almelo",
+  "home_score": 2,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 418,
+      "first_half": 187,
+      "second_half": 231
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 58,
+      "first_half": 57,
+      "second_half": 59
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 22,
+      "first_half": 17,
+      "second_half": 5
+    },
+    "passes": {
+      "total": 505,
+      "first_half": 227,
+      "second_half": 278
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 21,
+      "first_half": 11,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 11,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 7,
+      "second_half": 13
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 269,
+      "first_half": 125,
+      "second_half": 144
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 16,
+      "first_half": 9,
+      "second_half": 7
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 41,
+      "first_half": 42,
+      "second_half": 40
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 43,
+      "first_half": 23,
+      "second_half": 20
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 347,
+      "first_half": 163,
+      "second_half": 184
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 23,
+      "first_half": 16,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 15,
+      "first_half": 10,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 13,
+      "first_half": 9,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 43,
+      "team": "away",
+      "player": "I. Mesík",
+      "assist": "A. Hrustić",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 48,
+      "team": "home",
+      "player": "M. Bruns",
+      "assist": "R. Zerrouki",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 84,
+      "team": "home",
+      "player": "T. van den Belt",
+      "assist": "S. Ørjasæter",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

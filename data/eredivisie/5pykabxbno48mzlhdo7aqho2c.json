@@ -1,0 +1,301 @@
+{
+  "oid": "5pykabxbno48mzlhdo7aqho2c",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/sparta-rotterdam-twente/",
+  "date": "2025-09-19",
+  "status": "full_time",
+  "attendance": 10468,
+  "referee": "Martin van den Kerkhof",
+  "home_team": "Sparta Rotterdam",
+  "away_team": "FC Twente",
+  "home_score": 1,
+  "away_score": 5,
+  "home": {
+    "passes_accurate": {
+      "total": 305,
+      "first_half": 150,
+      "second_half": 155
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 14,
+      "first_half": 9,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 49,
+      "second_half": 42
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 25,
+      "first_half": 13,
+      "second_half": 12
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 374,
+      "first_half": 185,
+      "second_half": 189
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 9,
+      "second_half": 3
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 10,
+      "second_half": 9
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 399,
+      "first_half": 165,
+      "second_half": 234
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 51,
+      "second_half": 57
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 14,
+      "first_half": 9,
+      "second_half": 5
+    },
+    "passes": {
+      "total": 460,
+      "first_half": 193,
+      "second_half": 267
+    },
+    "shots": {
+      "total": 23,
+      "first_half": 12,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 9,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 12,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 8,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 13,
+      "team": "away",
+      "player": "R. Zerrouki",
+      "assist": "K. Hlynsson",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 24,
+      "team": "home",
+      "player": "T. Lauritsen",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 51,
+      "team": "away",
+      "player": "K. Hlynsson",
+      "assist": "M. Pjaca",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 60,
+      "team": "away",
+      "player": "B. van Rooij",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 65,
+      "team": "away",
+      "player": "R. van Wolfswinkel",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 85,
+      "team": "away",
+      "player": "N. Ünüvar",
+      "assist": "A. Verschueren",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

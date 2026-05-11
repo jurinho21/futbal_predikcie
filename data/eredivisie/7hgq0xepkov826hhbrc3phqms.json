@@ -1,0 +1,282 @@
+{
+  "oid": "7hgq0xepkov826hhbrc3phqms",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/excelsior-az/",
+  "date": "2026-02-14",
+  "status": "full_time",
+  "attendance": 4600,
+  "referee": "Erwin Blank",
+  "home_team": "Excelsior Rotterdam",
+  "away_team": "AZ",
+  "home_score": 1,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 366,
+      "first_half": 210,
+      "second_half": 156
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "fouls_won": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 1,
+      "second_half": 8
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 56,
+      "second_half": 35
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 18,
+      "first_half": 8,
+      "second_half": 10
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 447,
+      "first_half": 251,
+      "second_half": 196
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 9,
+      "second_half": 2
+    },
+    "tackles": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 13,
+      "second_half": 4
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 541,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 469,
+      "first_half": 166,
+      "second_half": 303
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 0,
+      "second_half": 7
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 43,
+      "second_half": 64
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 16,
+      "second_half": 3
+    },
+    "passes": {
+      "total": 557,
+      "first_half": 205,
+      "second_half": 352
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 3,
+      "second_half": 13
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 7,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 46,
+      "team": "home",
+      "player": "I. Bronkhorst",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 92,
+      "team": "away",
+      "player": "T. Parrott",
+      "assist": "M. de Wit",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 96,
+      "team": "away",
+      "player": "Alexandre Penetra",
+      "assist": "K. Boogaard",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "oid": "64krnrj1zihhyly0ofyo1faxg",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heerenveen-nac-breda-2/",
+  "date": "2025-10-24",
+  "status": "full_time",
+  "attendance": 23200,
+  "referee": "Martin van den Kerkhof",
+  "home_team": "sc Heerenveen",
+  "away_team": "NAC Breda",
+  "home_score": 3,
+  "away_score": 3,
+  "home": {
+    "passes_accurate": {
+      "total": 361,
+      "first_half": 189,
+      "second_half": 172
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 53,
+      "first_half": 54,
+      "second_half": 53
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 41,
+      "first_half": 21,
+      "second_half": 20
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 441,
+      "first_half": 222,
+      "second_half": 219
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 272,
+      "first_half": 134,
+      "second_half": 138
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "ownGoals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 46,
+      "first_half": 45,
+      "second_half": 46
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 28,
+      "first_half": 12,
+      "second_half": 16
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 366,
+      "first_half": 186,
+      "second_half": 180
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 10,
+      "second_half": 10
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 442,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 48,
+      "team": "away",
+      "player": "T. Kongolo",
+      "assist": "",
+      "type": "own_goal",
+      "period": 1
+    },
+    {
+      "minute": 55,
+      "team": "away",
+      "player": "L. Greiml",
+      "assist": "L. Holtby",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 58,
+      "team": "away",
+      "player": "S. van Hooijdonk",
+      "assist": "K. Sowah",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 68,
+      "team": "home",
+      "player": "M. Willemsen",
+      "assist": "O. Braude",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 80,
+      "team": "home",
+      "player": "V. Sejk",
+      "assist": "O. Braude",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 94,
+      "team": "away",
+      "player": "M. Nassoh",
+      "assist": "C. Brym",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

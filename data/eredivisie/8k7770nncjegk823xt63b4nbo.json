@@ -1,0 +1,282 @@
+{
+  "oid": "8k7770nncjegk823xt63b4nbo",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/telstar-heracles/",
+  "date": "2026-05-10",
+  "status": "full_time",
+  "attendance": 5142,
+  "referee": "Serdar Gözübüyük",
+  "home_team": "Telstar",
+  "away_team": "Heracles Almelo",
+  "home_score": 3,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 209,
+      "first_half": 107,
+      "second_half": 102
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 0,
+      "second_half": 7
+    },
+    "possession": {
+      "total": 46,
+      "first_half": 45,
+      "second_half": 47
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "clearances": {
+      "total": 30,
+      "first_half": 12,
+      "second_half": 18
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 287,
+      "first_half": 147,
+      "second_half": 140
+    },
+    "shots": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 10,
+      "second_half": 4
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 261,
+      "first_half": 149,
+      "second_half": 112
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 7,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 53,
+      "first_half": 54,
+      "second_half": 52
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 24,
+      "first_half": 16,
+      "second_half": 8
+    },
+    "passes": {
+      "total": 322,
+      "first_half": 177,
+      "second_half": 145
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "totalThrows": {
+      "total": 23,
+      "first_half": 12,
+      "second_half": 11
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 70,
+      "team": "home",
+      "player": "G. Offerhaus",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 72,
+      "team": "home",
+      "player": "T. Noslin",
+      "assist": "P. Brouwer",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 77,
+      "team": "home",
+      "player": "J. Hardeveld",
+      "assist": "T. Noslin",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

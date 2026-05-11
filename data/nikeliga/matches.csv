@@ -156,6 +156,7 @@ match_id,season,date,round,referee,home_team,away_team,home_score,away_score,hom
 2768,2025,"sobota 02.05.2026, 20:30",O titul - 8. kolo,Peter Ziemba,ŠK Slovan Bratislava,FC DAC 1904 Dunajská Streda,1,0,0.75,0.76,10,14,3,3,6,9,11,21,0,2,0,1,59.5,40.5,11210
 2769,2025,"nedeľa 03.05.2026, 19:00",O titul - 8. kolo,Martin Dohál,FK Železiarne Podbrezová,FC Spartak Trnava,0,3,0.36,1.28,7,19,0,6,3,3,10,17,4,3,0,0,37.9,62.1,627
 2770,2025,"sobota 09.05.2026, 18:00",O titul - 9. kolo,Matej Choreň,MFK Zemplín Michalovce,FC DAC 1904 Dunajská Streda,2,1,1.77,2.26,10,21,3,3,2,9,14,13,2,1,0,0,46.7,53.3,2426
+2771,2025,"nedeľa 10.05.2026, 19:00",O titul - 9. kolo,Marián Ruc,FC Spartak Trnava,MŠK Žilina,1,0,3.02,0.76,17,12,8,3,5,5,12,9,4,2,0,0,53.2,46.8,6257
 2772,2025,"sobota 09.05.2026, 18:00",O titul - 9. kolo,Boris Benedik,FK Železiarne Podbrezová,ŠK Slovan Bratislava,1,2,1.35,2.14,14,17,4,6,7,12,16,12,2,1,0,0,36.6,63.4,1267
 2776,2025,"sobota 07.03.2026, 15:30",O udržanie sa - 1. kolo,Erik Gemzický,FC Košice,AS Trenčín,2,0,2.31,0.35,18,7,8,3,7,3,11,9,2,3,0,0,52,48,2692
 2777,2025,"sobota 07.03.2026, 15:30",O udržanie sa - 1. kolo,Ivan Kružliak,MFK Skalica,FC Tatran Prešov,1,0,1.41,1.13,8,15,2,4,1,3,12,19,0,3,0,0,36,64,402
@@ -181,5 +182,6 @@ match_id,season,date,round,referee,home_team,away_team,home_score,away_score,hom
 2797,2025,"nedeľa 03.05.2026, 17:00",O udržanie sa - 8. kolo,Marián Ruc,AS Trenčín,KFC Komárno,1,2,0.83,0.9,14,11,4,5,4,5,8,15,0,3,0,0,58.4,41.6,909
 2798,2025,"sobota 02.05.2026, 18:00",O udržanie sa - 8. kolo,Bálint Kišš,MFK Ružomberok,FC Tatran Prešov,1,1,1.3,0.94,12,15,3,4,9,2,15,9,2,2,0,1,45.7,54.3,1551
 2799,2025,"sobota 09.05.2026, 20:30",O udržanie sa - 9. kolo,Erik Gemzický,FC Tatran Prešov,MFK Skalica,3,0,0.92,0.09,12,5,6,2,1,2,9,19,2,3,0,0,62.4,37.6,5525
+2800,2025,"nedeľa 10.05.2026, 17:00",O udržanie sa - 9. kolo,Michal Očenáš,FC Košice,KFC Komárno,2,1,2.16,1.64,13,18,6,2,5,3,10,16,2,1,0,0,45.9,54.1,4188
 2801,2025,"sobota 09.05.2026, 18:00",O udržanie sa - 9. kolo,Lukáš Dzivjak,MFK Ružomberok,AS Trenčín,4,3,2.53,2.16,15,14,5,5,9,3,18,8,0,2,0,0,46.2,53.8,1448
 2805,2025,"sobota 21.03.2026, 15:30",O udržanie sa - 3. kolo,Matej Choreň,AS Trenčín,MFK Ružomberok,3,1,1.51,1.22,9,9,5,2,8,5,8,18,0,3,0,0,56.7,43.3,861

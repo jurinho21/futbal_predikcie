@@ -1,0 +1,285 @@
+{
+  "oid": "8duzjuclronkz4izg5qufa6fo",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/az-twente-3/",
+  "date": "2026-05-03",
+  "status": "full_time",
+  "attendance": 19500,
+  "referee": "Sander van der Eijk",
+  "home_team": "AZ",
+  "away_team": "FC Twente",
+  "home_score": 2,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 459,
+      "first_half": 269,
+      "second_half": 190
+    },
+    "shots_blocked": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 13,
+      "first_half": 5,
+      "second_half": 8
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "ownGoals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 58,
+      "first_half": 58,
+      "second_half": 57
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 18,
+      "first_half": 6,
+      "second_half": 12
+    },
+    "passes": {
+      "total": 544,
+      "first_half": 313,
+      "second_half": 231
+    },
+    "shots": {
+      "total": 18,
+      "first_half": 6,
+      "second_half": 12
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 8,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 6,
+      "second_half": 11
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 300,
+      "first_half": 171,
+      "second_half": 129
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 1,
+      "second_half": 7
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 41,
+      "first_half": 41,
+      "second_half": 42
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 36,
+      "first_half": 16,
+      "second_half": 20
+    },
+    "passes": {
+      "total": 385,
+      "first_half": 215,
+      "second_half": 170
+    },
+    "shots": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 22,
+      "first_half": 10,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 23,
+      "first_half": 11,
+      "second_half": 12
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 13,
+      "team": "home",
+      "player": "J. Clasie",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 32,
+      "team": "home",
+      "player": "R. Owusu-Oduro",
+      "assist": "",
+      "type": "own_goal",
+      "period": 1
+    },
+    {
+      "minute": 55,
+      "team": "away",
+      "player": "S. Lammers",
+      "assist": "K. Hlynsson",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 95,
+      "team": "home",
+      "player": "P. Koopmeiners",
+      "assist": "R. Owusu-Oduro",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

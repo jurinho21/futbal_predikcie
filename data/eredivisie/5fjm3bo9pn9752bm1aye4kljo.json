@@ -1,0 +1,306 @@
+{
+  "oid": "5fjm3bo9pn9752bm1aye4kljo",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/psv-groningen-2/",
+  "date": "2025-08-23",
+  "status": "full_time",
+  "attendance": 34800,
+  "referee": "Danny Desmond Makkelie",
+  "home_team": "PSV",
+  "away_team": "FC Groningen",
+  "home_score": 4,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 487,
+      "first_half": 283,
+      "second_half": 204
+    },
+    "shots_blocked": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "possession": {
+      "total": 66,
+      "first_half": 73,
+      "second_half": 58
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 6,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 7,
+      "second_half": 12
+    },
+    "passes": {
+      "total": 561,
+      "first_half": 321,
+      "second_half": 240
+    },
+    "shots": {
+      "total": 23,
+      "first_half": 14,
+      "second_half": 9
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 11,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 24,
+      "first_half": 18,
+      "second_half": 6
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 205,
+      "first_half": 78,
+      "second_half": 127
+    },
+    "shots_blocked": {
+      "total": 7,
+      "first_half": 0,
+      "second_half": 7
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "possession": {
+      "total": 33,
+      "first_half": 26,
+      "second_half": 41
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 24,
+      "first_half": 15,
+      "second_half": 9
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 277,
+      "first_half": 114,
+      "second_half": 163
+    },
+    "shots": {
+      "total": 17,
+      "first_half": 3,
+      "second_half": 14
+    },
+    "tackles": {
+      "total": 27,
+      "first_half": 15,
+      "second_half": 12
+    },
+    "totalThrows": {
+      "total": 22,
+      "first_half": 10,
+      "second_half": 12
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 15,
+      "first_half": 9,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 32,
+      "team": "home",
+      "player": "G. Til",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 39,
+      "team": "away",
+      "player": "B. Willumsson",
+      "assist": "S. Resink",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 46,
+      "team": "home",
+      "player": "E. Bajraktarević",
+      "assist": "S. Dest",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 49,
+      "team": "home",
+      "player": "R. van Bommel",
+      "assist": "I. Perišić",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 66,
+      "team": "home",
+      "player": "E. Bajraktarević",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 87,
+      "team": "away",
+      "player": "M. Seuntjens",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

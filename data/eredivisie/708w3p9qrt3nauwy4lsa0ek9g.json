@@ -1,0 +1,290 @@
+{
+  "oid": "708w3p9qrt3nauwy4lsa0ek9g",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/go-ahead-eagles-fortuna-sittard/",
+  "date": "2026-01-11",
+  "status": "full_time",
+  "attendance": 9327,
+  "referee": "Alex Bos",
+  "home_team": "Go Ahead Eagles",
+  "away_team": "Fortuna Sittard",
+  "home_score": 2,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 476,
+      "first_half": 280,
+      "second_half": 196
+    },
+    "shots_blocked": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "corners_taken": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 62,
+      "first_half": 66,
+      "second_half": 56
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 20,
+      "first_half": 5,
+      "second_half": 15
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 545,
+      "first_half": 316,
+      "second_half": 229
+    },
+    "shots": {
+      "total": 23,
+      "first_half": 10,
+      "second_half": 13
+    },
+    "tackles": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 11,
+      "second_half": 9
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "tackles_won": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 261,
+      "first_half": 128,
+      "second_half": 133
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 38,
+      "first_half": 33,
+      "second_half": 43
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 28,
+      "first_half": 13,
+      "second_half": 15
+    },
+    "passes": {
+      "total": 338,
+      "first_half": 160,
+      "second_half": 178
+    },
+    "shots": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "totalThrows": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 541,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 36,
+      "team": "away",
+      "player": "K. Peterson",
+      "assist": "M. Ihattaren",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 45,
+      "team": "home",
+      "player": "M. Suray",
+      "assist": "M. Deijl",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 86,
+      "team": "home",
+      "player": "M. Suray",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 93,
+      "team": "away",
+      "player": "J. Hubner",
+      "assist": "A. Halilović",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

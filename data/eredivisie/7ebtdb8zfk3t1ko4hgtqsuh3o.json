@@ -1,0 +1,273 @@
+{
+  "oid": "7ebtdb8zfk3t1ko4hgtqsuh3o",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/twente-heerenveen/",
+  "date": "2026-02-07",
+  "status": "full_time",
+  "attendance": 29500,
+  "referee": "Jeroen Manschot",
+  "home_team": "FC Twente",
+  "away_team": "sc Heerenveen",
+  "home_score": 5,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 457,
+      "first_half": 244,
+      "second_half": 213
+    },
+    "shots_blocked": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 14,
+      "first_half": 7,
+      "second_half": 7
+    },
+    "possession": {
+      "total": 59,
+      "first_half": 61,
+      "second_half": 57
+    },
+    "shots_off_target": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 18,
+      "first_half": 7,
+      "second_half": 11
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 532,
+      "first_half": 283,
+      "second_half": 249
+    },
+    "shots": {
+      "total": 29,
+      "first_half": 13,
+      "second_half": 16
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 7,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 267,
+      "first_half": 132,
+      "second_half": 135
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "goals_conceded": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 40,
+      "first_half": 38,
+      "second_half": 42
+    },
+    "saves": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 25,
+      "first_half": 17,
+      "second_half": 8
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 357,
+      "first_half": 176,
+      "second_half": 181
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 11,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 7,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 19,
+      "team": "home",
+      "player": "R. Zerrouki",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 30,
+      "team": "home",
+      "player": "M. Rots",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 54,
+      "team": "home",
+      "player": "D. Rots",
+      "assist": "S. Lammers",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 63,
+      "team": "home",
+      "player": "K. Hlynsson",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 84,
+      "team": "home",
+      "player": "S. Lammers",
+      "assist": "A. Verschueren",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "oid": "78pgu4cz1tg4l7cv1n3putfkk",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/nec-pec-zwolle/",
+  "date": "2026-01-24",
+  "status": "full_time",
+  "attendance": 12650,
+  "referee": "Martin van den Kerkhof",
+  "home_team": "N.E.C. Nijmegen",
+  "away_team": "PEC Zwolle",
+  "home_score": 2,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 253,
+      "first_half": 138,
+      "second_half": 115
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 10,
+      "first_half": 8,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 45,
+      "first_half": 49,
+      "second_half": 41
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 28,
+      "first_half": 7,
+      "second_half": 21
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 353,
+      "first_half": 185,
+      "second_half": 168
+    },
+    "shots": {
+      "total": 13,
+      "first_half": 7,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 9,
+      "second_half": 4
+    },
+    "totalThrows": {
+      "total": 25,
+      "first_half": 14,
+      "second_half": 11
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 10,
+      "first_half": 8,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 3412,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 338,
+      "first_half": 155,
+      "second_half": 183
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 13,
+      "first_half": 7,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 10,
+      "first_half": 8,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 54,
+      "first_half": 50,
+      "second_half": 58
+    },
+    "shots_off_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 33,
+      "first_half": 14,
+      "second_half": 19
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 443,
+      "first_half": 199,
+      "second_half": 244
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 12,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 23,
+      "first_half": 11,
+      "second_half": 12
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 14,
+      "first_half": 10,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 15,
+      "team": "away",
+      "player": "Y. Namli",
+      "assist": "Jamiro Monteiro",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 39,
+      "team": "home",
+      "player": "K. Ogawa",
+      "assist": "T. Chery",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 78,
+      "team": "home",
+      "player": "T. Chery",
+      "assist": "B. Pereira",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "oid": "5cu6yesie3rqqtyioyg963uac",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heracles-nec/",
+  "date": "2025-08-16",
+  "status": "full_time",
+  "attendance": 11905,
+  "referee": "Alex Bos",
+  "home_team": "Heracles Almelo",
+  "away_team": "N.E.C. Nijmegen",
+  "home_score": 1,
+  "away_score": 4,
+  "home": {
+    "passes_accurate": {
+      "total": 82,
+      "first_half": 35,
+      "second_half": 47
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 9,
+      "second_half": 0
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 18,
+      "first_half": 17,
+      "second_half": 19
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 40,
+      "first_half": 21,
+      "second_half": 19
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 140,
+      "first_half": 65,
+      "second_half": 75
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots": {
+      "total": 13,
+      "first_half": 7,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 585,
+      "first_half": 278,
+      "second_half": 307
+    },
+    "shots_blocked": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 8,
+      "second_half": 0
+    },
+    "assists": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "possession": {
+      "total": 81,
+      "first_half": 82,
+      "second_half": 80
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 26,
+      "first_half": 9,
+      "second_half": 17
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 649,
+      "first_half": 319,
+      "second_half": 330
+    },
+    "shots": {
+      "total": 24,
+      "first_half": 13,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 16,
+      "first_half": 7,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 343,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 3,
+      "team": "home",
+      "player": "J. Hornkamp",
+      "assist": "S. Scheperman",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 39,
+      "team": "away",
+      "player": "B. Linssen",
+      "assist": "P. Sandler",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 68,
+      "team": "away",
+      "player": "P. Sandler",
+      "assist": "T. Chery",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 83,
+      "team": "away",
+      "player": "K. Shiogai",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 87,
+      "team": "away",
+      "player": "K. Shiogai",
+      "assist": "Y. El Kachati",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

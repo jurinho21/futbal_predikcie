@@ -1,0 +1,284 @@
+{
+  "oid": "7k9w3m65wadfrmhd4teknwtuc",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/telstar-twente/",
+  "date": "2026-02-15",
+  "status": "full_time",
+  "attendance": 5302,
+  "referee": "Stan Teuben",
+  "home_team": "Telstar",
+  "away_team": "FC Twente",
+  "home_score": 1,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 329,
+      "first_half": 198,
+      "second_half": 131
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 46,
+      "first_half": 51,
+      "second_half": 41
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 44,
+      "first_half": 14,
+      "second_half": 30
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 429,
+      "first_half": 247,
+      "second_half": 182
+    },
+    "shots": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 23,
+      "first_half": 10,
+      "second_half": 13
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 10,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 385,
+      "first_half": 182,
+      "second_half": 203
+    },
+    "shots_blocked": {
+      "total": 10,
+      "first_half": 1,
+      "second_half": 9
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 1,
+      "second_half": 8
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "possession": {
+      "total": 53,
+      "first_half": 49,
+      "second_half": 58
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "clearances": {
+      "total": 30,
+      "first_half": 10,
+      "second_half": 20
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 478,
+      "first_half": 229,
+      "second_half": 249
+    },
+    "shots": {
+      "total": 20,
+      "first_half": 3,
+      "second_half": 17
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 9,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 17,
+      "team": "home",
+      "player": "S. van Duijn",
+      "assist": "N. Þórisson",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 83,
+      "team": "away",
+      "player": "M. Pjaca",
+      "assist": "S. Lammers",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

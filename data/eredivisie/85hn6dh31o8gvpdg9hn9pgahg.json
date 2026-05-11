@@ -1,0 +1,318 @@
+{
+  "oid": "85hn6dh31o8gvpdg9hn9pgahg",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heerenveen-heracles/",
+  "date": "2026-04-05",
+  "status": "full_time",
+  "attendance": 23878,
+  "referee": "Ingmar Oostrom",
+  "home_team": "sc Heerenveen",
+  "away_team": "Heracles Almelo",
+  "home_score": 4,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 511,
+      "first_half": 230,
+      "second_half": 281
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 14,
+      "first_half": 7,
+      "second_half": 7
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 65,
+      "first_half": 64,
+      "second_half": 66
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 16,
+      "first_half": 12,
+      "second_half": 4
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 584,
+      "first_half": 268,
+      "second_half": 316
+    },
+    "shots": {
+      "total": 24,
+      "first_half": 14,
+      "second_half": 10
+    },
+    "tackles": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 6,
+      "second_half": 11
+    },
+    "corners": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 235,
+      "first_half": 108,
+      "second_half": 127
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "ownGoals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 34,
+      "first_half": 35,
+      "second_half": 33
+    },
+    "saves": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 21,
+      "first_half": 13,
+      "second_half": 8
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 296,
+      "first_half": 141,
+      "second_half": 155
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 12,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 14,
+      "first_half": 9,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 21,
+      "team": "away",
+      "player": "M. Engels",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 35,
+      "team": "home",
+      "player": "J. Trenskow",
+      "assist": "J. van Overeem",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 50,
+      "team": "home",
+      "player": "L. Nordås",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    },
+    {
+      "minute": 47,
+      "team": "away",
+      "player": "R. Pasveer",
+      "assist": "",
+      "type": "own_goal",
+      "period": 2
+    },
+    {
+      "minute": 51,
+      "team": "home",
+      "player": "M. Rivera",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

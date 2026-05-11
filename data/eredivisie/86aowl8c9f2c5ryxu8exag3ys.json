@@ -1,0 +1,282 @@
+{
+  "oid": "86aowl8c9f2c5ryxu8exag3ys",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/az-heerenveen-3/",
+  "date": "2026-04-12",
+  "status": "full_time",
+  "attendance": 18554,
+  "referee": "Marc Nagtegaal",
+  "home_team": "AZ",
+  "away_team": "sc Heerenveen",
+  "home_score": 3,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 458,
+      "first_half": 303,
+      "second_half": 155
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "possession": {
+      "total": 57,
+      "first_half": 63,
+      "second_half": 48
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 12,
+      "first_half": 1,
+      "second_half": 11
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 537,
+      "first_half": 348,
+      "second_half": 189
+    },
+    "shots": {
+      "total": 23,
+      "first_half": 9,
+      "second_half": 14
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 316,
+      "first_half": 165,
+      "second_half": 151
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 42,
+      "first_half": 36,
+      "second_half": 51
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 14,
+      "first_half": 8,
+      "second_half": 6
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 389,
+      "first_half": 199,
+      "second_half": 190
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 7,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 7,
+      "team": "home",
+      "player": "S. Mijnans",
+      "assist": "M. de Wit",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 8,
+      "team": "home",
+      "player": "S. Mijnans",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 71,
+      "team": "home",
+      "player": "T. Parrott",
+      "assist": "K. Smit",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

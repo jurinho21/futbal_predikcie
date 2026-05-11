@@ -1,0 +1,261 @@
+{
+  "oid": "7obkzv4lkrjxt8qs1pr5i4nis",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/excelsior-go-ahead-eagles/",
+  "date": "2026-03-01",
+  "status": "full_time",
+  "attendance": 4600,
+  "referee": "Jannick van der Laan",
+  "home_team": "Excelsior Rotterdam",
+  "away_team": "Go Ahead Eagles",
+  "home_score": 0,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 429,
+      "first_half": 237,
+      "second_half": 192
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 58,
+      "first_half": 54,
+      "second_half": 63
+    },
+    "shots_off_target": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 19,
+      "first_half": 8,
+      "second_half": 11
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 522,
+      "first_half": 276,
+      "second_half": 246
+    },
+    "shots": {
+      "total": 19,
+      "first_half": 5,
+      "second_half": 14
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 5,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 21,
+      "first_half": 11,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 278,
+      "first_half": 187,
+      "second_half": 91
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 14,
+      "first_half": 5,
+      "second_half": 9
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 5,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 41,
+      "first_half": 45,
+      "second_half": 36
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 44,
+      "first_half": 17,
+      "second_half": 27
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 376,
+      "first_half": 229,
+      "second_half": 147
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 4,
+      "second_half": 13
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 55,
+      "team": "away",
+      "player": "S. Tengstedt",
+      "assist": "R. Margaret",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

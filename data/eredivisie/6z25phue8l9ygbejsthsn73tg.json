@@ -1,0 +1,251 @@
+{
+  "oid": "6z25phue8l9ygbejsthsn73tg",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/az-volendam/",
+  "date": "2026-01-10",
+  "status": "full_time",
+  "attendance": 18202,
+  "referee": "Allard Lindhout",
+  "home_team": "AZ",
+  "away_team": "FC Volendam",
+  "home_score": 1,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 356,
+      "first_half": 214,
+      "second_half": 142
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 48,
+      "first_half": 53,
+      "second_half": 44
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 24,
+      "first_half": 9,
+      "second_half": 15
+    },
+    "passes": {
+      "total": 435,
+      "first_half": 256,
+      "second_half": 179
+    },
+    "shots": {
+      "total": 17,
+      "first_half": 6,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 34,
+      "first_half": 17,
+      "second_half": 17
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "corners": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 22,
+      "first_half": 9,
+      "second_half": 13
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 370,
+      "first_half": 185,
+      "second_half": 185
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 51,
+      "first_half": 46,
+      "second_half": 56
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 17,
+      "first_half": 8,
+      "second_half": 9
+    },
+    "offsides": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "passes": {
+      "total": 453,
+      "first_half": 223,
+      "second_half": 230
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "tackles": {
+      "total": 28,
+      "first_half": 14,
+      "second_half": 14
+    },
+    "totalThrows": {
+      "total": 22,
+      "first_half": 11,
+      "second_half": 11
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 14,
+      "first_half": 8,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 9,
+      "team": "home",
+      "player": "S. Mijnans",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    }
+  ]
+}

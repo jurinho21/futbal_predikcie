@@ -1,0 +1,351 @@
+{
+  "oid": "5t57zmlqcosnvqccjpolef4es",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/az-feyenoord/",
+  "date": "2025-09-21",
+  "status": "full_time",
+  "attendance": 18351,
+  "referee": "Danny Desmond Makkelie",
+  "home_team": "AZ",
+  "away_team": "Feyenoord",
+  "home_score": 3,
+  "away_score": 3,
+  "home": {
+    "passes_accurate": {
+      "total": 386,
+      "first_half": 159,
+      "second_half": 227
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 11,
+      "first_half": 10,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 53,
+      "first_half": 44,
+      "second_half": 61
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 27,
+      "first_half": 23,
+      "second_half": 4
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 463,
+      "first_half": 192,
+      "second_half": 271
+    },
+    "shots": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 14,
+      "first_half": 8,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 5,
+      "second_half": 12
+    },
+    "yellow_cards": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 7,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 329,
+      "first_half": 198,
+      "second_half": 131
+    },
+    "shots_blocked": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 11,
+      "first_half": 10,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 46,
+      "first_half": 55,
+      "second_half": 38
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "secondYellow": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 26,
+      "first_half": 8,
+      "second_half": 18
+    },
+    "passes": {
+      "total": 397,
+      "first_half": 228,
+      "second_half": 169
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 19,
+      "first_half": 12,
+      "second_half": 7
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 5,
+      "second_half": 13
+    },
+    "totalThrows": {
+      "total": 18,
+      "first_half": 9,
+      "second_half": 9
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 11,
+      "first_half": 10,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 13,
+      "first_half": 3,
+      "second_half": 10
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 24,
+      "team": "home",
+      "player": "R. Daal",
+      "assist": "S. Mijnans",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 36,
+      "team": "away",
+      "player": "S. Steijn",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 1
+    },
+    {
+      "minute": 51,
+      "team": "home",
+      "player": "D. Kasius",
+      "assist": "M. Meerdink",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 56,
+      "team": "away",
+      "player": "J. Bos",
+      "assist": "L. Valente",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 78,
+      "team": "away",
+      "player": "A. Hadj Moussa",
+      "assist": "S. Steijn",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 98,
+      "team": "home",
+      "player": "M. Meerdink",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 2
+    }
+  ]
+}

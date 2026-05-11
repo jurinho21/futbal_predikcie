@@ -1,0 +1,295 @@
+{
+  "oid": "5lbdju4siehey9aud0tizww7o",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/sparta-rotterdam-feyenoord/",
+  "date": "2025-08-31",
+  "status": "full_time",
+  "attendance": 10599,
+  "referee": "Serdar Gözübüyük",
+  "home_team": "Sparta Rotterdam",
+  "away_team": "Feyenoord",
+  "home_score": 0,
+  "away_score": 4,
+  "home": {
+    "passes_accurate": {
+      "total": 217,
+      "first_half": 146,
+      "second_half": 71
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "fouls_won": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 37,
+      "first_half": 42,
+      "second_half": 31
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 31,
+      "first_half": 11,
+      "second_half": 20
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 296,
+      "first_half": 189,
+      "second_half": 107
+    },
+    "totalRedCard": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 7,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 417,
+      "first_half": 224,
+      "second_half": 193
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 5,
+      "first_half": 4,
+      "second_half": 1
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "possession": {
+      "total": 62,
+      "first_half": 57,
+      "second_half": 68
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 26,
+      "first_half": 21,
+      "second_half": 5
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 479,
+      "first_half": 251,
+      "second_half": 228
+    },
+    "shots": {
+      "total": 24,
+      "first_half": 7,
+      "second_half": 17
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 15,
+      "first_half": 7,
+      "second_half": 8
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 29,
+      "team": "away",
+      "player": "J. Bos",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 48,
+      "team": "away",
+      "player": "A. Ueda",
+      "assist": "L. Valente",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 65,
+      "team": "away",
+      "player": "A. Ueda",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 93,
+      "team": "away",
+      "player": "Q. Timber",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

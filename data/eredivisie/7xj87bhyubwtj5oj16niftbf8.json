@@ -1,0 +1,291 @@
+{
+  "oid": "7xj87bhyubwtj5oj16niftbf8",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/go-ahead-eagles-nac-breda-2/",
+  "date": "2026-03-15",
+  "status": "full_time",
+  "attendance": 9235,
+  "referee": "Allard Lindhout",
+  "home_team": "Go Ahead Eagles",
+  "away_team": "NAC Breda",
+  "home_score": 6,
+  "away_score": 0,
+  "home": {
+    "passes_accurate": {
+      "total": 283,
+      "first_half": 157,
+      "second_half": 126
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "assists": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 44,
+      "first_half": 51,
+      "second_half": 38
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 39,
+      "first_half": 14,
+      "second_half": 25
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 355,
+      "first_half": 196,
+      "second_half": 159
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 8,
+      "second_half": 3
+    },
+    "tackles": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 11,
+      "first_half": 7,
+      "second_half": 4
+    },
+    "corners": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 329,
+      "first_half": 129,
+      "second_half": 200
+    },
+    "shots_blocked": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "corners_taken": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 8,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 3,
+      "first_half": 3,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "possession": {
+      "total": 55,
+      "first_half": 48,
+      "second_half": 61
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 424,
+      "first_half": 177,
+      "second_half": 247
+    },
+    "shots": {
+      "total": 20,
+      "first_half": 8,
+      "second_half": 12
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 10,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 29,
+      "first_half": 9,
+      "second_half": 20
+    },
+    "corners": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4132,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 12,
+      "team": "home",
+      "player": "M. Suray",
+      "assist": "V. Edvardsen",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 41,
+      "team": "home",
+      "player": "S. Sigurðarson",
+      "assist": "J. Slory",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 45,
+      "team": "home",
+      "player": "J. Breum",
+      "assist": "V. Edvardsen",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 73,
+      "team": "home",
+      "player": "J. Breum",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 76,
+      "team": "home",
+      "player": "J. Breum",
+      "assist": "V. Edvardsen",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 82,
+      "team": "home",
+      "player": "J. Kramer",
+      "assist": "E. Waayers",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "oid": "7bjdrp4ujz242esoy7w5co9hw",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/nac-breda-twente-2/",
+  "date": "2026-01-30",
+  "status": "full_time",
+  "attendance": 20095,
+  "referee": "Joey Kooij",
+  "home_team": "NAC Breda",
+  "away_team": "FC Twente",
+  "home_score": 2,
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 416,
+      "first_half": 183,
+      "second_half": 233
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "shots_on_target": {
+      "total": 10,
+      "first_half": 2,
+      "second_half": 8
+    },
+    "possession": {
+      "total": 62,
+      "first_half": 56,
+      "second_half": 69
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 35,
+      "first_half": 19,
+      "second_half": 16
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 533,
+      "first_half": 243,
+      "second_half": 290
+    },
+    "shots": {
+      "total": 20,
+      "first_half": 5,
+      "second_half": 15
+    },
+    "tackles": {
+      "total": 17,
+      "first_half": 8,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 18,
+      "first_half": 7,
+      "second_half": 11
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 532,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 220,
+      "first_half": 125,
+      "second_half": 95
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "fouls": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 37,
+      "first_half": 43,
+      "second_half": 31
+    },
+    "saves": {
+      "total": 7,
+      "first_half": 1,
+      "second_half": 6
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 55,
+      "first_half": 15,
+      "second_half": 40
+    },
+    "passes": {
+      "total": 320,
+      "first_half": 181,
+      "second_half": 139
+    },
+    "shots": {
+      "total": 18,
+      "first_half": 10,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 12,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 4,
+      "second_half": 0
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 41,
+      "team": "away",
+      "player": "M. Rots",
+      "assist": "D. Rots",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 51,
+      "team": "away",
+      "player": "R. van Wolfswinkel",
+      "assist": "S. Ørjasæter",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 61,
+      "team": "home",
+      "player": "C. Brym",
+      "assist": "J. Talvitie",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 87,
+      "team": "home",
+      "player": "M. Soumano",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "oid": "8d11a10lonx4psudg069s8glw",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/telstar-sparta-rotterdam/",
+  "date": "2026-04-22",
+  "status": "full_time",
+  "attendance": 5302,
+  "referee": "Erwin Blank",
+  "home_team": "Telstar",
+  "away_team": "Sparta Rotterdam",
+  "home_score": 4,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 283,
+      "first_half": 147,
+      "second_half": 136
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 14,
+      "first_half": 7,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 46,
+      "first_half": 52,
+      "second_half": 40
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 15,
+      "first_half": 1,
+      "second_half": 14
+    },
+    "passes": {
+      "total": 363,
+      "first_half": 194,
+      "second_half": 169
+    },
+    "shots": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "tackles": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 25,
+      "first_half": 17,
+      "second_half": 8
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 349,
+      "first_half": 145,
+      "second_half": 204
+    },
+    "shots_blocked": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 14,
+      "first_half": 7,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 6,
+      "second_half": 2
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 53,
+      "first_half": 47,
+      "second_half": 59
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "substitutions": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "clearances": {
+      "total": 37,
+      "first_half": 16,
+      "second_half": 21
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 426,
+      "first_half": 183,
+      "second_half": 243
+    },
+    "shots": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 9,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 22,
+      "first_half": 12,
+      "second_half": 10
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 3412,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 31,
+      "team": "away",
+      "player": "M. Zonneveld",
+      "assist": "M. van Bergen",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 33,
+      "team": "home",
+      "player": "J. Hardeveld",
+      "assist": "P. Brouwer",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 72,
+      "team": "home",
+      "player": "S. van Duijn",
+      "assist": "T. Owusu",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 78,
+      "team": "home",
+      "player": "S. van Duijn",
+      "assist": "C. Hatenboer",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 88,
+      "team": "home",
+      "player": "J. Seedorf",
+      "assist": "S. Hetli",
+      "type": "goal",
+      "period": 2
+    }
+  ]
+}

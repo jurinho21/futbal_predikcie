@@ -1,0 +1,297 @@
+{
+  "oid": "6xvucsp3400kmf5qeqmsn94ic",
+  "slug": "https://eredivisie.nl/competitie/wedstrijd/heracles-heerenveen/",
+  "date": "2025-12-20",
+  "status": "full_time",
+  "attendance": 11834,
+  "referee": "Martin van den Kerkhof",
+  "home_team": "Heracles Almelo",
+  "away_team": "sc Heerenveen",
+  "home_score": 0,
+  "away_score": 3,
+  "home": {
+    "passes_accurate": {
+      "total": 273,
+      "first_half": 128,
+      "second_half": 145
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 2,
+      "second_half": 10
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "penGoalsConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyConceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "penaltyFaced": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 41,
+      "first_half": 36,
+      "second_half": 46
+    },
+    "saves": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "substitutions": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "clearances": {
+      "total": 21,
+      "first_half": 16,
+      "second_half": 5
+    },
+    "offsides": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "passes": {
+      "total": 349,
+      "first_half": 155,
+      "second_half": 194
+    },
+    "shots": {
+      "total": 8,
+      "first_half": 5,
+      "second_half": 3
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 11,
+      "first_half": 9,
+      "second_half": 2
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 8,
+      "first_half": 2,
+      "second_half": 6
+    },
+    "formation": {
+      "total": 442,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 414,
+      "first_half": 242,
+      "second_half": 172
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 12,
+      "first_half": 2,
+      "second_half": 10
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 2,
+      "second_half": 3
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "penaltyWon": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 58,
+      "first_half": 63,
+      "second_half": 53
+    },
+    "saves": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 7,
+      "first_half": 4,
+      "second_half": 3
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 29,
+      "first_half": 16,
+      "second_half": 13
+    },
+    "offsides": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "passes": {
+      "total": 501,
+      "first_half": 279,
+      "second_half": 222
+    },
+    "shots": {
+      "total": 15,
+      "first_half": 7,
+      "second_half": 8
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "totalThrows": {
+      "total": 17,
+      "first_half": 11,
+      "second_half": 6
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 5,
+      "first_half": 3,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 55,
+      "team": "away",
+      "player": "J. Trenskow",
+      "assist": "D. Vente",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 77,
+      "team": "away",
+      "player": "V. Zagaritis",
+      "assist": "M. Rivera",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 95,
+      "team": "away",
+      "player": "M. Rivera",
+      "assist": "",
+      "type": "penalty_goal",
+      "period": 2
+    }
+  ]
+}
