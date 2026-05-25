@@ -1,15 +1,308 @@
 {
   "oid": "8nqnb2to7ugjtw2f2z67gpfdg",
-  "slug": "https://eredivisie.nl/competitie/wedstrijd/sparta-rotterdam-excelsior/",
+  "slug": "https://eredivisie.com/competition/match/sparta-rotterdam-excelsior/",
   "date": "2026-05-17",
-  "status": "pre_match",
-  "attendance": 0,
-  "referee": "",
+  "status": "full_time",
+  "attendance": 10599,
+  "referee": "Allard Lindhout",
   "home_team": "Sparta Rotterdam",
   "away_team": "Excelsior Rotterdam",
-  "home_score": 0,
-  "away_score": 0,
-  "home": {},
-  "away": {},
-  "goals": []
+  "home_score": 2,
+  "away_score": 3,
+  "home": {
+    "passes_accurate": {
+      "total": 339,
+      "first_half": 194,
+      "second_half": 145
+    },
+    "shots_blocked": {
+      "total": 7,
+      "first_half": 3,
+      "second_half": 4
+    },
+    "corners_taken": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 4,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 14,
+      "first_half": 5,
+      "second_half": 9
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "ownGoals": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 52,
+      "first_half": 52,
+      "second_half": 53
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 0,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 15,
+      "first_half": 10,
+      "second_half": 5
+    },
+    "offsides": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 420,
+      "first_half": 233,
+      "second_half": 187
+    },
+    "shots": {
+      "total": 18,
+      "first_half": 4,
+      "second_half": 14
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 13,
+      "first_half": 6,
+      "second_half": 7
+    },
+    "yellow_cards": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 304,
+      "first_half": 181,
+      "second_half": 123
+    },
+    "shots_blocked": {
+      "total": 3,
+      "first_half": 0,
+      "second_half": 3
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 15,
+      "first_half": 8,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 4,
+      "second_half": 6
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 2,
+      "second_half": 7
+    },
+    "goals": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 47,
+      "first_half": 47,
+      "second_half": 46
+    },
+    "saves": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 32,
+      "first_half": 11,
+      "second_half": 21
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 383,
+      "first_half": 216,
+      "second_half": 167
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 5,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 19,
+      "first_half": 9,
+      "second_half": 10
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 1,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 7,
+      "first_half": 5,
+      "second_half": 2
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 14,
+      "team": "home",
+      "player": "G. Vianello",
+      "assist": "",
+      "type": "own_goal",
+      "period": 1
+    },
+    {
+      "minute": 50,
+      "team": "away",
+      "player": "A. Zagré",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 53,
+      "team": "home",
+      "player": "Ayoni Santos",
+      "assist": "",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 62,
+      "team": "away",
+      "player": "N. Naujoks",
+      "assist": "G. de Regt",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 91,
+      "team": "home",
+      "player": "M. Zonneveld",
+      "assist": "T. Lauritsen",
+      "type": "goal",
+      "period": 2
+    }
+  ]
 }

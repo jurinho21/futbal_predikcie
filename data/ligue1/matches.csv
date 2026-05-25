@@ -258,8 +258,8 @@ l1_championship_match_73376,2025,2026-04-11,29,Mathieu VERNICE,ROAZHON PARK,2674
 l1_championship_match_73372,2025,2026-04-12,29,Benoît BASTIEN,GROUPAMA STADIUM,43551,OL,FC Lorient,2,0,4141,3421,51,49,11,12,5,6,4,6,2,,4,6,17,14,4,1,,,1.225,1.868,,2,476,425,407,371,12,15,8,9,6,3,22,26,2,3,13,18,full_time
 l1_championship_match_73374,2025,2026-04-12,29,Abdelatif KHERRADJI,ALLIANZ RIVIERA,19772,OGC Nice,Havre AC,1,1,352,3412,46,54,15,11,5,6,7,4,3,1,5,2,20,14,1,1,,,2.631,1.764,4,1,332,402,246,323,19,15,11,7,4,4,11,21,5,3,18,17,full_time
 l1_championship_match_73377,2025,2026-04-12,29,Hakim BEN EL HADJ,STADIUM,24568,Toulouse FC,LOSC,0,4,3421,4231,40,60,9,14,1,8,3,2,5,4,4,2,13,12,2,,1,,0.99,2.543,,3,371,645,306,583,13,18,3,11,5,1,12,11,1,2,10,7,full_time
-l1_championship_match_73370,2025,2026-05-13,29,,STADE FRANCIS-LE BLÉ,,Brest,Strasbourg,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
-l1_championship_match_73371,2025,2026-05-13,29,,STADE BOLLAERT-DELELIS,,RC Lens,PSG,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
+l1_championship_match_73370,2025,2026-05-13,29,Benoît MILLOT,STADE FRANCIS-LE BLÉ,14539,Brest,Strasbourg,1,2,4231,4231,48,52,21,10,6,5,7,2,8,3,5,4,10,11,,1,,,3.057,2.021,2,4,468,524,389,444,21,13,13,4,2,5,23,23,5,,10,11,full_time
+l1_championship_match_73371,2025,2026-05-13,29,Benoît BASTIEN,STADE BOLLAERT-DELELIS,38139,RC Lens,PSG,0,2,3421,433,39,61,25,10,10,3,11,3,4,4,6,3,9,3,,1,,,2.899,1.215,3,1,419,716,333,631,22,21,14,13,1,8,8,30,6,1,11,8,full_time
 l1_championship_match_73379,2025,2026-04-17,30,Jérémie PIGNARD,STADE BOLLAERT-DELELIS,37351,RC Lens,Toulouse FC,3,2,3421,3421,69,31,41,5,13,2,18,1,10,2,14,1,9,15,1,1,,1,3.781,0.405,2,,596,176,531,111,21,15,16,6,,10,12,58,4,,14,14,full_time
 l1_championship_match_73378,2025,2026-04-18,30,Marc BOLLENGIER,STADE RAYMOND-KOPA,12660,Angers SCO,Havre AC,1,1,532,3412,45,55,11,16,5,8,3,5,3,3,4,3,15,20,1,3,,1,1.066,1.448,2,4,354,455,300,401,14,18,10,8,7,4,19,17,,2,5,19,full_time
 l1_championship_match_73380,2025,2026-04-18,30,Bastien DECHEPY,DECATHLON ARENA – STADE PIERRE-MAUROY,40159,LOSC,OGC Nice,0,0,4231,541,58,42,9,5,2,1,3,3,4,1,5,3,9,10,3,1,,,0.55,0.435,1,3,590,375,518,297,14,20,5,6,1,2,14,33,,,13,6,full_time
@@ -296,12 +296,12 @@ l1_championship_match_73410,2025,2026-05-10,33,Clément TURPIN,STADE LOUIS-II,0,
 l1_championship_match_73411,2025,2026-05-10,33,Jérôme BRISARD,PARC DES PRINCES,0,PSG,Brest,1,0,433,343,62,38,23,3,6,2,6,1,11,,13,2,5,12,,,,,1.252,0.164,3,3,687,339,609,269,12,16,10,8,2,5,17,38,1,,8,15,full_time
 l1_championship_match_73412,2025,2026-05-10,33,Thomas LEONARD,ROAZHON PARK,0,Rennes,Paris FC,2,1,433,4231,50,50,14,11,5,1,8,5,1,5,8,2,13,11,,1,,,1.96,1.182,1,1,425,420,332,336,13,12,6,9,,3,23,39,2,2,22,13,full_time
 l1_championship_match_73413,2025,2026-05-10,33,Bastien DECHEPY,STADIUM,0,Toulouse FC,OL,2,1,3421,4231,43,57,14,18,6,3,5,7,3,8,7,8,20,9,5,2,1,,1.113,1.524,,1,304,479,250,417,17,18,14,12,2,4,31,20,2,2,12,23,full_time
-l1_championship_match_73414,2025,2026-05-17,34,,STADE FRANCIS-LE BLÉ,,Brest,Angers SCO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
-l1_championship_match_73415,2025,2026-05-17,34,,DECATHLON ARENA – STADE PIERRE-MAUROY,,LOSC,AJ Auxerre,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
-l1_championship_match_73416,2025,2026-05-17,34,,STADE YVES-ALLAINMAT,,FC Lorient,Havre AC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
-l1_championship_match_73417,2025,2026-05-17,34,,GROUPAMA STADIUM,,OL,RC Lens,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
-l1_championship_match_73418,2025,2026-05-17,34,,ORANGE VÉLODROME,,OM,Rennes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
-l1_championship_match_73419,2025,2026-05-17,34,,STADE DE LA BEAUJOIRE-LOUIS FONTENEAU,,FC Nantes,Toulouse FC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
-l1_championship_match_73420,2025,2026-05-17,34,,ALLIANZ RIVIERA,,OGC Nice,FC Metz,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
-l1_championship_match_73421,2025,2026-05-17,34,,STADE JEAN BOUIN,,Paris FC,PSG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
-l1_championship_match_73422,2025,2026-05-17,34,,STADE DE LA MEINAU,,Strasbourg,AS Monaco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
+l1_championship_match_73414,2025,2026-05-17,34,Mathieu VERNICE,STADE FRANCIS-LE BLÉ,12742,Brest,Angers SCO,1,1,4231,352,55,45,18,8,5,2,10,4,3,2,6,3,9,8,1,1,,,1.571,0.733,,2,508,379,433,313,14,18,8,13,1,3,8,26,4,1,11,10,full_time
+l1_championship_match_73415,2025,2026-05-17,34,Willy DELAJOD,DECATHLON ARENA – STADE PIERRE-MAUROY,47097,LOSC,AJ Auxerre,0,2,4231,4231,66,34,12,7,3,4,5,3,4,,4,2,9,16,3,2,,,2.155,1.026,3,2,617,233,548,157,16,16,11,11,2,3,11,28,3,1,10,10,full_time
+l1_championship_match_73416,2025,2026-05-17,34,Clément TURPIN,STADE YVES-ALLAINMAT,12296,FC Lorient,Havre AC,0,2,3421,4231,57,43,12,7,2,4,5,3,5,,5,1,11,11,2,1,,,1.299,1.252,1,2,481,327,431,260,8,16,3,11,3,2,22,34,1,1,11,18,full_time
+l1_championship_match_73417,2025,2026-05-17,34,François LETEXIER,GROUPAMA STADIUM,58227,OL,RC Lens,0,4,4312,3421,53,47,16,14,4,4,7,8,5,2,20,8,10,11,1,4,,,1.976,1.537,,,460,384,388,319,8,13,6,9,1,4,17,38,,2,14,17,full_time
+l1_championship_match_73418,2025,2026-05-17,34,Ruddy BUQUET,ORANGE VÉLODROME,62124,OM,Rennes,3,1,4231,4141,48,52,27,27,11,6,9,14,7,7,4,11,11,10,3,1,,,3.008,2.491,2,2,399,463,329,394,18,17,17,8,4,8,47,25,6,2,7,14,full_time
+l1_championship_match_73419,2025,2026-05-17,34,Stéphanie FRAPPART,STADE DE LA BEAUJOIRE-LOUIS FONTENEAU,,FC Nantes,Toulouse FC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,preMatch
+l1_championship_match_73420,2025,2026-05-17,34,Jérémie PIGNARD,ALLIANZ RIVIERA,22829,OGC Nice,FC Metz,0,0,3421,433,50,50,22,16,4,4,11,6,7,6,10,4,11,15,2,1,,,1.639,0.85,2,2,481,509,417,442,17,22,13,14,4,4,13,37,,,19,9,full_time
+l1_championship_match_73421,2025,2026-05-17,34,Guillaume PARADIS,STADE JEAN BOUIN,19237,Paris FC,PSG,2,1,442,433,41,59,17,9,9,2,5,4,3,3,3,3,8,9,2,,,,2.235,0.614,7,2,395,682,336,615,25,19,17,10,1,7,16,6,1,,8,12,full_time
+l1_championship_match_73422,2025,2026-05-17,34,Benoît BASTIEN,STADE DE LA MEINAU,30321,Strasbourg,AS Monaco,5,4,4231,3421,44,56,15,21,7,8,4,5,4,8,4,6,7,11,1,2,,,1.505,1.129,3,,384,568,319,491,12,14,4,11,6,2,32,10,1,,8,5,full_time

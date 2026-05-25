@@ -1,0 +1,5 @@
+tip_id,recorded_at,match_id,home_team,away_team,match_date,market,bet_type,line,direction,model_prob,model_odds,bm_odds,edge,stake,status,actual_value,profit
+8d9d598f851f,2026-05-15 13:35,0,Werder Bremen,Dortmund,,corners,1x2,0.0,1,0.6678,1.5,2.51,0.6762,13,lost,4:5,-1.0
+c404bc8b44a9,2026-05-15 23:03,0,M'gladbach,Hoffenheim,,shots_on_target,1x2,0.0,1,0.4148,2.41,3.32,0.3771,9,won,6:3,2.32
+43db250527ce,2026-05-16 08:20,0,Leverkusen,Hamburg,,fouls,1x2,0.0,1,0.4356,2.3,2.58,0.1238,11,lost,8:11,-1.0
+7d0a8411acfc,2026-05-16 08:24,0,Leverkusen,Hamburg,,shots_on_target,away,3.5,O,0.6373,1.57,1.86,0.1854,16,won,6,0.86

@@ -28,7 +28,8 @@ from config import (
     MARKETS, DECAY, CREDIBILITY_K,
     REFEREE_MIN, REFEREE_FULL,
     H2H_WEIGHT, X1X2_SHRINKS, YELLOW_REF_STRENGTH, HR_LINES,
-    X1X2_MAX_DRAW_ODDS,
+    X1X2_MAX_DRAW_ODDS, X1X2_MIN_DRAW_ODDS,
+    SEASON_BLEND_STEPS,
 )
 
 logger = logging.getLogger(__name__)
@@ -38,14 +39,71 @@ logger = logging.getLogger(__name__)
 # NAČÍTANIE DÁT
 # ---------------------------------------------------------------------------
 
+import re as _re
+
+def _parse_date(val) -> "pd.Timestamp":
+    """Parsuje dátumy vo všetkých formátoch používaných naprieč ligami:
+      sobota 26.07.2025, 18:03  (nikeliga)
+      19/07/2025 17:00          (chanceliga)
+      2025-08-15                (ISO — nové ligy, eredivisie, proleague, ligue1)
+    """
+    import pandas as pd
+    s = str(val).strip()
+    # ISO YYYY-MM-DD (najčastejší — nové ligy)
+    m = _re.search(r"(\d{4})-(\d{2})-(\d{2})", s)
+    if m:
+        return pd.Timestamp(f"{m.group(1)}-{m.group(2)}-{m.group(3)}")
+    # DD.MM.YYYY (nikeliga)
+    m = _re.search(r"(\d{1,2})\.(\d{2})\.(\d{4})", s)
+    if m:
+        return pd.Timestamp(f"{m.group(3)}-{m.group(2)}-{m.group(1).zfill(2)}")
+    # DD/MM/YYYY (chanceliga)
+    m = _re.search(r"(\d{1,2})/(\d{2})/(\d{4})", s)
+    if m:
+        return pd.Timestamp(f"{m.group(3)}-{m.group(2)}-{m.group(1).zfill(2)}")
+    return pd.NaT
+
+
+def detect_current_season(df: "pd.DataFrame") -> Optional[int]:
+    """Vráti najvyšší rok sezóny v datasete, alebo None ak stĺpec chýba."""
+    if "season" not in df.columns:
+        return None
+    vals = pd.to_numeric(df["season"], errors="coerce").dropna()
+    return int(vals.max()) if len(vals) > 0 else None
+
+
+def season_blend_weights(n_new: int) -> tuple[float, float]:
+    """Vráti (w_old, w_new) podľa počtu odohraných zápasov v novej sezóne."""
+    for threshold, w_old in SEASON_BLEND_STEPS:
+        if n_new <= threshold:
+            return w_old, 1.0 - w_old
+    return 0.0, 1.0
+
+
 def load_data(data_dir: Path) -> pd.DataFrame:
     matches_csv = Path(data_dir) / "matches.csv"
     if not matches_csv.exists():
         logger.critical("Nenájdený %s. Najprv spusti: python nikeliga_batch.py export-csv %s", matches_csv, data_dir)
         sys.exit(1)
 
-    df = pd.read_csv(matches_csv, parse_dates=["date"], dayfirst=True)
+    df = pd.read_csv(matches_csv)
+    df["date"] = df["date"].apply(_parse_date)
     df = df.sort_values("date").reset_index(drop=True)
+
+    if "status" in df.columns:
+        _status_map = {"fulltime": "full_time", "prematch": "pre_match", "postponed": "postponed"}
+        df["status"] = df["status"].str.strip().str.lower().str.replace(" ", "_").replace(_status_map)
+
+    _zero_fill_cols = [
+        "home_corners", "away_corners",
+        "home_shots_on_target", "away_shots_on_target",
+        "home_yellow", "away_yellow",
+    ]
+    played = df.get("status", pd.Series("full_time", index=df.index)) == "full_time"
+    for col in _zero_fill_cols:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+            df.loc[played, col] = df.loc[played, col].fillna(0)
 
     # Odvod totálov
     for mkt, cols in MARKETS.items():
@@ -79,21 +137,40 @@ def _hit_rate(series: pd.Series, line: float) -> Optional[float]:
 
 
 def _team_stats(subset: pd.DataFrame, team: str, side: str,
-                commit_col: str, receive_col: str) -> dict:
+                commit_col: str, receive_col: str,
+                current_season: Optional[int] = None) -> dict:
     """
     Vráti vážené priemery faulov/SoT/rohov pre tím podľa strany (home/away).
     commit_col  = stĺpec kde tím generuje danú štatistiku (napr. home_fouls)
     receive_col = stĺpec kde súper generuje štatistiku proti tomuto tímu
+    Ak current_season je zadaná, použije season blending (stará vs. nová sezóna).
     """
     if side == "home":
         rows = subset[subset["home_team"] == team]
     else:
         rows = subset[subset["away_team"] == team]
 
-    commits = _wmean(rows[commit_col])
-    receives = _wmean(rows[receive_col])  # koľko súper generuje PROTI tomuto tímu
-    n = len(rows)
-    return {"commits": commits, "receives": receives, "n": n}
+    if current_season is not None and "season" in subset.columns:
+        new_rows = rows[rows["season"] == current_season]
+        old_rows = rows[rows["season"] != current_season]
+        w_old, w_new = season_blend_weights(len(new_rows))
+
+        if w_old == 0.0 or old_rows.empty:
+            commits = _wmean(new_rows[commit_col])
+            receives = _wmean(new_rows[receive_col])
+        elif w_new == 0.0 or new_rows.empty:
+            commits = _wmean(old_rows[commit_col])
+            receives = _wmean(old_rows[receive_col])
+        else:
+            c_old, c_new = _wmean(old_rows[commit_col]), _wmean(new_rows[commit_col])
+            r_old, r_new = _wmean(old_rows[receive_col]), _wmean(new_rows[receive_col])
+            commits  = w_old * c_old + w_new * c_new if (c_old is not None and c_new is not None) else (c_old or c_new)
+            receives = w_old * r_old + w_new * r_new if (r_old is not None and r_new is not None) else (r_old or r_new)
+    else:
+        commits = _wmean(rows[commit_col])
+        receives = _wmean(rows[receive_col])
+
+    return {"commits": commits, "receives": receives, "n": len(rows)}
 
 
 def _estimate_nb_r(series: pd.Series, min_n: int = 20) -> Optional[float]:
@@ -323,6 +400,23 @@ def _cap_draw_odds(probs: dict, max_draw_odds: float) -> dict:
     return {"1": round(p1, 4), "X": round(min_pX, 4), "2": round(p2, 4)}
 
 
+def _floor_draw_odds(probs: dict, min_draw_odds: float) -> dict:
+    """Ak P(X) implikuje kurz < min_draw_odds, zníži P(X) na maximum a prebytok
+    proporčne vráti do P(1) a P(2)."""
+    max_pX = 1.0 / min_draw_odds
+    pX = probs["X"]
+    if pX <= max_pX:
+        return probs
+    p1, p2 = probs["1"], probs["2"]
+    surplus = pX - max_pX
+    total_12 = p1 + p2
+    if total_12 <= 0:
+        return probs
+    p1 = p1 + surplus * p1 / total_12
+    p2 = p2 + surplus * p2 / total_12
+    return {"1": round(p1, 4), "X": round(max_pX, 4), "2": round(p2, 4)}
+
+
 def _winrate_1x2(
     home_rec: Optional[dict],
     away_rec: Optional[dict],
@@ -349,7 +443,7 @@ def _winrate_1x2(
         h2h_p1 = h2h_rec["w"] / n
         h2h_p2 = h2h_rec["l"] / n
         h2h_pX = h2h_rec["d"] / n
-        season_n = (nh + na) / 2
+        season_n = nh + na
         h2h_n_eff = n * 1.5
         w = h2h_n_eff / (season_n + h2h_n_eff)
         p1 = (1 - w) * p1 + w * h2h_p1
@@ -366,30 +460,33 @@ def _build_1x2_entries(
     nb_r_home: Optional[float], nb_r_away: Optional[float],
     subset: "pd.DataFrame", home_team: str, away_team: str,
     commits_home: Optional[float] = None, commits_away: Optional[float] = None,
+    current_season: Optional[int] = None,
 ) -> dict:
     """Vráti {x1x2_key: data} pre daný market, ostatné kľúče = None.
     Žlté karty: Poisson/NB cez lambda. Ostatné: win-rate kombinácia."""
     from config import X1X2_KEYS
     key = X1X2_KEYS[market]
 
-    home_rows = subset[subset["home_team"] == home_team]
-    away_rows = subset[subset["away_team"] == away_team]
-    raw_home_commits  = _wmean(home_rows[h_col]) or league_h
-    raw_home_receives = _wmean(home_rows[a_col]) or league_a
-    raw_away_commits  = _wmean(away_rows[a_col]) or league_a
-    raw_away_receives = _wmean(away_rows[h_col]) or league_h
+    home_s = _team_stats(subset, home_team, "home", h_col, a_col, current_season)
+    away_s = _team_stats(subset, away_team, "away", a_col, h_col, current_season)
+    raw_home_commits  = home_s["commits"] or league_h
+    raw_home_receives = home_s["receives"] or league_a
+    raw_away_commits  = away_s["commits"] or league_a
+    raw_away_receives = away_s["receives"] or league_h
 
-    home_rec = _win_record(subset, home_team, "home", h_col, a_col)
-    away_rec = _win_record(subset, away_team, "away", h_col, a_col)
+    home_rec_display = _win_record(subset, home_team, "home", h_col, a_col, current_season)
+    away_rec_display = _win_record(subset, away_team, "away", h_col, a_col, current_season)
 
     h2h_rec = _h2h_win_record(subset, home_team, away_team, h_col, a_col)
-    model_probs = _winrate_1x2(home_rec, away_rec, h2h_rec)
+    model_probs = _winrate_1x2(home_rec_display, away_rec_display, h2h_rec)
     model_probs = _cap_draw_odds(model_probs, X1X2_MAX_DRAW_ODDS[market])
+    if market in X1X2_MIN_DRAW_ODDS:
+        model_probs = _floor_draw_odds(model_probs, X1X2_MIN_DRAW_ODDS[market])
 
     data = {
         **model_probs,
-        "home_record":   home_rec,
-        "away_record":   away_rec,
+        "home_record":   home_rec_display,
+        "away_record":   away_rec_display,
         "home_commits":  round(raw_home_commits,  1),
         "home_receives": round(raw_home_receives, 1),
         "away_commits":  round(raw_away_commits,  1),
@@ -406,14 +503,15 @@ def _compute_market_lambdas(
     h_col: str, a_col: str,
     market: str,
     mot_home: float, mot_away: float,
+    current_season: Optional[int] = None,
 ) -> tuple:
     """Vráti (lambda_home, lambda_away, league_h, league_a, home_n, away_n, h2h_home, h2h_away, commits_home, commits_away).
     commits_home/away = iba vlastné fauly tímu (bez receives) — použité pre 1X2."""
     league_h = pd.to_numeric(subset[h_col], errors="coerce").mean() or 1.0
     league_a = pd.to_numeric(subset[a_col], errors="coerce").mean() or 1.0
 
-    home_s = _team_stats(subset, home_team, "home", h_col, a_col)
-    away_s = _team_stats(subset, away_team, "away", a_col, h_col)
+    home_s = _team_stats(subset, home_team, "home", h_col, a_col, current_season)
+    away_s = _team_stats(subset, away_team, "away", a_col, h_col, current_season)
 
     home_commits = home_s["commits"] or league_h
     away_commits = away_s["commits"] or league_a
@@ -519,12 +617,13 @@ def _predict_market(
     subset: pd.DataFrame, home_team: str, away_team: str,
     referee: Optional[str], mot_home: float, mot_away: float,
     home_rows: pd.DataFrame, away_rows: pd.DataFrame, h2h_rows: pd.DataFrame,
+    current_season: Optional[int] = None,
 ) -> dict:
     """Predikuje jeden market. Volané z predict_match() pre každý market zvlášť."""
     h_col, a_col, tot_col = cols["home_col"], cols["away_col"], cols["total_col"]
 
     lambda_home, lambda_away, league_h, league_a, home_n, away_n, h2h_home, h2h_away, commits_home_1x2, commits_away_1x2 = (
-        _compute_market_lambdas(subset, home_team, away_team, h_col, a_col, market, mot_home, mot_away)
+        _compute_market_lambdas(subset, home_team, away_team, h_col, a_col, market, mot_home, mot_away, current_season)
     )
     lambda_home, lambda_away, ref_info = _apply_referee(
         subset, referee, market, tot_col, h_col, a_col, lambda_home, lambda_away
@@ -559,7 +658,8 @@ def _predict_market(
         **_build_1x2_entries(market, h_col, a_col, league_h, league_a,
                              lambda_home, lambda_away, nb_r_home, nb_r_away,
                              subset, home_team, away_team,
-                             commits_home=commits_home_1x2, commits_away=commits_away_1x2),
+                             commits_home=commits_home_1x2, commits_away=commits_away_1x2,
+                             current_season=current_season),
         "ref_info": ref_info,
         "home_n":   home_n,
         "away_n":   away_n,
@@ -596,6 +696,8 @@ def predict_match(
         before_idx = len(df)
 
     subset    = df.iloc[:before_idx]
+    if "status" in subset.columns:
+        subset = subset[subset["status"] == "full_time"]
     home_rows = subset[subset["home_team"] == home_team]
     away_rows = subset[subset["away_team"] == away_team]
     h2h_rows  = subset[
@@ -603,38 +705,92 @@ def predict_match(
         ((subset["home_team"] == away_team) & (subset["away_team"] == home_team))
     ]
 
+    current_season = detect_current_season(subset)
+
     return {
         market: _predict_market(
             market, cols, subset, home_team, away_team,
             referee, mot_home, mot_away,
             home_rows, away_rows, h2h_rows,
+            current_season=current_season,
         )
         for market, cols in MARKETS.items()
     }
 
 
 def _win_record(subset: pd.DataFrame, team: str, side: str,
-                h_col: str, a_col: str) -> Optional[dict]:
-    """Historický záznam koľkokrát tím mal viac/rovnako/menej danej štatistiky ako súper."""
+                h_col: str, a_col: str,
+                current_season: Optional[int] = None) -> Optional[dict]:
+    """Historický záznam koľkokrát tím mal viac/rovnako/menej danej štatistiky ako súper.
+    Ak current_season je zadaná, použije season blending."""
     if side == "home":
         rows = subset[subset["home_team"] == team]
-        team_fouls = pd.to_numeric(rows[h_col], errors="coerce")
-        opp_fouls = pd.to_numeric(rows[a_col], errors="coerce")
+        t_col, o_col = h_col, a_col
     else:
         rows = subset[subset["away_team"] == team]
-        team_fouls = pd.to_numeric(rows[a_col], errors="coerce")
-        opp_fouls = pd.to_numeric(rows[h_col], errors="coerce")
+        t_col, o_col = a_col, h_col
 
-    valid = team_fouls.notna() & opp_fouls.notna()
-    if valid.sum() < 3:
+    def _count(r) -> Optional[dict]:
+        tv = pd.to_numeric(r[t_col], errors="coerce")
+        ov = pd.to_numeric(r[o_col], errors="coerce")
+        valid = tv.notna() & ov.notna()
+        if valid.sum() < 3:
+            return None
+        tv, ov = tv[valid], ov[valid]
+        n = int(valid.sum())
+        return {"w": int((tv > ov).sum()), "d": int((tv == ov).sum()),
+                "l": int((tv < ov).sum()), "n": n}
+
+    if current_season is not None and "season" in rows.columns:
+        new_rows = rows[rows["season"] == current_season]
+        old_rows = rows[rows["season"] != current_season]
+        w_old, w_new = season_blend_weights(len(new_rows))
+
+        old_rec = _count(old_rows)
+        new_rec = _count(new_rows)
+
+        if w_new == 0.0 or new_rec is None:
+            return old_rec
+        if w_old == 0.0 or old_rec is None:
+            return new_rec
+
+        n_eff = old_rec["n"] + new_rec["n"]
+        p_w = w_old * old_rec["w"] / old_rec["n"] + w_new * new_rec["w"] / new_rec["n"]
+        p_d = w_old * old_rec["d"] / old_rec["n"] + w_new * new_rec["d"] / new_rec["n"]
+        p_l = w_old * old_rec["l"] / old_rec["n"] + w_new * new_rec["l"] / new_rec["n"]
+        return {"w": round(p_w * n_eff), "d": round(p_d * n_eff),
+                "l": round(p_l * n_eff), "n": n_eff}
+
+    return _count(rows)
+
+
+def _form_fixed_side(rows: pd.DataFrame, team_col: str, opp_col: str, n: int = 5) -> Optional[dict]:
+    """W/D/L posledných n zápasov kde team_col = hodnota tímu, opp_col = hodnota súpera."""
+    rows = rows.tail(n)
+    tv = pd.to_numeric(rows[team_col], errors="coerce")
+    ov = pd.to_numeric(rows[opp_col], errors="coerce")
+    valid = tv.notna() & ov.notna()
+    if valid.sum() < 1:
         return None
-    tf, of = team_fouls[valid], opp_fouls[valid]
-    return {
-        "w": int((tf > of).sum()),
-        "d": int((tf == of).sum()),
-        "l": int((tf < of).sum()),
-        "n": int(valid.sum()),
-    }
+    tv, ov = tv[valid], ov[valid]
+    return {"w": int((tv > ov).sum()), "d": int((tv == ov).sum()),
+            "l": int((tv < ov).sum()), "n": int(valid.sum())}
+
+
+def _form_all_games(rows: pd.DataFrame, team: str, h_col: str, a_col: str, n: int = 5) -> Optional[dict]:
+    """W/D/L posledných n zápasov tímu (ako domáci aj ako hosť)."""
+    rows = rows.sort_values("date").tail(n)
+    if rows.empty:
+        return None
+    is_home = rows["home_team"] == team
+    tv = pd.to_numeric(rows[h_col].where(is_home, rows[a_col]), errors="coerce")
+    ov = pd.to_numeric(rows[a_col].where(is_home, rows[h_col]), errors="coerce")
+    valid = tv.notna() & ov.notna()
+    if valid.sum() < 1:
+        return None
+    tv, ov = tv[valid], ov[valid]
+    return {"w": int((tv > ov).sum()), "d": int((tv == ov).sum()),
+            "l": int((tv < ov).sum()), "n": int(valid.sum())}
 
 
 def _h2h_win_record(subset: pd.DataFrame, home_team: str, away_team: str,

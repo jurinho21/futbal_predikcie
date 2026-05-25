@@ -1,0 +1,371 @@
+match_id,season,date,round,referee,home_team,away_team,home_score,away_score,home_shots,away_shots,home_shots_on_target,away_shots_on_target,home_corners,away_corners,home_fouls,away_fouls,home_yellow,away_yellow,home_red,away_red,status
+E0_20250815_LIVERPOO_BOURNEMO,2025/26,2025-08-15,,A Taylor,Liverpool,Bournemouth,4,2,19,10,10,3,6,7,7,10,1,2,0,0,full_time
+E0_20250816_ASTONVIL_NEWCASTL,2025/26,2025-08-16,,C Pawson,Aston Villa,Newcastle,0,0,3,16,3,3,3,6,13,11,1,1,1,0,full_time
+E0_20250816_BRIGHTON_FULHAM,2025/26,2025-08-16,,S Barrott,Brighton,Fulham,1,1,10,7,4,2,4,3,16,15,3,3,0,0,full_time
+E0_20250816_SUNDERLA_WESTHAM,2025/26,2025-08-16,,R Jones,Sunderland,West Ham,3,0,10,12,5,4,5,7,8,10,0,1,0,0,full_time
+E0_20250816_TOTTENHA_BURNLEY,2025/26,2025-08-16,,M Oliver,Tottenham,Burnley,3,0,16,14,6,4,6,5,14,8,0,0,0,0,full_time
+E0_20250816_WOLVES_MANCITY,2025/26,2025-08-16,,J Gillett,Wolves,Man City,0,4,9,15,3,4,4,6,13,7,1,2,0,0,full_time
+E0_20250817_CHELSEA_CRYSTALP,2025/26,2025-08-17,,D England,Chelsea,Crystal Palace,0,0,19,12,3,4,11,2,10,12,2,3,0,0,full_time
+E0_20250817_NOTT'MFO_BRENTFOR,2025/26,2025-08-17,,P Bankes,Nott'm Forest,Brentford,3,1,11,10,5,3,5,5,7,15,1,2,0,0,full_time
+E0_20250817_MANUNITE_ARSENAL,2025/26,2025-08-17,,S Hooper,Man United,Arsenal,0,1,22,9,7,3,3,4,10,19,1,4,0,0,full_time
+E0_20250818_LEEDS_EVERTON,2025/26,2025-08-18,,C Kavanagh,Leeds,Everton,1,0,21,7,3,1,7,2,6,8,0,2,0,0,full_time
+E0_20250822_WESTHAM_CHELSEA,2025/26,2025-08-22,,M Oliver,West Ham,Chelsea,1,5,12,12,4,7,7,5,7,10,0,1,0,0,full_time
+E0_20250823_MANCITY_TOTTENHA,2025/26,2025-08-23,,P Bankes,Man City,Tottenham,0,2,10,12,4,5,7,2,7,12,1,4,0,0,full_time
+E0_20250823_BOURNEMO_WOLVES,2025/26,2025-08-23,,T Bramall,Bournemouth,Wolves,1,0,14,6,4,1,8,3,13,16,2,4,0,1,full_time
+E0_20250823_BRENTFOR_ASTONVIL,2025/26,2025-08-23,,T Harrington,Brentford,Aston Villa,1,0,9,17,2,2,2,9,11,9,1,2,0,0,full_time
+E0_20250823_BURNLEY_SUNDERLA,2025/26,2025-08-23,,M Salisbury,Burnley,Sunderland,2,0,7,9,2,1,4,3,9,5,0,1,0,0,full_time
+E0_20250823_ARSENAL_LEEDS,2025/26,2025-08-23,,J Gillett,Arsenal,Leeds,5,0,18,3,5,1,2,2,8,11,0,2,0,0,full_time
+E0_20250824_CRYSTALP_NOTT'MFO,2025/26,2025-08-24,,A Taylor,Crystal Palace,Nott'm Forest,1,1,8,9,4,1,1,3,11,11,3,3,0,0,full_time
+E0_20250824_EVERTON_BRIGHTON,2025/26,2025-08-24,,S Attwell,Everton,Brighton,2,0,11,13,3,4,2,2,7,15,4,3,0,0,full_time
+E0_20250824_FULHAM_MANUNITE,2025/26,2025-08-24,,C Kavanagh,Fulham,Man United,1,1,13,10,4,3,9,6,12,10,1,1,0,0,full_time
+E0_20250825_NEWCASTL_LIVERPOO,2025/26,2025-08-25,,S Hooper,Newcastle,Liverpool,2,3,10,5,3,4,7,1,17,15,2,3,1,0,full_time
+E0_20250830_CHELSEA_FULHAM,2025/26,2025-08-30,,R Jones,Chelsea,Fulham,2,0,13,11,6,3,6,4,11,17,2,2,0,0,full_time
+E0_20250830_MANUNITE_BURNLEY,2025/26,2025-08-30,,S Barrott,Man United,Burnley,3,2,26,6,6,3,7,1,9,9,1,5,0,0,full_time
+E0_20250830_SUNDERLA_BRENTFOR,2025/26,2025-08-30,,A Taylor,Sunderland,Brentford,2,1,12,7,3,4,3,4,11,12,3,2,0,0,full_time
+E0_20250830_TOTTENHA_BOURNEMO,2025/26,2025-08-30,,S Hooper,Tottenham,Bournemouth,0,1,5,20,1,6,0,8,17,13,2,4,0,0,full_time
+E0_20250830_WOLVES_EVERTON,2025/26,2025-08-30,,M Oliver,Wolves,Everton,2,3,12,10,4,4,2,2,15,10,0,1,0,0,full_time
+E0_20250830_LEEDS_NEWCASTL,2025/26,2025-08-30,,P Bankes,Leeds,Newcastle,0,0,10,8,1,2,5,5,10,15,1,1,0,0,full_time
+E0_20250831_BRIGHTON_MANCITY,2025/26,2025-08-31,,D England,Brighton,Man City,2,1,12,12,7,3,3,2,16,14,2,2,0,0,full_time
+E0_20250831_NOTT'MFO_WESTHAM,2025/26,2025-08-31,,C Pawson,Nott'm Forest,West Ham,0,3,11,12,3,8,9,7,14,6,0,0,0,0,full_time
+E0_20250831_LIVERPOO_ARSENAL,2025/26,2025-08-31,,C Kavanagh,Liverpool,Arsenal,1,0,9,11,3,1,3,8,7,10,2,2,0,0,full_time
+E0_20250831_ASTONVIL_CRYSTALP,2025/26,2025-08-31,,S Attwell,Aston Villa,Crystal Palace,0,3,13,6,4,4,10,1,7,14,2,3,0,0,full_time
+E0_20250913_ARSENAL_NOTT'MFO,2025/26,2025-09-13,,D England,Arsenal,Nott'm Forest,3,0,16,5,5,1,8,4,8,11,1,1,0,0,full_time
+E0_20250913_BOURNEMO_BRIGHTON,2025/26,2025-09-13,,P Bankes,Bournemouth,Brighton,2,1,13,6,5,2,4,4,16,10,4,4,0,0,full_time
+E0_20250913_CRYSTALP_SUNDERLA,2025/26,2025-09-13,,T Bramall,Crystal Palace,Sunderland,0,0,14,6,6,0,5,3,10,8,1,1,0,0,full_time
+E0_20250913_EVERTON_ASTONVIL,2025/26,2025-09-13,,S Hooper,Everton,Aston Villa,0,0,20,7,2,1,10,3,17,15,3,3,0,0,full_time
+E0_20250913_FULHAM_LEEDS,2025/26,2025-09-13,,C Pawson,Fulham,Leeds,1,0,5,10,3,3,3,3,20,15,1,2,0,0,full_time
+E0_20250913_NEWCASTL_WOLVES,2025/26,2025-09-13,,C Kavanagh,Newcastle,Wolves,1,0,16,8,4,3,10,4,10,17,1,4,0,0,full_time
+E0_20250913_WESTHAM_TOTTENHA,2025/26,2025-09-13,,J Gillett,West Ham,Tottenham,0,3,7,14,4,5,2,13,8,7,0,1,1,0,full_time
+E0_20250913_BRENTFOR_CHELSEA,2025/26,2025-09-13,,S Attwell,Brentford,Chelsea,2,2,7,16,4,6,5,6,13,9,3,2,0,0,full_time
+E0_20250914_BURNLEY_LIVERPOO,2025/26,2025-09-14,,M Oliver,Burnley,Liverpool,0,1,3,27,0,4,1,13,9,9,0,2,0,0,full_time
+E0_20250914_MANCITY_MANUNITE,2025/26,2025-09-14,,A Taylor,Man City,Man United,3,0,13,12,6,2,2,4,8,8,0,0,0,0,full_time
+E0_20250920_LIVERPOO_EVERTON,2025/26,2025-09-20,,D England,Liverpool,Everton,2,1,11,9,3,2,5,4,11,10,2,3,0,0,full_time
+E0_20250920_BRIGHTON_TOTTENHA,2025/26,2025-09-20,,C Kavanagh,Brighton,Tottenham,2,2,12,11,4,3,2,10,10,13,1,2,0,0,full_time
+E0_20250920_BURNLEY_NOTT'MFO,2025/26,2025-09-20,,T Bramall,Burnley,Nott'm Forest,1,1,12,17,5,8,4,5,12,11,1,1,0,0,full_time
+E0_20250920_WESTHAM_CRYSTALP,2025/26,2025-09-20,,T Harrington,West Ham,Crystal Palace,1,2,8,18,3,3,8,8,15,5,3,3,0,0,full_time
+E0_20250920_WOLVES_LEEDS,2025/26,2025-09-20,,A Taylor,Wolves,Leeds,1,3,16,6,6,4,4,0,11,9,1,1,0,0,full_time
+E0_20250920_MANUNITE_CHELSEA,2025/26,2025-09-20,,P Bankes,Man United,Chelsea,2,1,11,5,4,1,5,5,13,14,0,5,1,1,full_time
+E0_20250920_FULHAM_BRENTFOR,2025/26,2025-09-20,,M Oliver,Fulham,Brentford,3,1,14,8,3,3,2,10,11,13,4,1,0,0,full_time
+E0_20250921_BOURNEMO_NEWCASTL,2025/26,2025-09-21,,R Jones,Bournemouth,Newcastle,0,0,11,4,2,1,5,2,7,10,2,1,0,0,full_time
+E0_20250921_SUNDERLA_ASTONVIL,2025/26,2025-09-21,,S Barrott,Sunderland,Aston Villa,1,1,14,12,4,2,6,5,14,8,2,1,1,0,full_time
+E0_20250921_ARSENAL_MANCITY,2025/26,2025-09-21,,S Attwell,Arsenal,Man City,1,1,12,5,3,3,11,2,11,10,1,2,0,0,full_time
+E0_20250927_BRENTFOR_MANUNITE,2025/26,2025-09-27,,C Pawson,Brentford,Man United,3,1,10,14,8,6,4,2,14,10,2,2,0,0,full_time
+E0_20250927_CHELSEA_BRIGHTON,2025/26,2025-09-27,,S Hooper,Chelsea,Brighton,1,3,13,12,3,3,5,7,9,16,3,5,1,0,full_time
+E0_20250927_CRYSTALP_LIVERPOO,2025/26,2025-09-27,,C Kavanagh,Crystal Palace,Liverpool,2,1,16,20,7,4,2,6,10,8,1,3,0,0,full_time
+E0_20250927_LEEDS_BOURNEMO,2025/26,2025-09-27,,M Oliver,Leeds,Bournemouth,2,2,19,12,8,5,7,4,12,13,2,2,0,0,full_time
+E0_20250927_MANCITY_BURNLEY,2025/26,2025-09-27,,R Jones,Man City,Burnley,5,1,21,9,8,2,10,2,5,7,1,3,0,0,full_time
+E0_20250927_NOTT'MFO_SUNDERLA,2025/26,2025-09-27,,T Harrington,Nott'm Forest,Sunderland,0,1,22,11,6,3,7,4,11,6,4,2,0,0,full_time
+E0_20250927_TOTTENHA_WOLVES,2025/26,2025-09-27,,M Salisbury,Tottenham,Wolves,1,1,10,9,3,3,10,9,9,11,3,2,0,0,full_time
+E0_20250928_ASTONVIL_FULHAM,2025/26,2025-09-28,,A Madley,Aston Villa,Fulham,3,1,9,11,4,4,2,8,10,13,1,4,0,0,full_time
+E0_20250928_NEWCASTL_ARSENAL,2025/26,2025-09-28,,J Gillett,Newcastle,Arsenal,1,2,8,20,3,7,7,12,8,9,2,1,0,0,full_time
+E0_20250929_EVERTON_WESTHAM,2025/26,2025-09-29,,S Barrott,Everton,West Ham,1,1,12,14,6,3,3,5,7,16,3,4,0,0,full_time
+E0_20251003_BOURNEMO_FULHAM,2025/26,2025-10-03,,S Hooper,Bournemouth,Fulham,3,1,11,12,6,4,4,3,8,10,0,1,0,0,full_time
+E0_20251004_LEEDS_TOTTENHA,2025/26,2025-10-04,,T Bramall,Leeds,Tottenham,1,2,16,9,4,3,4,1,10,12,2,3,0,0,full_time
+E0_20251004_ARSENAL_WESTHAM,2025/26,2025-10-04,,J Brooks,Arsenal,West Ham,2,0,21,4,5,0,8,3,14,14,0,2,0,0,full_time
+E0_20251004_MANUNITE_SUNDERLA,2025/26,2025-10-04,,S Attwell,Man United,Sunderland,2,0,15,8,6,3,2,3,10,12,1,4,0,0,full_time
+E0_20251004_CHELSEA_LIVERPOO,2025/26,2025-10-04,,A Taylor,Chelsea,Liverpool,2,1,12,12,6,2,7,2,9,8,0,2,0,0,full_time
+E0_20251005_ASTONVIL_BURNLEY,2025/26,2025-10-05,,A Kitchen,Aston Villa,Burnley,2,1,15,5,7,2,6,4,9,15,3,1,0,0,full_time
+E0_20251005_EVERTON_CRYSTALP,2025/26,2025-10-05,,M Salisbury,Everton,Crystal Palace,2,1,14,15,7,8,2,4,13,16,2,3,0,0,full_time
+E0_20251005_NEWCASTL_NOTT'MFO,2025/26,2025-10-05,,P Bankes,Newcastle,Nott'm Forest,2,0,18,5,9,4,8,1,16,15,0,4,0,0,full_time
+E0_20251005_WOLVES_BRIGHTON,2025/26,2025-10-05,,J Gillett,Wolves,Brighton,1,1,6,17,3,6,2,8,13,9,2,4,0,0,full_time
+E0_20251005_BRENTFOR_MANCITY,2025/26,2025-10-05,,D England,Brentford,Man City,0,1,6,10,1,4,3,2,10,6,3,2,0,0,full_time
+E0_20251018_NOTT'MFO_CHELSEA,2025/26,2025-10-18,,C Kavanagh,Nott'm Forest,Chelsea,0,3,12,17,2,6,5,2,13,16,2,2,0,1,full_time
+E0_20251018_BRIGHTON_NEWCASTL,2025/26,2025-10-18,,C Pawson,Brighton,Newcastle,2,1,13,16,5,3,8,4,9,9,0,1,0,0,full_time
+E0_20251018_BURNLEY_LEEDS,2025/26,2025-10-18,,T Robinson,Burnley,Leeds,2,0,4,19,3,4,1,5,10,7,2,1,0,0,full_time
+E0_20251018_CRYSTALP_BOURNEMO,2025/26,2025-10-18,,J Gillett,Crystal Palace,Bournemouth,3,3,20,8,7,5,6,5,8,16,1,4,0,0,full_time
+E0_20251018_MANCITY_EVERTON,2025/26,2025-10-18,,T Harrington,Man City,Everton,2,0,19,5,7,1,11,3,8,14,0,2,0,0,full_time
+E0_20251018_SUNDERLA_WOLVES,2025/26,2025-10-18,,R Jones,Sunderland,Wolves,2,0,8,16,2,3,3,2,5,12,0,0,0,0,full_time
+E0_20251018_FULHAM_ARSENAL,2025/26,2025-10-18,,A Taylor,Fulham,Arsenal,0,1,9,16,0,5,6,10,11,4,0,0,0,0,full_time
+E0_20251019_TOTTENHA_ASTONVIL,2025/26,2025-10-19,,S Hooper,Tottenham,Aston Villa,1,2,9,8,3,2,6,6,11,7,2,0,0,0,full_time
+E0_20251019_LIVERPOO_MANUNITE,2025/26,2025-10-19,,M Oliver,Liverpool,Man United,1,2,19,12,6,4,9,4,8,14,0,2,0,0,full_time
+E0_20251020_WESTHAM_BRENTFOR,2025/26,2025-10-20,,A Madley,West Ham,Brentford,0,2,7,22,1,7,6,10,10,10,1,1,0,0,full_time
+E0_20251024_LEEDS_WESTHAM,2025/26,2025-10-24,,S Attwell,Leeds,West Ham,2,1,13,9,5,3,3,4,12,11,3,3,0,0,full_time
+E0_20251025_CHELSEA_SUNDERLA,2025/26,2025-10-25,,A Madley,Chelsea,Sunderland,1,2,16,10,7,4,9,1,15,13,1,1,0,0,full_time
+E0_20251025_NEWCASTL_FULHAM,2025/26,2025-10-25,,P Bankes,Newcastle,Fulham,2,1,18,12,7,5,4,3,11,18,0,2,0,0,full_time
+E0_20251025_MANUNITE_BRIGHTON,2025/26,2025-10-25,,A Taylor,Man United,Brighton,4,2,13,17,9,5,1,6,4,13,2,2,0,0,full_time
+E0_20251025_BRENTFOR_LIVERPOO,2025/26,2025-10-25,,S Hooper,Brentford,Liverpool,3,2,17,18,8,5,5,4,7,10,3,2,0,0,full_time
+E0_20251026_ARSENAL_CRYSTALP,2025/26,2025-10-26,,T Bramall,Arsenal,Crystal Palace,1,0,10,7,3,1,4,3,6,11,0,0,0,0,full_time
+E0_20251026_ASTONVIL_MANCITY,2025/26,2025-10-26,,M Oliver,Aston Villa,Man City,1,0,9,18,3,4,5,6,8,16,1,4,0,0,full_time
+E0_20251026_BOURNEMO_NOTT'MFO,2025/26,2025-10-26,,S Barrott,Bournemouth,Nott'm Forest,2,0,13,8,5,4,6,4,17,7,3,1,0,0,full_time
+E0_20251026_WOLVES_BURNLEY,2025/26,2025-10-26,,T Harrington,Wolves,Burnley,2,3,15,11,7,7,5,3,12,7,1,0,0,0,full_time
+E0_20251026_EVERTON_TOTTENHA,2025/26,2025-10-26,,C Pawson,Everton,Tottenham,0,3,12,7,2,4,9,8,9,8,2,0,0,0,full_time
+E0_20251101_BRIGHTON_LEEDS,2025/26,2025-11-01,,M Oliver,Brighton,Leeds,3,0,14,5,7,2,4,7,10,7,0,1,0,0,full_time
+E0_20251101_BURNLEY_ARSENAL,2025/26,2025-11-01,,C Kavanagh,Burnley,Arsenal,0,2,3,12,0,8,1,6,10,13,2,1,0,0,full_time
+E0_20251101_CRYSTALP_BRENTFOR,2025/26,2025-11-01,,P Bankes,Crystal Palace,Brentford,2,0,9,6,3,2,6,5,7,11,0,3,0,0,full_time
+E0_20251101_FULHAM_WOLVES,2025/26,2025-11-01,,J Brooks,Fulham,Wolves,3,0,19,5,6,2,10,1,13,14,1,3,0,1,full_time
+E0_20251101_NOTT'MFO_MANUNITE,2025/26,2025-11-01,,D England,Nott'm Forest,Man United,2,2,17,18,3,7,8,5,10,7,1,1,0,0,full_time
+E0_20251101_TOTTENHA_CHELSEA,2025/26,2025-11-01,,J Gillett,Tottenham,Chelsea,0,1,3,15,1,9,6,5,14,12,4,2,0,0,full_time
+E0_20251101_LIVERPOO_ASTONVIL,2025/26,2025-11-01,,S Attwell,Liverpool,Aston Villa,2,0,16,10,4,3,1,4,13,11,2,3,0,0,full_time
+E0_20251102_WESTHAM_NEWCASTL,2025/26,2025-11-02,,R Jones,West Ham,Newcastle,3,1,15,12,9,4,7,6,5,10,1,2,0,0,full_time
+E0_20251102_MANCITY_BOURNEMO,2025/26,2025-11-02,,A Taylor,Man City,Bournemouth,3,1,15,8,8,5,10,4,8,11,2,2,0,0,full_time
+E0_20251103_SUNDERLA_EVERTON,2025/26,2025-11-03,,T Bramall,Sunderland,Everton,1,1,17,8,3,2,4,1,10,12,3,2,0,0,full_time
+E0_20251108_TOTTENHA_MANUNITE,2025/26,2025-11-08,,S Barrott,Tottenham,Man United,2,2,10,5,4,2,5,3,10,8,5,1,0,0,full_time
+E0_20251108_EVERTON_FULHAM,2025/26,2025-11-08,,A Madley,Everton,Fulham,2,0,14,8,5,4,7,5,11,14,2,2,0,0,full_time
+E0_20251108_WESTHAM_BURNLEY,2025/26,2025-11-08,,M Salisbury,West Ham,Burnley,3,2,15,16,6,7,7,4,15,13,2,2,0,0,full_time
+E0_20251108_SUNDERLA_ARSENAL,2025/26,2025-11-08,,C Pawson,Sunderland,Arsenal,2,2,6,17,2,7,2,2,13,13,2,1,0,0,full_time
+E0_20251108_CHELSEA_WOLVES,2025/26,2025-11-08,,A Kitchen,Chelsea,Wolves,3,0,20,3,8,0,10,1,12,14,1,2,0,0,full_time
+E0_20251109_ASTONVIL_BOURNEMO,2025/26,2025-11-09,,J Brooks,Aston Villa,Bournemouth,4,0,16,13,8,4,6,9,8,20,2,2,0,0,full_time
+E0_20251109_BRENTFOR_NEWCASTL,2025/26,2025-11-09,,S Attwell,Brentford,Newcastle,3,1,15,5,7,1,6,2,10,13,2,1,0,0,full_time
+E0_20251109_CRYSTALP_BRIGHTON,2025/26,2025-11-09,,T Robinson,Crystal Palace,Brighton,0,0,10,7,2,3,4,8,10,12,1,4,0,0,full_time
+E0_20251109_NOTT'MFO_LEEDS,2025/26,2025-11-09,,J Gillett,Nott'm Forest,Leeds,3,1,14,10,6,3,6,4,10,11,2,1,0,0,full_time
+E0_20251109_MANCITY_LIVERPOO,2025/26,2025-11-09,,C Kavanagh,Man City,Liverpool,3,0,14,7,6,1,7,7,14,15,2,4,0,0,full_time
+E0_20251122_BURNLEY_CHELSEA,2025/26,2025-11-22,,P Bankes,Burnley,Chelsea,0,2,8,15,2,5,1,9,13,8,2,3,0,0,full_time
+E0_20251122_BOURNEMO_WESTHAM,2025/26,2025-11-22,,T Bramall,Bournemouth,West Ham,2,2,28,5,10,2,9,2,9,10,3,2,0,0,full_time
+E0_20251122_BRIGHTON_BRENTFOR,2025/26,2025-11-22,,C Kavanagh,Brighton,Brentford,2,1,14,10,5,4,7,4,10,9,4,2,0,0,full_time
+E0_20251122_FULHAM_SUNDERLA,2025/26,2025-11-22,,D England,Fulham,Sunderland,1,0,24,4,6,2,7,4,5,13,3,3,0,0,full_time
+E0_20251122_LIVERPOO_NOTT'MFO,2025/26,2025-11-22,,A Madley,Liverpool,Nott'm Forest,0,3,21,15,4,7,8,6,11,8,2,0,0,0,full_time
+E0_20251122_WOLVES_CRYSTALP,2025/26,2025-11-22,,A Taylor,Wolves,Crystal Palace,0,2,8,10,1,4,1,4,13,9,2,3,0,0,full_time
+E0_20251122_NEWCASTL_MANCITY,2025/26,2025-11-22,,S Barrott,Newcastle,Man City,2,1,9,17,5,4,5,9,13,8,1,3,0,0,full_time
+E0_20251123_LEEDS_ASTONVIL,2025/26,2025-11-23,,R Jones,Leeds,Aston Villa,1,2,14,14,5,3,3,3,18,16,5,1,0,0,full_time
+E0_20251123_ARSENAL_TOTTENHA,2025/26,2025-11-23,,M Oliver,Arsenal,Tottenham,4,1,17,3,8,2,4,1,11,15,1,3,0,0,full_time
+E0_20251124_MANUNITE_EVERTON,2025/26,2025-11-24,,T Harrington,Man United,Everton,0,1,25,3,6,1,9,1,12,9,2,0,0,1,full_time
+E0_20251129_BRENTFOR_BURNLEY,2025/26,2025-11-29,,S Barrott,Brentford,Burnley,3,1,14,6,4,2,5,6,7,7,0,2,0,0,full_time
+E0_20251129_MANCITY_LEEDS,2025/26,2025-11-29,,P Bankes,Man City,Leeds,3,2,18,9,9,4,8,1,17,11,4,1,0,0,full_time
+E0_20251129_SUNDERLA_BOURNEMO,2025/26,2025-11-29,,T Robinson,Sunderland,Bournemouth,3,2,12,18,6,6,6,3,14,13,5,5,0,1,full_time
+E0_20251129_EVERTON_NEWCASTL,2025/26,2025-11-29,,C Pawson,Everton,Newcastle,1,4,10,13,2,8,8,7,4,6,0,0,0,0,full_time
+E0_20251129_TOTTENHA_FULHAM,2025/26,2025-11-29,,S Attwell,Tottenham,Fulham,1,2,14,7,2,3,8,2,11,7,3,2,0,0,full_time
+E0_20251130_CRYSTALP_MANUNITE,2025/26,2025-11-30,,R Jones,Crystal Palace,Man United,1,2,14,14,3,6,4,4,14,14,3,2,0,0,full_time
+E0_20251130_ASTONVIL_WOLVES,2025/26,2025-11-30,,C Kavanagh,Aston Villa,Wolves,1,0,16,9,6,4,7,3,13,21,0,4,0,0,full_time
+E0_20251130_NOTT'MFO_BRIGHTON,2025/26,2025-11-30,,M Oliver,Nott'm Forest,Brighton,0,2,19,17,3,6,9,2,11,10,0,1,0,0,full_time
+E0_20251130_WESTHAM_LIVERPOO,2025/26,2025-11-30,,D England,West Ham,Liverpool,0,2,7,9,0,5,7,2,12,14,1,0,1,0,full_time
+E0_20251130_CHELSEA_ARSENAL,2025/26,2025-11-30,,A Taylor,Chelsea,Arsenal,1,1,11,8,4,4,3,3,12,13,1,6,1,0,full_time
+E0_20251202_BOURNEMO_EVERTON,2025/26,2025-12-02,,M Salisbury,Bournemouth,Everton,0,1,5,13,2,3,1,6,14,14,3,3,0,0,full_time
+E0_20251202_FULHAM_MANCITY,2025/26,2025-12-02,,C Pawson,Fulham,Man City,4,5,12,11,6,4,7,2,9,7,0,1,0,0,full_time
+E0_20251202_NEWCASTL_TOTTENHA,2025/26,2025-12-02,,T Bramall,Newcastle,Tottenham,2,2,19,8,7,2,11,8,5,12,0,3,0,0,full_time
+E0_20251203_ARSENAL_BRENTFOR,2025/26,2025-12-03,,T Harrington,Arsenal,Brentford,2,0,15,6,7,1,4,8,7,9,0,1,0,0,full_time
+E0_20251203_BRIGHTON_ASTONVIL,2025/26,2025-12-03,,A Madley,Brighton,Aston Villa,3,4,16,14,7,10,5,6,10,9,2,2,0,0,full_time
+E0_20251203_BURNLEY_CRYSTALP,2025/26,2025-12-03,,T Kirk,Burnley,Crystal Palace,0,1,11,3,4,3,3,4,9,8,0,0,0,0,full_time
+E0_20251203_WOLVES_NOTT'MFO,2025/26,2025-12-03,,T Robinson,Wolves,Nott'm Forest,0,1,5,10,1,3,3,9,19,11,2,2,0,0,full_time
+E0_20251203_LEEDS_CHELSEA,2025/26,2025-12-03,,D England,Leeds,Chelsea,3,1,17,14,5,2,4,2,10,13,1,1,0,0,full_time
+E0_20251203_LIVERPOO_SUNDERLA,2025/26,2025-12-03,,S Attwell,Liverpool,Sunderland,1,1,23,9,4,6,7,3,10,5,1,1,0,0,full_time
+E0_20251204_MANUNITE_WESTHAM,2025/26,2025-12-04,,A Kitchen,Man United,West Ham,1,1,17,11,4,3,6,6,13,9,2,2,0,0,full_time
+E0_20251206_ASTONVIL_ARSENAL,2025/26,2025-12-06,,P Bankes,Aston Villa,Arsenal,2,1,15,15,6,9,3,3,10,8,0,2,0,0,full_time
+E0_20251206_BOURNEMO_CHELSEA,2025/26,2025-12-06,,M Oliver,Bournemouth,Chelsea,0,0,13,11,5,4,5,0,15,13,0,2,0,0,full_time
+E0_20251206_EVERTON_NOTT'MFO,2025/26,2025-12-06,,C Kavanagh,Everton,Nott'm Forest,3,0,11,7,5,3,6,3,17,15,4,3,0,0,full_time
+E0_20251206_MANCITY_SUNDERLA,2025/26,2025-12-06,,A Madley,Man City,Sunderland,3,0,18,8,6,1,6,5,9,10,1,0,0,1,full_time
+E0_20251206_NEWCASTL_BURNLEY,2025/26,2025-12-06,,S Attwell,Newcastle,Burnley,2,1,17,9,7,3,9,9,9,11,2,2,0,1,full_time
+E0_20251206_TOTTENHA_BRENTFOR,2025/26,2025-12-06,,R Jones,Tottenham,Brentford,2,0,15,4,7,1,7,6,8,9,3,4,0,0,full_time
+E0_20251206_LEEDS_LIVERPOO,2025/26,2025-12-06,,A Taylor,Leeds,Liverpool,3,3,12,16,5,7,5,4,14,14,3,3,0,0,full_time
+E0_20251207_BRIGHTON_WESTHAM,2025/26,2025-12-07,,S Hooper,Brighton,West Ham,1,1,22,14,4,5,10,6,12,8,2,2,0,0,full_time
+E0_20251207_FULHAM_CRYSTALP,2025/26,2025-12-07,,S Barrott,Fulham,Crystal Palace,1,2,12,11,4,5,6,4,5,8,0,0,0,0,full_time
+E0_20251208_WOLVES_MANUNITE,2025/26,2025-12-08,,M Salisbury,Wolves,Man United,1,4,8,27,2,10,1,9,17,12,3,2,0,0,full_time
+E0_20251213_CHELSEA_EVERTON,2025/26,2025-12-13,,T Bramall,Chelsea,Everton,2,0,17,11,5,2,4,7,13,11,1,0,0,0,full_time
+E0_20251213_LIVERPOO_BRIGHTON,2025/26,2025-12-13,,C Pawson,Liverpool,Brighton,2,0,18,14,4,1,2,2,8,15,1,2,0,0,full_time
+E0_20251213_BURNLEY_FULHAM,2025/26,2025-12-13,,M Oliver,Burnley,Fulham,2,3,16,6,8,4,10,4,8,8,1,2,0,0,full_time
+E0_20251213_ARSENAL_WOLVES,2025/26,2025-12-13,,R Jones,Arsenal,Wolves,2,1,16,3,2,2,8,0,7,15,0,4,0,0,full_time
+E0_20251214_CRYSTALP_MANCITY,2025/26,2025-12-14,,D England,Crystal Palace,Man City,0,3,16,7,4,6,2,2,9,6,2,0,0,0,full_time
+E0_20251214_NOTT'MFO_TOTTENHA,2025/26,2025-12-14,,S Barrott,Nott'm Forest,Tottenham,3,0,15,6,6,1,3,3,9,13,1,3,0,0,full_time
+E0_20251214_SUNDERLA_NEWCASTL,2025/26,2025-12-14,,P Bankes,Sunderland,Newcastle,1,0,5,6,1,2,3,6,10,10,5,4,0,0,full_time
+E0_20251214_WESTHAM_ASTONVIL,2025/26,2025-12-14,,A Taylor,West Ham,Aston Villa,2,3,10,7,3,4,5,3,18,13,1,2,0,0,full_time
+E0_20251214_BRENTFOR_LEEDS,2025/26,2025-12-14,,J Brooks,Brentford,Leeds,1,1,7,18,2,4,0,3,8,9,0,0,0,0,full_time
+E0_20251215_MANUNITE_BOURNEMO,2025/26,2025-12-15,,S Hooper,Man United,Bournemouth,4,4,25,14,9,9,5,4,15,12,2,3,0,0,full_time
+E0_20251220_NEWCASTL_CHELSEA,2025/26,2025-12-20,,A Madley,Newcastle,Chelsea,2,2,11,13,5,4,6,4,13,14,3,6,0,0,full_time
+E0_20251220_BOURNEMO_BURNLEY,2025/26,2025-12-20,,C Kavanagh,Bournemouth,Burnley,1,1,16,4,1,1,5,3,11,11,1,1,0,0,full_time
+E0_20251220_BRIGHTON_SUNDERLA,2025/26,2025-12-20,,D England,Brighton,Sunderland,0,0,16,14,4,6,3,4,11,15,2,2,0,0,full_time
+E0_20251220_MANCITY_WESTHAM,2025/26,2025-12-20,,P Tierney,Man City,West Ham,3,0,17,7,8,3,6,0,16,10,1,1,0,0,full_time
+E0_20251220_WOLVES_BRENTFOR,2025/26,2025-12-20,,M Donohue,Wolves,Brentford,0,2,9,7,2,6,3,4,12,15,2,4,0,0,full_time
+E0_20251220_TOTTENHA_LIVERPOO,2025/26,2025-12-20,,J Brooks,Tottenham,Liverpool,1,2,15,8,4,4,2,6,9,7,3,3,2,0,full_time
+E0_20251220_EVERTON_ARSENAL,2025/26,2025-12-20,,S Barrott,Everton,Arsenal,0,1,5,13,1,2,2,3,4,5,2,2,0,0,full_time
+E0_20251220_LEEDS_CRYSTALP,2025/26,2025-12-20,,T Bramall,Leeds,Crystal Palace,4,1,20,9,8,3,9,5,5,10,1,3,0,0,full_time
+E0_20251221_ASTONVIL_MANUNITE,2025/26,2025-12-21,,M Oliver,Aston Villa,Man United,2,1,12,15,4,6,5,5,11,14,1,2,0,0,full_time
+E0_20251222_FULHAM_NOTT'MFO,2025/26,2025-12-22,,A Taylor,Fulham,Nott'm Forest,1,0,11,12,1,2,1,5,5,9,5,4,0,0,full_time
+E0_20251226_MANUNITE_NEWCASTL,2025/26,2025-12-26,,A Taylor,Man United,Newcastle,1,0,10,16,4,3,2,11,9,5,2,1,0,0,full_time
+E0_20251227_NOTT'MFO_MANCITY,2025/26,2025-12-27,,R Jones,Nott'm Forest,Man City,1,2,7,16,2,5,5,5,5,13,1,2,0,0,full_time
+E0_20251227_ARSENAL_BRIGHTON,2025/26,2025-12-27,,J Brooks,Arsenal,Brighton,2,1,24,8,6,3,7,2,7,13,2,3,0,0,full_time
+E0_20251227_BRENTFOR_BOURNEMO,2025/26,2025-12-27,,P Bankes,Brentford,Bournemouth,4,1,15,20,7,10,2,15,9,8,2,2,0,0,full_time
+E0_20251227_BURNLEY_EVERTON,2025/26,2025-12-27,,C Pawson,Burnley,Everton,0,0,16,15,0,6,6,5,8,8,0,2,0,0,full_time
+E0_20251227_LIVERPOO_WOLVES,2025/26,2025-12-27,,S Hooper,Liverpool,Wolves,2,1,14,9,4,4,6,4,5,13,0,1,0,0,full_time
+E0_20251227_WESTHAM_FULHAM,2025/26,2025-12-27,,C Kavanagh,West Ham,Fulham,0,1,11,15,2,4,5,4,8,8,1,3,0,0,full_time
+E0_20251227_CHELSEA_ASTONVIL,2025/26,2025-12-27,,S Attwell,Chelsea,Aston Villa,1,2,14,11,3,8,6,7,16,8,5,3,0,0,full_time
+E0_20251228_SUNDERLA_LEEDS,2025/26,2025-12-28,,T Harrington,Sunderland,Leeds,1,1,8,17,3,6,3,9,7,9,1,0,0,0,full_time
+E0_20251228_CRYSTALP_TOTTENHA,2025/26,2025-12-28,,J Gillett,Crystal Palace,Tottenham,0,1,15,8,2,4,3,2,7,5,3,2,0,0,full_time
+E0_20251230_BURNLEY_NEWCASTL,2025/26,2025-12-30,,R Jones,Burnley,Newcastle,1,3,15,20,4,9,3,4,9,3,2,1,0,0,full_time
+E0_20251230_CHELSEA_BOURNEMO,2025/26,2025-12-30,,S Barrott,Chelsea,Bournemouth,2,2,17,17,3,6,12,3,5,12,1,1,0,0,full_time
+E0_20251230_NOTT'MFO_EVERTON,2025/26,2025-12-30,,M Oliver,Nott'm Forest,Everton,0,2,21,11,6,3,9,2,11,9,1,0,0,0,full_time
+E0_20251230_WESTHAM_BRIGHTON,2025/26,2025-12-30,,M Salisbury,West Ham,Brighton,2,2,10,16,4,6,5,5,11,18,3,5,0,0,full_time
+E0_20251230_ARSENAL_ASTONVIL,2025/26,2025-12-30,,D England,Arsenal,Aston Villa,4,1,22,11,7,3,3,3,18,9,2,3,0,0,full_time
+E0_20251230_MANUNITE_WOLVES,2025/26,2025-12-30,,T Bramall,Man United,Wolves,1,1,15,11,6,4,8,4,9,12,0,2,0,0,full_time
+E0_20260101_CRYSTALP_FULHAM,2025/26,2026-01-01,,T Harrington,Crystal Palace,Fulham,1,1,11,17,2,5,6,3,7,10,0,5,0,0,full_time
+E0_20260101_LIVERPOO_LEEDS,2025/26,2026-01-01,,C Kavanagh,Liverpool,Leeds,0,0,19,4,4,2,8,3,10,8,0,2,0,0,full_time
+E0_20260101_BRENTFOR_TOTTENHA,2025/26,2026-01-01,,A Madley,Brentford,Tottenham,0,0,7,9,2,3,3,1,8,10,1,2,0,0,full_time
+E0_20260101_SUNDERLA_MANCITY,2025/26,2026-01-01,,J Gillett,Sunderland,Man City,0,0,10,14,4,4,3,5,9,6,1,1,0,0,full_time
+E0_20260103_ASTONVIL_NOTT'MFO,2025/26,2026-01-03,,S Hooper,Aston Villa,Nott'm Forest,3,1,11,10,4,5,4,4,10,20,1,2,0,0,full_time
+E0_20260103_BRIGHTON_BURNLEY,2025/26,2026-01-03,,T Robinson,Brighton,Burnley,2,0,15,5,4,3,4,4,7,17,0,4,0,0,full_time
+E0_20260103_WOLVES_WESTHAM,2025/26,2026-01-03,,P Bankes,Wolves,West Ham,3,0,11,6,8,0,6,7,11,10,1,0,0,0,full_time
+E0_20260103_BOURNEMO_ARSENAL,2025/26,2026-01-03,,C Kavanagh,Bournemouth,Arsenal,2,3,15,12,3,5,7,5,13,8,3,1,0,0,full_time
+E0_20260104_LEEDS_MANUNITE,2025/26,2026-01-04,,J Gillett,Leeds,Man United,1,1,11,15,3,2,6,4,9,9,0,1,0,0,full_time
+E0_20260104_EVERTON_BRENTFOR,2025/26,2026-01-04,,A Taylor,Everton,Brentford,2,4,14,11,6,7,4,5,9,8,0,2,0,0,full_time
+E0_20260104_NEWCASTL_CRYSTALP,2025/26,2026-01-04,,J Brooks,Newcastle,Crystal Palace,2,0,12,11,7,1,8,6,5,12,1,3,0,0,full_time
+E0_20260104_TOTTENHA_SUNDERLA,2025/26,2026-01-04,,S Attwell,Tottenham,Sunderland,1,1,13,10,5,3,3,5,10,6,2,3,0,0,full_time
+E0_20260104_FULHAM_LIVERPOO,2025/26,2026-01-04,,C Pawson,Fulham,Liverpool,2,2,8,10,2,2,3,8,11,4,1,1,0,0,full_time
+E0_20260104_MANCITY_CHELSEA,2025/26,2026-01-04,,M Oliver,Man City,Chelsea,1,1,14,8,3,3,8,2,12,14,3,3,0,0,full_time
+E0_20260106_WESTHAM_NOTT'MFO,2025/26,2026-01-06,,T Harrington,West Ham,Nott'm Forest,1,2,14,13,3,5,6,5,15,9,3,0,0,0,full_time
+E0_20260107_BOURNEMO_TOTTENHA,2025/26,2026-01-07,,D England,Bournemouth,Tottenham,3,2,11,16,3,4,3,7,19,10,3,3,0,0,full_time
+E0_20260107_BRENTFOR_SUNDERLA,2025/26,2026-01-07,,M Donohue,Brentford,Sunderland,3,0,18,11,6,3,7,4,13,13,2,1,0,0,full_time
+E0_20260107_CRYSTALP_ASTONVIL,2025/26,2026-01-07,,A Madley,Crystal Palace,Aston Villa,0,0,11,15,5,3,3,5,8,3,2,0,0,0,full_time
+E0_20260107_EVERTON_WOLVES,2025/26,2026-01-07,,T Kirk,Everton,Wolves,1,1,13,13,2,4,2,7,13,15,1,3,2,0,full_time
+E0_20260107_FULHAM_CHELSEA,2025/26,2026-01-07,,P Bankes,Fulham,Chelsea,2,1,16,14,5,6,2,11,11,6,3,3,0,1,full_time
+E0_20260107_MANCITY_BRIGHTON,2025/26,2026-01-07,,T Bramall,Man City,Brighton,1,1,22,6,6,3,6,2,6,16,1,6,0,0,full_time
+E0_20260107_BURNLEY_MANUNITE,2025/26,2026-01-07,,S Attwell,Burnley,Man United,2,2,7,30,1,10,2,6,9,8,2,0,0,0,full_time
+E0_20260107_NEWCASTL_LEEDS,2025/26,2026-01-07,,M Salisbury,Newcastle,Leeds,4,3,18,14,8,6,8,4,11,10,3,2,0,0,full_time
+E0_20260108_ARSENAL_LIVERPOO,2025/26,2026-01-08,,A Taylor,Arsenal,Liverpool,0,0,9,8,4,0,3,0,10,9,2,2,0,0,full_time
+E0_20260117_MANUNITE_MANCITY,2025/26,2026-01-17,,A Taylor,Man United,Man City,2,0,11,7,7,1,1,6,13,8,2,3,0,0,full_time
+E0_20260117_CHELSEA_BRENTFOR,2025/26,2026-01-17,,J Brooks,Chelsea,Brentford,2,0,6,15,2,5,3,9,7,10,3,2,0,0,full_time
+E0_20260117_LEEDS_FULHAM,2025/26,2026-01-17,,C Kavanagh,Leeds,Fulham,1,0,14,8,5,1,7,3,6,11,1,5,0,0,full_time
+E0_20260117_LIVERPOO_BURNLEY,2025/26,2026-01-17,,A Madley,Liverpool,Burnley,1,1,32,7,11,1,9,1,8,10,1,2,0,0,full_time
+E0_20260117_SUNDERLA_CRYSTALP,2025/26,2026-01-17,,R Jones,Sunderland,Crystal Palace,2,1,13,6,7,2,3,4,8,15,3,3,0,0,full_time
+E0_20260117_TOTTENHA_WESTHAM,2025/26,2026-01-17,,J Gillett,Tottenham,West Ham,1,2,21,17,6,4,11,5,12,17,5,3,0,0,full_time
+E0_20260117_NOTT'MFO_ARSENAL,2025/26,2026-01-17,,M Oliver,Nott'm Forest,Arsenal,0,0,6,15,0,3,4,9,8,14,1,1,0,0,full_time
+E0_20260118_WOLVES_NEWCASTL,2025/26,2026-01-18,,S Barrott,Wolves,Newcastle,0,0,6,12,2,2,4,7,14,8,2,2,0,0,full_time
+E0_20260118_ASTONVIL_EVERTON,2025/26,2026-01-18,,T Harrington,Aston Villa,Everton,0,1,18,9,5,3,6,4,15,13,1,2,0,0,full_time
+E0_20260119_BRIGHTON_BOURNEMO,2025/26,2026-01-19,,P Tierney,Brighton,Bournemouth,1,1,17,11,5,2,11,6,7,6,2,3,0,0,full_time
+E0_20260124_WESTHAM_SUNDERLA,2025/26,2026-01-24,,T Bramall,West Ham,Sunderland,3,1,13,7,5,2,3,3,9,16,2,4,0,0,full_time
+E0_20260124_BURNLEY_TOTTENHA,2025/26,2026-01-24,,P Bankes,Burnley,Tottenham,2,2,9,18,4,11,1,3,8,9,1,0,0,0,full_time
+E0_20260124_FULHAM_BRIGHTON,2025/26,2026-01-24,,M Oliver,Fulham,Brighton,2,1,12,13,4,5,6,6,10,6,1,1,0,0,full_time
+E0_20260124_MANCITY_WOLVES,2025/26,2026-01-24,,F Hallam,Man City,Wolves,2,0,11,11,4,1,4,6,16,14,1,3,0,0,full_time
+E0_20260124_BOURNEMO_LIVERPOO,2025/26,2026-01-24,,M Salisbury,Bournemouth,Liverpool,3,2,12,14,5,4,3,11,7,7,1,1,0,0,full_time
+E0_20260125_BRENTFOR_NOTT'MFO,2025/26,2026-01-25,,S Barrott,Brentford,Nott'm Forest,0,2,10,7,1,2,6,5,11,10,1,0,0,0,full_time
+E0_20260125_CRYSTALP_CHELSEA,2025/26,2026-01-25,,D England,Crystal Palace,Chelsea,1,3,13,10,7,6,4,5,11,10,2,2,1,0,full_time
+E0_20260125_NEWCASTL_ASTONVIL,2025/26,2026-01-25,,J Gillett,Newcastle,Aston Villa,0,2,15,14,4,8,6,5,7,12,1,2,0,0,full_time
+E0_20260125_ARSENAL_MANUNITE,2025/26,2026-01-25,,C Pawson,Arsenal,Man United,2,3,15,10,4,3,9,2,11,9,2,0,0,0,full_time
+E0_20260126_EVERTON_LEEDS,2025/26,2026-01-26,,S Hooper,Everton,Leeds,1,1,10,14,3,4,4,4,9,13,0,3,0,0,full_time
+E0_20260131_BRIGHTON_EVERTON,2025/26,2026-01-31,,C Kavanagh,Brighton,Everton,1,1,11,7,2,4,5,2,13,14,1,2,0,0,full_time
+E0_20260131_LEEDS_ARSENAL,2025/26,2026-01-31,,S Attwell,Leeds,Arsenal,0,4,3,14,1,8,4,12,10,7,1,1,0,0,full_time
+E0_20260131_WOLVES_BOURNEMO,2025/26,2026-01-31,,M Oliver,Wolves,Bournemouth,0,2,17,9,7,4,5,6,11,15,3,3,0,0,full_time
+E0_20260131_CHELSEA_WESTHAM,2025/26,2026-01-31,,A Taylor,Chelsea,West Ham,3,2,14,11,6,6,9,3,11,13,3,2,0,1,full_time
+E0_20260131_LIVERPOO_NEWCASTL,2025/26,2026-01-31,,S Hooper,Liverpool,Newcastle,4,1,17,8,7,2,7,11,11,7,1,3,0,0,full_time
+E0_20260201_ASTONVIL_BRENTFOR,2025/26,2026-02-01,,T Robinson,Aston Villa,Brentford,0,1,27,6,5,2,12,1,8,8,0,3,0,0,full_time
+E0_20260201_MANUNITE_FULHAM,2025/26,2026-02-01,,J Brooks,Man United,Fulham,3,2,13,14,6,6,3,7,6,9,2,1,0,0,full_time
+E0_20260201_NOTT'MFO_CRYSTALP,2025/26,2026-02-01,,M Salisbury,Nott'm Forest,Crystal Palace,1,1,9,14,1,3,5,7,4,12,1,3,0,0,full_time
+E0_20260201_TOTTENHA_MANCITY,2025/26,2026-02-01,,R Jones,Tottenham,Man City,2,2,12,15,6,3,3,4,15,12,3,3,0,0,full_time
+E0_20260202_SUNDERLA_BURNLEY,2025/26,2026-02-02,,P Tierney,Sunderland,Burnley,3,0,14,5,5,0,1,2,12,10,1,4,0,0,full_time
+E0_20260206_LEEDS_NOTT'MFO,2025/26,2026-02-06,,P Bankes,Leeds,Nott'm Forest,3,1,14,16,5,6,5,10,9,12,1,1,0,0,full_time
+E0_20260207_MANUNITE_TOTTENHA,2025/26,2026-02-07,,M Oliver,Man United,Tottenham,2,0,23,7,10,1,7,0,12,11,1,2,0,1,full_time
+E0_20260207_ARSENAL_SUNDERLA,2025/26,2026-02-07,,S Barrott,Arsenal,Sunderland,3,0,16,5,5,3,5,2,11,8,1,2,0,0,full_time
+E0_20260207_BOURNEMO_ASTONVIL,2025/26,2026-02-07,,A Taylor,Bournemouth,Aston Villa,1,1,20,7,9,4,11,4,4,11,1,1,0,0,full_time
+E0_20260207_BURNLEY_WESTHAM,2025/26,2026-02-07,,D England,Burnley,West Ham,0,2,18,6,5,4,5,2,11,10,3,1,0,0,full_time
+E0_20260207_FULHAM_EVERTON,2025/26,2026-02-07,,S Attwell,Fulham,Everton,1,2,13,16,3,3,6,6,11,12,1,5,0,0,full_time
+E0_20260207_WOLVES_CHELSEA,2025/26,2026-02-07,,J Gillett,Wolves,Chelsea,1,3,11,15,3,6,3,4,9,10,1,1,0,0,full_time
+E0_20260207_NEWCASTL_BRENTFOR,2025/26,2026-02-07,,A Madley,Newcastle,Brentford,2,3,16,11,4,5,9,3,14,18,2,2,0,0,full_time
+E0_20260208_BRIGHTON_CRYSTALP,2025/26,2026-02-08,,T Bramall,Brighton,Crystal Palace,0,1,7,7,2,4,3,4,12,9,1,3,0,0,full_time
+E0_20260208_LIVERPOO_MANCITY,2025/26,2026-02-08,,C Pawson,Liverpool,Man City,1,2,15,17,4,7,5,4,13,16,2,4,1,0,full_time
+E0_20260210_CHELSEA_LEEDS,2025/26,2026-02-10,,R Jones,Chelsea,Leeds,2,2,19,4,4,2,4,1,9,13,4,4,0,0,full_time
+E0_20260210_EVERTON_BOURNEMO,2025/26,2026-02-10,,A Madley,Everton,Bournemouth,1,2,16,11,6,4,7,2,14,15,1,3,1,0,full_time
+E0_20260210_TOTTENHA_NEWCASTL,2025/26,2026-02-10,,A Taylor,Tottenham,Newcastle,1,2,16,21,2,5,2,12,15,11,3,2,0,0,full_time
+E0_20260210_WESTHAM_MANUNITE,2025/26,2026-02-10,,S Hooper,West Ham,Man United,1,1,7,9,3,3,5,3,10,4,1,1,0,0,full_time
+E0_20260211_ASTONVIL_BRIGHTON,2025/26,2026-02-11,,P Bankes,Aston Villa,Brighton,1,0,15,9,1,3,7,5,9,15,2,3,0,0,full_time
+E0_20260211_CRYSTALP_BURNLEY,2025/26,2026-02-11,,F Hallam,Crystal Palace,Burnley,2,3,21,8,3,3,8,2,11,8,2,1,0,0,full_time
+E0_20260211_MANCITY_FULHAM,2025/26,2026-02-11,,P Tierney,Man City,Fulham,3,0,13,14,5,3,4,4,8,10,3,1,0,0,full_time
+E0_20260211_NOTT'MFO_WOLVES,2025/26,2026-02-11,,T Robinson,Nott'm Forest,Wolves,0,0,35,7,10,3,8,2,12,13,0,2,0,0,full_time
+E0_20260211_SUNDERLA_LIVERPOO,2025/26,2026-02-11,,C Kavanagh,Sunderland,Liverpool,0,1,11,23,2,3,3,11,8,10,1,0,0,0,full_time
+E0_20260212_BRENTFOR_ARSENAL,2025/26,2026-02-12,,J Brooks,Brentford,Arsenal,1,1,12,7,3,2,6,4,12,11,3,2,0,0,full_time
+E0_20260218_WOLVES_ARSENAL,2025/26,2026-02-18,,P Tierney,Wolves,Arsenal,2,2,5,10,2,4,1,3,6,8,2,1,0,0,full_time
+E0_20260221_ASTONVIL_LEEDS,2025/26,2026-02-21,,M Oliver,Aston Villa,Leeds,1,1,16,14,4,4,7,2,11,16,1,4,0,0,full_time
+E0_20260221_BRENTFOR_BRIGHTON,2025/26,2026-02-21,,J Gillett,Brentford,Brighton,0,2,13,11,3,7,6,4,9,14,1,2,0,0,full_time
+E0_20260221_CHELSEA_BURNLEY,2025/26,2026-02-21,,L Smith,Chelsea,Burnley,1,1,12,12,2,4,9,5,13,11,2,2,1,0,full_time
+E0_20260221_WESTHAM_BOURNEMO,2025/26,2026-02-21,,S Barrott,West Ham,Bournemouth,0,0,20,10,3,5,9,5,10,11,1,1,0,0,full_time
+E0_20260221_MANCITY_NEWCASTL,2025/26,2026-02-21,,T Bramall,Man City,Newcastle,2,1,15,13,7,7,5,5,12,13,2,5,0,0,full_time
+E0_20260222_CRYSTALP_WOLVES,2025/26,2026-02-22,,T Kirk,Crystal Palace,Wolves,1,0,14,12,3,7,7,3,19,13,5,1,0,1,full_time
+E0_20260222_NOTT'MFO_LIVERPOO,2025/26,2026-02-22,,A Taylor,Nott'm Forest,Liverpool,0,1,18,10,2,4,7,2,13,9,2,0,0,0,full_time
+E0_20260222_SUNDERLA_FULHAM,2025/26,2026-02-22,,C Pawson,Sunderland,Fulham,1,3,12,12,2,4,6,4,6,13,1,1,0,0,full_time
+E0_20260222_TOTTENHA_ARSENAL,2025/26,2026-02-22,,P Bankes,Tottenham,Arsenal,1,4,6,20,5,7,2,5,17,11,2,1,0,0,full_time
+E0_20260223_EVERTON_MANUNITE,2025/26,2026-02-23,,D England,Everton,Man United,0,1,12,11,4,3,10,1,12,7,2,3,0,0,full_time
+E0_20260227_WOLVES_ASTONVIL,2025/26,2026-02-27,,C Pawson,Wolves,Aston Villa,2,0,9,14,2,5,0,5,13,19,3,3,0,0,full_time
+E0_20260228_BOURNEMO_SUNDERLA,2025/26,2026-02-28,,J Gillett,Bournemouth,Sunderland,1,1,21,8,5,4,7,3,15,12,4,2,0,0,full_time
+E0_20260228_BURNLEY_BRENTFOR,2025/26,2026-02-28,,S Barrott,Burnley,Brentford,3,4,12,16,3,7,4,8,9,9,2,2,0,0,full_time
+E0_20260228_LIVERPOO_WESTHAM,2025/26,2026-02-28,,T Robinson,Liverpool,West Ham,5,2,18,11,7,4,10,5,12,11,2,2,0,0,full_time
+E0_20260228_NEWCASTL_EVERTON,2025/26,2026-02-28,,S Attwell,Newcastle,Everton,2,3,17,9,7,5,7,2,15,7,2,3,0,0,full_time
+E0_20260228_LEEDS_MANCITY,2025/26,2026-02-28,,P Bankes,Leeds,Man City,0,1,14,14,2,5,5,3,10,8,0,3,0,0,full_time
+E0_20260301_BRIGHTON_NOTT'MFO,2025/26,2026-03-01,,A Madley,Brighton,Nott'm Forest,2,1,14,13,7,4,4,4,12,13,3,1,0,0,full_time
+E0_20260301_FULHAM_TOTTENHA,2025/26,2026-03-01,,T Bramall,Fulham,Tottenham,2,1,18,13,4,1,5,8,11,14,3,3,0,0,full_time
+E0_20260301_MANUNITE_CRYSTALP,2025/26,2026-03-01,,C Kavanagh,Man United,Crystal Palace,2,1,20,8,11,3,7,1,13,12,2,2,0,1,full_time
+E0_20260301_ARSENAL_CHELSEA,2025/26,2026-03-01,,D England,Arsenal,Chelsea,2,1,12,9,5,3,5,10,11,14,1,3,0,1,full_time
+E0_20260303_BOURNEMO_BRENTFOR,2025/26,2026-03-03,,C Pawson,Bournemouth,Brentford,0,0,13,5,2,2,4,3,9,10,2,1,0,0,full_time
+E0_20260303_EVERTON_BURNLEY,2025/26,2026-03-03,,T Robinson,Everton,Burnley,2,0,14,5,5,2,6,3,10,12,0,1,0,0,full_time
+E0_20260303_LEEDS_SUNDERLA,2025/26,2026-03-03,,S Attwell,Leeds,Sunderland,0,1,18,3,4,1,9,2,15,19,1,3,0,0,full_time
+E0_20260303_WOLVES_LIVERPOO,2025/26,2026-03-03,,T Bramall,Wolves,Liverpool,2,1,4,19,3,7,2,11,10,13,2,1,0,0,full_time
+E0_20260304_ASTONVIL_CHELSEA,2025/26,2026-03-04,,J Gillett,Aston Villa,Chelsea,1,4,9,15,4,8,3,8,10,9,3,2,0,0,full_time
+E0_20260304_BRIGHTON_ARSENAL,2025/26,2026-03-04,,C Kavanagh,Brighton,Arsenal,0,1,11,7,3,2,4,3,14,12,4,1,0,0,full_time
+E0_20260304_FULHAM_WESTHAM,2025/26,2026-03-04,,M Donohue,Fulham,West Ham,0,1,13,9,5,3,7,5,14,12,2,4,0,0,full_time
+E0_20260304_MANCITY_NOTT'MFO,2025/26,2026-03-04,,D England,Man City,Nott'm Forest,2,2,21,9,7,4,6,1,10,6,0,4,0,0,full_time
+E0_20260304_NEWCASTL_MANUNITE,2025/26,2026-03-04,,P Bankes,Newcastle,Man United,2,1,12,14,5,5,2,4,15,16,2,3,1,0,full_time
+E0_20260305_TOTTENHA_CRYSTALP,2025/26,2026-03-05,,A Madley,Tottenham,Crystal Palace,1,3,12,9,4,4,6,3,14,14,3,2,0,0,full_time
+E0_20260314_BURNLEY_BOURNEMO,2025/26,2026-03-14,,P Bankes,Burnley,Bournemouth,0,0,15,22,2,3,5,8,11,5,1,0,0,0,full_time
+E0_20260314_SUNDERLA_BRIGHTON,2025/26,2026-03-14,,T Kirk,Sunderland,Brighton,0,1,14,12,4,4,7,3,7,12,1,2,0,0,full_time
+E0_20260314_ARSENAL_EVERTON,2025/26,2026-03-14,,A Madley,Arsenal,Everton,2,0,25,9,7,3,8,3,11,12,0,0,0,0,full_time
+E0_20260314_CHELSEA_NEWCASTL,2025/26,2026-03-14,,P Tierney,Chelsea,Newcastle,0,1,22,7,3,5,8,1,9,10,2,2,0,0,full_time
+E0_20260314_WESTHAM_MANCITY,2025/26,2026-03-14,,M Oliver,West Ham,Man City,1,1,1,24,1,6,1,15,14,5,2,2,0,0,full_time
+E0_20260315_CRYSTALP_LEEDS,2025/26,2026-03-15,,T Bramall,Crystal Palace,Leeds,0,0,12,10,0,3,8,3,12,11,2,1,0,1,full_time
+E0_20260315_MANUNITE_ASTONVIL,2025/26,2026-03-15,,A Taylor,Man United,Aston Villa,3,1,16,9,6,2,6,6,10,5,3,2,0,0,full_time
+E0_20260315_NOTT'MFO_FULHAM,2025/26,2026-03-15,,S Barrott,Nott'm Forest,Fulham,0,0,11,5,2,0,5,4,8,10,2,3,0,0,full_time
+E0_20260315_LIVERPOO_TOTTENHA,2025/26,2026-03-15,,C Kavanagh,Liverpool,Tottenham,1,1,17,13,4,7,3,4,8,13,0,0,0,0,full_time
+E0_20260316_BRENTFOR_WOLVES,2025/26,2026-03-16,,S Attwell,Brentford,Wolves,2,2,10,13,3,4,1,5,12,10,2,4,0,0,full_time
+E0_20260320_BOURNEMO_MANUNITE,2025/26,2026-03-20,,S Attwell,Bournemouth,Man United,2,2,16,14,5,5,6,8,10,9,2,2,0,1,full_time
+E0_20260321_BRIGHTON_LIVERPOO,2025/26,2026-03-21,,D England,Brighton,Liverpool,2,1,16,12,7,5,4,8,11,11,5,5,0,0,full_time
+E0_20260321_FULHAM_BURNLEY,2025/26,2026-03-21,,C Kavanagh,Fulham,Burnley,3,1,22,9,6,5,6,6,6,9,2,2,0,1,full_time
+E0_20260321_EVERTON_CHELSEA,2025/26,2026-03-21,,S Barrott,Everton,Chelsea,3,0,10,12,9,4,3,9,6,7,0,2,0,0,full_time
+E0_20260321_LEEDS_BRENTFOR,2025/26,2026-03-21,,J Gillett,Leeds,Brentford,0,0,14,6,4,2,6,2,6,9,2,0,0,0,full_time
+E0_20260322_NEWCASTL_SUNDERLA,2025/26,2026-03-22,,A Taylor,Newcastle,Sunderland,1,2,16,17,4,7,9,5,8,19,1,6,0,0,full_time
+E0_20260322_ASTONVIL_WESTHAM,2025/26,2026-03-22,,P Tierney,Aston Villa,West Ham,2,0,23,9,7,1,6,6,3,7,0,1,0,0,full_time
+E0_20260322_TOTTENHA_NOTT'MFO,2025/26,2026-03-22,,M Oliver,Tottenham,Nott'm Forest,0,3,14,8,3,7,13,3,13,13,1,2,0,0,full_time
+E0_20260410_WESTHAM_WOLVES,2025/26,2026-04-10,,J Gillett,West Ham,Wolves,4,0,18,14,7,3,5,2,11,7,2,2,0,0,full_time
+E0_20260411_ARSENAL_BOURNEMO,2025/26,2026-04-11,,M Oliver,Arsenal,Bournemouth,1,2,15,8,3,3,10,1,12,18,1,3,0,0,full_time
+E0_20260411_BRENTFOR_EVERTON,2025/26,2026-04-11,,F Hallam,Brentford,Everton,2,2,17,14,4,7,2,3,6,7,0,2,0,0,full_time
+E0_20260411_BURNLEY_BRIGHTON,2025/26,2026-04-11,,T Bramall,Burnley,Brighton,0,2,10,13,5,6,8,2,7,11,2,1,0,0,full_time
+E0_20260411_LIVERPOO_FULHAM,2025/26,2026-04-11,,A Taylor,Liverpool,Fulham,2,0,18,19,5,4,6,9,10,4,0,0,0,0,full_time
+E0_20260412_CRYSTALP_NEWCASTL,2025/26,2026-04-12,,A Madley,Crystal Palace,Newcastle,2,1,11,7,5,3,2,4,17,12,0,3,0,0,full_time
+E0_20260412_NOTT'MFO_ASTONVIL,2025/26,2026-04-12,,M Salisbury,Nott'm Forest,Aston Villa,1,1,15,12,4,5,7,3,15,10,2,2,0,0,full_time
+E0_20260412_SUNDERLA_TOTTENHA,2025/26,2026-04-12,,R Jones,Sunderland,Tottenham,1,0,13,11,2,7,2,6,14,15,3,3,0,0,full_time
+E0_20260412_CHELSEA_MANCITY,2025/26,2026-04-12,,C Kavanagh,Chelsea,Man City,0,3,12,18,3,8,4,12,10,14,3,1,0,0,full_time
+E0_20260413_MANUNITE_LEEDS,2025/26,2026-04-13,,P Tierney,Man United,Leeds,1,2,20,15,9,6,11,4,12,15,3,2,1,0,full_time
+E0_20260418_BRENTFOR_FULHAM,2025/26,2026-04-18,,P Tierney,Brentford,Fulham,0,0,13,11,4,0,9,3,8,13,0,1,0,0,full_time
+E0_20260418_LEEDS_WOLVES,2025/26,2026-04-18,,F Hallam,Leeds,Wolves,3,0,17,7,6,2,5,6,9,17,2,1,0,0,full_time
+E0_20260418_NEWCASTL_BOURNEMO,2025/26,2026-04-18,,T Bramall,Newcastle,Bournemouth,1,2,12,12,3,3,2,3,11,12,2,4,0,0,full_time
+E0_20260418_TOTTENHA_BRIGHTON,2025/26,2026-04-18,,S Attwell,Tottenham,Brighton,2,2,13,10,6,3,7,5,14,14,3,1,0,0,full_time
+E0_20260418_CHELSEA_MANUNITE,2025/26,2026-04-18,,M Oliver,Chelsea,Man United,0,1,21,4,3,1,7,1,12,13,1,3,0,0,full_time
+E0_20260419_ASTONVIL_SUNDERLA,2025/26,2026-04-19,,S Barrott,Aston Villa,Sunderland,4,3,15,10,7,7,4,5,11,11,1,3,0,0,full_time
+E0_20260419_EVERTON_LIVERPOO,2025/26,2026-04-19,,C Kavanagh,Everton,Liverpool,1,2,10,14,4,6,1,6,8,12,2,0,0,0,full_time
+E0_20260419_NOTT'MFO_BURNLEY,2025/26,2026-04-19,,T Kirk,Nott'm Forest,Burnley,4,1,10,4,4,3,4,4,8,12,0,2,0,0,full_time
+E0_20260419_MANCITY_ARSENAL,2025/26,2026-04-19,,A Taylor,Man City,Arsenal,2,1,15,9,5,3,8,5,5,12,2,2,0,0,full_time
+E0_20260420_CRYSTALP_WESTHAM,2025/26,2026-04-20,,D England,Crystal Palace,West Ham,0,0,9,9,1,4,4,6,13,12,2,1,0,0,full_time
+E0_20260421_BRIGHTON_CHELSEA,2025/26,2026-04-21,,C Pawson,Brighton,Chelsea,3,0,15,6,9,0,6,5,15,6,1,1,0,0,full_time
+E0_20260422_BOURNEMO_LEEDS,2025/26,2026-04-22,,M Salisbury,Bournemouth,Leeds,2,2,17,10,7,3,12,1,6,10,3,0,0,0,full_time
+E0_20260422_BURNLEY_MANCITY,2025/26,2026-04-22,,A Madley,Burnley,Man City,0,1,9,28,1,9,3,11,10,12,0,0,0,0,full_time
+E0_20260424_SUNDERLA_NOTT'MFO,2025/26,2026-04-24,,D England,Sunderland,Nott'm Forest,0,5,14,10,4,6,3,6,13,15,2,5,0,0,full_time
+E0_20260425_FULHAM_ASTONVIL,2025/26,2026-04-25,,M Oliver,Fulham,Aston Villa,1,0,13,10,6,1,2,5,14,12,2,2,0,0,full_time
+E0_20260425_LIVERPOO_CRYSTALP,2025/26,2026-04-25,,A Madley,Liverpool,Crystal Palace,3,1,9,14,3,7,5,8,10,10,1,3,0,0,full_time
+E0_20260425_WESTHAM_EVERTON,2025/26,2026-04-25,,S Attwell,West Ham,Everton,2,1,10,11,3,3,3,4,9,11,3,4,0,0,full_time
+E0_20260425_WOLVES_TOTTENHA,2025/26,2026-04-25,,A Taylor,Wolves,Tottenham,0,1,11,11,2,2,5,5,8,14,3,4,0,0,full_time
+E0_20260425_ARSENAL_NEWCASTL,2025/26,2026-04-25,,S Barrott,Arsenal,Newcastle,1,0,11,13,4,3,7,2,13,10,2,2,0,0,full_time
+E0_20260427_MANUNITE_BRENTFOR,2025/26,2026-04-27,,C Kavanagh,Man United,Brentford,2,1,11,12,6,4,7,8,6,9,2,4,0,0,full_time
+E0_20260501_LEEDS_BURNLEY,2025/26,2026-05-01,,T Bramall,Leeds,Burnley,3,1,18,9,8,3,5,0,12,11,4,3,0,0,full_time
+E0_20260502_BRENTFOR_WESTHAM,2025/26,2026-05-02,,C Pawson,Brentford,West Ham,3,0,14,13,6,4,2,6,8,12,1,3,0,0,full_time
+E0_20260502_NEWCASTL_BRIGHTON,2025/26,2026-05-02,,C Kavanagh,Newcastle,Brighton,3,1,13,13,6,4,2,10,10,12,3,3,0,0,full_time
+E0_20260502_WOLVES_SUNDERLA,2025/26,2026-05-02,,P Tierney,Wolves,Sunderland,1,1,20,10,7,2,6,3,11,11,0,4,0,1,full_time
+E0_20260502_ARSENAL_FULHAM,2025/26,2026-05-02,,J Gillett,Arsenal,Fulham,3,0,18,10,9,1,3,4,7,12,0,1,0,0,full_time
+E0_20260503_BOURNEMO_CRYSTALP,2025/26,2026-05-03,,R Jones,Bournemouth,Crystal Palace,3,0,16,7,5,1,7,1,10,11,0,2,0,0,full_time
+E0_20260503_MANUNITE_LIVERPOO,2025/26,2026-05-03,,D England,Man United,Liverpool,3,2,18,13,6,5,3,2,12,11,2,2,0,0,full_time
+E0_20260503_ASTONVIL_TOTTENHA,2025/26,2026-05-03,,S Barrott,Aston Villa,Tottenham,1,2,5,10,1,5,5,5,12,12,2,5,0,0,full_time
+E0_20260504_CHELSEA_NOTT'MFO,2025/26,2026-05-04,,A Taylor,Chelsea,Nott'm Forest,1,3,21,6,5,4,10,1,12,10,3,1,0,0,full_time
+E0_20260504_EVERTON_MANCITY,2025/26,2026-05-04,,M Oliver,Everton,Man City,3,3,14,21,6,4,5,9,15,5,4,1,0,0,full_time
+E0_20260509_LIVERPOO_CHELSEA,2025/26,2026-05-09,,C Pawson,Liverpool,Chelsea,1,1,8,6,3,3,5,2,17,17,2,4,0,0,full_time
+E0_20260509_BRIGHTON_WOLVES,2025/26,2026-05-09,,J Brooks,Brighton,Wolves,3,0,14,5,6,1,7,1,9,11,1,2,0,0,full_time
+E0_20260509_FULHAM_BOURNEMO,2025/26,2026-05-09,,A Madley,Fulham,Bournemouth,0,1,14,10,2,5,11,2,12,21,4,2,1,1,full_time
+E0_20260509_SUNDERLA_MANUNITE,2025/26,2026-05-09,,S Attwell,Sunderland,Man United,0,0,15,11,4,1,7,8,12,12,0,3,0,0,full_time
+E0_20260509_MANCITY_BRENTFOR,2025/26,2026-05-09,,M Salisbury,Man City,Brentford,3,0,25,4,10,2,10,2,8,14,4,2,0,0,full_time
+E0_20260510_BURNLEY_ASTONVIL,2025/26,2026-05-10,,A Taylor,Burnley,Aston Villa,2,2,15,18,6,7,2,8,18,8,1,1,0,0,full_time
+E0_20260510_CRYSTALP_EVERTON,2025/26,2026-05-10,,T Bramall,Crystal Palace,Everton,2,2,21,13,8,6,5,10,5,13,0,2,0,0,full_time
+E0_20260510_NOTT'MFO_NEWCASTL,2025/26,2026-05-10,,P Tierney,Nott'm Forest,Newcastle,1,1,17,16,6,6,2,1,16,11,2,0,0,0,full_time
+E0_20260510_WESTHAM_ARSENAL,2025/26,2026-05-10,,C Kavanagh,West Ham,Arsenal,0,1,9,15,3,4,4,3,14,12,3,4,0,0,full_time
+E0_20260511_TOTTENHA_LEEDS,2025/26,2026-05-11,,J Gillett,Tottenham,Leeds,1,1,16,11,3,4,14,2,12,7,3,1,0,0,full_time
+E0_20260513_MANCITY_CRYSTALP,2025/26,2026-05-13,,S Attwell,Man City,Crystal Palace,3,0,15,6,4,2,9,4,10,7,0,2,0,0,full_time
+E0_20260515_ASTONVIL_LIVERPOO,2025/26,2026-05-15,,C Kavanagh,Aston Villa,Liverpool,4,2,14,16,9,5,4,9,12,9,3,1,0,0,full_time
+E0_20260517_MANUNITE_NOTT'MFO,2025/26,2026-05-17,,M Salisbury,Man United,Nott'm Forest,3,2,29,11,8,4,7,6,11,5,2,1,0,0,full_time
+E0_20260517_BRENTFOR_CRYSTALP,2025/26,2026-05-17,,S Barrott,Brentford,Crystal Palace,2,2,14,16,3,5,9,4,7,5,1,3,0,0,full_time
+E0_20260517_EVERTON_SUNDERLA,2025/26,2026-05-17,,J Brooks,Everton,Sunderland,1,3,10,7,4,3,3,2,14,9,3,0,0,0,full_time
+E0_20260517_LEEDS_BRIGHTON,2025/26,2026-05-17,,M Oliver,Leeds,Brighton,1,0,7,19,1,8,7,8,9,7,1,0,0,0,full_time
+E0_20260517_WOLVES_FULHAM,2025/26,2026-05-17,,T Kirk,Wolves,Fulham,1,1,11,13,3,5,3,6,20,8,1,0,0,0,full_time
+E0_20260517_NEWCASTL_WESTHAM,2025/26,2026-05-17,,J Gillett,Newcastle,West Ham,3,1,15,15,7,8,9,1,8,11,1,3,0,0,full_time
+E0_20260518_ARSENAL_BURNLEY,2025/26,2026-05-18,,P Tierney,Arsenal,Burnley,1,0,13,5,3,0,3,3,7,16,1,3,0,0,full_time
+E0_20260519_BOURNEMO_MANCITY,2025/26,2026-05-19,,A Taylor,Bournemouth,Man City,1,1,10,14,2,5,7,6,16,7,4,2,0,0,full_time
+E0_20260519_CHELSEA_TOTTENHA,2025/26,2026-05-19,,S Attwell,Chelsea,Tottenham,2,1,9,9,4,3,3,4,11,18,4,3,0,0,full_time

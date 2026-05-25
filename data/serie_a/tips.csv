@@ -1,0 +1,6 @@
+tip_id,recorded_at,match_id,home_team,away_team,match_date,market,bet_type,line,direction,model_prob,model_odds,bm_odds,edge,stake,status,actual_value,profit
+56ba8b57fd1f,2026-05-24 14:01,0,Cremonese,Como,,shots_on_target,1x2,0.0,1,0.3611,2.77,3.89,0.4047,10,lost,1:6,-1.0
+5e2b841812fa,2026-05-24 14:02,0,Cremonese,Como,,corners,1x2,0.0,1,0.3333,3.0,3.7,0.2332,9,lost,2:4,-1.0
+e805344627c4,2026-05-24 14:04,0,Lecce,Genoa,,shots_on_target,1x2,0.0,2,0.5118,1.95,2.9,0.4842,11,lost,4:1,-1.0
+1986ebc51b6d,2026-05-24 14:06,0,Torino,Juventus,,corners,1x2,0.0,1,0.4363,2.29,3.66,0.5969,11,lost,6:6,-1.0
+09cabf8de131,2026-05-24 14:11,0,Verona,Roma,,corners,1x2,0.0,1,0.4167,2.4,4.15,0.7293,8,lost,6:6,-1.0

@@ -1,0 +1,3 @@
+tip_id,recorded_at,match_id,home_team,away_team,match_date,market,bet_type,line,direction,model_prob,model_odds,bm_odds,edge,stake,status,actual_value,profit
+8d9d598f851f,2026-05-17 18:28,0,Oviedo,Alaves,,corners,1x2,0.0,1,0.5455,1.83,2.59,0.4128,11,won,5:2,1.59
+43db250527ce,2026-05-17 18:34,0,Barcelona,Betis,,fouls,1x2,0.0,1,0.6134,1.63,2.15,0.3188,15,lost,7:8,-1.0

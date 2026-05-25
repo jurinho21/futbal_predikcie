@@ -1,0 +1,5 @@
+tip_id,recorded_at,match_id,home_team,away_team,match_date,market,bet_type,line,direction,model_prob,model_odds,bm_odds,edge,stake,status,actual_value,profit
+d956677da01f,2026-05-12 22:34,l1_championship_match_73370,Brest,Strasbourg,2026-05-13,shots_on_target,1x2,0.0,1,0.6125,1.63,1.98,0.2127,15,won,6:5,0.98
+b4ec0adc78a6,2026-05-12 22:41,l1_championship_match_73371,RC Lens,PSG,2026-05-13,shots_on_target,1x2,0.0,1,0.4771,2.1,2.91,0.3884,10,won,10:3,1.91
+15c900842b28,2026-05-14 19:41,l1_championship_match_73421,Paris FC,PSG,2026-05-17,corners,1x2,0.0,1,0.4375,2.29,3.39,0.4831,11,lost,3:3,-1.0
+da729b306808,2026-05-17 19:58,0,Brest,Angers SCO,,yellow_cards,1x2,0.0,X,0.375,2.67,3.67,0.3762,8,won,1:1,2.67

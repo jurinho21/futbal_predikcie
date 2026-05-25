@@ -3,39 +3,16 @@
   "meta": {
     "home_team": "AC Sparta Praha",
     "away_team": "FC Viktoria Plzeň",
+    "home_score": 0,
+    "away_score": 0,
+    "home_score_ht": 0,
+    "away_score_ht": 0,
     "round": "3. kolo, Skupina o titul | úterý 12/05/2026, 20:00 | epet ARENA |",
     "date": "12/05/2026 20:00",
     "stadium": "epet ARENA"
   },
   "events": [],
-  "stats": {
-    "total": {
-      "góly": {
-        "home": 62,
-        "away": 55
-      },
-      "góly_proti": {
-        "home": 33,
-        "away": 35
-      },
-      "vytvořené_šance": {
-        "home": 0,
-        "away": 0
-      },
-      "střely": {
-        "home": 470,
-        "away": 530
-      },
-      "úspěšnost_přihrávek": {
-        "home": 85.2,
-        "away": 79.4
-      },
-      "possession": {
-        "home": 64.3,
-        "away": 55.9
-      }
-    }
-  },
+  "stats": {},
   "lineups": {
     "home": [],
     "away": []

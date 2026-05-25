@@ -1,8 +1,12 @@
 tip_id,recorded_at,match_id,home_team,away_team,match_date,market,bet_type,line,direction,model_prob,model_odds,bm_odds,edge,stake,status,actual_value,profit
-41062908f65f,2026-05-09 13:53,2799,FC Tatran Prešov,MFK Skalica,"sobota 09.05.2026, 20:30",yellow_cards,total,3.5,U,0.4804,2.08,3.56,0.7102,1.0,lost,5,-1.0
-912150c93bf5,2026-05-09 13:53,2800,FC Košice,KFC Komárno,"nedeľa 10.05.2026, 17:00",corners,total,8.5,U,0.5221,1.92,2.59,0.3522,1.0,won,8,1.59
-f8412d43dfb0,2026-05-09 13:53,2801,MFK Ružomberok,AS Trenčín,"sobota 09.05.2026, 18:00",yellow_cards,home,1.5,U,0.5353,1.87,2.36,0.2633,1.0,won,0,1.36
-16fb2ff890bd,2026-05-09 13:53,2771,FC Spartak Trnava,MŠK Žilina,"nedeľa 10.05.2026, 19:00",yellow_cards,total,3.5,U,0.5198,1.92,2.38,0.2371,1.0,lost,6,-1.0
-9869dfb3681b,2026-05-09 13:53,2801,MFK Ružomberok,AS Trenčín,"sobota 09.05.2026, 18:00",fouls,total,25.5,U,0.6362,1.57,1.92,0.2215,1.0,lost,26,-1.0
-c4073b42ce05,2026-05-09 13:53,2799,FC Tatran Prešov,MFK Skalica,"sobota 09.05.2026, 20:30",corners,1x2,0.0,2,0.4759,2.1,2.56,0.2183,1.0,won,1:2,1.56
-4a80e3329361,2026-05-09 14:09,2770,MFK Zemplín Michalovce,FC DAC 1904 Dunajská Streda,"sobota 09.05.2026, 18:00",shots_on_target,1x2,0.0,1,0.4476,2.23,2.96,0.3249,1.0,lost,3:3,-1.0
+41062908f65f,2026-05-09 13:53,2799,FC Tatran Prešov,MFK Skalica,"sobota 09.05.2026, 20:30",yellow_cards,total,3.5,U,0.4804,2.08,3.56,0.7102,8,lost,5,-1.0
+912150c93bf5,2026-05-09 13:53,2800,FC Košice,KFC Komárno,"nedeľa 10.05.2026, 17:00",corners,total,8.5,U,0.5221,1.92,2.59,0.3522,10,won,8,1.59
+f8412d43dfb0,2026-05-09 13:53,2801,MFK Ružomberok,AS Trenčín,"sobota 09.05.2026, 18:00",yellow_cards,home,1.5,U,0.5353,1.87,2.36,0.2633,14,won,0,1.36
+16fb2ff890bd,2026-05-09 13:53,2771,FC Spartak Trnava,MŠK Žilina,"nedeľa 10.05.2026, 19:00",yellow_cards,total,3.5,U,0.5198,1.92,2.38,0.2371,13,lost,6,-1.0
+9869dfb3681b,2026-05-09 13:53,2801,MFK Ružomberok,AS Trenčín,"sobota 09.05.2026, 18:00",fouls,total,25.5,U,0.6362,1.57,1.92,0.2215,18,lost,26,-1.0
+c4073b42ce05,2026-05-09 13:53,2799,FC Tatran Prešov,MFK Skalica,"sobota 09.05.2026, 20:30",corners,1x2,0.0,2,0.4759,2.1,2.56,0.2183,10,won,1:2,1.56
+4a80e3329361,2026-05-09 14:09,2770,MFK Zemplín Michalovce,FC DAC 1904 Dunajská Streda,"sobota 09.05.2026, 18:00",shots_on_target,1x2,0.0,1,0.4476,2.23,2.96,0.3249,10,lost,3:3,-1.0
+bb3030bd204d,2026-05-15 10:23,2774,ŠK Slovan Bratislava,MFK Zemplín Michalovce,"sobota 16.05.2026, 17:00",corners,home,5.5,U,0.748,1.34,2.37,0.7728,14,lost,6,-1.0
+15532c74033b,2026-05-15 10:30,2774,ŠK Slovan Bratislava,MFK Zemplín Michalovce,"sobota 16.05.2026, 17:00",corners,1x2,0.0,2,0.4928,2.03,4.36,1.1486,4,lost,6:2,-1.0
+2dca1cdb6706,2026-05-15 10:44,2775,MŠK Žilina,FK Železiarne Podbrezová,"sobota 16.05.2026, 17:00",corners,1x2,0.0,2,0.5208,1.92,2.74,0.427,11,lost,4:3,-1.0
+efb9ec9563fd,2026-05-15 22:54,2775,MŠK Žilina,FK Železiarne Podbrezová,"sobota 16.05.2026, 17:00",shots_on_target,1x2,0.0,2,0.3692,2.71,3.71,0.3697,8,won,1:5,2.71

@@ -3,41 +3,461 @@
   "meta": {
     "home_team": "FC Hradec Králové",
     "away_team": "SK Slavia Praha",
-    "round": "4. kolo, Skupina o titul | neděle 17/05/2026, 17:00 |",
-    "date": "17/05/2026 17:00"
+    "home_score": 3,
+    "away_score": 1,
+    "home_score_ht": 1,
+    "away_score_ht": 0,
+    "round": "4. kolo, Skupina o titul | neděle 17/05/2026, 17:00 | Malšovická aréna |",
+    "date": "17/05/2026 17:00",
+    "stadium": "Malšovická aréna",
+    "referee": "L. Nehasil"
   },
   "events": [],
   "stats": {
     "total": {
-      "góly": {
-        "home": 44,
-        "away": 65
+      "possession": {
+        "home": 34,
+        "away": 66
       },
-      "góly_proti": {
-        "home": 37,
-        "away": 24
+      "shots": {
+        "home": 13,
+        "away": 16
       },
-      "vytvořené_šance": {
+      "shots_on_target": {
+        "home": 7,
+        "away": 1
+      },
+      "corners": {
+        "home": 4,
+        "away": 8
+      },
+      "passes": {
+        "home": 181,
+        "away": 430
+      },
+      "pass_accuracy": {
+        "home": 69.9,
+        "away": 87.2
+      },
+      "duels_won": {
+        "home": 38,
+        "away": 48
+      },
+      "fouls": {
+        "home": 11,
+        "away": 10
+      },
+      "xg": {
+        "home": 2.16,
+        "away": 1.96
+      },
+      "offsides": {
         "home": 0,
         "away": 0
-      },
-      "střely": {
-        "home": 328,
-        "away": 553
-      },
-      "úspěšnost_přihrávek": {
-        "home": 76.6,
-        "away": 77
-      },
-      "possession": {
-        "home": 46,
-        "away": 58
       }
     }
   },
   "lineups": {
-    "home": [],
-    "away": []
+    "home": [
+      {
+        "name": "12",
+        "number": null,
+        "position": "B",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "3",
+        "number": null,
+        "position": "O",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "7",
+        "number": null,
+        "position": "O",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "4",
+        "number": null,
+        "position": "O",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "5",
+        "number": null,
+        "position": "O",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "26",
+        "number": null,
+        "position": "O",
+        "starter": true,
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "58",
+        "number": null,
+        "position": "Z",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "16",
+        "number": null,
+        "position": "Z",
+        "starter": true,
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "27",
+        "number": null,
+        "position": "Z",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "28",
+        "number": null,
+        "position": "Z",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "17",
+        "number": null,
+        "position": "U",
+        "starter": true,
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "2",
+        "number": null,
+        "position": "O",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "19",
+        "number": null,
+        "position": "Z",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "18",
+        "number": null,
+        "position": "U",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "1",
+        "number": null,
+        "position": "B",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "20",
+        "number": null,
+        "position": "B",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "8",
+        "number": null,
+        "position": "O",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "77",
+        "number": null,
+        "position": "Z",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "9",
+        "number": null,
+        "position": "Z",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "21",
+        "number": null,
+        "position": "Z",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "23",
+        "number": null,
+        "position": "Z",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "14",
+        "number": null,
+        "position": "U",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      }
+    ],
+    "away": [
+      {
+        "name": "36",
+        "number": null,
+        "position": "B",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "2",
+        "number": null,
+        "position": "O",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "5",
+        "number": null,
+        "position": "O",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "12",
+        "number": null,
+        "position": "O",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "27",
+        "number": null,
+        "position": "O",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "20",
+        "number": null,
+        "position": "Z",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "23",
+        "number": null,
+        "position": "Z",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "11",
+        "number": null,
+        "position": "Z",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "10",
+        "number": null,
+        "position": "Z",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "31",
+        "number": null,
+        "position": "U",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "9",
+        "number": null,
+        "position": "U",
+        "starter": true,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "46",
+        "number": null,
+        "position": "O",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "39",
+        "number": null,
+        "position": "O",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "45",
+        "number": null,
+        "position": "Z",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "13",
+        "number": null,
+        "position": "U",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "-",
+        "number": null,
+        "position": "U",
+        "starter": false,
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "1",
+        "number": null,
+        "position": "B",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "35",
+        "number": null,
+        "position": "B",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "37",
+        "number": null,
+        "position": "O",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "3",
+        "number": null,
+        "position": "O",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "-",
+        "number": null,
+        "position": "O",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      },
+      {
+        "name": "19",
+        "number": null,
+        "position": "Z",
+        "starter": false,
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0
+      }
+    ]
   },
   "match_id": 8295
 }

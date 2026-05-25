@@ -177,10 +177,20 @@ def fetch_matches(
     return downloaded, skipped, errors
 
 
+def _has_placeholder_teams(meta: dict) -> bool:
+    """Vráti True ak zápas má placeholder mená tímov (napr. 'vítěz 7/10')."""
+    for key in ("home_team", "away_team"):
+        val = meta.get(key, "")
+        if val and val.startswith("vítěz"):
+            return True
+    return False
+
+
 def refresh_recent(data_dir: Path, days_back: int = 14) -> tuple[int, int]:
     """
-    Znovu stiahne JSON pre MINULÉ zápasy bez výsledku (home_score = None).
-    Oknuje sa na posledných <days_back> dní — budúce zápasy sa preskakujú.
+    Znovu stiahne JSON pre:
+      - MINULÉ zápasy bez výsledku (home_score = None), v okne posledných <days_back> dní
+      - BUDÚCE zápasy s placeholder názvami tímov (napr. 'vítěz 7/10'), kým nie sú tímy známe
     Vracia (obnovené, chyby).
     """
     from datetime import datetime, timedelta
@@ -214,17 +224,25 @@ def refresh_recent(data_dir: Path, days_back: int = 14) -> tuple[int, int]:
 
         meta = d.get("meta", {})
 
-        # Preskočí zápasy, ktoré už majú výsledok
-        if meta.get("home_score") is not None:
+        # Preskočí zápasy, ktoré už majú výsledok aj skutočné mená tímov
+        if meta.get("home_score") is not None and not _has_placeholder_teams(meta):
             continue
 
-        # Obnov len zápasy v minulosti (nie budúce — tie výsledok ešte nemajú)
         date_str = meta.get("date", m.get("date", ""))
         if date_str:
             try:
                 match_date = dateparser.parse(date_str, dayfirst=True)
-                if match_date and not (lookback <= match_date <= now):
-                    continue
+                if match_date:
+                    is_future = match_date > now
+                    in_lookback_window = lookback <= match_date <= now
+                    # Budúce zápasy s placeholder tímami: refreshni kým tímy nie sú známe
+                    if is_future and _has_placeholder_teams(meta):
+                        pass  # pokračuj — treba aktualizovať mená
+                    # Minulé zápasy bez výsledku: len v lookback okne
+                    elif not is_future and in_lookback_window:
+                        pass  # pokračuj
+                    else:
+                        continue
             except Exception:
                 pass
         elif not date_str:
@@ -272,6 +290,15 @@ def _load_or_create_index(data_dir: Path, matches: list[dict]) -> list[dict]:
 # 3. EXPORT CSV
 # ---------------------------------------------------------------------------
 
+def _season_from_date(date_str: str) -> Optional[int]:
+    try:
+        parts = date_str.split(" ")[0].split("/")
+        month, year = int(parts[1]), int(parts[2])
+        return year if month >= 7 else year - 1
+    except Exception:
+        return None
+
+
 def _stat_val(stats: dict, key: str, side: str) -> Optional[float]:
     total = stats.get("total", stats)
     entry = total.get(key)
@@ -286,7 +313,7 @@ def export_csv(data_dir: Path):
     matches_csv = data_dir / "matches.csv"
 
     fields = [
-        "match_id", "date", "round", "referee",
+        "match_id", "date", "season", "round", "referee",
         "home_team", "away_team", "home_score", "away_score",
         "home_xg", "away_xg",
         "home_shots", "away_shots",
@@ -327,6 +354,7 @@ def export_csv(data_dir: Path):
             writer.writerow({
                 "match_id":           d.get("match_id"),
                 "date":               meta.get("date", ""),
+                "season":             _season_from_date(meta.get("date", "")),
                 "round":              meta.get("round", ""),
                 "referee":            meta.get("referee", ""),
                 "home_team":          meta.get("home_team", ""),

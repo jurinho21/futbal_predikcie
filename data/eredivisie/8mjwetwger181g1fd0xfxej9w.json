@@ -1,15 +1,254 @@
 {
   "oid": "8mjwetwger181g1fd0xfxej9w",
-  "slug": "https://eredivisie.nl/competitie/wedstrijd/pec-zwolle-feyenoord/",
+  "slug": "https://eredivisie.com/competition/match/pec-zwolle-feyenoord/",
   "date": "2026-05-17",
-  "status": "pre_match",
-  "attendance": 0,
-  "referee": "",
+  "status": "full_time",
+  "attendance": 14000,
+  "referee": "Erwin Blank",
   "home_team": "PEC Zwolle",
   "away_team": "Feyenoord",
   "home_score": 0,
-  "away_score": 0,
-  "home": {},
-  "away": {},
-  "goals": []
+  "away_score": 2,
+  "home": {
+    "passes_accurate": {
+      "total": 348,
+      "first_half": 172,
+      "second_half": 176
+    },
+    "shots_blocked": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_taken": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 8,
+      "second_half": 3
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 6,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 17,
+      "first_half": 9,
+      "second_half": 8
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "possession": {
+      "total": 49,
+      "first_half": 49,
+      "second_half": 49
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 4,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "substitutions": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "clearances": {
+      "total": 22,
+      "first_half": 11,
+      "second_half": 11
+    },
+    "passes": {
+      "total": 432,
+      "first_half": 219,
+      "second_half": 213
+    },
+    "shots": {
+      "total": 7,
+      "first_half": 2,
+      "second_half": 5
+    },
+    "tackles": {
+      "total": 13,
+      "first_half": 8,
+      "second_half": 5
+    },
+    "totalThrows": {
+      "total": 12,
+      "first_half": 5,
+      "second_half": 7
+    },
+    "corners": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 6,
+      "second_half": 3
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 358,
+      "first_half": 175,
+      "second_half": 183
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "fouls_won": {
+      "total": 10,
+      "first_half": 7,
+      "second_half": 3
+    },
+    "assists": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "goalKicks": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners_conceded": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "shots_on_target": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 50,
+      "first_half": 50,
+      "second_half": 50
+    },
+    "saves": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "shots_off_target": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 0,
+      "second_half": 5
+    },
+    "clearances": {
+      "total": 13,
+      "first_half": 4,
+      "second_half": 9
+    },
+    "passes": {
+      "total": 432,
+      "first_half": 212,
+      "second_half": 220
+    },
+    "shots": {
+      "total": 22,
+      "first_half": 11,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "totalThrows": {
+      "total": 20,
+      "first_half": 14,
+      "second_half": 6
+    },
+    "corners": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 79,
+      "team": "away",
+      "player": "A. Hadj Moussa",
+      "assist": "G. Smal",
+      "type": "goal",
+      "period": 2
+    },
+    {
+      "minute": 87,
+      "team": "away",
+      "player": "A. Hadj Moussa",
+      "assist": "L. Valente",
+      "type": "goal",
+      "period": 2
+    }
+  ]
 }

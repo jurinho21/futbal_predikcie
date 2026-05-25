@@ -208,5 +208,25 @@
     "id": 367,
     "url": "https://www.chanceliga.cz/zapas/367-brn-sks",
     "finished": true
+  },
+  {
+    "id": 8322,
+    "url": "https://www.chanceliga.cz/zapas/8322-fcb-tab",
+    "finished": true
+  },
+  {
+    "id": 8323,
+    "url": "https://www.chanceliga.cz/zapas/8323-art-fcs",
+    "finished": true
+  },
+  {
+    "id": 8324,
+    "url": "https://www.chanceliga.cz/zapas/8324-tab-fcb",
+    "finished": true
+  },
+  {
+    "id": 8325,
+    "url": "https://www.chanceliga.cz/zapas/8325-fcs-art",
+    "finished": true
   }
 ]

@@ -1,0 +1,7 @@
+tip_id,recorded_at,match_id,home_team,away_team,match_date,market,bet_type,line,direction,model_prob,model_odds,bm_odds,edge,stake,status,actual_value,profit
+c404bc8b44a9,2026-05-16 17:55,0,FC Volendam,Telstar,,shots_on_target,1x2,0.0,1,0.5938,1.68,2.03,0.2054,17,won,8:2,1.03
+da729b306808,2026-05-16 17:57,0,FC Volendam,Telstar,,yellow_cards,1x2,0.0,X,0.375,2.67,3.85,0.4438,8,won,2:2,2.85
+efc8110cf5c0,2026-05-16 18:15,0,Heracles Almelo,FC Groningen,,fouls,total,20.5,O,0.802,1.25,1.72,0.3794,5,lost,13,-1.0
+e3c7e611bbe3,2026-05-16 18:18,0,Heracles Almelo,FC Groningen,,yellow_cards,1x2,0.0,2,0.4375,2.29,2.88,0.26,10,lost,1:1,-1.0
+8d9d598f851f,2026-05-17 09:31,0,sc Heerenveen,Ajax,,corners,1x2,0.0,1,0.5701,1.75,2.11,0.2029,14,won,10:6,1.11
+56e9bf7c4953,2026-05-17 09:45,0,Sparta Rotterdam,Excelsior Rotterdam,,shots_on_target,total,9.5,O,0.593,1.69,1.98,0.1741,17,lost,9,-1.0

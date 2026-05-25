@@ -1,0 +1,5 @@
+tip_id,recorded_at,match_id,home_team,away_team,match_date,market,bet_type,line,direction,model_prob,model_odds,bm_odds,edge,stake,status,actual_value,profit
+d6a628a7cc5b,2026-05-16 10:55,0,Moreirense,AVS,,yellow_cards,1x2,0.0,1,0.4356,2.3,2.91,0.2676,10,lost,2:3,-1.0
+fbf77811094e,2026-05-16 11:19,0,Estoril,Benfica,,shots_on_target,total,9.5,U,0.6088,1.64,2.03,0.2359,16,lost,14,-1.0
+90dac5b35006,2026-05-16 11:25,0,Casa Pia,Rio Ave,,shots_on_target,1x2,0.0,2,0.4688,2.13,3.32,0.5564,9,lost,5:3,-1.0
+844f466972f6,2026-05-16 11:35,0,Sp Lisbon,Gil Vicente,,corners,1x2,0.0,2,0.4345,2.3,5.4,1.3463,5,lost,6:1,-1.0

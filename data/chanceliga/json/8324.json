@@ -1,0 +1,36 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8324-tab-fcb",
+  "meta": {
+    "home_team": "FC SILON Táborsko",
+    "away_team": "FC Baník Ostrava",
+    "round": "Baráž – 2. zápas, Baráž | sobota 30/05/2026, 13:00 | Stadion v Kvapilově ulici",
+    "date": "30/05/2026 13:00",
+    "stadium": "Stadion v Kvapilově ulici"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "průměrný_věk": {
+        "home": 0,
+        "away": 24.7
+      },
+      "součet_zápasů": {
+        "home": null,
+        "away": 1000
+      },
+      "hráči_s_titulem": {
+        "home": null,
+        "away": 2
+      },
+      "počet_národností": {
+        "home": null,
+        "away": 10
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8324
+}

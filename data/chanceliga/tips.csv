@@ -1,3 +1,11 @@
 tip_id,recorded_at,match_id,home_team,away_team,match_date,market,bet_type,line,direction,model_prob,model_odds,bm_odds,edge,stake,status,actual_value,profit
-de72a64bbbfe,2026-05-10 17:20,8288,FK Jablonec,FC Hradec Králové,10/05/2026 18:30,yellow_cards,away,1.5,U,0.5237,1.91,2.64,0.3826,1.0,lost,2,-1.0
-f9041ddcd649,2026-05-10 17:20,8288,FK Jablonec,FC Hradec Králové,10/05/2026 18:30,corners,home,4.5,U,0.427,2.34,2.73,0.1657,1.0,lost,7,-1.0
+de72a64bbbfe,2026-05-10 17:20,8288,FK Jablonec,FC Hradec Králové,10/05/2026 18:30,yellow_cards,away,1.5,U,0.5237,1.91,2.64,0.3826,11,lost,2,-1.0
+f9041ddcd649,2026-05-10 17:20,8288,FK Jablonec,FC Hradec Králové,10/05/2026 18:30,corners,home,4.5,U,0.427,2.34,2.73,0.1657,11,lost,7,-1.0
+d552e8e2fb7f,2026-05-11 17:30,8311,FK Mladá Boleslav,FK Dukla Praha,12/05/2026 17:30,shots_on_target,total,8.5,O,0.5098,1.96,2.26,0.1521,14,lost,7,-1.0
+f150ed40afa6,2026-05-11 17:50,8312,FC Zlín,FK Teplice,12/05/2026 17:30,shots_on_target,total,7.5,O,0.634,1.58,2.08,0.3187,15,won,8,1.08
+2489623e4be1,2026-05-11 19:11,8293,FC Hradec Králové,FC Slovan Liberec,13/05/2026 17:30,yellow_cards,1x2,0.0,X,0.3385,2.95,4.29,0.4522,7,won,2:2,3.29
+f3a853b8d324,2026-05-11 19:11,8293,FC Hradec Králové,FC Slovan Liberec,13/05/2026 17:30,shots_on_target,total,8.5,O,0.5594,1.79,2.32,0.2978,14,lost,7,-1.0
+c80d33f61c0a,2026-05-11 19:17,8293,FC Hradec Králové,FC Slovan Liberec,13/05/2026 17:30,fouls,1x2,0.0,1,0.4416,2.26,2.86,0.263,10,lost,14:20,-1.0
+820a2a566030,2026-05-15 15:01,8296,FC Slovan Liberec,AC Sparta Praha,17/05/2026 17:00,yellow_cards,away,2.5,O,0.4659,2.15,2.81,0.3092,11,lost,0,-1.0
+fc6c44ec6f56,2026-05-15 15:15,8297,FC Viktoria Plzeň,FK Jablonec,17/05/2026 17:00,shots_on_target,away,3.5,O,0.5821,1.72,2.5,0.4552,13,lost,2,-1.0
+7d7e393a249d,2026-05-24 13:40,8300,FK Jablonec,FC Slovan Liberec,24/05/2026 14:00,shots_on_target,1x2,0.0,2,0.4563,2.19,2.88,0.3141,11,lost,8:3,-1.0

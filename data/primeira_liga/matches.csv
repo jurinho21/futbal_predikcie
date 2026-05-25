@@ -1,0 +1,307 @@
+match_id,season,date,round,referee,home_team,away_team,home_score,away_score,home_shots,away_shots,home_shots_on_target,away_shots_on_target,home_corners,away_corners,home_fouls,away_fouls,home_yellow,away_yellow,home_red,away_red,status
+P1_20250808_CASAPIA_SPLISBON,2025/26,2025-08-08,,Gustavo Correia,Casa Pia,Sp Lisbon,0,2,7,27,2,12,2,9,14,11,4,1,0,0,full_time
+P1_20250809_NACIONAL_GILVICEN,2025/26,2025-08-09,,David Silva,Nacional,Gil Vicente,0,2,15,12,3,2,14,6,21,16,3,6,0,0,full_time
+P1_20250809_AROUCA_AVS,2025/26,2025-08-09,,Sérgio Guelho,Arouca,AVS,3,1,9,15,4,2,4,5,13,17,2,0,0,0,full_time
+P1_20250810_FAMALICA_SANTACLA,2025/26,2025-08-10,,Luís Godinho,Famalicao,Santa Clara,3,0,6,8,3,2,2,3,20,15,4,2,0,0,full_time
+P1_20250810_MOREIREN_ALVERCA,2025/26,2025-08-10,,Hélder Malheiro,Moreirense,Alverca,2,1,10,7,3,2,6,2,15,5,3,1,0,0,full_time
+P1_20250810_SPBRAGA_TONDELA,2025/26,2025-08-10,,Claudio Pereira,Sp Braga,Tondela,3,0,8,7,6,3,5,3,10,9,1,3,0,0,full_time
+P1_20250811_ESTORIL_ESTRELA,2025/26,2025-08-11,,Anzhony Rodrigues,Estoril,Estrela,1,1,8,9,3,5,4,4,13,16,4,1,0,0,full_time
+P1_20250811_PORTO_GUIMARAE,2025/26,2025-08-11,,António Nobre,Porto,Guimaraes,3,0,17,10,9,2,7,4,18,9,1,3,0,0,full_time
+P1_20250815_AVS_CASAPIA,2025/26,2025-08-15,,Pedro Ramalho,AVS,Casa Pia,0,2,10,10,3,5,1,3,20,20,4,5,0,0,full_time
+P1_20250816_TONDELA_FAMALICA,2025/26,2025-08-16,,Fábio Veríssimo,Tondela,Famalicao,0,1,15,14,4,5,2,7,17,19,0,1,0,0,full_time
+P1_20250816_GUIMARAE_ESTORIL,2025/26,2025-08-16,,José Bessa,Guimaraes,Estoril,3,2,16,11,4,5,4,2,18,17,4,3,0,0,full_time
+P1_20250816_ESTRELA_BENFICA,2025/26,2025-08-16,,Hélder Carvalho,Estrela,Benfica,0,1,15,14,2,3,5,4,14,23,3,3,0,0,full_time
+P1_20250817_RIOAVE_NACIONAL,2025/26,2025-08-17,,Claudio Pereira,Rio Ave,Nacional,1,1,20,13,9,6,6,6,16,18,2,4,0,1,full_time
+P1_20250817_ALVERCA_SPBRAGA,2025/26,2025-08-17,,Miguel Nogueira,Alverca,Sp Braga,0,3,12,12,3,6,1,5,15,6,2,1,0,0,full_time
+P1_20250817_SANTACLA_MOREIREN,2025/26,2025-08-17,,David Silva,Santa Clara,Moreirense,0,1,12,6,3,2,3,0,20,18,4,5,0,0,full_time
+P1_20250817_SPLISBON_AROUCA,2025/26,2025-08-17,,Hélder Malheiro,Sp Lisbon,Arouca,6,0,19,7,10,1,6,1,7,7,1,0,0,1,full_time
+P1_20250818_GILVICEN_PORTO,2025/26,2025-08-18,,Ricardo Baixinho,Gil Vicente,Porto,0,2,14,15,2,4,1,5,9,20,2,4,0,0,full_time
+P1_20250823_MOREIREN_GUIMARAE,2025/26,2025-08-23,,João Pinheiro,Moreirense,Guimaraes,2,0,10,11,4,4,3,7,17,17,5,2,0,0,full_time
+P1_20250823_NACIONAL_SPLISBON,2025/26,2025-08-23,,Bruno Costa,Nacional,Sp Lisbon,1,4,3,27,1,7,3,13,18,7,3,2,1,0,full_time
+P1_20250823_AROUCA_RIOAVE,2025/26,2025-08-23,,Hélder Carvalho,Arouca,Rio Ave,3,3,14,15,6,7,4,2,13,17,3,2,0,0,full_time
+P1_20250823_BENFICA_TONDELA,2025/26,2025-08-23,,Anzhony Rodrigues,Benfica,Tondela,3,0,21,9,12,4,13,2,10,12,2,2,0,0,full_time
+P1_20250824_FAMALICA_GILVICEN,2025/26,2025-08-24,,Pedro Ramalho,Famalicao,Gil Vicente,0,0,11,20,3,8,2,9,17,18,3,1,0,0,full_time
+P1_20250824_PORTO_CASAPIA,2025/26,2025-08-24,,Sérgio Guelho,Porto,Casa Pia,4,0,20,7,7,0,7,2,11,8,3,1,0,0,full_time
+P1_20250824_SPBRAGA_AVS,2025/26,2025-08-24,,João Gonçalves,Sp Braga,AVS,2,2,21,4,5,2,11,3,9,12,2,3,0,0,full_time
+P1_20250825_ESTRELA_ALVERCA,2025/26,2025-08-25,,Ricardo Baixinho,Estrela,Alverca,2,2,19,6,6,2,6,2,18,24,4,5,1,1,full_time
+P1_20250829_GILVICEN_MOREIREN,2025/26,2025-08-29,,António Nobre,Gil Vicente,Moreirense,2,0,12,10,4,0,4,3,18,12,1,2,0,0,full_time
+P1_20250830_CASAPIA_NACIONAL,2025/26,2025-08-30,,João Pinheiro,Casa Pia,Nacional,0,2,9,9,3,2,2,3,13,22,2,3,0,0,full_time
+P1_20250830_AVS_FAMALICA,2025/26,2025-08-30,,Gustavo Correia,AVS,Famalicao,0,1,13,11,3,3,5,9,16,18,1,5,0,1,full_time
+P1_20250830_GUIMARAE_AROUCA,2025/26,2025-08-30,,Gustavo Correia,Guimaraes,Arouca,1,1,12,9,3,3,2,2,15,17,4,4,0,0,full_time
+P1_20250830_SPLISBON_PORTO,2025/26,2025-08-30,,João Gonçalves,Sp Lisbon,Porto,1,2,20,14,3,7,5,3,8,15,3,5,0,0,full_time
+P1_20250831_TONDELA_ESTORIL,2025/26,2025-08-31,,Sérgio Guelho,Tondela,Estoril,2,2,14,21,4,5,3,4,8,11,1,3,0,0,full_time
+P1_20250831_ALVERCA_BENFICA,2025/26,2025-08-31,,José Bessa,Alverca,Benfica,1,2,11,6,7,2,5,2,12,18,4,6,0,1,full_time
+P1_20250831_RIOAVE_SPBRAGA,2025/26,2025-08-31,,Fábio Veríssimo,Rio Ave,Sp Braga,2,2,5,20,3,9,1,7,13,12,3,2,0,0,full_time
+P1_20250831_SANTACLA_ESTRELA,2025/26,2025-08-31,,Carlos Macedo,Santa Clara,Estrela,0,0,13,3,3,0,8,0,13,11,2,2,0,0,full_time
+P1_20250906_ESTORIL_SANTACLA,2025/26,2025-09-06,,Miguel Nogueira,Estoril,Santa Clara,0,1,15,16,4,4,5,7,16,11,4,1,0,0,full_time
+P1_20250912_ALVERCA_TONDELA,2025/26,2025-09-12,,Luís Carlos Mateus Filipe,Alverca,Tondela,1,0,12,14,4,6,5,6,13,15,1,2,0,0,full_time
+P1_20250912_BENFICA_SANTACLA,2025/26,2025-09-12,,João Pinheiro,Benfica,Santa Clara,1,1,19,9,7,5,4,5,8,11,1,1,0,1,full_time
+P1_20250913_ESTORIL_AVS,2025/26,2025-09-13,,Diogo Rosa,Estoril,AVS,3,1,15,12,5,4,1,5,11,11,5,2,0,0,full_time
+P1_20250913_MOREIREN_RIOAVE,2025/26,2025-09-13,,Márcio André Dias Torres,Moreirense,Rio Ave,3,1,15,15,8,4,7,3,12,13,1,0,0,0,full_time
+P1_20250913_PORTO_NACIONAL,2025/26,2025-09-13,,Luís Godinho,Porto,Nacional,1,0,11,5,5,1,5,5,6,14,2,4,0,0,full_time
+P1_20250913_FAMALICA_SPLISBON,2025/26,2025-09-13,,António Nobre,Famalicao,Sp Lisbon,1,2,9,9,3,4,5,4,22,17,4,3,0,0,full_time
+P1_20250914_ESTRELA_GUIMARAE,2025/26,2025-09-14,,Miguel Nogueira,Estrela,Guimaraes,0,2,10,14,1,6,3,2,10,11,2,0,0,0,full_time
+P1_20250914_AROUCA_CASAPIA,2025/26,2025-09-14,,Ricardo Baixinho,Arouca,Casa Pia,0,2,8,9,3,4,7,6,18,21,2,7,0,0,full_time
+P1_20250914_SPBRAGA_GILVICEN,2025/26,2025-09-14,,José Bessa,Sp Braga,Gil Vicente,0,1,11,12,7,5,5,7,7,12,2,3,0,0,full_time
+P1_20250919_RIOAVE_PORTO,2025/26,2025-09-19,,Anzhony Rodrigues,Rio Ave,Porto,0,3,7,19,2,7,2,10,11,18,2,1,0,0,full_time
+P1_20250920_NACIONAL_AROUCA,2025/26,2025-09-20,,João Gonçalves,Nacional,Arouca,1,2,15,10,6,3,3,5,10,18,2,2,1,1,full_time
+P1_20250920_SANTACLA_ALVERCA,2025/26,2025-09-20,,Sérgio Guelho,Santa Clara,Alverca,2,1,14,3,6,3,7,0,16,21,6,4,0,0,full_time
+P1_20250920_AVS_BENFICA,2025/26,2025-09-20,,Bruno Costa,AVS,Benfica,0,3,8,19,1,6,2,1,17,11,1,1,0,0,full_time
+P1_20250920_GUIMARAE_SPBRAGA,2025/26,2025-09-20,,António Nobre,Guimaraes,Sp Braga,1,1,11,17,3,5,3,5,14,15,2,3,0,0,full_time
+P1_20250921_TONDELA_ESTRELA,2025/26,2025-09-21,,Gustavo Correia,Tondela,Estrela,0,0,17,8,8,3,5,2,16,13,4,3,1,0,full_time
+P1_20250921_GILVICEN_ESTORIL,2025/26,2025-09-21,,Carlos Macedo,Gil Vicente,Estoril,2,0,16,7,3,3,4,0,16,13,2,2,0,0,full_time
+P1_20250921_CASAPIA_FAMALICA,2025/26,2025-09-21,,Hélder Malheiro,Casa Pia,Famalicao,1,1,10,11,3,2,5,3,18,21,1,2,0,0,full_time
+P1_20250922_SPLISBON_MOREIREN,2025/26,2025-09-22,,Hélder Carvalho,Sp Lisbon,Moreirense,3,0,25,4,14,1,6,4,16,18,1,1,0,0,full_time
+P1_20250923_BENFICA_RIOAVE,2025/26,2025-09-23,,Sérgio Guelho,Benfica,Rio Ave,1,1,19,4,7,2,11,2,16,16,3,2,0,0,full_time
+P1_20250926_BENFICA_GILVICEN,2025/26,2025-09-26,,João Gonçalves,Benfica,Gil Vicente,2,1,10,16,4,8,0,7,14,20,3,4,0,1,full_time
+P1_20250927_MOREIREN_CASAPIA,2025/26,2025-09-27,,José Bessa,Moreirense,Casa Pia,2,1,12,20,4,4,6,8,13,15,5,4,0,0,full_time
+P1_20250927_SANTACLA_TONDELA,2025/26,2025-09-27,,Miguel Nogueira,Santa Clara,Tondela,1,2,11,12,5,4,3,4,13,25,2,7,0,0,full_time
+P1_20250927_ESTRELA_AVS,2025/26,2025-09-27,,Hélder Malheiro,Estrela,AVS,3,0,11,11,6,2,6,6,11,20,3,2,1,1,full_time
+P1_20250927_ESTORIL_SPLISBON,2025/26,2025-09-27,,Luís Godinho,Estoril,Sp Lisbon,0,1,7,9,2,2,3,9,13,12,4,2,0,0,full_time
+P1_20250928_ALVERCA_GUIMARAE,2025/26,2025-09-28,,Bruno Costa,Alverca,Guimaraes,2,0,11,19,4,3,1,5,15,17,3,0,1,0,full_time
+P1_20250928_SPBRAGA_NACIONAL,2025/26,2025-09-28,,Miguel Fonseca,Sp Braga,Nacional,0,1,9,13,1,5,6,3,4,7,0,2,0,0,full_time
+P1_20250928_FAMALICA_RIOAVE,2025/26,2025-09-28,,Claudio Pereira,Famalicao,Rio Ave,0,0,28,6,5,3,11,6,19,15,4,5,0,0,full_time
+P1_20250929_AROUCA_PORTO,2025/26,2025-09-29,,Fábio Veríssimo,Arouca,Porto,0,4,13,16,3,5,5,8,13,8,5,3,0,1,full_time
+P1_20251003_CASAPIA_ESTORIL,2025/26,2025-10-03,,Luís Carlos Mateus Filipe,Casa Pia,Estoril,2,2,11,10,5,3,6,7,14,12,3,3,0,0,full_time
+P1_20251004_GILVICEN_ESTRELA,2025/26,2025-10-04,,Márcio André Dias Torres,Gil Vicente,Estrela,2,0,15,15,7,5,5,7,12,15,2,3,1,0,full_time
+P1_20251004_NACIONAL_MOREIREN,2025/26,2025-10-04,,Hélder Malheiro,Nacional,Moreirense,3,2,17,10,7,4,2,4,12,16,1,3,0,1,full_time
+P1_20251004_AVS_ALVERCA,2025/26,2025-10-04,,David Silva,AVS,Alverca,1,3,5,12,2,6,0,5,16,6,3,2,0,0,full_time
+P1_20251004_GUIMARAE_SANTACLA,2025/26,2025-10-04,,João Gonçalves,Guimaraes,Santa Clara,2,1,14,13,7,5,9,3,17,11,4,5,0,0,full_time
+P1_20251005_AROUCA_FAMALICA,2025/26,2025-10-05,,Luís Godinho,Arouca,Famalicao,1,1,7,14,3,5,4,11,22,12,5,1,1,0,full_time
+P1_20251005_RIOAVE_TONDELA,2025/26,2025-10-05,,António Nobre,Rio Ave,Tondela,3,0,13,13,7,3,6,7,15,15,7,4,1,1,full_time
+P1_20251005_SPLISBON_SPBRAGA,2025/26,2025-10-05,,Claudio Pereira,Sp Lisbon,Sp Braga,1,1,13,11,3,5,1,5,19,12,4,5,0,0,full_time
+P1_20251005_PORTO_BENFICA,2025/26,2025-10-05,,Miguel Nogueira,Porto,Benfica,0,0,8,4,2,1,3,3,16,6,6,2,0,0,full_time
+P1_20251024_ALVERCA_GILVICEN,2025/26,2025-10-24,,João Pinheiro,Alverca,Gil Vicente,0,4,6,12,2,5,1,4,12,18,3,4,0,1,full_time
+P1_20251025_SANTACLA_AVS,2025/26,2025-10-25,,António Nobre,Santa Clara,AVS,2,0,20,7,5,2,8,4,10,15,1,1,0,0,full_time
+P1_20251025_BENFICA_AROUCA,2025/26,2025-10-25,,Hélder Carvalho,Benfica,Arouca,5,0,17,5,8,0,9,1,13,18,2,2,0,0,full_time
+P1_20251025_ESTRELA_RIOAVE,2025/26,2025-10-25,,Luís Godinho,Estrela,Rio Ave,1,2,16,8,2,2,4,5,16,20,3,6,0,0,full_time
+P1_20251026_ESTORIL_NACIONAL,2025/26,2025-10-26,,Miguel Fonseca,Estoril,Nacional,1,1,13,9,4,4,6,5,13,15,3,3,0,0,full_time
+P1_20251026_FAMALICA_GUIMARAE,2025/26,2025-10-26,,Sérgio Guelho,Famalicao,Guimaraes,2,0,15,13,10,3,5,4,20,14,1,2,0,0,full_time
+P1_20251026_TONDELA_SPLISBON,2025/26,2025-10-26,,José Bessa,Tondela,Sp Lisbon,0,3,9,29,2,15,2,9,12,12,3,1,0,0,full_time
+P1_20251026_SPBRAGA_CASAPIA,2025/26,2025-10-26,,Carlos Macedo,Sp Braga,Casa Pia,4,0,15,3,8,1,4,2,16,16,1,3,0,0,full_time
+P1_20251027_MOREIREN_PORTO,2025/26,2025-10-27,,João Gonçalves,Moreirense,Porto,1,2,8,16,1,7,2,7,15,13,3,1,0,0,full_time
+P1_20251031_SPLISBON_ALVERCA,2025/26,2025-10-31,,António Nobre,Sp Lisbon,Alverca,2,0,27,8,8,0,10,0,9,10,1,1,0,0,full_time
+P1_20251101_NACIONAL_FAMALICA,2025/26,2025-11-01,,Claudio Pereira,Nacional,Famalicao,0,1,8,20,3,4,3,10,15,18,4,6,1,0,full_time
+P1_20251101_CASAPIA_ESTRELA,2025/26,2025-11-01,,Hélder Malheiro,Casa Pia,Estrela,3,5,10,12,4,6,5,2,20,21,2,3,0,0,full_time
+P1_20251101_RIOAVE_ESTORIL,2025/26,2025-11-01,,Miguel Nogueira,Rio Ave,Estoril,0,4,2,24,0,6,0,6,10,14,2,1,1,0,full_time
+P1_20251101_GUIMARAE_BENFICA,2025/26,2025-11-01,,João Pinheiro,Guimaraes,Benfica,0,3,10,24,3,10,3,6,12,11,3,4,1,0,full_time
+P1_20251102_AVS_TONDELA,2025/26,2025-11-02,,Luís Carlos Mateus Filipe,AVS,Tondela,2,2,15,10,5,3,5,3,18,17,4,4,0,0,full_time
+P1_20251102_AROUCA_MOREIREN,2025/26,2025-11-02,,Pedro Ramalho,Arouca,Moreirense,0,2,11,6,2,5,5,2,11,11,3,2,0,0,full_time
+P1_20251102_PORTO_SPBRAGA,2025/26,2025-11-02,,Fábio Veríssimo,Porto,Sp Braga,2,1,9,10,4,3,2,3,15,13,3,3,0,0,full_time
+P1_20251103_GILVICEN_SANTACLA,2025/26,2025-11-03,,Sérgio Guelho,Gil Vicente,Santa Clara,1,0,9,15,3,4,2,0,16,14,2,3,0,0,full_time
+P1_20251107_ESTORIL_AROUCA,2025/26,2025-11-07,,Claudio Pereira,Estoril,Arouca,4,3,19,10,7,4,10,2,9,13,1,1,0,0,full_time
+P1_20251108_ALVERCA_RIOAVE,2025/26,2025-11-08,,Hélder Malheiro,Alverca,Rio Ave,1,1,15,11,5,4,9,3,15,16,2,0,0,0,full_time
+P1_20251108_TONDELA_GUIMARAE,2025/26,2025-11-08,,André Narciso,Tondela,Guimaraes,0,1,15,11,4,2,4,3,14,11,3,2,0,0,full_time
+P1_20251108_SANTACLA_SPLISBON,2025/26,2025-11-08,,João Gonçalves,Santa Clara,Sp Lisbon,1,2,5,21,2,7,2,12,11,12,7,4,2,1,full_time
+P1_20251109_AVS_GILVICEN,2025/26,2025-11-09,,Pedro Ramalho,AVS,Gil Vicente,1,1,16,12,8,5,1,4,12,19,1,5,0,0,full_time
+P1_20251109_ESTRELA_NACIONAL,2025/26,2025-11-09,,Fábio Veríssimo,Estrela,Nacional,1,1,14,17,4,4,2,6,12,15,3,4,0,0,full_time
+P1_20251109_FAMALICA_PORTO,2025/26,2025-11-09,,José Bessa,Famalicao,Porto,0,1,8,19,0,6,2,4,24,13,5,2,0,0,full_time
+P1_20251109_BENFICA_CASAPIA,2025/26,2025-11-09,,Gustavo Correia,Benfica,Casa Pia,2,2,19,7,6,4,6,2,8,8,3,2,0,0,full_time
+P1_20251109_SPBRAGA_MOREIREN,2025/26,2025-11-09,,João Pinheiro,Sp Braga,Moreirense,2,1,11,11,3,1,5,3,13,15,3,2,0,0,full_time
+P1_20251128_GUIMARAE_AVS,2025/26,2025-11-28,,Bruno Costa,Guimaraes,AVS,4,0,11,9,4,1,7,3,11,14,0,1,0,0,full_time
+P1_20251129_CASAPIA_ALVERCA,2025/26,2025-11-29,,Ricardo Baixinho,Casa Pia,Alverca,0,2,5,10,0,5,6,4,9,17,4,4,1,0,full_time
+P1_20251129_MOREIREN_FAMALICA,2025/26,2025-11-29,,David Silva,Moreirense,Famalicao,2,2,11,17,6,8,5,4,17,22,4,5,1,0,full_time
+P1_20251129_NACIONAL_BENFICA,2025/26,2025-11-29,,Iancu Vasilica,Nacional,Benfica,1,2,6,31,2,8,2,11,10,8,4,2,0,0,full_time
+P1_20251129_GILVICEN_TONDELA,2025/26,2025-11-29,,Claudio Pereira,Gil Vicente,Tondela,0,1,15,5,2,2,12,3,10,20,2,0,0,0,full_time
+P1_20251130_RIOAVE_SANTACLA,2025/26,2025-11-30,,Márcio André Dias Torres,Rio Ave,Santa Clara,1,1,9,9,4,3,1,5,10,15,2,3,0,0,full_time
+P1_20251130_SPLISBON_ESTRELA,2025/26,2025-11-30,,Anzhony Rodrigues,Sp Lisbon,Estrela,4,0,19,5,6,3,5,1,12,12,1,0,0,0,full_time
+P1_20251130_PORTO_ESTORIL,2025/26,2025-11-30,,André Narciso,Porto,Estoril,1,0,12,11,6,2,5,4,14,11,1,3,0,0,full_time
+P1_20251201_AROUCA_SPBRAGA,2025/26,2025-12-01,,Miguel Nogueira,Arouca,Sp Braga,0,4,3,18,1,6,0,6,11,9,4,0,1,0,full_time
+P1_20251205_BENFICA_SPLISBON,2025/26,2025-12-05,,António Nobre,Benfica,Sp Lisbon,1,1,10,5,4,2,3,2,15,20,2,5,1,0,full_time
+P1_20251206_SANTACLA_CASAPIA,2025/26,2025-12-06,,Diogo Rosa,Santa Clara,Casa Pia,1,0,11,5,3,2,7,7,23,12,5,4,0,0,full_time
+P1_20251206_AVS_RIOAVE,2025/26,2025-12-06,,José Bessa,AVS,Rio Ave,1,2,9,17,5,8,3,11,16,16,6,6,1,0,full_time
+P1_20251206_FAMALICA_SPBRAGA,2025/26,2025-12-06,,Claudio Pereira,Famalicao,Sp Braga,1,2,8,21,4,7,3,9,10,19,1,3,0,0,full_time
+P1_20251207_ESTORIL_MOREIREN,2025/26,2025-12-07,,Hélder Malheiro,Estoril,Moreirense,3,3,9,8,5,5,1,5,16,14,2,3,0,0,full_time
+P1_20251207_ALVERCA_NACIONAL,2025/26,2025-12-07,,Gustavo Correia,Alverca,Nacional,1,0,10,17,4,3,2,2,10,19,1,1,0,0,full_time
+P1_20251207_ESTRELA_AROUCA,2025/26,2025-12-07,,João Gonçalves,Estrela,Arouca,3,1,24,9,9,2,5,3,12,14,1,5,0,2,full_time
+P1_20251207_TONDELA_PORTO,2025/26,2025-12-07,,Luís Godinho,Tondela,Porto,0,2,11,11,2,6,2,4,9,10,2,1,0,0,full_time
+P1_20251208_GUIMARAE_GILVICEN,2025/26,2025-12-08,,Anzhony Rodrigues,Guimaraes,Gil Vicente,0,0,10,6,3,1,8,4,15,17,4,5,0,0,full_time
+P1_20251213_CASAPIA_GILVICEN,2025/26,2025-12-13,,Márcio André Dias Torres,Casa Pia,Gil Vicente,1,1,3,11,1,2,1,8,19,8,3,1,0,0,full_time
+P1_20251213_RIOAVE_GUIMARAE,2025/26,2025-12-13,,Pedro Ramalho,Rio Ave,Guimaraes,0,1,8,16,2,3,6,6,15,15,4,4,1,0,full_time
+P1_20251213_SPLISBON_AVS,2025/26,2025-12-13,,Iancu Vasilica,Sp Lisbon,AVS,6,0,24,7,14,3,8,1,11,9,1,2,0,0,full_time
+P1_20251214_FAMALICA_ESTORIL,2025/26,2025-12-14,,Carlos Macedo,Famalicao,Estoril,4,0,20,10,12,4,4,9,10,18,3,1,0,0,full_time
+P1_20251214_MOREIREN_BENFICA,2025/26,2025-12-14,,Hélder Carvalho,Moreirense,Benfica,0,4,10,10,2,5,4,4,19,15,2,0,0,0,full_time
+P1_20251214_AROUCA_ALVERCA,2025/26,2025-12-14,,David Silva,Arouca,Alverca,1,0,18,5,4,1,8,5,15,11,1,4,0,1,full_time
+P1_20251215_NACIONAL_TONDELA,2025/26,2025-12-15,,Ricardo Baixinho,Nacional,Tondela,3,1,8,21,4,5,3,10,11,17,5,6,1,1,full_time
+P1_20251215_SPBRAGA_SANTACLA,2025/26,2025-12-15,,Bruno Costa,Sp Braga,Santa Clara,1,0,6,5,3,2,5,1,10,15,1,3,0,0,full_time
+P1_20251215_PORTO_ESTRELA,2025/26,2025-12-15,,Miguel Fonseca,Porto,Estrela,3,1,20,6,6,1,4,0,13,17,1,5,0,0,full_time
+P1_20251219_ESTORIL_SPBRAGA,2025/26,2025-12-19,,David Silva,Estoril,Sp Braga,1,0,13,12,7,5,9,5,12,8,5,2,0,0,full_time
+P1_20251220_GILVICEN_RIOAVE,2025/26,2025-12-20,,Diogo Rosa,Gil Vicente,Rio Ave,2,2,23,3,5,2,10,1,16,16,3,5,0,1,full_time
+P1_20251220_ESTRELA_MOREIREN,2025/26,2025-12-20,,Claudio Pereira,Estrela,Moreirense,0,0,13,16,3,7,3,7,15,19,2,1,0,0,full_time
+P1_20251221_AVS_NACIONAL,2025/26,2025-12-21,,João Gonçalves,AVS,Nacional,2,2,16,19,3,6,9,2,10,11,1,0,1,0,full_time
+P1_20251221_TONDELA_CASAPIA,2025/26,2025-12-21,,Miguel Fonseca,Tondela,Casa Pia,1,2,11,12,4,5,6,4,10,16,2,3,0,0,full_time
+P1_20251221_SANTACLA_AROUCA,2025/26,2025-12-21,,Iancu Vasilica,Santa Clara,Arouca,0,0,9,8,5,2,2,4,15,14,2,2,0,0,full_time
+P1_20251222_ALVERCA_PORTO,2025/26,2025-12-22,,João Pinheiro,Alverca,Porto,0,3,8,14,5,6,4,1,8,12,1,1,0,0,full_time
+P1_20251222_BENFICA_FAMALICA,2025/26,2025-12-22,,André Narciso,Benfica,Famalicao,1,0,9,4,6,2,5,2,11,21,0,1,0,0,full_time
+P1_20251223_GUIMARAE_SPLISBON,2025/26,2025-12-23,,Miguel Nogueira,Guimaraes,Sp Lisbon,1,4,17,16,5,7,2,5,21,14,3,5,1,0,full_time
+P1_20251227_FAMALICA_ESTRELA,2025/26,2025-12-27,,Luís Godinho,Famalicao,Estrela,2,3,22,6,5,4,9,4,18,16,3,5,0,0,full_time
+P1_20251227_ESTORIL_ALVERCA,2025/26,2025-12-27,,Fábio Veríssimo,Estoril,Alverca,4,1,9,12,4,7,3,7,12,11,2,3,0,0,full_time
+P1_20251228_AROUCA_GILVICEN,2025/26,2025-12-28,,José Bessa,Arouca,Gil Vicente,2,2,9,17,5,5,4,8,13,5,5,2,0,0,full_time
+P1_20251228_CASAPIA_GUIMARAE,2025/26,2025-12-28,,Luís Carlos Mateus Filipe,Casa Pia,Guimaraes,0,0,5,13,2,2,2,3,23,11,4,2,0,0,full_time
+P1_20251228_SPBRAGA_BENFICA,2025/26,2025-12-28,,João Gonçalves,Sp Braga,Benfica,2,2,11,14,3,6,1,5,14,9,4,2,1,0,full_time
+P1_20251228_SPLISBON_RIOAVE,2025/26,2025-12-28,,Carlos Macedo,Sp Lisbon,Rio Ave,4,0,23,5,12,0,8,1,13,6,1,1,0,0,full_time
+P1_20251229_PORTO_AVS,2025/26,2025-12-29,,Bruno Costa,Porto,AVS,2,0,18,7,4,1,7,0,8,7,1,1,0,0,full_time
+P1_20260102_GILVICEN_SPLISBON,2025/26,2026-01-02,,Gustavo Correia,Gil Vicente,Sp Lisbon,1,1,19,14,9,4,8,7,17,14,4,4,0,1,full_time
+P1_20260102_GUIMARAE_NACIONAL,2025/26,2026-01-02,,André Narciso,Guimaraes,Nacional,2,1,9,14,4,4,2,3,20,18,1,3,0,0,full_time
+P1_20260103_TONDELA_AROUCA,2025/26,2026-01-03,,João Gonçalves,Tondela,Arouca,3,1,5,11,3,4,2,9,12,7,3,1,0,0,full_time
+P1_20260103_BENFICA_ESTORIL,2025/26,2026-01-03,,Anzhony Rodrigues,Benfica,Estoril,3,1,20,9,3,4,7,3,12,15,0,2,0,0,full_time
+P1_20260103_ESTRELA_SPBRAGA,2025/26,2026-01-03,,Hélder Carvalho,Estrela,Sp Braga,3,3,11,10,4,6,5,7,14,8,2,1,0,0,full_time
+P1_20260103_AVS_MOREIREN,2025/26,2026-01-03,,Miguel Fonseca,AVS,Moreirense,0,2,9,12,4,5,2,4,23,11,5,3,0,0,full_time
+P1_20260104_RIOAVE_CASAPIA,2025/26,2026-01-04,,Iancu Vasilica,Rio Ave,Casa Pia,3,1,12,15,8,5,9,4,10,23,0,1,0,0,full_time
+P1_20260104_SANTACLA_PORTO,2025/26,2026-01-04,,Claudio Pereira,Santa Clara,Porto,0,1,12,8,0,5,2,7,20,22,2,4,0,0,full_time
+P1_20260104_ALVERCA_FAMALICA,2025/26,2026-01-04,,Diogo Rosa,Alverca,Famalicao,1,0,10,14,4,2,3,4,14,22,2,2,0,0,full_time
+P1_20260111_NACIONAL_SANTACLA,2025/26,2026-01-11,,Fábio Veríssimo,Nacional,Santa Clara,3,3,13,22,5,6,2,8,14,11,4,4,0,0,full_time
+P1_20260111_MOREIREN_TONDELA,2025/26,2026-01-11,,Sérgio Guelho,Moreirense,Tondela,1,0,7,8,2,2,4,2,7,13,1,1,0,0,full_time
+P1_20260116_SPLISBON_CASAPIA,2025/26,2026-01-16,,David Silva,Sp Lisbon,Casa Pia,3,0,16,6,4,1,4,6,12,12,0,2,0,1,full_time
+P1_20260117_GILVICEN_NACIONAL,2025/26,2026-01-17,,Miguel Nogueira,Gil Vicente,Nacional,2,1,16,13,4,4,7,5,7,18,1,2,0,0,full_time
+P1_20260117_ALVERCA_MOREIREN,2025/26,2026-01-17,,Luís Godinho,Alverca,Moreirense,2,1,15,10,3,4,4,0,16,6,3,1,0,0,full_time
+P1_20260117_AVS_AROUCA,2025/26,2026-01-17,,João Pinheiro,AVS,Arouca,0,1,12,18,3,3,2,3,11,12,3,6,1,0,full_time
+P1_20260117_RIOAVE_BENFICA,2025/26,2026-01-17,,Claudio Pereira,Rio Ave,Benfica,0,2,7,24,1,8,3,11,12,8,1,2,0,0,full_time
+P1_20260118_SANTACLA_FAMALICA,2025/26,2026-01-18,,Márcio André Dias Torres,Santa Clara,Famalicao,0,1,15,7,1,3,9,2,17,18,1,1,0,0,full_time
+P1_20260118_TONDELA_SPBRAGA,2025/26,2026-01-18,,Gustavo Correia,Tondela,Sp Braga,0,1,7,11,2,4,1,5,19,14,3,3,0,1,full_time
+P1_20260118_GUIMARAE_PORTO,2025/26,2026-01-18,,João Gonçalves,Guimaraes,Porto,0,1,20,12,3,3,6,1,19,15,4,2,1,0,full_time
+P1_20260119_ESTRELA_ESTORIL,2025/26,2026-01-19,,Pedro Ramalho,Estrela,Estoril,0,5,6,11,2,6,1,4,16,12,2,2,1,0,full_time
+P1_20260123_CASAPIA_AVS,2025/26,2026-01-23,,Ricardo Baixinho,Casa Pia,AVS,3,3,9,27,4,7,2,11,15,13,3,5,0,0,full_time
+P1_20260124_MOREIREN_SANTACLA,2025/26,2026-01-24,,João Pinheiro,Moreirense,Santa Clara,1,0,3,9,1,1,5,5,13,22,2,2,0,0,full_time
+P1_20260124_AROUCA_SPLISBON,2025/26,2026-01-24,,Hélder Carvalho,Arouca,Sp Lisbon,1,2,11,15,5,4,4,7,11,12,3,4,1,1,full_time
+P1_20260124_ESTORIL_GUIMARAE,2025/26,2026-01-24,,Fábio Veríssimo,Estoril,Guimaraes,4,2,16,13,6,4,4,2,9,19,2,3,0,0,full_time
+P1_20260125_NACIONAL_RIOAVE,2025/26,2026-01-25,,Iancu Vasilica,Nacional,Rio Ave,4,0,14,11,5,6,5,5,18,6,3,0,0,0,full_time
+P1_20260125_BENFICA_ESTRELA,2025/26,2026-01-25,,David Silva,Benfica,Estrela,4,0,15,4,8,1,6,1,10,24,3,4,0,0,full_time
+P1_20260125_FAMALICA_TONDELA,2025/26,2026-01-25,,Carlos Macedo,Famalicao,Tondela,3,0,9,2,4,0,3,4,9,20,0,1,0,0,full_time
+P1_20260125_SPBRAGA_ALVERCA,2025/26,2026-01-25,,Anzhony Rodrigues,Sp Braga,Alverca,5,0,17,3,7,0,7,0,9,11,2,2,0,0,full_time
+P1_20260126_PORTO_GILVICEN,2025/26,2026-01-26,,António Nobre,Porto,Gil Vicente,3,0,14,11,6,5,11,3,13,8,2,3,0,1,full_time
+P1_20260130_GUIMARAE_MOREIREN,2025/26,2026-01-30,,António Nobre,Guimaraes,Moreirense,1,0,14,10,2,5,5,5,19,12,2,5,0,0,full_time
+P1_20260131_SANTACLA_ESTORIL,2025/26,2026-01-31,,Hélder Malheiro,Santa Clara,Estoril,2,4,14,11,4,6,6,5,16,11,7,3,0,0,full_time
+P1_20260131_RIOAVE_AROUCA,2025/26,2026-01-31,,Sérgio Guelho,Rio Ave,Arouca,0,3,8,18,0,7,5,5,11,15,2,1,0,0,full_time
+P1_20260131_ALVERCA_ESTRELA,2025/26,2026-01-31,,José Bessa,Alverca,Estrela,1,1,8,5,4,2,9,2,17,17,1,2,0,0,full_time
+P1_20260201_GILVICEN_FAMALICA,2025/26,2026-02-01,,Anzhony Rodrigues,Gil Vicente,Famalicao,5,0,17,4,9,0,3,1,19,10,1,1,0,1,full_time
+P1_20260201_SPLISBON_NACIONAL,2025/26,2026-02-01,,Ricardo Baixinho,Sp Lisbon,Nacional,2,1,16,6,7,4,11,0,12,15,0,3,0,0,full_time
+P1_20260201_TONDELA_BENFICA,2025/26,2026-02-01,,Luís Godinho,Tondela,Benfica,0,0,7,23,1,9,1,13,19,5,5,0,0,0,full_time
+P1_20260202_AVS_SPBRAGA,2025/26,2026-02-02,,Carlos Macedo,AVS,Sp Braga,0,4,8,10,3,8,1,4,3,6,0,1,0,0,full_time
+P1_20260202_CASAPIA_PORTO,2025/26,2026-02-02,,Pedro Ramalho,Casa Pia,Porto,2,1,6,15,3,6,0,10,14,14,3,2,0,1,full_time
+P1_20260207_ESTRELA_SANTACLA,2025/26,2026-02-07,,Fábio Veríssimo,Estrela,Santa Clara,1,0,12,17,4,5,3,6,15,9,4,1,0,0,full_time
+P1_20260207_MOREIREN_GILVICEN,2025/26,2026-02-07,,David Silva,Moreirense,Gil Vicente,1,2,3,15,1,4,3,6,18,15,3,1,1,0,full_time
+P1_20260207_ESTORIL_TONDELA,2025/26,2026-02-07,,Márcio André Dias Torres,Estoril,Tondela,2,2,15,6,6,5,5,4,8,8,1,0,0,0,full_time
+P1_20260207_AROUCA_GUIMARAE,2025/26,2026-02-07,,Miguel Fonseca,Arouca,Guimaraes,3,2,10,14,6,6,1,6,19,15,1,4,0,0,full_time
+P1_20260208_NACIONAL_CASAPIA,2025/26,2026-02-08,,Gustavo Correia,Nacional,Casa Pia,0,0,21,9,4,3,12,1,15,11,2,3,0,0,full_time
+P1_20260208_SPBRAGA_RIOAVE,2025/26,2026-02-08,,Miguel Nogueira,Sp Braga,Rio Ave,3,0,15,7,7,2,9,1,14,8,1,1,0,0,full_time
+P1_20260208_BENFICA_ALVERCA,2025/26,2026-02-08,,Bruno Costa,Benfica,Alverca,2,1,29,6,10,2,9,1,11,18,3,2,0,0,full_time
+P1_20260209_FAMALICA_AVS,2025/26,2026-02-09,,Luís Carlos Mateus Filipe,Famalicao,AVS,3,1,14,7,6,1,7,2,9,14,3,2,0,0,full_time
+P1_20260209_PORTO_SPLISBON,2025/26,2026-02-09,,Luís Godinho,Porto,Sp Lisbon,1,1,8,11,1,3,1,8,14,12,3,5,0,0,full_time
+P1_20260213_SANTACLA_BENFICA,2025/26,2026-02-13,,António Nobre,Santa Clara,Benfica,1,2,9,11,2,3,1,7,23,5,6,2,1,0,full_time
+P1_20260213_TONDELA_ALVERCA,2025/26,2026-02-13,,Pedro Ramalho,Tondela,Alverca,1,1,18,10,4,4,11,5,14,10,5,5,0,1,full_time
+P1_20260214_CASAPIA_AROUCA,2025/26,2026-02-14,,Diogo Rosa,Casa Pia,Arouca,3,2,11,8,4,4,2,3,21,8,5,2,0,0,full_time
+P1_20260214_GUIMARAE_ESTRELA,2025/26,2026-02-14,,Carlos Macedo,Guimaraes,Estrela,2,1,20,7,6,4,9,2,13,18,3,2,0,0,full_time
+P1_20260214_GILVICEN_SPBRAGA,2025/26,2026-02-14,,Claudio Pereira,Gil Vicente,Sp Braga,2,1,15,11,5,2,5,6,7,18,2,1,0,0,full_time
+P1_20260215_NACIONAL_PORTO,2025/26,2026-02-15,,José Bessa,Nacional,Porto,0,1,9,8,2,5,5,8,13,11,4,0,0,0,full_time
+P1_20260215_AVS_ESTORIL,2025/26,2026-02-15,,Luís Godinho,AVS,Estoril,3,0,15,12,3,2,9,9,9,10,2,2,0,0,full_time
+P1_20260215_SPLISBON_FAMALICA,2025/26,2026-02-15,,David Silva,Sp Lisbon,Famalicao,1,0,22,2,5,1,14,1,17,19,3,2,0,0,full_time
+P1_20260216_RIOAVE_MOREIREN,2025/26,2026-02-16,,Ricardo Baixinho,Rio Ave,Moreirense,1,2,18,6,6,3,7,1,17,24,1,3,0,0,full_time
+P1_20260220_ESTRELA_TONDELA,2025/26,2026-02-20,,Gustavo Correia,Estrela,Tondela,0,2,15,11,3,5,5,3,12,17,2,3,1,0,full_time
+P1_20260221_ALVERCA_SANTACLA,2025/26,2026-02-21,,Hélder Carvalho,Alverca,Santa Clara,1,1,7,16,1,3,5,2,16,14,2,2,0,0,full_time
+P1_20260221_AROUCA_NACIONAL,2025/26,2026-02-21,,Luís Carlos Mateus Filipe,Arouca,Nacional,3,0,10,15,7,5,4,1,13,13,5,3,1,1,full_time
+P1_20260221_BENFICA_AVS,2025/26,2026-02-21,,Miguel Fonseca,Benfica,AVS,3,0,22,3,9,0,10,1,7,14,0,0,0,0,full_time
+P1_20260221_MOREIREN_SPLISBON,2025/26,2026-02-21,,Bruno Costa,Moreirense,Sp Lisbon,0,3,6,15,2,8,1,8,12,14,1,1,0,0,full_time
+P1_20260221_SPBRAGA_GUIMARAE,2025/26,2026-02-21,,João Pinheiro,Sp Braga,Guimaraes,3,2,7,9,7,4,0,2,17,10,2,3,0,0,full_time
+P1_20260222_ESTORIL_GILVICEN,2025/26,2026-02-22,,Iancu Vasilica,Estoril,Gil Vicente,3,1,10,12,7,4,1,4,13,8,0,0,0,0,full_time
+P1_20260222_PORTO_RIOAVE,2025/26,2026-02-22,,David Silva,Porto,Rio Ave,1,0,16,6,3,1,10,1,14,16,2,3,0,0,full_time
+P1_20260223_FAMALICA_CASAPIA,2025/26,2026-02-23,,André Narciso,Famalicao,Casa Pia,2,0,24,7,7,1,7,7,17,17,3,2,0,0,full_time
+P1_20260227_PORTO_AROUCA,2025/26,2026-02-27,,Iancu Vasilica,Porto,Arouca,3,1,20,7,7,1,5,1,11,14,0,2,0,0,full_time
+P1_20260227_SPLISBON_ESTORIL,2025/26,2026-02-27,,Sérgio Guelho,Sp Lisbon,Estoril,3,0,14,8,7,3,4,1,9,16,2,3,0,0,full_time
+P1_20260228_AVS_ESTRELA,2025/26,2026-02-28,,Hélder Carvalho,AVS,Estrela,0,0,11,16,3,6,7,9,17,9,2,1,0,0,full_time
+P1_20260228_NACIONAL_SPBRAGA,2025/26,2026-02-28,,Diogo Rosa,Nacional,Sp Braga,1,2,14,20,5,8,3,6,15,15,2,3,0,0,full_time
+P1_20260228_GUIMARAE_ALVERCA,2025/26,2026-02-28,,Luís Carlos Mateus Filipe,Guimaraes,Alverca,1,1,15,11,6,5,0,11,16,5,1,2,0,0,full_time
+P1_20260301_TONDELA_SANTACLA,2025/26,2026-03-01,,Anzhony Rodrigues,Tondela,Santa Clara,2,2,11,17,4,3,4,7,15,15,3,2,0,0,full_time
+P1_20260301_CASAPIA_MOREIREN,2025/26,2026-03-01,,Fábio Veríssimo,Casa Pia,Moreirense,1,1,7,12,2,6,1,7,22,12,2,3,0,0,full_time
+P1_20260301_RIOAVE_FAMALICA,2025/26,2026-03-01,,José Bessa,Rio Ave,Famalicao,0,0,16,10,4,4,5,5,19,15,4,2,0,0,full_time
+P1_20260302_GILVICEN_BENFICA,2025/26,2026-03-02,,João Gonçalves,Gil Vicente,Benfica,1,2,13,11,5,3,5,3,16,12,2,3,0,0,full_time
+P1_20260306_FAMALICA_AROUCA,2025/26,2026-03-06,,António Nobre,Famalicao,Arouca,1,0,13,10,6,4,5,1,12,16,1,1,0,0,full_time
+P1_20260307_ALVERCA_AVS,2025/26,2026-03-07,,João Gonçalves,Alverca,AVS,0,0,17,12,2,2,8,0,7,13,1,3,0,0,full_time
+P1_20260307_MOREIREN_NACIONAL,2025/26,2026-03-07,,Márcio André Dias Torres,Moreirense,Nacional,1,1,7,20,2,7,4,7,13,13,4,2,0,0,full_time
+P1_20260307_SPBRAGA_SPLISBON,2025/26,2026-03-07,,Miguel Nogueira,Sp Braga,Sp Lisbon,2,2,10,14,3,5,6,5,17,13,3,3,0,0,full_time
+P1_20260307_ESTORIL_CASAPIA,2025/26,2026-03-07,,Bruno Costa,Estoril,Casa Pia,0,0,9,9,1,2,4,5,10,12,2,2,0,0,full_time
+P1_20260308_ESTRELA_GILVICEN,2025/26,2026-03-08,,Luís Godinho,Estrela,Gil Vicente,2,2,9,19,5,6,0,8,16,17,1,2,0,0,full_time
+P1_20260308_BENFICA_PORTO,2025/26,2026-03-08,,João Pinheiro,Benfica,Porto,2,2,20,14,6,6,8,2,11,17,2,6,0,0,full_time
+P1_20260308_SANTACLA_GUIMARAE,2025/26,2026-03-08,,David Silva,Santa Clara,Guimaraes,2,0,6,14,4,6,2,4,26,15,3,2,0,0,full_time
+P1_20260309_TONDELA_RIOAVE,2025/26,2026-03-09,,Hélder Malheiro,Tondela,Rio Ave,0,1,6,9,2,2,3,2,15,14,0,5,0,0,full_time
+P1_20260314_GUIMARAE_FAMALICA,2025/26,2026-03-14,,Hélder Carvalho,Guimaraes,Famalicao,1,2,12,13,6,3,3,11,22,13,1,1,0,0,full_time
+P1_20260314_GILVICEN_ALVERCA,2025/26,2026-03-14,,Sérgio Guelho,Gil Vicente,Alverca,2,2,10,17,6,6,3,7,15,8,3,1,0,0,full_time
+P1_20260314_AROUCA_BENFICA,2025/26,2026-03-14,,José Bessa,Arouca,Benfica,1,2,12,22,6,5,2,15,17,11,5,5,1,1,full_time
+P1_20260315_AVS_SANTACLA,2025/26,2026-03-15,,Gustavo Correia,AVS,Santa Clara,0,1,10,12,2,3,4,6,16,10,2,1,1,0,full_time
+P1_20260315_NACIONAL_ESTORIL,2025/26,2026-03-15,,Miguel Fonseca,Nacional,Estoril,0,1,16,11,4,2,5,4,16,13,5,3,0,0,full_time
+P1_20260315_RIOAVE_ESTRELA,2025/26,2026-03-15,,Fábio Veríssimo,Rio Ave,Estrela,2,1,18,11,6,3,10,4,16,12,4,2,0,0,full_time
+P1_20260315_PORTO_MOREIREN,2025/26,2026-03-15,,Carlos Macedo,Porto,Moreirense,3,0,17,3,9,2,4,1,14,15,1,1,0,0,full_time
+P1_20260320_ESTRELA_CASAPIA,2025/26,2026-03-20,,Hélder Malheiro,Estrela,Casa Pia,4,0,23,8,8,2,6,1,18,20,3,2,0,0,full_time
+P1_20260321_FAMALICA_NACIONAL,2025/26,2026-03-21,,Pedro Ramalho,Famalicao,Nacional,1,0,14,10,4,6,7,6,13,18,3,3,0,0,full_time
+P1_20260321_MOREIREN_AROUCA,2025/26,2026-03-21,,João Gonçalves,Moreirense,Arouca,0,1,7,14,2,2,3,7,11,12,1,2,0,0,full_time
+P1_20260321_BENFICA_GUIMARAE,2025/26,2026-03-21,,Luís Godinho,Benfica,Guimaraes,3,0,12,16,4,2,4,8,15,15,0,1,0,0,full_time
+P1_20260321_SANTACLA_GILVICEN,2025/26,2026-03-21,,Claudio Pereira,Santa Clara,Gil Vicente,1,0,7,8,2,0,6,6,15,17,1,2,0,0,full_time
+P1_20260321_TONDELA_AVS,2025/26,2026-03-21,,Miguel Nogueira,Tondela,AVS,0,0,14,9,3,2,7,6,12,15,0,2,0,0,full_time
+P1_20260322_ESTORIL_RIOAVE,2025/26,2026-03-22,,André Narciso,Estoril,Rio Ave,1,2,13,13,4,8,11,7,16,11,2,3,0,0,full_time
+P1_20260322_ALVERCA_SPLISBON,2025/26,2026-03-22,,João Pinheiro,Alverca,Sp Lisbon,1,4,12,15,4,9,3,1,13,9,1,2,0,0,full_time
+P1_20260322_SPBRAGA_PORTO,2025/26,2026-03-22,,António Nobre,Sp Braga,Porto,1,2,6,12,1,3,3,5,12,15,4,5,0,0,full_time
+P1_20260403_GILVICEN_AVS,2025/26,2026-04-03,,Luís Carlos Mateus Filipe,Gil Vicente,AVS,3,0,16,11,6,3,3,1,8,15,2,1,0,0,full_time
+P1_20260403_GUIMARAE_TONDELA,2025/26,2026-04-03,,Carlos Macedo,Guimaraes,Tondela,5,0,12,3,5,1,3,1,14,17,1,1,0,0,full_time
+P1_20260403_SPLISBON_SANTACLA,2025/26,2026-04-03,,André Narciso,Sp Lisbon,Santa Clara,4,2,22,7,8,4,9,5,12,22,4,4,0,0,full_time
+P1_20260404_NACIONAL_ESTRELA,2025/26,2026-04-04,,João Gonçalves,Nacional,Estrela,2,0,16,11,4,2,5,6,14,8,4,3,0,0,full_time
+P1_20260404_MOREIREN_SPBRAGA,2025/26,2026-04-04,,Bruno Costa,Moreirense,Sp Braga,0,1,12,10,2,7,4,9,9,14,0,3,0,0,full_time
+P1_20260404_RIOAVE_ALVERCA,2025/26,2026-04-04,,Anzhony Rodrigues,Rio Ave,Alverca,1,2,18,14,5,6,8,4,7,6,2,1,0,0,full_time
+P1_20260404_PORTO_FAMALICA,2025/26,2026-04-04,,Sérgio Guelho,Porto,Famalicao,2,2,8,11,3,6,4,3,20,14,5,4,0,0,full_time
+P1_20260406_AROUCA_ESTORIL,2025/26,2026-04-06,,António Nobre,Arouca,Estoril,3,2,12,12,4,3,3,3,13,18,3,2,0,0,full_time
+P1_20260406_CASAPIA_BENFICA,2025/26,2026-04-06,,Hélder Carvalho,Casa Pia,Benfica,1,1,8,18,2,3,3,12,19,10,1,0,0,0,full_time
+P1_20260410_FAMALICA_MOREIREN,2025/26,2026-04-10,,Gustavo Correia,Famalicao,Moreirense,1,1,18,2,7,1,13,0,15,15,5,6,0,0,full_time
+P1_20260411_AVS_GUIMARAE,2025/26,2026-04-11,,Iancu Vasilica,AVS,Guimaraes,1,1,17,14,4,6,5,4,16,9,5,1,0,0,full_time
+P1_20260411_SANTACLA_RIOAVE,2025/26,2026-04-11,,Miguel Nogueira,Santa Clara,Rio Ave,0,2,13,4,4,3,3,3,18,12,2,3,0,0,full_time
+P1_20260411_ESTRELA_SPLISBON,2025/26,2026-04-11,,David Silva,Estrela,Sp Lisbon,0,1,9,10,3,2,4,13,14,16,3,1,0,0,full_time
+P1_20260412_ALVERCA_CASAPIA,2025/26,2026-04-12,,Luís Carlos Mateus Filipe,Alverca,Casa Pia,3,1,11,15,5,5,9,11,10,15,0,0,0,0,full_time
+P1_20260412_BENFICA_NACIONAL,2025/26,2026-04-12,,Fábio Veríssimo,Benfica,Nacional,2,0,24,7,8,4,15,1,13,18,1,5,0,0,full_time
+P1_20260412_SPBRAGA_AROUCA,2025/26,2026-04-12,,Claudio Pereira,Sp Braga,Arouca,1,0,6,9,2,1,6,5,9,12,2,2,1,0,full_time
+P1_20260412_ESTORIL_PORTO,2025/26,2026-04-12,,Luís Godinho,Estoril,Porto,1,3,8,20,3,5,1,8,13,15,3,1,0,0,full_time
+P1_20260413_TONDELA_GILVICEN,2025/26,2026-04-13,,Miguel Fonseca,Tondela,Gil Vicente,2,2,10,14,5,6,5,5,15,11,6,2,0,0,full_time
+P1_20260417_RIOAVE_AVS,2025/26,2026-04-17,,Hélder Carvalho,Rio Ave,AVS,2,2,20,13,8,7,4,9,9,11,1,2,0,0,full_time
+P1_20260418_NACIONAL_ALVERCA,2025/26,2026-04-18,,Miguel Nogueira,Nacional,Alverca,1,0,10,8,6,4,4,8,15,15,2,1,0,0,full_time
+P1_20260418_CASAPIA_SANTACLA,2025/26,2026-04-18,,António Nobre,Casa Pia,Santa Clara,0,0,10,5,3,2,4,6,20,12,3,2,0,0,full_time
+P1_20260418_GILVICEN_GUIMARAE,2025/26,2026-04-18,,João Gonçalves,Gil Vicente,Guimaraes,0,1,12,11,6,3,10,3,11,16,2,2,0,0,full_time
+P1_20260419_AROUCA_ESTRELA,2025/26,2026-04-19,,Sérgio Guelho,Arouca,Estrela,1,0,11,15,3,3,4,3,15,11,5,1,0,0,full_time
+P1_20260419_SPLISBON_BENFICA,2025/26,2026-04-19,,João Pinheiro,Sp Lisbon,Benfica,1,2,19,14,6,5,3,8,13,8,2,1,0,0,full_time
+P1_20260419_PORTO_TONDELA,2025/26,2026-04-19,,Claudio Pereira,Porto,Tondela,2,0,22,5,8,3,8,3,12,11,4,6,0,0,full_time
+P1_20260419_SPBRAGA_FAMALICA,2025/26,2026-04-19,,David Silva,Sp Braga,Famalicao,2,2,10,6,4,3,5,2,10,11,2,5,0,0,full_time
+P1_20260420_MOREIREN_ESTORIL,2025/26,2026-04-20,,Márcio André Dias Torres,Moreirense,Estoril,1,0,11,4,4,1,5,1,14,12,0,2,0,0,full_time
+P1_20260423_CASAPIA_SPBRAGA,2025/26,2026-04-23,,Fábio Veríssimo,Casa Pia,Sp Braga,0,1,7,8,1,2,4,5,9,9,2,3,0,0,full_time
+P1_20260424_ALVERCA_AROUCA,2025/26,2026-04-24,,Diogo Rosa,Alverca,Arouca,2,1,7,14,3,3,6,3,8,12,0,5,0,0,full_time
+P1_20260425_TONDELA_NACIONAL,2025/26,2026-04-25,,Hélder Malheiro,Tondela,Nacional,0,2,22,17,5,6,8,7,16,15,2,1,0,0,full_time
+P1_20260425_BENFICA_MOREIREN,2025/26,2026-04-25,,Iancu Vasilica,Benfica,Moreirense,4,1,18,8,8,4,9,2,13,14,2,2,0,0,full_time
+P1_20260425_GUIMARAE_RIOAVE,2025/26,2026-04-25,,David Silva,Guimaraes,Rio Ave,2,0,11,5,3,4,3,5,7,13,4,4,0,0,full_time
+P1_20260426_ESTORIL_FAMALICA,2025/26,2026-04-26,,Carlos Macedo,Estoril,Famalicao,0,1,9,6,2,6,9,4,19,11,0,2,0,0,full_time
+P1_20260426_ESTRELA_PORTO,2025/26,2026-04-26,,Hélder Carvalho,Estrela,Porto,1,2,11,11,3,4,0,6,15,15,3,3,0,0,full_time
+P1_20260426_SANTACLA_SPBRAGA,2025/26,2026-04-26,,Luís Godinho,Santa Clara,Sp Braga,2,1,14,3,3,2,4,1,15,11,4,4,0,0,full_time
+P1_20260426_AVS_SPLISBON,2025/26,2026-04-26,,Pedro Ramalho,AVS,Sp Lisbon,1,1,11,20,4,8,0,9,15,8,3,1,0,0,full_time
+P1_20260427_GILVICEN_CASAPIA,2025/26,2026-04-27,,Bruno Costa,Gil Vicente,Casa Pia,2,1,12,7,4,2,4,3,15,18,5,3,0,0,full_time
+P1_20260429_SPLISBON_TONDELA,2025/26,2026-04-29,,Fábio Veríssimo,Sp Lisbon,Tondela,2,2,16,9,5,2,5,5,16,8,2,3,0,0,full_time
+P1_20260502_AROUCA_SANTACLA,2025/26,2026-05-02,,Ricardo Baixinho,Arouca,Santa Clara,2,2,9,12,5,4,5,6,15,8,3,3,1,0,full_time
+P1_20260502_MOREIREN_ESTRELA,2025/26,2026-05-02,,Hélder Malheiro,Moreirense,Estrela,3,2,14,10,5,3,1,4,18,18,4,4,0,0,full_time
+P1_20260502_NACIONAL_AVS,2025/26,2026-05-02,,Márcio André Dias Torres,Nacional,AVS,1,2,24,19,6,3,8,6,8,14,4,2,1,0,full_time
+P1_20260502_FAMALICA_BENFICA,2025/26,2026-05-02,,Gustavo Correia,Famalicao,Benfica,2,2,15,8,5,3,6,4,20,14,2,2,0,1,full_time
+P1_20260502_PORTO_ALVERCA,2025/26,2026-05-02,,David Silva,Porto,Alverca,1,0,12,10,3,4,5,4,21,19,1,4,0,0,full_time
+P1_20260503_CASAPIA_TONDELA,2025/26,2026-05-03,,André Narciso,Casa Pia,Tondela,0,1,4,9,3,5,7,2,22,19,8,3,2,0,full_time
+P1_20260503_SPBRAGA_ESTORIL,2025/26,2026-05-03,,Anzhony Rodrigues,Sp Braga,Estoril,1,1,10,10,3,4,5,4,15,10,3,3,0,0,full_time
+P1_20260503_RIOAVE_GILVICEN,2025/26,2026-05-03,,Fábio Veríssimo,Rio Ave,Gil Vicente,0,0,18,13,2,2,9,7,9,12,1,2,0,0,full_time
+P1_20260504_SPLISBON_GUIMARAE,2025/26,2026-05-04,,António Nobre,Sp Lisbon,Guimaraes,5,1,14,13,10,5,1,7,7,13,0,3,0,0,full_time
+P1_20260510_AVS_PORTO,2025/26,2026-05-10,,Carlos Macedo,AVS,Porto,3,1,9,20,5,4,3,7,7,9,2,2,0,1,full_time
+P1_20260510_ALVERCA_ESTORIL,2025/26,2026-05-10,,Iancu Vasilica,Alverca,Estoril,1,1,8,11,1,3,4,4,20,15,3,2,0,0,full_time
+P1_20260511_BENFICA_SPBRAGA,2025/26,2026-05-11,,João Pinheiro,Benfica,Sp Braga,2,2,24,5,8,2,8,2,6,11,1,4,0,0,full_time
+P1_20260511_ESTRELA_FAMALICA,2025/26,2026-05-11,,Fábio Veríssimo,Estrela,Famalicao,0,0,4,15,1,4,3,10,16,9,3,1,0,0,full_time
+P1_20260511_GILVICEN_AROUCA,2025/26,2026-05-11,,Miguel Fonseca,Gil Vicente,Arouca,1,3,15,13,5,6,6,2,13,17,2,1,0,0,full_time
+P1_20260511_GUIMARAE_CASAPIA,2025/26,2026-05-11,,Luís Godinho,Guimaraes,Casa Pia,0,1,15,11,2,5,6,4,11,16,2,1,0,0,full_time
+P1_20260511_RIOAVE_SPLISBON,2025/26,2026-05-11,,João Gonçalves,Rio Ave,Sp Lisbon,1,4,12,16,3,5,5,6,9,7,5,2,2,0,full_time
+P1_20260511_SANTACLA_NACIONAL,2025/26,2026-05-11,,Hélder Carvalho,Santa Clara,Nacional,2,0,12,12,2,1,4,6,10,16,1,2,0,0,full_time
+P1_20260511_TONDELA_MOREIREN,2025/26,2026-05-11,,Ricardo Baixinho,Tondela,Moreirense,2,0,14,10,3,2,1,8,14,9,1,3,0,1,full_time
+P1_20260516_MOREIREN_AVS,2025/26,2026-05-16,,Sérgio Guelho,Moreirense,AVS,0,0,13,8,4,0,5,3,10,12,2,3,0,0,full_time
+P1_20260516_PORTO_SANTACLA,2025/26,2026-05-16,,João Gonçalves,Porto,Santa Clara,1,0,14,11,6,0,8,5,11,9,0,0,0,0,full_time
+P1_20260516_AROUCA_TONDELA,2025/26,2026-05-16,,António Nobre,Arouca,Tondela,3,1,16,11,4,2,5,6,12,12,3,1,0,0,full_time
+P1_20260516_CASAPIA_RIOAVE,2025/26,2026-05-16,,Hélder Malheiro,Casa Pia,Rio Ave,1,1,20,6,5,3,9,0,17,14,1,0,0,0,full_time
+P1_20260516_NACIONAL_GUIMARAE,2025/26,2026-05-16,,Ricardo Baixinho,Nacional,Guimaraes,2,0,5,13,3,4,2,6,17,13,4,3,0,0,full_time
+P1_20260516_SPBRAGA_ESTRELA,2025/26,2026-05-16,,Gustavo Correia,Sp Braga,Estrela,2,2,14,6,4,4,7,1,13,9,1,5,0,1,full_time
+P1_20260516_ESTORIL_BENFICA,2025/26,2026-05-16,,Miguel Nogueira,Estoril,Benfica,1,3,16,19,6,8,2,9,9,12,3,2,0,0,full_time
+P1_20260516_FAMALICA_ALVERCA,2025/26,2026-05-16,,Claudio Pereira,Famalicao,Alverca,1,0,11,7,2,1,6,5,9,8,1,2,0,0,full_time
+P1_20260516_SPLISBON_GILVICEN,2025/26,2026-05-16,,Luís Godinho,Sp Lisbon,Gil Vicente,3,0,15,10,5,1,6,1,13,14,0,1,0,0,full_time

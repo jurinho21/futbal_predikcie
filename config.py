@@ -81,7 +81,6 @@ X1X2_KEYS = {
 }
 
 X1X2_LABELS = {
-    "fouls": "Viac faulov — 1X2",
     "shots_on_target": "Viac striel na bránu — 1X2",
     "corners": "Viac rohov — 1X2",
     "yellow_cards": "Viac žltých kariet — 1X2",
@@ -102,6 +101,10 @@ X1X2_MAX_DRAW_ODDS = {
     "yellow_cards": 4.5,
 }
 
+X1X2_MIN_DRAW_ODDS = {
+    "corners": 6,
+}
+
 # Unifikovaný rozsah línií pre hit rate výpočty (oba moduly používali rôzne rozsahy: 35 vs 40)
 HR_LINES = tuple(l + 0.5 for l in range(0, 40))
 
@@ -111,3 +114,17 @@ HR_LINES = tuple(l + 0.5 for l in range(0, 40))
 
 EDGE_GREEN = 0.08
 EDGE_YELLOW = 0.03
+
+# ---------------------------------------------------------------------------
+# SEZÓNNY BLENDING
+# ---------------------------------------------------------------------------
+# Váhy pri prechode na novú sezónu podľa počtu odohraných zápasov na danej strane (H alebo A).
+# n_new=0 → 100% stará sezóna, n_new>=5 → 100% nová (implicitné).
+# Formát: (max_n_new, w_old)
+SEASON_BLEND_STEPS = [
+    (0, 1.0),
+    (1, 0.8),
+    (2, 0.6),
+    (3, 0.4),
+    (4, 0.2),
+]

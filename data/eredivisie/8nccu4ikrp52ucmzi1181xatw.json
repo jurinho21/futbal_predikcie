@@ -1,15 +1,237 @@
 {
   "oid": "8nccu4ikrp52ucmzi1181xatw",
-  "slug": "https://eredivisie.nl/competitie/wedstrijd/heerenveen-ajax/",
+  "slug": "https://eredivisie.com/competition/match/heerenveen-ajax/",
   "date": "2026-05-17",
-  "status": "pre_match",
-  "attendance": 0,
-  "referee": "",
+  "status": "full_time",
+  "attendance": 25450,
+  "referee": "Joey Kooij",
   "home_team": "sc Heerenveen",
   "away_team": "Ajax",
   "home_score": 0,
   "away_score": 0,
-  "home": {},
-  "away": {},
+  "home": {
+    "passes_accurate": {
+      "total": 474,
+      "first_half": 232,
+      "second_half": 242
+    },
+    "shots_blocked": {
+      "total": 4,
+      "first_half": 1,
+      "second_half": 3
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "fouls": {
+      "total": 9,
+      "first_half": 3,
+      "second_half": 6
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "goalKicks": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "corners_conceded": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 3,
+      "second_half": 3
+    },
+    "possession": {
+      "total": 53,
+      "first_half": 47,
+      "second_half": 59
+    },
+    "saves": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "shots_off_target": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 24,
+      "first_half": 8,
+      "second_half": 16
+    },
+    "offsides": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "passes": {
+      "total": 561,
+      "first_half": 268,
+      "second_half": 293
+    },
+    "shots": {
+      "total": 16,
+      "first_half": 5,
+      "second_half": 11
+    },
+    "tackles": {
+      "total": 20,
+      "first_half": 9,
+      "second_half": 11
+    },
+    "totalThrows": {
+      "total": 11,
+      "first_half": 8,
+      "second_half": 3
+    },
+    "corners": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "tackles_won": {
+      "total": 13,
+      "first_half": 4,
+      "second_half": 9
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 432,
+      "first_half": 270,
+      "second_half": 162
+    },
+    "shots_blocked": {
+      "total": 6,
+      "first_half": 1,
+      "second_half": 5
+    },
+    "cleanSheet": {
+      "total": 1,
+      "first_half": null,
+      "second_half": null
+    },
+    "corners_taken": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 4,
+      "second_half": 4
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 3,
+      "second_half": 5
+    },
+    "goalKicks": {
+      "total": 9,
+      "first_half": 4,
+      "second_half": 5
+    },
+    "corners_conceded": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "shots_on_target": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "possession": {
+      "total": 47,
+      "first_half": 52,
+      "second_half": 40
+    },
+    "saves": {
+      "total": 4,
+      "first_half": 2,
+      "second_half": 2
+    },
+    "shots_off_target": {
+      "total": 11,
+      "first_half": 5,
+      "second_half": 6
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 40,
+      "first_half": 16,
+      "second_half": 24
+    },
+    "passes": {
+      "total": 500,
+      "first_half": 299,
+      "second_half": 201
+    },
+    "shots": {
+      "total": 23,
+      "first_half": 8,
+      "second_half": 15
+    },
+    "tackles": {
+      "total": 18,
+      "first_half": 5,
+      "second_half": 13
+    },
+    "totalThrows": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "yellow_cards": {
+      "total": 3,
+      "first_half": 1,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 6,
+      "first_half": 2,
+      "second_half": 4
+    },
+    "tackles_won": {
+      "total": 12,
+      "first_half": 4,
+      "second_half": 8
+    },
+    "formation": {
+      "total": 433,
+      "first_half": null,
+      "second_half": null
+    }
+  },
   "goals": []
 }

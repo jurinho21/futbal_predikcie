@@ -1,15 +1,272 @@
 {
   "oid": "8m5pxoczr4920s4cc8k0qh3is",
-  "slug": "https://eredivisie.nl/competitie/wedstrijd/nec-go-ahead-eagles/",
+  "slug": "https://eredivisie.com/competition/match/nec-go-ahead-eagles/",
   "date": "2026-05-17",
-  "status": "pre_match",
-  "attendance": 0,
-  "referee": "",
+  "status": "full_time",
+  "attendance": 12650,
+  "referee": "Sander van der Eijk",
   "home_team": "N.E.C. Nijmegen",
   "away_team": "Go Ahead Eagles",
-  "home_score": 0,
-  "away_score": 0,
-  "home": {},
-  "away": {},
-  "goals": []
+  "home_score": 2,
+  "away_score": 1,
+  "home": {
+    "passes_accurate": {
+      "total": 328,
+      "first_half": 227,
+      "second_half": 101
+    },
+    "shots_blocked": {
+      "total": 14,
+      "first_half": 6,
+      "second_half": 8
+    },
+    "corners_taken": {
+      "total": 13,
+      "first_half": 10,
+      "second_half": 3
+    },
+    "fouls": {
+      "total": 12,
+      "first_half": 3,
+      "second_half": 9
+    },
+    "fouls_won": {
+      "total": 8,
+      "first_half": 1,
+      "second_half": 7
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 1,
+      "second_half": 0
+    },
+    "goalKicks": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "goals": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "goals_conceded": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners_conceded": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "shots_on_target": {
+      "total": 12,
+      "first_half": 7,
+      "second_half": 5
+    },
+    "possession": {
+      "total": 57,
+      "first_half": 68,
+      "second_half": 44
+    },
+    "shots_off_target": {
+      "total": 11,
+      "first_half": 6,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 4,
+      "first_half": 0,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 27,
+      "first_half": 9,
+      "second_half": 18
+    },
+    "passes": {
+      "total": 401,
+      "first_half": 264,
+      "second_half": 137
+    },
+    "shots": {
+      "total": 37,
+      "first_half": 19,
+      "second_half": 18
+    },
+    "tackles": {
+      "total": 16,
+      "first_half": 6,
+      "second_half": 10
+    },
+    "totalThrows": {
+      "total": 21,
+      "first_half": 11,
+      "second_half": 10
+    },
+    "yellow_cards": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "corners": {
+      "total": 13,
+      "first_half": 10,
+      "second_half": 3
+    },
+    "tackles_won": {
+      "total": 10,
+      "first_half": 3,
+      "second_half": 7
+    },
+    "formation": {
+      "total": 3421,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "away": {
+    "passes_accurate": {
+      "total": 229,
+      "first_half": 92,
+      "second_half": 137
+    },
+    "shots_blocked": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_taken": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "fouls": {
+      "total": 8,
+      "first_half": 1,
+      "second_half": 7
+    },
+    "fouls_won": {
+      "total": 11,
+      "first_half": 3,
+      "second_half": 8
+    },
+    "assists": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goalKicks": {
+      "total": 12,
+      "first_half": 6,
+      "second_half": 6
+    },
+    "goals": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "goals_conceded": {
+      "total": 2,
+      "first_half": 2,
+      "second_half": 0
+    },
+    "corners_conceded": {
+      "total": 13,
+      "first_half": 10,
+      "second_half": 3
+    },
+    "shots_on_target": {
+      "total": 1,
+      "first_half": 0,
+      "second_half": 1
+    },
+    "possession": {
+      "total": 42,
+      "first_half": 31,
+      "second_half": 55
+    },
+    "saves": {
+      "total": 10,
+      "first_half": 5,
+      "second_half": 5
+    },
+    "substitutions": {
+      "total": 5,
+      "first_half": 1,
+      "second_half": 4
+    },
+    "clearances": {
+      "total": 51,
+      "first_half": 31,
+      "second_half": 20
+    },
+    "passes": {
+      "total": 303,
+      "first_half": 123,
+      "second_half": 180
+    },
+    "shots": {
+      "total": 3,
+      "first_half": 2,
+      "second_half": 1
+    },
+    "tackles": {
+      "total": 15,
+      "first_half": 6,
+      "second_half": 9
+    },
+    "totalThrows": {
+      "total": 22,
+      "first_half": 6,
+      "second_half": 16
+    },
+    "yellow_cards": {
+      "total": 2,
+      "first_half": 0,
+      "second_half": 2
+    },
+    "corners": {
+      "total": 4,
+      "first_half": 3,
+      "second_half": 1
+    },
+    "tackles_won": {
+      "total": 9,
+      "first_half": 5,
+      "second_half": 4
+    },
+    "formation": {
+      "total": 4231,
+      "first_half": null,
+      "second_half": null
+    }
+  },
+  "goals": [
+    {
+      "minute": 12,
+      "team": "home",
+      "player": "N. Lebreton",
+      "assist": "B. Önal",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 27,
+      "team": "home",
+      "player": "N. Lebreton",
+      "assist": "",
+      "type": "goal",
+      "period": 1
+    },
+    {
+      "minute": 55,
+      "team": "away",
+      "player": "S. Tengstedt",
+      "assist": "V. Edvardsen",
+      "type": "goal",
+      "period": 2
+    }
+  ]
 }

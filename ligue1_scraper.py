@@ -123,8 +123,11 @@ def parse_match(raw: dict, match_id: str) -> dict:
     except (ValueError, TypeError):
         date_str = str(date_raw)[:10]
 
-    h_stats = _aggregate_stats(home.get("players") or {})
-    a_stats = _aggregate_stats(away.get("players") or {})
+    status = (raw.get("period") or "").replace("fullTime", "full_time")
+    is_played = status == "full_time"
+
+    h_stats = _aggregate_stats(home.get("players") or {}) if is_played else {}
+    a_stats = _aggregate_stats(away.get("players") or {}) if is_played else {}
 
     # Possession z dotykov
     h_touch = h_stats.get("touches") or 0
@@ -134,6 +137,8 @@ def parse_match(raw: dict, match_id: str) -> dict:
     away_poss = round(a_touch / total_touch * 100) if total_touch > 0 else None
 
     def s(stats: dict, key: str, is_float: bool = False):
+        if not is_played:
+            return None
         v = stats.get(key, 0.0)
         return _round_stat(v, is_float)
 
@@ -206,11 +211,42 @@ def load_existing() -> set[str]:
     return {p.stem for p in DATA_DIR.glob("*.json")}
 
 
+def load_finished() -> set[str]:
+    """Vráti ID zápasov, ktoré nie je treba znovu sťahovať:
+    - odohraté (full_time)
+    - naplánované striktne v budúcnosti (preMatch, dátum > dnes) — ešte sa neodohrali
+    """
+    from datetime import date as _date
+    today = _date.today()
+    finished = set()
+    if not DATA_DIR.exists():
+        return finished
+    for p in DATA_DIR.glob("*.json"):
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+            status = d.get("status", "")
+            if status == "full_time":
+                finished.add(p.stem)
+            elif status == "preMatch":
+                date_str = d.get("date", "")
+                if date_str:
+                    try:
+                        match_date = datetime.fromisoformat(date_str[:10]).date()
+                        if match_date > today:
+                            finished.add(p.stem)
+                    except (ValueError, TypeError):
+                        pass
+        except Exception:
+            pass
+    return finished
+
+
 def main():
     parser = argparse.ArgumentParser(description="Ligue 1 scraper")
-    parser.add_argument("--id",    help="ID konkrétneho zápasu")
-    parser.add_argument("--force", action="store_true", help="Stiahne znovu aj existujúce")
-    parser.add_argument("--delay", type=float, default=1.2, help="Pauza medzi requestmi (default: 1.2)")
+    parser.add_argument("--id",      help="ID konkrétneho zápasu")
+    parser.add_argument("--force",   action="store_true", help="Stiahne znovu aj existujúce")
+    parser.add_argument("--refresh", action="store_true", help="Preskočí len full_time zápasy, zvyšok aktualizuje")
+    parser.add_argument("--delay",   type=float, default=1.2, help="Pauza medzi requestmi (default: 1.2)")
     args = parser.parse_args()
 
     if args.id:
@@ -227,9 +263,15 @@ def main():
     all_ids  = [mid for gw_ids in calendar.values() for mid in gw_ids]
     logger.info("Nájdených %d zápasov v %d kolách", len(all_ids), len(calendar))
 
-    existing = set() if args.force else load_existing()
-    to_fetch = [mid for mid in all_ids if mid not in existing]
-    logger.info("Na stiahnutie: %d | preskočených: %d", len(to_fetch), len(existing))
+    if args.force:
+        skip_ids = set()
+    elif args.refresh:
+        skip_ids = load_finished()
+        logger.info("Refresh mód: preskočím %d already-finished zápasov", len(skip_ids))
+    else:
+        skip_ids = load_existing()
+    to_fetch = [mid for mid in all_ids if mid not in skip_ids]
+    logger.info("Na stiahnutie: %d | preskočených: %d", len(to_fetch), len(skip_ids))
 
     ok = fail = skip = 0
     for i, match_id in enumerate(to_fetch, 1):

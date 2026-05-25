@@ -22,12 +22,28 @@ logger = logging.getLogger(__name__)
 
 TIPS_CSV_NAME = "tips.csv"
 
-# market → kľúč v stats.total JSON objektu
+# market → kľúč v stats.total JSON objektu (Niké/Chance liga nested formát)
 MARKET_STAT_KEY = {
     "fouls": "fouls",
     "shots_on_target": "shots_on_target",
     "corners": "corners",
     "yellow_cards": "yellow_cards",
+}
+
+# market → (home_key, away_key) pre flat JSON formát (Ligue 1)
+FLAT_MARKET_STAT_KEY = {
+    "fouls":           ("home_fouls",           "away_fouls"),
+    "shots_on_target": ("home_shots_on_target",  "away_shots_on_target"),
+    "corners":         ("home_corners",           "away_corners"),
+    "yellow_cards":    ("home_yellow",            "away_yellow"),
+}
+
+# market → kľúč v d["home"] / d["away"] nested objekte (Pro League, Eredivisie)
+NESTED_MARKET_STAT_KEY = {
+    "fouls":           "fouls",
+    "shots_on_target": "shots_on_target",
+    "corners":         "corners",
+    "yellow_cards":    "yellow_cards",
 }
 
 TIP_FIELDS = [
@@ -38,8 +54,11 @@ TIP_FIELDS = [
 ]
 
 
-def _tip_id(match_id, market, bet_type, line, direction) -> str:
-    key = f"{match_id}|{market}|{bet_type}|{line}|{direction}"
+def _tip_id(match_id, market, bet_type, line, direction, home_team="", away_team="") -> str:
+    if str(match_id) in ("0", "", "None"):
+        key = f"{home_team}|{away_team}|{market}|{bet_type}|{line}|{direction}"
+    else:
+        key = f"{match_id}|{market}|{bet_type}|{line}|{direction}"
     return hashlib.md5(key.encode()).hexdigest()[:12]
 
 
@@ -111,7 +130,8 @@ def save_tips(data_dir: Path, tips: list[dict], stake: float = 1.0) -> int:
 
     new_rows = []
     for t in tips:
-        tid = _tip_id(t["match_id"], t["market"], t["bet_type"], t["line"], t["direction"])
+        tid = _tip_id(t["match_id"], t["market"], t["bet_type"], t["line"], t["direction"],
+                      t.get("home_team", ""), t.get("away_team", ""))
         if tid in existing_ids:
             continue
         model_prob = float(t["model_prob"])
@@ -149,9 +169,117 @@ def save_tips(data_dir: Path, tips: list[dict], stake: float = 1.0) -> int:
     return len(new_rows)
 
 
+def _find_match_json(data_dir: Path, mid: str) -> Optional[Path]:
+    """Nájde JSON súbor zápasu — skúsi json/ podadresár, potom priamo data_dir."""
+    p = Path(data_dir) / "json" / f"{mid}.json"
+    if p.exists():
+        return p
+    p = Path(data_dir) / f"{mid}.json"
+    if p.exists():
+        return p
+    return None
+
+
+def _find_match_json_by_teams(data_dir: Path, home: str, away: str) -> Optional[Path]:
+    """Fallback pre match_id=0: hľadá JSON podľa home_team a away_team."""
+    candidates = []
+    for search_dir in (Path(data_dir) / "json", Path(data_dir)):
+        if not search_dir.exists():
+            continue
+        for p in search_dir.glob("*.json"):
+            try:
+                d = json.loads(p.read_text(encoding="utf-8"))
+                meta = d.get("meta", d)
+                if meta.get("home_team") == home and meta.get("away_team") == away:
+                    candidates.append((p.stat().st_mtime, p))
+            except Exception:
+                pass
+    if not candidates:
+        return None
+    candidates.sort(reverse=True)
+    return candidates[0][1]
+
+
+def _find_match_row_in_csv(data_dir: Path, home: str, away: str) -> Optional[dict]:
+    """Hľadá odohraný zápas v matches.csv (football-data flat formát)."""
+    import csv as _csv_mod
+    csv_path = Path(data_dir) / "matches.csv"
+    if not csv_path.exists():
+        return None
+    try:
+        with open(csv_path, encoding="utf-8", newline="") as f:
+            for row in _csv_mod.DictReader(f):
+                if (row.get("home_team") == home and
+                        row.get("away_team") == away and
+                        row.get("status", "").lower() in ("full_time", "played") and
+                        row.get("home_score", "").strip()):
+                    return dict(row)
+    except Exception:
+        pass
+    return None
+
+
+def _read_nested_stat(stats: dict, key: str) -> Optional[float]:
+    """Číta štatistiku z nested stats dict.
+    Pro League: priama hodnota (int/float).
+    Eredivisie: dict s kľúčom 'total'.
+    """
+    if key not in stats:
+        return None
+    val = stats[key]
+    if isinstance(val, dict):
+        v = val.get("total")
+        return None if v is None else _to_num(v)
+    return 0.0 if val is None else _to_num(val)
+
+
+def _read_stat_values(d: dict, market: str) -> tuple[Optional[float], Optional[float]]:
+    """
+    Číta home_val, away_val zo zápasového JSON.
+    Formáty:
+      - Niké/Chance liga: d["meta"] prítomné, stats v d["stats"]["total"][market]["home/away"]
+      - Ligue 1: flat kľúče d["home_fouls"], d["away_fouls"] atď.
+      - Pro League: d["home"]["fouls"] = int
+      - Eredivisie: d["home"]["fouls"] = {"total": int, ...}
+    """
+    if "meta" in d:
+        # Niké/Chance liga — nested cez meta
+        stats_root  = d.get("stats", {})
+        total_stats = stats_root.get("total", stats_root)
+        stat_key    = MARKET_STAT_KEY.get(market)
+        if not stat_key:
+            return None, None
+        stat = total_stats.get(stat_key, {})
+        return _to_num(stat.get("home")), _to_num(stat.get("away"))
+
+    # Ligue 1 — flat kľúče priamo v d
+    flat_keys = FLAT_MARKET_STAT_KEY.get(market)
+    if flat_keys:
+        hk, ak = flat_keys
+        if hk in d and ak in d:
+            hv = 0.0 if d[hk] is None else _to_num(d[hk])
+            av = 0.0 if d[ak] is None else _to_num(d[ak])
+            return hv, av
+
+    # Pro League / Eredivisie — nested d["home"][stat] / d["away"][stat]
+    home_stats = d.get("home")
+    away_stats = d.get("away")
+    if isinstance(home_stats, dict) and isinstance(away_stats, dict):
+        stat_key = NESTED_MARKET_STAT_KEY.get(market)
+        if not stat_key:
+            return None, None
+        hv = _read_nested_stat(home_stats, stat_key)
+        av = _read_nested_stat(away_stats, stat_key)
+        if hv is None or av is None:
+            return None, None
+        return hv, av
+
+    return None, None
+
+
 def settle_tips(data_dir: Path) -> tuple[int, int]:
     """
-    Vyhodnotí pending tipy podľa výsledkov v data/json/.
+    Vyhodnotí pending tipy podľa výsledkov v data/json/ alebo priamo v data_dir.
     Vracia (vyhodnotené, chyby).
     """
     _migrate_sqlite_if_needed(data_dir)
@@ -160,27 +288,49 @@ def settle_tips(data_dir: Path) -> tuple[int, int]:
         return 0, 0
 
     df = pd.read_csv(tips_csv, dtype=str)
-    json_dir = Path(data_dir) / "json"
 
     def _has_complete_stats(d: dict) -> bool:
-        second_half = d.get("stats", {}).get("second_half", {})
-        for val in second_half.values():
-            if isinstance(val, dict):
-                if any(v not in (None, 0) for v in val.values()):
-                    return True
-        return False
+        if "meta" in d:
+            second_half = d.get("stats", {}).get("second_half", {})
+            for val in second_half.values():
+                if isinstance(val, dict):
+                    if any(v not in (None, 0) for v in val.values()):
+                        return True
+            return False
+        # Pre_match / scheduled → explicitne nedokončené
+        status = str(d.get("status") or "").lower()
+        if "pre" in status or "schedul" in status:
+            return False
+        hs = d.get("home_score")
+        return hs is not None and str(hs).strip() not in ("", "None")
+
+    def _load_match_data(home: str, away: str, mid: str) -> Optional[dict]:
+        """Načíta zápasové dáta: JSON (všetky formáty) alebo CSV fallback (football-data)."""
+        jp = _find_match_json(data_dir, mid)
+        if not jp and mid in ("0", "", "None"):
+            jp = _find_match_json_by_teams(data_dir, home, away)
+        if jp:
+            try:
+                return json.loads(jp.read_text(encoding="utf-8"))
+            except Exception:
+                return None
+        return _find_match_row_in_csv(data_dir, home, away)
 
     def _needs_settle(row) -> bool:
         if row["status"] == "pending":
             return True
-        # Prepočítaj aj won/lost tipy ak zápas má teraz kompletné dáta
-        jp = json_dir / f"{row['match_id']}.json"
-        if not jp.exists():
+        d = _load_match_data(str(row["home_team"]), str(row["away_team"]), str(row["match_id"]))
+        if d is None:
             return False
         try:
-            with open(jp, encoding="utf-8") as f:
-                d = json.load(f)
-            return _has_complete_stats(d)
+            if not _has_complete_stats(d):
+                return False
+            # Re-settle 1x2 štatistické tipy, ak actual_value nezodpovedá štatistike
+            if row["status"] in ("won", "lost") and str(row.get("bet_type")) == "1x2":
+                hv, av = _read_stat_values(d, str(row.get("market", "")))
+                if hv is not None and av is not None:
+                    return str(row.get("actual_value", "")) != f"{hv}:{av}"
+            return False
         except Exception:
             return False
 
@@ -194,33 +344,19 @@ def settle_tips(data_dir: Path) -> tuple[int, int]:
     for idx in df[settle_mask].index:
         tip = df.loc[idx]
         mid = str(tip["match_id"])
-        json_path = json_dir / f"{mid}.json"
-        if not json_path.exists():
+        d = _load_match_data(str(tip["home_team"]), str(tip["away_team"]), mid)
+        if d is None:
             continue
 
         try:
-            with open(json_path, encoding="utf-8") as f:
-                d = json.load(f)
-
-            meta = d.get("meta", {})
-            if meta.get("home_score") is None:
-                continue
-
-            stats_root  = d.get("stats", {})
-            total_stats = stats_root.get("total", stats_root)
-
-            stat_key = MARKET_STAT_KEY.get(tip["market"])
-            if not stat_key:
-                errors += 1
-                continue
-
-            stat      = total_stats.get(stat_key, {})
-            home_val  = _to_num(stat.get("home"))
-            away_val  = _to_num(stat.get("away"))
-
-            if home_val is None or away_val is None:
-                errors += 1
-                continue
+            # Preskoč zápasy bez výsledku
+            if "meta" in d:
+                if d.get("meta", {}).get("home_score") is None:
+                    continue
+            else:
+                hs = d.get("home_score")
+                if hs is None or str(hs).strip() in ("", "None"):
+                    continue
 
             bet_type  = tip["bet_type"]
             direction = tip["direction"]
@@ -233,6 +369,10 @@ def settle_tips(data_dir: Path) -> tuple[int, int]:
                 if line is None:
                     errors += 1
                     continue
+                home_val, away_val = _read_stat_values(d, tip["market"])
+                if home_val is None or away_val is None:
+                    errors += 1
+                    continue
                 if bet_type == "total":
                     actual = home_val + away_val
                 elif bet_type == "home":
@@ -243,13 +383,17 @@ def settle_tips(data_dir: Path) -> tuple[int, int]:
                 actual_str = str(actual)
 
             elif bet_type == "1x2":
+                hv, av = _read_stat_values(d, tip["market"])
+                if hv is None or av is None:
+                    errors += 1
+                    continue
                 if direction == "1":
-                    won = home_val > away_val
+                    won = hv > av
                 elif direction == "X":
-                    won = home_val == away_val
+                    won = hv == av
                 else:
-                    won = away_val > home_val
-                actual_str = f"{home_val}:{away_val}"
+                    won = av > hv
+                actual_str = f"{hv}:{av}"
 
             else:
                 errors += 1

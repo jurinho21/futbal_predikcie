@@ -165,11 +165,19 @@ def parse_match(raw: dict, oid: str = "", slug: str = "") -> dict:
         ""
     )
 
+    raw_status = raw.get("progress") or raw.get("status")
+    has_stats = bool((stats.get("home_team") or {}).get("team_stats"))
+    if (home_info.get("score") is not None and
+            away_info.get("score") is not None and has_stats):
+        computed_status = "full_time"
+    else:
+        computed_status = raw_status
+
     return {
         "oid":        oid,
         "slug":       slug,
         "date":       date_str,
-        "status":     raw.get("progress") or raw.get("status"),
+        "status":     computed_status,
         "attendance": raw.get("attendance"),
         "referee":    referee,
         "home_team":  home_info.get("name", ""),
@@ -197,6 +205,20 @@ def load_existing_oids() -> set[str]:
     if not DATA_DIR.exists():
         return set()
     return {p.stem for p in DATA_DIR.glob("*.json")}
+
+
+def load_unfinished_oids() -> set[str]:
+    """Vráti OID uložených zápasov, ktoré ešte neboli odohraté (na re-fetch)."""
+    unfinished = set()
+    for p in DATA_DIR.glob("*.json"):
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+            status = (d.get("status") or "").lower()
+            if d.get("home_score") is None or status not in ("full_time", "played"):
+                unfinished.add(p.stem)
+        except Exception:
+            pass
+    return unfinished
 
 
 # ---------------------------------------------------------------------------
@@ -237,9 +259,11 @@ def main():
     fixtures = fetch_fixtures()
     logger.info("Nájdených %d zápasov v 34 kolách", len(fixtures))
 
-    existing  = set() if args.force else load_existing_oids()
-    to_fetch  = [f for f in fixtures if f["oid"] not in existing]
-    skipped   = len(fixtures) - len(to_fetch)
+    existing   = set() if args.force else load_existing_oids()
+    unfinished = set() if args.force else load_unfinished_oids()
+    to_skip    = existing - unfinished
+    to_fetch   = [f for f in fixtures if f["oid"] not in to_skip]
+    skipped    = len(fixtures) - len(to_fetch)
     logger.info("Na stiahnutie: %d  |  preskočených (existujú): %d", len(to_fetch), skipped)
 
     ok, fail = 0, 0

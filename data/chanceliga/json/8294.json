@@ -3,36 +3,27 @@
   "meta": {
     "home_team": "SK Slavia Praha",
     "away_team": "FK Jablonec",
+    "home_score": 2,
+    "away_score": 0,
+    "home_score_ht": 2,
+    "away_score_ht": 0,
     "round": "3. kolo, Skupina o titul | středa 13/05/2026, 20:00 | Fortuna Arena |",
     "date": "13/05/2026 20:00",
     "stadium": "Fortuna Arena"
   },
-  "events": [],
+  "events": [
+    {
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Eduard Sobol",
+      "minute": 1
+    }
+  ],
   "stats": {
     "total": {
-      "góly": {
-        "home": 65,
-        "away": 42
-      },
-      "góly_proti": {
-        "home": 24,
-        "away": 36
-      },
-      "vytvořené_šance": {
+      "yellow_cards": {
         "home": 0,
-        "away": 0
-      },
-      "střely": {
-        "home": 553,
-        "away": 365
-      },
-      "úspěšnost_přihrávek": {
-        "home": 77,
-        "away": 79.2
-      },
-      "possession": {
-        "home": 58,
-        "away": 49
+        "away": 1
       }
     }
   },

@@ -1,0 +1,307 @@
+match_id,season,date,round,referee,home_team,away_team,home_score,away_score,home_shots,away_shots,home_shots_on_target,away_shots_on_target,home_corners,away_corners,home_fouls,away_fouls,home_yellow,away_yellow,home_red,away_red,status
+D1_20250822_BAYERNMU_RBLEIPZI,2025/26,2025-08-22,,Florian Badstübner,Bayern Munich,RB Leipzig,6,0,19,12,10,1,5,5,13,13,4,1,0,0,full_time
+D1_20250823_EINFRANK_WERDERBR,2025/26,2025-08-23,,Harm Osmers,Ein Frankfurt,Werder Bremen,4,1,18,10,5,5,7,1,9,9,1,3,0,0,full_time
+D1_20250823_FREIBURG_AUGSBURG,2025/26,2025-08-23,,Felix Zwayer,Freiburg,Augsburg,1,3,16,14,4,5,5,5,14,18,4,5,0,0,full_time
+D1_20250823_HEIDENHE_WOLFSBUR,2025/26,2025-08-23,,Benjamin Brand,Heidenheim,Wolfsburg,1,3,7,15,2,5,2,5,12,12,2,3,0,0,full_time
+D1_20250823_LEVERKUS_HOFFENHE,2025/26,2025-08-23,,Daniel Siebert,Leverkusen,Hoffenheim,1,2,7,10,2,5,6,4,9,17,0,4,0,0,full_time
+D1_20250823_UNIONBER_STUTTGAR,2025/26,2025-08-23,,Robert Hartmann,Union Berlin,Stuttgart,2,1,8,21,2,6,5,11,21,13,4,4,0,0,full_time
+D1_20250823_STPAULI_DORTMUND,2025/26,2025-08-23,,Matthias Jöllenbeck,St Pauli,Dortmund,3,3,11,8,7,7,5,2,13,12,2,3,0,1,full_time
+D1_20250824_MAINZ_FCKOLN,2025/26,2025-08-24,,Tobias Stieler,Mainz,FC Koln,0,1,19,12,2,2,8,3,7,9,0,2,1,0,full_time
+D1_20250824_M'GLADBA_HAMBURG,2025/26,2025-08-24,,Sascha Stegemann,M'gladbach,Hamburg,0,0,17,7,4,2,7,6,10,10,2,1,0,0,full_time
+D1_20250829_HAMBURG_STPAULI,2025/26,2025-08-29,,Christian Dingert,Hamburg,St Pauli,0,2,5,17,2,6,2,5,13,19,3,3,1,0,full_time
+D1_20250830_HOFFENHE_EINFRANK,2025/26,2025-08-30,,Timo Gerach,Hoffenheim,Ein Frankfurt,1,3,17,9,5,6,4,5,14,10,2,3,0,0,full_time
+D1_20250830_RBLEIPZI_HEIDENHE,2025/26,2025-08-30,,Frank Willenborg,RB Leipzig,Heidenheim,2,0,19,5,5,3,4,3,7,13,2,5,0,0,full_time
+D1_20250830_STUTTGAR_M'GLADBA,2025/26,2025-08-30,,Sven Jablonski,Stuttgart,M'gladbach,1,0,13,15,5,6,6,10,5,13,2,1,0,0,full_time
+D1_20250830_WERDERBR_LEVERKUS,2025/26,2025-08-30,,Robin Braun,Werder Bremen,Leverkusen,3,3,12,10,5,4,3,7,11,10,4,3,1,0,full_time
+D1_20250830_AUGSBURG_BAYERNMU,2025/26,2025-08-30,,Florian Exner,Augsburg,Bayern Munich,2,3,10,20,3,10,7,5,14,11,3,4,0,0,full_time
+D1_20250831_WOLFSBUR_MAINZ,2025/26,2025-08-31,,Sören Storks,Wolfsburg,Mainz,1,1,11,17,3,3,3,10,15,14,3,5,1,0,full_time
+D1_20250831_DORTMUND_UNIONBER,2025/26,2025-08-31,,Daniel Schlager,Dortmund,Union Berlin,3,0,11,12,6,3,4,6,14,7,0,0,0,0,full_time
+D1_20250831_FCKOLN_FREIBURG,2025/26,2025-08-31,,Tobias Reichel,FC Koln,Freiburg,4,1,18,12,6,2,3,5,12,9,2,1,0,0,full_time
+D1_20250912_LEVERKUS_EINFRANK,2025/26,2025-09-12,,Deniz Aytekin,Leverkusen,Ein Frankfurt,3,1,18,13,8,2,4,8,10,9,5,3,2,0,full_time
+D1_20250913_FREIBURG_STUTTGAR,2025/26,2025-09-13,,Daniel Siebert,Freiburg,Stuttgart,3,1,14,7,6,2,7,1,8,13,1,1,1,0,full_time
+D1_20250913_HEIDENHE_DORTMUND,2025/26,2025-09-13,,Felix Zwayer,Heidenheim,Dortmund,0,2,6,17,1,8,5,4,5,9,2,3,1,0,full_time
+D1_20250913_MAINZ_RBLEIPZI,2025/26,2025-09-13,,Sven Jablonski,Mainz,RB Leipzig,0,1,13,19,2,3,3,5,12,11,1,0,0,0,full_time
+D1_20250913_UNIONBER_HOFFENHE,2025/26,2025-09-13,,Tobias Welz,Union Berlin,Hoffenheim,2,4,20,9,7,8,9,2,13,12,1,1,1,0,full_time
+D1_20250913_WOLFSBUR_FCKOLN,2025/26,2025-09-13,,Bastian Dankert,Wolfsburg,FC Koln,3,3,14,14,6,8,7,4,15,11,2,3,0,0,full_time
+D1_20250913_BAYERNMU_HAMBURG,2025/26,2025-09-13,,Tobias Stieler,Bayern Munich,Hamburg,5,0,22,9,12,2,5,3,11,14,2,2,0,0,full_time
+D1_20250914_STPAULI_AUGSBURG,2025/26,2025-09-14,,Harm Osmers,St Pauli,Augsburg,2,1,13,10,7,5,3,1,10,12,1,4,0,0,full_time
+D1_20250914_M'GLADBA_WERDERBR,2025/26,2025-09-14,,Matthias Jöllenbeck,M'gladbach,Werder Bremen,0,4,19,12,3,7,9,4,12,9,1,0,0,0,full_time
+D1_20250919_STUTTGAR_STPAULI,2025/26,2025-09-19,,Sascha Stegemann,Stuttgart,St Pauli,2,0,17,9,8,2,8,4,13,15,0,2,0,0,full_time
+D1_20250920_AUGSBURG_MAINZ,2025/26,2025-09-20,,Daniel Schlager,Augsburg,Mainz,1,4,18,12,5,4,6,6,13,10,1,2,0,1,full_time
+D1_20250920_HAMBURG_HEIDENHE,2025/26,2025-09-20,,Florian Exner,Hamburg,Heidenheim,2,1,22,20,9,8,1,12,15,10,5,1,0,0,full_time
+D1_20250920_HOFFENHE_BAYERNMU,2025/26,2025-09-20,,Robert Hartmann,Hoffenheim,Bayern Munich,1,4,12,18,4,10,5,5,17,9,1,2,0,0,full_time
+D1_20250920_WERDERBR_FREIBURG,2025/26,2025-09-20,,Timo Gerach,Werder Bremen,Freiburg,0,3,12,10,5,5,2,0,13,7,5,2,0,0,full_time
+D1_20250920_RBLEIPZI_FCKOLN,2025/26,2025-09-20,,Benjamin Brand,RB Leipzig,FC Koln,3,1,18,13,8,2,9,5,10,8,1,1,0,0,full_time
+D1_20250921_EINFRANK_UNIONBER,2025/26,2025-09-21,,Sven Jablonski,Ein Frankfurt,Union Berlin,3,4,19,11,10,5,5,1,10,11,3,2,0,0,full_time
+D1_20250921_LEVERKUS_M'GLADBA,2025/26,2025-09-21,,Felix Zwayer,Leverkusen,M'gladbach,1,1,13,13,9,7,3,4,12,15,5,5,0,0,full_time
+D1_20250921_DORTMUND_WOLFSBUR,2025/26,2025-09-21,,Daniel Siebert,Dortmund,Wolfsburg,1,0,12,10,4,1,9,3,10,9,1,0,0,0,full_time
+D1_20250926_BAYERNMU_WERDERBR,2025/26,2025-09-26,,Frank Willenborg,Bayern Munich,Werder Bremen,4,0,26,9,13,3,7,6,9,4,2,0,0,0,full_time
+D1_20250927_HEIDENHE_AUGSBURG,2025/26,2025-09-27,,Tobias Welz,Heidenheim,Augsburg,2,1,11,8,5,2,3,2,16,20,1,6,0,0,full_time
+D1_20250927_MAINZ_DORTMUND,2025/26,2025-09-27,,Tobias Reichel,Mainz,Dortmund,0,2,8,10,2,4,7,5,12,14,2,1,1,0,full_time
+D1_20250927_STPAULI_LEVERKUS,2025/26,2025-09-27,,Martin Petersen,St Pauli,Leverkusen,1,2,13,5,6,4,13,1,13,11,3,5,0,0,full_time
+D1_20250927_WOLFSBUR_RBLEIPZI,2025/26,2025-09-27,,Robin Braun,Wolfsburg,RB Leipzig,0,1,22,20,4,6,6,11,7,9,2,2,0,0,full_time
+D1_20250927_M'GLADBA_EINFRANK,2025/26,2025-09-27,,Sören Storks,M'gladbach,Ein Frankfurt,4,6,11,21,8,7,4,6,14,8,1,2,0,0,full_time
+D1_20250928_FREIBURG_HOFFENHE,2025/26,2025-09-28,,Bastian Dankert,Freiburg,Hoffenheim,1,1,6,15,1,4,6,8,9,15,3,1,0,0,full_time
+D1_20250928_FCKOLN_STUTTGAR,2025/26,2025-09-28,,Matthias Jöllenbeck,FC Koln,Stuttgart,1,2,14,15,6,5,8,8,12,12,2,2,0,0,full_time
+D1_20250928_UNIONBER_HAMBURG,2025/26,2025-09-28,,Deniz Aytekin,Union Berlin,Hamburg,0,0,11,16,2,6,5,3,18,17,2,2,0,1,full_time
+D1_20251003_HOFFENHE_FCKOLN,2025/26,2025-10-03,,Felix Zwayer,Hoffenheim,FC Koln,0,1,15,10,4,4,11,6,15,6,3,1,0,0,full_time
+D1_20251004_AUGSBURG_WOLFSBUR,2025/26,2025-10-04,,Benjamin Brand,Augsburg,Wolfsburg,3,1,10,14,5,4,10,5,9,7,2,1,0,0,full_time
+D1_20251004_DORTMUND_RBLEIPZI,2025/26,2025-10-04,,Sascha Stegemann,Dortmund,RB Leipzig,1,1,15,13,3,3,7,7,13,14,1,3,0,0,full_time
+D1_20251004_LEVERKUS_UNIONBER,2025/26,2025-10-04,,Christian Dingert,Leverkusen,Union Berlin,2,0,20,10,3,3,4,4,11,13,1,3,0,0,full_time
+D1_20251004_WERDERBR_STPAULI,2025/26,2025-10-04,,Sören Storks,Werder Bremen,St Pauli,1,0,15,13,5,3,4,1,8,9,3,1,0,0,full_time
+D1_20251004_EINFRANK_BAYERNMU,2025/26,2025-10-04,,Daniel Siebert,Ein Frankfurt,Bayern Munich,0,3,6,12,1,3,4,3,11,11,1,2,0,0,full_time
+D1_20251005_STUTTGAR_HEIDENHE,2025/26,2025-10-05,,Tobias Stieler,Stuttgart,Heidenheim,1,0,18,5,6,1,1,1,11,12,1,1,0,0,full_time
+D1_20251005_HAMBURG_MAINZ,2025/26,2025-10-05,,Robert Hartmann,Hamburg,Mainz,4,0,15,11,9,4,1,4,14,13,2,3,0,0,full_time
+D1_20251005_M'GLADBA_FREIBURG,2025/26,2025-10-05,,Daniel Schlager,M'gladbach,Freiburg,0,0,9,12,5,1,4,1,15,7,3,1,0,0,full_time
+D1_20251017_UNIONBER_M'GLADBA,2025/26,2025-10-17,,Tobias Reichel,Union Berlin,M'gladbach,3,1,16,8,5,2,6,6,21,15,5,3,0,0,full_time
+D1_20251018_FCKOLN_AUGSBURG,2025/26,2025-10-18,,Timo Gerach,FC Koln,Augsburg,1,1,9,10,2,4,5,2,10,17,2,2,0,0,full_time
+D1_20251018_HEIDENHE_WERDERBR,2025/26,2025-10-18,,Patrick Ittrich,Heidenheim,Werder Bremen,2,2,31,11,11,4,12,2,9,11,1,3,0,0,full_time
+D1_20251018_MAINZ_LEVERKUS,2025/26,2025-10-18,,Florian Exner,Mainz,Leverkusen,3,4,12,20,4,8,2,3,20,12,4,4,0,0,full_time
+D1_20251018_RBLEIPZI_HAMBURG,2025/26,2025-10-18,,Tobias Welz,RB Leipzig,Hamburg,2,1,10,15,4,3,3,5,13,12,3,1,0,0,full_time
+D1_20251018_WOLFSBUR_STUTTGAR,2025/26,2025-10-18,,Florian Badstübner,Wolfsburg,Stuttgart,0,3,11,15,3,7,3,8,12,8,1,1,0,0,full_time
+D1_20251018_BAYERNMU_DORTMUND,2025/26,2025-10-18,,Bastian Dankert,Bayern Munich,Dortmund,2,1,15,8,7,1,4,3,12,17,1,3,0,0,full_time
+D1_20251019_FREIBURG_EINFRANK,2025/26,2025-10-19,,Deniz Aytekin,Freiburg,Ein Frankfurt,2,2,12,8,5,3,3,1,6,15,2,3,0,0,full_time
+D1_20251019_STPAULI_HOFFENHE,2025/26,2025-10-19,,Sven Jablonski,St Pauli,Hoffenheim,0,3,10,14,2,5,9,7,10,17,1,3,0,0,full_time
+D1_20251024_WERDERBR_UNIONBER,2025/26,2025-10-24,,Daniel Schlager,Werder Bremen,Union Berlin,1,0,16,12,3,2,5,6,6,13,4,0,0,0,full_time
+D1_20251025_AUGSBURG_RBLEIPZI,2025/26,2025-10-25,,Daniel Siebert,Augsburg,RB Leipzig,0,6,15,15,2,8,2,3,9,10,3,1,0,0,full_time
+D1_20251025_EINFRANK_STPAULI,2025/26,2025-10-25,,Robin Braun,Ein Frankfurt,St Pauli,2,0,10,9,6,1,1,3,11,6,0,1,0,0,full_time
+D1_20251025_HAMBURG_WOLFSBUR,2025/26,2025-10-25,,Martin Petersen,Hamburg,Wolfsburg,0,1,27,6,6,2,11,1,8,18,1,5,0,0,full_time
+D1_20251025_HOFFENHE_HEIDENHE,2025/26,2025-10-25,,Matthias Jöllenbeck,Hoffenheim,Heidenheim,3,1,14,12,7,3,7,5,14,13,1,1,0,0,full_time
+D1_20251025_M'GLADBA_BAYERNMU,2025/26,2025-10-25,,Sascha Stegemann,M'gladbach,Bayern Munich,0,3,1,27,0,11,1,8,6,9,0,3,1,0,full_time
+D1_20251025_DORTMUND_FCKOLN,2025/26,2025-10-25,,Benjamin Brand,Dortmund,FC Koln,1,0,27,5,9,0,17,2,10,8,2,2,0,0,full_time
+D1_20251026_LEVERKUS_FREIBURG,2025/26,2025-10-26,,Harm Osmers,Leverkusen,Freiburg,2,0,19,10,4,3,2,3,9,8,1,2,0,1,full_time
+D1_20251026_STUTTGAR_MAINZ,2025/26,2025-10-26,,Felix Zwayer,Stuttgart,Mainz,2,1,19,13,8,2,7,5,11,12,4,3,0,0,full_time
+D1_20251031_AUGSBURG_DORTMUND,2025/26,2025-10-31,,Tobias Stieler,Augsburg,Dortmund,0,1,9,5,1,1,4,3,14,16,4,1,0,0,full_time
+D1_20251101_HEIDENHE_EINFRANK,2025/26,2025-11-01,,Christian Dingert,Heidenheim,Ein Frankfurt,1,1,9,16,4,3,2,8,7,11,0,2,0,0,full_time
+D1_20251101_MAINZ_WERDERBR,2025/26,2025-11-01,,Florian Badstübner,Mainz,Werder Bremen,1,1,10,5,5,3,2,0,19,11,1,3,0,0,full_time
+D1_20251101_RBLEIPZI_STUTTGAR,2025/26,2025-11-01,,Sven Jablonski,RB Leipzig,Stuttgart,3,1,16,14,9,4,5,5,8,10,1,2,0,0,full_time
+D1_20251101_STPAULI_M'GLADBA,2025/26,2025-11-01,,Robert Hartmann,St Pauli,M'gladbach,0,4,16,15,4,11,8,1,11,8,4,0,0,0,full_time
+D1_20251101_UNIONBER_FREIBURG,2025/26,2025-11-01,,Sören Storks,Union Berlin,Freiburg,0,0,11,13,2,4,5,5,20,13,6,1,0,0,full_time
+D1_20251101_BAYERNMU_LEVERKUS,2025/26,2025-11-01,,Deniz Aytekin,Bayern Munich,Leverkusen,3,0,18,7,4,1,10,4,11,3,1,1,0,0,full_time
+D1_20251102_FCKOLN_HAMBURG,2025/26,2025-11-02,,Daniel Schlager,FC Koln,Hamburg,4,1,23,11,10,5,2,3,8,18,1,6,0,2,full_time
+D1_20251102_WOLFSBUR_HOFFENHE,2025/26,2025-11-02,,Frank Willenborg,Wolfsburg,Hoffenheim,2,3,12,10,6,4,2,2,10,17,0,2,0,0,full_time
+D1_20251107_WERDERBR_WOLFSBUR,2025/26,2025-11-07,,Felix Zwayer,Werder Bremen,Wolfsburg,2,1,20,7,7,4,13,3,13,8,2,0,0,0,full_time
+D1_20251108_HAMBURG_DORTMUND,2025/26,2025-11-08,,Tobias Reichel,Hamburg,Dortmund,1,1,9,17,3,1,2,6,14,8,1,1,0,0,full_time
+D1_20251108_HOFFENHE_RBLEIPZI,2025/26,2025-11-08,,Patrick Ittrich,Hoffenheim,RB Leipzig,3,1,12,17,4,5,5,5,13,5,3,2,0,0,full_time
+D1_20251108_LEVERKUS_HEIDENHE,2025/26,2025-11-08,,Bastian Dankert,Leverkusen,Heidenheim,6,0,25,1,10,0,11,1,5,7,0,1,0,0,full_time
+D1_20251108_UNIONBER_BAYERNMU,2025/26,2025-11-08,,Florian Exner,Union Berlin,Bayern Munich,2,2,12,12,4,4,6,5,8,8,2,4,0,0,full_time
+D1_20251108_M'GLADBA_FCKOLN,2025/26,2025-11-08,,Deniz Aytekin,M'gladbach,FC Koln,3,1,9,19,4,5,2,6,11,13,2,3,0,0,full_time
+D1_20251109_FREIBURG_STPAULI,2025/26,2025-11-09,,Benjamin Brand,Freiburg,St Pauli,2,1,8,7,4,2,9,3,8,12,2,2,0,0,full_time
+D1_20251109_STUTTGAR_AUGSBURG,2025/26,2025-11-09,,Harm Osmers,Stuttgart,Augsburg,3,2,17,17,6,6,4,4,13,10,2,3,0,0,full_time
+D1_20251109_EINFRANK_MAINZ,2025/26,2025-11-09,,Matthias Jöllenbeck,Ein Frankfurt,Mainz,1,0,14,3,4,0,4,3,8,14,0,5,0,0,full_time
+D1_20251121_MAINZ_HOFFENHE,2025/26,2025-11-21,,Sascha Stegemann,Mainz,Hoffenheim,1,1,17,19,3,5,7,4,13,13,3,2,1,0,full_time
+D1_20251122_AUGSBURG_HAMBURG,2025/26,2025-11-22,,Robin Braun,Augsburg,Hamburg,1,0,13,15,6,6,4,3,13,10,2,3,1,0,full_time
+D1_20251122_BAYERNMU_FREIBURG,2025/26,2025-11-22,,Sven Jablonski,Bayern Munich,Freiburg,6,2,22,8,8,2,3,5,9,7,1,0,0,0,full_time
+D1_20251122_DORTMUND_STUTTGAR,2025/26,2025-11-22,,Benjamin Brand,Dortmund,Stuttgart,3,3,14,16,6,6,2,4,12,10,1,1,0,0,full_time
+D1_20251122_HEIDENHE_M'GLADBA,2025/26,2025-11-22,,Frank Willenborg,Heidenheim,M'gladbach,0,3,7,16,2,4,4,5,13,12,2,0,0,0,full_time
+D1_20251122_WOLFSBUR_LEVERKUS,2025/26,2025-11-22,,Robert Hartmann,Wolfsburg,Leverkusen,1,3,21,7,10,3,9,1,12,7,2,1,0,0,full_time
+D1_20251122_FCKOLN_EINFRANK,2025/26,2025-11-22,,Florian Badstübner,FC Koln,Ein Frankfurt,3,4,11,11,5,7,3,3,6,5,0,0,0,0,full_time
+D1_20251123_RBLEIPZI_WERDERBR,2025/26,2025-11-23,,Martin Petersen,RB Leipzig,Werder Bremen,2,0,22,15,13,6,13,7,5,7,1,2,0,0,full_time
+D1_20251123_STPAULI_UNIONBER,2025/26,2025-11-23,,Tobias Stieler,St Pauli,Union Berlin,0,1,12,8,3,3,8,2,10,8,1,1,0,0,full_time
+D1_20251128_M'GLADBA_RBLEIPZI,2025/26,2025-11-28,,Timo Gerach,M'gladbach,RB Leipzig,0,0,8,20,1,4,5,6,9,9,0,3,0,0,full_time
+D1_20251129_BAYERNMU_STPAULI,2025/26,2025-11-29,,Felix Zwayer,Bayern Munich,St Pauli,3,1,19,10,4,1,10,2,5,8,1,1,0,0,full_time
+D1_20251129_HOFFENHE_AUGSBURG,2025/26,2025-11-29,,Christian Dingert,Hoffenheim,Augsburg,3,0,17,14,3,4,7,2,17,9,1,0,0,0,full_time
+D1_20251129_UNIONBER_HEIDENHE,2025/26,2025-11-29,,Patrick Ittrich,Union Berlin,Heidenheim,1,2,9,10,2,2,5,5,13,10,3,2,0,0,full_time
+D1_20251129_WERDERBR_FCKOLN,2025/26,2025-11-29,,Bastian Dankert,Werder Bremen,FC Koln,1,1,17,10,4,2,4,0,11,11,2,4,1,0,full_time
+D1_20251129_LEVERKUS_DORTMUND,2025/26,2025-11-29,,Tobias Welz,Leverkusen,Dortmund,1,2,14,7,4,4,10,3,7,9,3,4,0,0,full_time
+D1_20251130_HAMBURG_STUTTGAR,2025/26,2025-11-30,,Sören Storks,Hamburg,Stuttgart,2,1,9,14,2,3,4,6,16,12,2,4,1,0,full_time
+D1_20251130_EINFRANK_WOLFSBUR,2025/26,2025-11-30,,Harm Osmers,Ein Frankfurt,Wolfsburg,1,1,15,10,3,3,14,1,7,9,1,4,0,0,full_time
+D1_20251130_FREIBURG_MAINZ,2025/26,2025-11-30,,Daniel Schlager,Freiburg,Mainz,4,0,23,1,10,1,6,2,9,12,0,2,0,1,full_time
+D1_20251205_MAINZ_M'GLADBA,2025/26,2025-12-05,,Benjamin Brand,Mainz,M'gladbach,0,1,8,14,2,5,8,6,12,4,2,1,0,0,full_time
+D1_20251206_AUGSBURG_LEVERKUS,2025/26,2025-12-06,,Sven Jablonski,Augsburg,Leverkusen,2,0,13,20,6,2,5,7,12,6,4,3,0,0,full_time
+D1_20251206_FCKOLN_STPAULI,2025/26,2025-12-06,,Tobias Reichel,FC Koln,St Pauli,1,1,11,5,8,1,5,4,6,6,0,1,0,0,full_time
+D1_20251206_HEIDENHE_FREIBURG,2025/26,2025-12-06,,Florian Exner,Heidenheim,Freiburg,2,1,16,16,3,2,8,6,11,10,2,1,0,0,full_time
+D1_20251206_STUTTGAR_BAYERNMU,2025/26,2025-12-06,,Tobias Stieler,Stuttgart,Bayern Munich,0,5,13,19,1,11,3,4,6,11,2,4,1,0,full_time
+D1_20251206_WOLFSBUR_UNIONBER,2025/26,2025-12-06,,Robert Schröder,Wolfsburg,Union Berlin,3,1,4,21,3,6,0,11,13,10,4,1,0,0,full_time
+D1_20251206_RBLEIPZI_EINFRANK,2025/26,2025-12-06,,Daniel Siebert,RB Leipzig,Ein Frankfurt,6,0,16,8,7,2,4,0,9,17,1,2,0,0,full_time
+D1_20251207_HAMBURG_WERDERBR,2025/26,2025-12-07,,Sascha Stegemann,Hamburg,Werder Bremen,3,2,12,10,6,3,5,3,8,13,1,6,0,0,full_time
+D1_20251207_DORTMUND_HOFFENHE,2025/26,2025-12-07,,Florian Badstübner,Dortmund,Hoffenheim,2,0,8,11,4,3,7,5,7,9,0,2,0,0,full_time
+D1_20251212_UNIONBER_RBLEIPZI,2025/26,2025-12-12,,Daniel Schlager,Union Berlin,RB Leipzig,3,1,12,9,6,3,4,6,7,8,2,2,0,0,full_time
+D1_20251213_EINFRANK_AUGSBURG,2025/26,2025-12-13,,Frank Willenborg,Ein Frankfurt,Augsburg,1,0,11,12,4,1,2,6,14,10,2,3,0,0,full_time
+D1_20251213_HOFFENHE_HAMBURG,2025/26,2025-12-13,,Martin Petersen,Hoffenheim,Hamburg,4,1,10,14,6,5,3,3,16,10,1,3,0,0,full_time
+D1_20251213_M'GLADBA_WOLFSBUR,2025/26,2025-12-13,,Patrick Ittrich,M'gladbach,Wolfsburg,1,3,14,11,4,6,6,3,6,8,0,1,0,0,full_time
+D1_20251213_STPAULI_HEIDENHE,2025/26,2025-12-13,,Sören Storks,St Pauli,Heidenheim,2,1,8,20,5,7,4,11,6,15,2,3,1,0,full_time
+D1_20251213_LEVERKUS_FCKOLN,2025/26,2025-12-13,,Harm Osmers,Leverkusen,FC Koln,2,0,17,6,6,4,8,3,8,6,2,1,0,0,full_time
+D1_20251214_FREIBURG_DORTMUND,2025/26,2025-12-14,,Felix Zwayer,Freiburg,Dortmund,1,1,21,9,6,4,6,0,11,10,3,2,0,1,full_time
+D1_20251214_BAYERNMU_MAINZ,2025/26,2025-12-14,,Robin Braun,Bayern Munich,Mainz,2,2,24,5,11,2,7,0,7,8,2,2,0,0,full_time
+D1_20251214_WERDERBR_STUTTGAR,2025/26,2025-12-14,,Robert Hartmann,Werder Bremen,Stuttgart,0,4,9,24,3,12,0,9,11,6,2,0,1,0,full_time
+D1_20251219_DORTMUND_M'GLADBA,2025/26,2025-12-19,,Sven Jablonski,Dortmund,M'gladbach,2,0,10,6,4,1,6,4,15,13,2,1,0,0,full_time
+D1_20251220_AUGSBURG_WERDERBR,2025/26,2025-12-20,,Tobias Welz,Augsburg,Werder Bremen,0,0,14,9,6,0,6,11,10,20,3,4,0,0,full_time
+D1_20251220_FCKOLN_UNIONBER,2025/26,2025-12-20,,Christian Dingert,FC Koln,Union Berlin,0,1,13,11,2,3,3,6,9,18,2,5,1,0,full_time
+D1_20251220_HAMBURG_EINFRANK,2025/26,2025-12-20,,Tobias Stieler,Hamburg,Ein Frankfurt,1,1,9,9,3,3,5,5,8,12,0,0,0,0,full_time
+D1_20251220_STUTTGAR_HOFFENHE,2025/26,2025-12-20,,Daniel Siebert,Stuttgart,Hoffenheim,0,0,10,4,3,1,4,2,10,17,3,2,0,0,full_time
+D1_20251220_WOLFSBUR_FREIBURG,2025/26,2025-12-20,,Sascha Stegemann,Wolfsburg,Freiburg,3,4,13,15,6,8,2,6,16,8,1,1,0,0,full_time
+D1_20251220_RBLEIPZI_LEVERKUS,2025/26,2025-12-20,,Benjamin Brand,RB Leipzig,Leverkusen,1,3,19,15,7,8,2,8,10,12,1,2,0,0,full_time
+D1_20251221_MAINZ_STPAULI,2025/26,2025-12-21,,Matthias Jöllenbeck,Mainz,St Pauli,0,0,13,5,1,1,9,5,5,9,1,1,0,0,full_time
+D1_20251221_HEIDENHE_BAYERNMU,2025/26,2025-12-21,,Florian Badstübner,Heidenheim,Bayern Munich,0,4,8,23,1,11,0,6,8,6,0,0,0,0,full_time
+D1_20260109_EINFRANK_DORTMUND,2025/26,2026-01-09,,Daniel Schlager,Ein Frankfurt,Dortmund,3,3,12,16,6,6,2,5,14,6,3,3,0,0,full_time
+D1_20260110_FREIBURG_HAMBURG,2025/26,2026-01-10,,Timo Gerach,Freiburg,Hamburg,2,1,20,10,7,5,0,3,13,11,3,5,0,1,full_time
+D1_20260110_HEIDENHE_FCKOLN,2025/26,2026-01-10,,Robert Schröder,Heidenheim,FC Koln,2,2,14,21,6,9,5,4,9,7,2,1,0,0,full_time
+D1_20260110_UNIONBER_MAINZ,2025/26,2026-01-10,,Bastian Dankert,Union Berlin,Mainz,2,2,17,9,5,6,2,1,9,8,2,0,0,0,full_time
+D1_20260110_LEVERKUS_STUTTGAR,2025/26,2026-01-10,,Felix Zwayer,Leverkusen,Stuttgart,1,4,16,10,4,7,5,3,13,11,4,2,0,0,full_time
+D1_20260111_M'GLADBA_AUGSBURG,2025/26,2026-01-11,,Harm Osmers,M'gladbach,Augsburg,4,0,12,17,7,2,2,2,16,9,0,1,0,0,full_time
+D1_20260111_BAYERNMU_WOLFSBUR,2025/26,2026-01-11,,Florian Badstübner,Bayern Munich,Wolfsburg,8,1,16,8,10,3,6,2,7,6,0,1,0,0,full_time
+D1_20260113_STUTTGAR_EINFRANK,2025/26,2026-01-13,,Matthias Jöllenbeck,Stuttgart,Ein Frankfurt,3,2,20,12,11,5,10,2,8,15,2,2,0,0,full_time
+D1_20260113_DORTMUND_WERDERBR,2025/26,2026-01-13,,Daniel Siebert,Dortmund,Werder Bremen,3,0,18,6,8,3,3,3,14,8,2,0,0,0,full_time
+D1_20260113_MAINZ_HEIDENHE,2025/26,2026-01-13,,Sven Jablonski,Mainz,Heidenheim,2,1,13,15,6,4,4,1,11,10,2,2,0,0,full_time
+D1_20260114_WOLFSBUR_STPAULI,2025/26,2026-01-14,,Frank Willenborg,Wolfsburg,St Pauli,2,1,13,9,5,4,7,4,10,9,1,2,0,0,full_time
+D1_20260114_FCKOLN_BAYERNMU,2025/26,2026-01-14,,Patrick Ittrich,FC Koln,Bayern Munich,1,3,8,19,3,8,4,6,3,4,0,0,0,0,full_time
+D1_20260114_HOFFENHE_M'GLADBA,2025/26,2026-01-14,,Christian Dingert,Hoffenheim,M'gladbach,5,1,18,7,10,5,6,2,16,10,1,1,0,0,full_time
+D1_20260114_RBLEIPZI_FREIBURG,2025/26,2026-01-14,,Robert Hartmann,RB Leipzig,Freiburg,2,0,21,3,7,1,7,2,12,16,0,4,0,0,full_time
+D1_20260115_AUGSBURG_UNIONBER,2025/26,2026-01-15,,Florian Badstübner,Augsburg,Union Berlin,1,1,9,16,5,3,3,3,9,18,1,0,0,1,full_time
+D1_20260116_WERDERBR_EINFRANK,2025/26,2026-01-16,,Benjamin Brand,Werder Bremen,Ein Frankfurt,3,3,13,8,4,4,4,1,8,15,1,4,0,0,full_time
+D1_20260117_DORTMUND_STPAULI,2025/26,2026-01-17,,Harm Osmers,Dortmund,St Pauli,3,2,10,9,6,5,5,5,9,11,3,1,0,0,full_time
+D1_20260117_FCKOLN_MAINZ,2025/26,2026-01-17,,Felix Zwayer,FC Koln,Mainz,2,1,20,11,6,7,9,5,6,10,4,4,0,0,full_time
+D1_20260117_HAMBURG_M'GLADBA,2025/26,2026-01-17,,Robert Schröder,Hamburg,M'gladbach,0,0,25,6,12,0,2,5,16,18,1,2,0,0,full_time
+D1_20260117_HOFFENHE_LEVERKUS,2025/26,2026-01-17,,Daniel Schlager,Hoffenheim,Leverkusen,1,0,19,8,8,2,3,5,17,7,2,1,0,0,full_time
+D1_20260117_WOLFSBUR_HEIDENHE,2025/26,2026-01-17,,Tobias Welz,Wolfsburg,Heidenheim,1,1,13,13,4,3,9,6,10,12,4,3,0,0,full_time
+D1_20260117_RBLEIPZI_BAYERNMU,2025/26,2026-01-17,,Sascha Stegemann,RB Leipzig,Bayern Munich,1,5,17,19,4,12,5,9,7,6,1,0,0,0,full_time
+D1_20260118_STUTTGAR_UNIONBER,2025/26,2026-01-18,,Deniz Aytekin,Stuttgart,Union Berlin,1,1,13,20,4,3,3,8,6,11,1,1,0,0,full_time
+D1_20260118_AUGSBURG_FREIBURG,2025/26,2026-01-18,,Martin Petersen,Augsburg,Freiburg,2,2,13,12,5,5,9,6,11,14,3,2,0,0,full_time
+D1_20260123_STPAULI_HAMBURG,2025/26,2026-01-23,,Tobias Welz,St Pauli,Hamburg,0,0,8,5,3,2,5,4,15,13,1,1,0,0,full_time
+D1_20260124_BAYERNMU_AUGSBURG,2025/26,2026-01-24,,Florian Exner,Bayern Munich,Augsburg,1,2,15,16,6,6,9,3,10,5,1,1,0,0,full_time
+D1_20260124_EINFRANK_HOFFENHE,2025/26,2026-01-24,,Sven Jablonski,Ein Frankfurt,Hoffenheim,1,3,9,10,3,5,6,6,8,16,0,4,0,0,full_time
+D1_20260124_HEIDENHE_RBLEIPZI,2025/26,2026-01-24,,Tobias Stieler,Heidenheim,RB Leipzig,0,3,7,11,2,8,4,0,10,9,1,0,0,0,full_time
+D1_20260124_LEVERKUS_WERDERBR,2025/26,2026-01-24,,Tobias Reichel,Leverkusen,Werder Bremen,1,0,13,17,4,3,5,5,6,9,2,3,0,0,full_time
+D1_20260124_MAINZ_WOLFSBUR,2025/26,2026-01-24,,Daniel Siebert,Mainz,Wolfsburg,3,1,20,7,9,2,15,1,8,11,3,2,0,0,full_time
+D1_20260124_UNIONBER_DORTMUND,2025/26,2026-01-24,,Robert Hartmann,Union Berlin,Dortmund,0,3,10,15,3,5,7,2,10,16,0,1,0,0,full_time
+D1_20260125_M'GLADBA_STUTTGAR,2025/26,2026-01-25,,Sören Storks,M'gladbach,Stuttgart,0,3,12,17,3,8,1,4,11,7,1,1,0,0,full_time
+D1_20260125_FREIBURG_FCKOLN,2025/26,2026-01-25,,Bastian Dankert,Freiburg,FC Koln,2,1,13,19,5,4,5,5,5,9,1,2,0,0,full_time
+D1_20260127_STPAULI_RBLEIPZI,2025/26,2026-01-27,,Florian Exner,St Pauli,RB Leipzig,1,1,7,12,2,5,4,3,6,8,0,1,0,0,full_time
+D1_20260127_WERDERBR_HOFFENHE,2025/26,2026-01-27,,Frank Willenborg,Werder Bremen,Hoffenheim,0,2,26,12,3,3,6,7,7,10,2,2,0,1,full_time
+D1_20260130_FCKOLN_WOLFSBUR,2025/26,2026-01-30,,Martin Petersen,FC Koln,Wolfsburg,1,0,15,14,3,3,3,4,8,16,1,4,0,0,full_time
+D1_20260131_AUGSBURG_STPAULI,2025/26,2026-01-31,,Sascha Stegemann,Augsburg,St Pauli,2,1,12,17,6,5,5,5,15,13,3,1,0,0,full_time
+D1_20260131_EINFRANK_LEVERKUS,2025/26,2026-01-31,,Robert Schröder,Ein Frankfurt,Leverkusen,1,3,11,11,4,4,8,3,11,10,3,1,1,0,full_time
+D1_20260131_HOFFENHE_UNIONBER,2025/26,2026-01-31,,Robin Braun,Hoffenheim,Union Berlin,3,1,9,16,4,3,3,10,11,18,2,2,0,0,full_time
+D1_20260131_RBLEIPZI_MAINZ,2025/26,2026-01-31,,Daniel Schlager,RB Leipzig,Mainz,1,2,15,11,4,4,5,4,4,13,0,4,0,0,full_time
+D1_20260131_WERDERBR_M'GLADBA,2025/26,2026-01-31,,Felix Zwayer,Werder Bremen,M'gladbach,1,1,18,7,6,2,7,3,10,14,0,1,0,0,full_time
+D1_20260131_HAMBURG_BAYERNMU,2025/26,2026-01-31,,Harm Osmers,Hamburg,Bayern Munich,2,2,14,13,4,7,3,9,12,16,6,4,0,0,full_time
+D1_20260201_STUTTGAR_FREIBURG,2025/26,2026-02-01,,Florian Badstübner,Stuttgart,Freiburg,1,0,18,11,7,2,6,2,14,14,3,1,0,0,full_time
+D1_20260201_DORTMUND_HEIDENHE,2025/26,2026-02-01,,Matthias Jöllenbeck,Dortmund,Heidenheim,3,2,19,12,5,3,12,3,11,11,2,2,0,0,full_time
+D1_20260206_UNIONBER_EINFRANK,2025/26,2026-02-06,,Sören Storks,Union Berlin,Ein Frankfurt,1,1,11,3,3,1,5,2,9,11,4,3,0,1,full_time
+D1_20260207_FREIBURG_WERDERBR,2025/26,2026-02-07,,Deniz Aytekin,Freiburg,Werder Bremen,1,0,7,17,2,5,4,8,9,12,0,1,1,0,full_time
+D1_20260207_HEIDENHE_HAMBURG,2025/26,2026-02-07,,Daniel Siebert,Heidenheim,Hamburg,0,2,20,14,4,5,10,8,6,11,0,2,0,0,full_time
+D1_20260207_MAINZ_AUGSBURG,2025/26,2026-02-07,,Patrick Ittrich,Mainz,Augsburg,2,0,10,14,6,6,6,4,12,10,2,2,0,0,full_time
+D1_20260207_STPAULI_STUTTGAR,2025/26,2026-02-07,,Benjamin Brand,St Pauli,Stuttgart,2,1,15,7,7,3,5,5,9,10,0,2,0,0,full_time
+D1_20260207_WOLFSBUR_DORTMUND,2025/26,2026-02-07,,Timo Gerach,Wolfsburg,Dortmund,1,2,12,21,2,4,4,8,13,10,1,1,0,0,full_time
+D1_20260207_M'GLADBA_LEVERKUS,2025/26,2026-02-07,,Christian Dingert,M'gladbach,Leverkusen,1,1,9,10,6,2,2,2,7,11,2,3,0,0,full_time
+D1_20260208_FCKOLN_RBLEIPZI,2025/26,2026-02-08,,Frank Willenborg,FC Koln,RB Leipzig,1,2,10,19,3,4,4,3,7,13,1,4,0,0,full_time
+D1_20260208_BAYERNMU_HOFFENHE,2025/26,2026-02-08,,Tobias Stieler,Bayern Munich,Hoffenheim,5,1,27,9,14,4,8,3,11,9,2,2,0,1,full_time
+D1_20260213_DORTMUND_MAINZ,2025/26,2026-02-13,,Tobias Welz,Dortmund,Mainz,4,0,14,10,8,5,7,2,10,5,3,2,0,0,full_time
+D1_20260214_EINFRANK_M'GLADBA,2025/26,2026-02-14,,Martin Petersen,Ein Frankfurt,M'gladbach,3,0,12,20,9,3,2,8,11,11,3,2,0,0,full_time
+D1_20260214_HAMBURG_UNIONBER,2025/26,2026-02-14,,Florian Badstübner,Hamburg,Union Berlin,3,2,13,12,4,5,6,3,12,7,3,0,0,0,full_time
+D1_20260214_HOFFENHE_FREIBURG,2025/26,2026-02-14,,Florian Exner,Hoffenheim,Freiburg,3,0,25,13,7,3,6,6,8,6,3,1,0,0,full_time
+D1_20260214_LEVERKUS_STPAULI,2025/26,2026-02-14,,Sven Jablonski,Leverkusen,St Pauli,4,0,12,11,7,1,8,3,7,11,0,1,0,0,full_time
+D1_20260214_WERDERBR_BAYERNMU,2025/26,2026-02-14,,Bastian Dankert,Werder Bremen,Bayern Munich,0,3,14,11,3,8,2,4,10,6,3,1,0,0,full_time
+D1_20260214_STUTTGAR_FCKOLN,2025/26,2026-02-14,,Robert Hartmann,Stuttgart,FC Koln,3,1,13,10,4,3,2,5,10,10,4,1,0,0,full_time
+D1_20260215_AUGSBURG_HEIDENHE,2025/26,2026-02-15,,Felix Zwayer,Augsburg,Heidenheim,1,0,12,16,4,2,4,5,9,9,1,2,0,0,full_time
+D1_20260215_RBLEIPZI_WOLFSBUR,2025/26,2026-02-15,,Matthias Jöllenbeck,RB Leipzig,Wolfsburg,2,2,20,10,10,3,6,2,6,10,1,2,0,0,full_time
+D1_20260220_MAINZ_HAMBURG,2025/26,2026-02-20,,Robin Braun,Mainz,Hamburg,1,1,17,14,3,5,7,2,16,13,3,2,0,0,full_time
+D1_20260221_BAYERNMU_EINFRANK,2025/26,2026-02-21,,Tobias Reichel,Bayern Munich,Ein Frankfurt,3,2,24,9,11,3,8,2,9,10,0,3,0,0,full_time
+D1_20260221_FCKOLN_HOFFENHE,2025/26,2026-02-21,,Robert Schröder,FC Koln,Hoffenheim,2,2,9,18,4,6,3,10,6,12,1,3,0,0,full_time
+D1_20260221_UNIONBER_LEVERKUS,2025/26,2026-02-21,,Harm Osmers,Union Berlin,Leverkusen,1,0,8,16,4,1,4,5,15,7,5,2,0,0,full_time
+D1_20260221_WOLFSBUR_AUGSBURG,2025/26,2026-02-21,,Daniel Schlager,Wolfsburg,Augsburg,2,3,10,15,4,6,4,10,10,16,3,4,0,0,full_time
+D1_20260221_RBLEIPZI_DORTMUND,2025/26,2026-02-21,,Benjamin Brand,RB Leipzig,Dortmund,2,2,13,11,3,5,6,2,11,17,3,4,0,0,full_time
+D1_20260222_FREIBURG_M'GLADBA,2025/26,2026-02-22,,Daniel Siebert,Freiburg,M'gladbach,2,1,10,12,6,2,3,3,9,8,1,2,0,0,full_time
+D1_20260222_STPAULI_WERDERBR,2025/26,2026-02-22,,Sören Storks,St Pauli,Werder Bremen,2,1,5,13,4,4,1,5,6,10,2,6,0,0,full_time
+D1_20260222_HEIDENHE_STUTTGAR,2025/26,2026-02-22,,Sascha Stegemann,Heidenheim,Stuttgart,3,3,10,12,6,8,3,4,13,7,1,2,0,0,full_time
+D1_20260227_AUGSBURG_FCKOLN,2025/26,2026-02-27,,Tobias Welz,Augsburg,FC Koln,2,0,14,10,4,3,6,9,15,4,4,1,0,0,full_time
+D1_20260228_HOFFENHE_STPAULI,2025/26,2026-02-28,,Deniz Aytekin,Hoffenheim,St Pauli,0,1,20,11,11,3,10,3,13,7,1,2,0,0,full_time
+D1_20260228_LEVERKUS_MAINZ,2025/26,2026-02-28,,Tobias Stieler,Leverkusen,Mainz,1,1,12,8,5,4,6,2,9,13,1,2,0,0,full_time
+D1_20260228_M'GLADBA_UNIONBER,2025/26,2026-02-28,,Matthias Jöllenbeck,M'gladbach,Union Berlin,1,0,21,6,7,2,6,2,5,18,4,5,0,0,full_time
+D1_20260228_WERDERBR_HEIDENHE,2025/26,2026-02-28,,Florian Badstübner,Werder Bremen,Heidenheim,2,0,17,9,6,0,3,2,14,9,1,0,0,0,full_time
+D1_20260228_DORTMUND_BAYERNMU,2025/26,2026-02-28,,Sven Jablonski,Dortmund,Bayern Munich,2,3,10,14,2,6,5,2,15,10,1,0,0,0,full_time
+D1_20260301_STUTTGAR_WOLFSBUR,2025/26,2026-03-01,,Patrick Ittrich,Stuttgart,Wolfsburg,4,0,24,10,11,3,7,3,5,17,1,0,0,0,full_time
+D1_20260301_EINFRANK_FREIBURG,2025/26,2026-03-01,,Christian Dingert,Ein Frankfurt,Freiburg,2,0,15,4,7,2,5,6,9,11,1,2,0,0,full_time
+D1_20260301_HAMBURG_RBLEIPZI,2025/26,2026-03-01,,Bastian Dankert,Hamburg,RB Leipzig,1,2,7,13,3,5,4,9,8,12,3,2,0,0,full_time
+D1_20260304_HAMBURG_LEVERKUS,2025/26,2026-03-04,,Sören Storks,Hamburg,Leverkusen,0,1,10,14,3,4,2,7,12,11,0,2,0,0,full_time
+D1_20260306_BAYERNMU_M'GLADBA,2025/26,2026-03-06,,Robert Schröder,Bayern Munich,M'gladbach,4,1,18,10,9,5,7,1,7,12,1,0,0,1,full_time
+D1_20260307_FREIBURG_LEVERKUS,2025/26,2026-03-07,,Benjamin Brand,Freiburg,Leverkusen,3,3,21,17,9,5,5,2,7,8,3,3,0,0,full_time
+D1_20260307_HEIDENHE_HOFFENHE,2025/26,2026-03-07,,Robert Hartmann,Heidenheim,Hoffenheim,2,4,8,16,2,7,4,3,7,15,0,0,0,0,full_time
+D1_20260307_MAINZ_STUTTGAR,2025/26,2026-03-07,,Matthias Jöllenbeck,Mainz,Stuttgart,2,2,18,11,6,4,5,6,7,12,0,2,0,0,full_time
+D1_20260307_RBLEIPZI_AUGSBURG,2025/26,2026-03-07,,Martin Petersen,RB Leipzig,Augsburg,2,1,17,16,8,5,6,8,8,9,0,2,0,0,full_time
+D1_20260307_WOLFSBUR_HAMBURG,2025/26,2026-03-07,,Florian Exner,Wolfsburg,Hamburg,1,2,14,10,4,7,7,3,18,6,3,3,1,0,full_time
+D1_20260307_FCKOLN_DORTMUND,2025/26,2026-03-07,,Daniel Siebert,FC Koln,Dortmund,1,2,14,13,4,5,9,4,9,13,1,1,1,0,full_time
+D1_20260308_STPAULI_EINFRANK,2025/26,2026-03-08,,Felix Zwayer,St Pauli,Ein Frankfurt,0,0,11,8,2,2,6,5,13,8,2,1,0,0,full_time
+D1_20260308_UNIONBER_WERDERBR,2025/26,2026-03-08,,Timo Gerach,Union Berlin,Werder Bremen,1,4,9,15,2,5,1,3,5,13,1,3,1,0,full_time
+D1_20260313_M'GLADBA_STPAULI,2025/26,2026-03-13,,Daniel Schlager,M'gladbach,St Pauli,2,0,10,8,4,1,2,2,9,7,1,2,0,0,full_time
+D1_20260314_DORTMUND_AUGSBURG,2025/26,2026-03-14,,Bastian Dankert,Dortmund,Augsburg,2,0,16,7,5,3,12,2,7,7,0,0,0,0,full_time
+D1_20260314_EINFRANK_HEIDENHE,2025/26,2026-03-14,,Harm Osmers,Ein Frankfurt,Heidenheim,1,0,12,3,4,1,5,4,5,9,3,2,1,0,full_time
+D1_20260314_HOFFENHE_WOLFSBUR,2025/26,2026-03-14,,Tobias Reichel,Hoffenheim,Wolfsburg,1,1,21,4,6,2,16,4,10,10,0,3,0,0,full_time
+D1_20260314_LEVERKUS_BAYERNMU,2025/26,2026-03-14,,Christian Dingert,Leverkusen,Bayern Munich,1,1,21,11,7,5,4,1,12,13,3,4,0,2,full_time
+D1_20260314_HAMBURG_FCKOLN,2025/26,2026-03-14,,Tobias Welz,Hamburg,FC Koln,1,1,5,10,1,2,1,8,11,12,2,4,0,0,full_time
+D1_20260315_WERDERBR_MAINZ,2025/26,2026-03-15,,Sascha Stegemann,Werder Bremen,Mainz,0,2,16,11,3,2,9,4,7,7,2,1,0,0,full_time
+D1_20260315_FREIBURG_UNIONBER,2025/26,2026-03-15,,Sven Jablonski,Freiburg,Union Berlin,0,1,19,9,6,4,6,2,6,19,0,2,0,0,full_time
+D1_20260315_STUTTGAR_RBLEIPZI,2025/26,2026-03-15,,Deniz Aytekin,Stuttgart,RB Leipzig,1,0,13,9,4,4,5,6,5,16,1,2,0,0,full_time
+D1_20260320_RBLEIPZI_HOFFENHE,2025/26,2026-03-20,,Sven Jablonski,RB Leipzig,Hoffenheim,5,0,14,8,9,2,1,3,8,16,1,1,0,0,full_time
+D1_20260321_BAYERNMU_UNIONBER,2025/26,2026-03-21,,Patrick Ittrich,Bayern Munich,Union Berlin,4,0,31,5,9,1,12,1,5,8,1,2,0,0,full_time
+D1_20260321_FCKOLN_M'GLADBA,2025/26,2026-03-21,,Sören Storks,FC Koln,M'gladbach,3,3,12,9,5,3,5,3,8,14,8,2,1,0,full_time
+D1_20260321_HEIDENHE_LEVERKUS,2025/26,2026-03-21,,Robin Braun,Heidenheim,Leverkusen,3,3,9,14,5,5,2,5,11,12,4,4,0,0,full_time
+D1_20260321_WOLFSBUR_WERDERBR,2025/26,2026-03-21,,Benjamin Brand,Wolfsburg,Werder Bremen,0,1,11,8,4,3,8,4,16,6,3,0,1,0,full_time
+D1_20260321_DORTMUND_HAMBURG,2025/26,2026-03-21,,Matthias Jöllenbeck,Dortmund,Hamburg,3,2,24,4,8,4,11,3,10,8,2,3,0,0,full_time
+D1_20260322_MAINZ_EINFRANK,2025/26,2026-03-22,,Tobias Stieler,Mainz,Ein Frankfurt,2,1,8,12,5,4,5,3,12,5,2,1,0,0,full_time
+D1_20260322_STPAULI_FREIBURG,2025/26,2026-03-22,,Florian Badstübner,St Pauli,Freiburg,1,2,12,15,5,6,3,2,9,6,1,1,0,0,full_time
+D1_20260322_AUGSBURG_STUTTGAR,2025/26,2026-03-22,,Felix Zwayer,Augsburg,Stuttgart,2,5,13,13,7,8,2,5,11,14,1,3,0,0,full_time
+D1_20260404_FREIBURG_BAYERNMU,2025/26,2026-04-04,,Daniel Siebert,Freiburg,Bayern Munich,2,3,13,21,4,9,5,8,9,13,3,3,0,0,full_time
+D1_20260404_HAMBURG_AUGSBURG,2025/26,2026-04-04,,Deniz Aytekin,Hamburg,Augsburg,1,1,18,18,4,3,9,2,12,12,2,3,1,0,full_time
+D1_20260404_HOFFENHE_MAINZ,2025/26,2026-04-04,,Harm Osmers,Hoffenheim,Mainz,1,2,16,9,5,5,7,3,11,5,4,1,0,0,full_time
+D1_20260404_LEVERKUS_WOLFSBUR,2025/26,2026-04-04,,Martin Petersen,Leverkusen,Wolfsburg,6,3,25,11,11,5,12,2,8,11,1,3,0,0,full_time
+D1_20260404_M'GLADBA_HEIDENHE,2025/26,2026-04-04,,Bastian Dankert,M'gladbach,Heidenheim,2,2,15,15,7,7,2,3,12,11,4,0,0,0,full_time
+D1_20260404_WERDERBR_RBLEIPZI,2025/26,2026-04-04,,Robert Hartmann,Werder Bremen,RB Leipzig,1,2,13,7,5,2,1,0,13,14,2,1,0,0,full_time
+D1_20260404_STUTTGAR_DORTMUND,2025/26,2026-04-04,,Robert Schröder,Stuttgart,Dortmund,0,2,13,5,3,3,5,2,10,12,2,4,0,0,full_time
+D1_20260405_UNIONBER_STPAULI,2025/26,2026-04-05,,Tobias Welz,Union Berlin,St Pauli,1,1,16,9,8,2,7,2,10,8,0,2,0,1,full_time
+D1_20260405_EINFRANK_FCKOLN,2025/26,2026-04-05,,Florian Exner,Ein Frankfurt,FC Koln,2,2,20,14,7,9,8,0,10,7,1,2,0,0,full_time
+D1_20260410_AUGSBURG_HOFFENHE,2025/26,2026-04-10,,Daniel Schlager,Augsburg,Hoffenheim,2,2,17,13,8,4,4,4,6,18,5,3,0,0,full_time
+D1_20260411_DORTMUND_LEVERKUS,2025/26,2026-04-11,,Deniz Aytekin,Dortmund,Leverkusen,0,1,14,11,1,4,5,5,5,6,3,0,0,0,full_time
+D1_20260411_HEIDENHE_UNIONBER,2025/26,2026-04-11,,Christian Dingert,Heidenheim,Union Berlin,3,1,7,10,3,3,3,5,7,13,0,2,0,0,full_time
+D1_20260411_RBLEIPZI_M'GLADBA,2025/26,2026-04-11,,Sascha Stegemann,RB Leipzig,M'gladbach,1,0,24,15,11,3,11,4,9,6,4,1,0,0,full_time
+D1_20260411_WOLFSBUR_EINFRANK,2025/26,2026-04-11,,Timo Gerach,Wolfsburg,Ein Frankfurt,1,2,22,10,7,4,7,7,9,8,2,1,0,0,full_time
+D1_20260411_STPAULI_BAYERNMU,2025/26,2026-04-11,,Tobias Stieler,St Pauli,Bayern Munich,0,5,6,20,3,8,3,4,9,7,1,2,0,0,full_time
+D1_20260412_FCKOLN_WERDERBR,2025/26,2026-04-12,,Tobias Reichel,FC Koln,Werder Bremen,3,1,25,6,8,2,8,5,16,7,3,2,0,1,full_time
+D1_20260412_STUTTGAR_HAMBURG,2025/26,2026-04-12,,Sven Jablonski,Stuttgart,Hamburg,4,0,23,9,11,5,8,2,10,14,2,1,0,0,full_time
+D1_20260412_MAINZ_FREIBURG,2025/26,2026-04-12,,Felix Zwayer,Mainz,Freiburg,0,1,10,8,3,3,6,4,10,13,1,3,0,0,full_time
+D1_20260417_STPAULI_FCKOLN,2025/26,2026-04-17,,Matthias Jöllenbeck,St Pauli,FC Koln,1,1,14,10,6,1,8,5,6,2,4,1,0,0,full_time
+D1_20260418_HOFFENHE_DORTMUND,2025/26,2026-04-18,,Daniel Siebert,Hoffenheim,Dortmund,2,1,13,8,4,3,4,3,14,11,2,3,0,0,full_time
+D1_20260418_LEVERKUS_AUGSBURG,2025/26,2026-04-18,,Benjamin Brand,Leverkusen,Augsburg,1,2,35,11,10,5,11,4,5,8,2,1,0,0,full_time
+D1_20260418_UNIONBER_WOLFSBUR,2025/26,2026-04-18,,Florian Badstübner,Union Berlin,Wolfsburg,1,2,25,5,7,4,11,4,13,15,1,1,0,0,full_time
+D1_20260418_WERDERBR_HAMBURG,2025/26,2026-04-18,,Florian Exner,Werder Bremen,Hamburg,3,1,18,11,10,3,7,3,14,14,4,3,0,1,full_time
+D1_20260418_EINFRANK_RBLEIPZI,2025/26,2026-04-18,,Bastian Dankert,Ein Frankfurt,RB Leipzig,1,3,16,19,5,8,4,6,7,7,0,1,0,0,full_time
+D1_20260419_FREIBURG_HEIDENHE,2025/26,2026-04-19,,Patrick Ittrich,Freiburg,Heidenheim,2,1,17,13,4,2,5,4,10,9,1,0,0,0,full_time
+D1_20260419_BAYERNMU_STUTTGAR,2025/26,2026-04-19,,Sören Storks,Bayern Munich,Stuttgart,4,2,28,11,9,7,11,3,6,3,0,0,0,0,full_time
+D1_20260419_M'GLADBA_MAINZ,2025/26,2026-04-19,,Tobias Welz,M'gladbach,Mainz,1,1,9,17,4,7,0,6,12,8,5,2,0,0,full_time
+D1_20260424_RBLEIPZI_UNIONBER,2025/26,2026-04-24,,Sven Jablonski,RB Leipzig,Union Berlin,3,1,20,5,10,1,10,4,6,10,1,1,0,0,full_time
+D1_20260425_AUGSBURG_EINFRANK,2025/26,2026-04-25,,Harm Osmers,Augsburg,Ein Frankfurt,1,1,17,19,3,7,9,7,11,13,1,2,0,0,full_time
+D1_20260425_FCKOLN_LEVERKUS,2025/26,2026-04-25,,Robert Hartmann,FC Koln,Leverkusen,1,2,25,8,10,3,2,5,11,5,1,2,0,0,full_time
+D1_20260425_HEIDENHE_STPAULI,2025/26,2026-04-25,,Felix Zwayer,Heidenheim,St Pauli,2,0,12,11,5,2,6,6,7,6,0,1,0,0,full_time
+D1_20260425_MAINZ_BAYERNMU,2025/26,2026-04-25,,Martin Petersen,Mainz,Bayern Munich,3,4,21,11,8,6,4,4,14,10,1,2,0,0,full_time
+D1_20260425_WOLFSBUR_M'GLADBA,2025/26,2026-04-25,,Tobias Stieler,Wolfsburg,M'gladbach,0,0,12,10,4,2,8,5,11,5,1,3,0,1,full_time
+D1_20260425_HAMBURG_HOFFENHE,2025/26,2026-04-25,,Robert Schröder,Hamburg,Hoffenheim,1,2,12,15,4,6,4,9,11,18,2,4,0,0,full_time
+D1_20260426_STUTTGAR_WERDERBR,2025/26,2026-04-26,,Christian Dingert,Stuttgart,Werder Bremen,1,1,20,9,4,3,14,2,8,10,0,1,0,0,full_time
+D1_20260426_DORTMUND_FREIBURG,2025/26,2026-04-26,,Robin Braun,Dortmund,Freiburg,4,0,17,7,5,4,5,0,19,10,1,0,0,0,full_time
+D1_20260502_BAYERNMU_HEIDENHE,2025/26,2026-05-02,,Frank Willenborg,Bayern Munich,Heidenheim,3,3,23,12,7,5,13,5,6,7,3,2,0,0,full_time
+D1_20260502_EINFRANK_HAMBURG,2025/26,2026-05-02,,Deniz Aytekin,Ein Frankfurt,Hamburg,1,2,8,9,5,4,9,4,13,5,6,1,1,0,full_time
+D1_20260502_HOFFENHE_STUTTGAR,2025/26,2026-05-02,,Sascha Stegemann,Hoffenheim,Stuttgart,3,3,22,14,9,5,4,5,18,9,3,1,0,1,full_time
+D1_20260502_UNIONBER_FCKOLN,2025/26,2026-05-02,,Daniel Schlager,Union Berlin,FC Koln,2,2,13,8,3,4,2,5,7,10,2,3,0,0,full_time
+D1_20260502_WERDERBR_AUGSBURG,2025/26,2026-05-02,,Daniel Siebert,Werder Bremen,Augsburg,1,3,15,14,4,7,8,2,11,4,1,1,0,0,full_time
+D1_20260502_LEVERKUS_RBLEIPZI,2025/26,2026-05-02,,Tobias Welz,Leverkusen,RB Leipzig,4,1,23,14,8,5,7,3,7,12,1,3,0,0,full_time
+D1_20260503_STPAULI_MAINZ,2025/26,2026-05-03,,Timo Gerach,St Pauli,Mainz,1,2,10,17,3,6,7,7,10,8,3,1,0,0,full_time
+D1_20260503_M'GLADBA_DORTMUND,2025/26,2026-05-03,,Florian Badstübner,M'gladbach,Dortmund,1,0,12,6,4,1,1,1,14,17,3,1,0,0,full_time
+D1_20260503_FREIBURG_WOLFSBUR,2025/26,2026-05-03,,Bastian Dankert,Freiburg,Wolfsburg,1,1,11,13,3,4,1,7,5,11,1,1,0,0,full_time
+D1_20260508_DORTMUND_EINFRANK,2025/26,2026-05-08,,Patrick Ittrich,Dortmund,Ein Frankfurt,3,2,13,9,8,4,6,2,14,8,3,0,0,0,full_time
+D1_20260509_AUGSBURG_M'GLADBA,2025/26,2026-05-09,,Tobias Reichel,Augsburg,M'gladbach,3,1,15,16,10,4,2,2,11,9,2,2,0,0,full_time
+D1_20260509_HOFFENHE_WERDERBR,2025/26,2026-05-09,,Sören Storks,Hoffenheim,Werder Bremen,1,0,15,11,4,2,8,3,4,3,1,2,0,1,full_time
+D1_20260509_RBLEIPZI_STPAULI,2025/26,2026-05-09,,Benjamin Brand,RB Leipzig,St Pauli,2,1,13,7,5,3,3,5,5,9,2,0,0,0,full_time
+D1_20260509_STUTTGAR_LEVERKUS,2025/26,2026-05-09,,Robert Schröder,Stuttgart,Leverkusen,3,1,20,6,9,5,7,6,13,8,2,1,0,0,full_time
+D1_20260509_WOLFSBUR_BAYERNMU,2025/26,2026-05-09,,Matthias Jöllenbeck,Wolfsburg,Bayern Munich,0,1,17,16,5,9,6,3,8,5,1,0,0,0,full_time
+D1_20260510_HAMBURG_FREIBURG,2025/26,2026-05-10,,Felix Zwayer,Hamburg,Freiburg,3,2,14,5,5,3,2,4,15,8,2,2,0,0,full_time
+D1_20260510_FCKOLN_HEIDENHE,2025/26,2026-05-10,,Sven Jablonski,FC Koln,Heidenheim,1,3,18,11,7,5,6,4,9,8,2,2,0,0,full_time
+D1_20260510_MAINZ_UNIONBER,2025/26,2026-05-10,,Florian Exner,Mainz,Union Berlin,1,3,14,16,3,9,7,8,11,10,2,1,0,0,full_time
+D1_20260516_BAYERNMU_FCKOLN,2025/26,2026-05-16,,Deniz Aytekin,Bayern Munich,FC Koln,5,1,19,9,7,2,5,5,6,4,1,1,0,0,full_time
+D1_20260516_EINFRANK_STUTTGAR,2025/26,2026-05-16,,Tobias Welz,Ein Frankfurt,Stuttgart,2,2,16,13,7,7,6,6,14,12,2,3,0,0,full_time
+D1_20260516_FREIBURG_RBLEIPZI,2025/26,2026-05-16,,Sascha Stegemann,Freiburg,RB Leipzig,4,1,11,14,5,6,1,2,13,7,0,1,0,0,full_time
+D1_20260516_HEIDENHE_MAINZ,2025/26,2026-05-16,,Robert Hartmann,Heidenheim,Mainz,0,2,15,15,5,9,6,3,8,12,1,1,0,0,full_time
+D1_20260516_LEVERKUS_HAMBURG,2025/26,2026-05-16,,Tobias Stieler,Leverkusen,Hamburg,1,1,26,19,9,6,8,3,8,11,1,2,0,0,full_time
+D1_20260516_M'GLADBA_HOFFENHE,2025/26,2026-05-16,,Frank Willenborg,M'gladbach,Hoffenheim,4,0,9,11,6,3,2,9,11,15,4,6,0,1,full_time
+D1_20260516_STPAULI_WOLFSBUR,2025/26,2026-05-16,,Daniel Siebert,St Pauli,Wolfsburg,1,3,11,19,2,10,8,9,6,9,2,3,0,0,full_time
+D1_20260516_UNIONBER_AUGSBURG,2025/26,2026-05-16,,Patrick Ittrich,Union Berlin,Augsburg,4,0,17,11,9,1,4,9,6,7,3,1,0,0,full_time
+D1_20260516_WERDERBR_DORTMUND,2025/26,2026-05-16,,Bastian Dankert,Werder Bremen,Dortmund,0,2,9,17,3,9,4,5,8,5,0,0,0,0,full_time

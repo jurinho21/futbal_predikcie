@@ -1,0 +1,36 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8323-art-fcs",
+  "meta": {
+    "home_team": "Artis Brno",
+    "away_team": "1.FC Slovácko",
+    "round": "Baráž – 1. zápas, Baráž | středa 27/05/2026, 18:00 | ShipEx Aréna",
+    "date": "27/05/2026 18:00",
+    "stadium": "ShipEx Aréna"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "průměrný_věk": {
+        "home": 0,
+        "away": 27.7
+      },
+      "součet_zápasů": {
+        "home": null,
+        "away": 756
+      },
+      "hráči_s_titulem": {
+        "home": null,
+        "away": 2
+      },
+      "počet_národností": {
+        "home": null,
+        "away": 11
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8323
+}

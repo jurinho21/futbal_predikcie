@@ -1,0 +1,5 @@
+tip_id,recorded_at,match_id,home_team,away_team,match_date,market,bet_type,line,direction,model_prob,model_odds,bm_odds,edge,stake,status,actual_value,profit
+65b054ad0974,2026-05-15 12:36,0,Everton,Sunderland,,shots_on_target,home,4.5,O,0.5975,1.67,2.08,0.2428,16,lost,4,-1.0
+8d9d598f851f,2026-05-15 12:57,0,Leeds,Brighton,,corners,1x2,0.0,1,0.5747,1.74,2.23,0.2816,14,lost,7:8,-1.0
+c404bc8b44a9,2026-05-15 13:22,0,Bournemouth,Man City,,shots_on_target,1x2,0.0,1,0.5,2.0,3.52,0.76,8,lost,2:5,-1.0
+da729b306808,2026-05-15 13:24,0,Bournemouth,Man City,,yellow_cards,1x2,0.0,X,0.3333,3.0,3.66,0.2199,7,lost,4:2,-1.0

@@ -1,0 +1,36 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8322-fcb-tab",
+  "meta": {
+    "home_team": "FC Baník Ostrava",
+    "away_team": "FC SILON Táborsko",
+    "round": "Baráž – 1. zápas, Baráž | úterý 26/05/2026, 18:00 | Městský stadion Ostrava",
+    "date": "26/05/2026 18:00",
+    "stadium": "Městský stadion Ostrava"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "průměrný_věk": {
+        "home": 24.7,
+        "away": 0
+      },
+      "součet_zápasů": {
+        "home": 1000,
+        "away": null
+      },
+      "hráči_s_titulem": {
+        "home": 2,
+        "away": null
+      },
+      "počet_národností": {
+        "home": 10,
+        "away": null
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8322
+}

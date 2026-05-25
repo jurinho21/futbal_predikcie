@@ -1,0 +1,182 @@
+[
+  {
+    "match_id": "SP1_20250817_CELTA_GETAFE",
+    "field": "referee",
+    "value": "Iosu Galech Apezteguía",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250817_ATHBILBA_SEVILLA",
+    "field": "referee",
+    "value": "Francisco Hernández Maeso",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250817_ESPANOL_ATHMADRI",
+    "field": "referee",
+    "value": "Mateo Busquets Ferrer",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250829_ELCHE_LEVANTE",
+    "field": "referee",
+    "value": "Iosu Galech Apezteguía",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250830_ALAVES_ATHMADRI",
+    "field": "referee",
+    "value": "Víctor García Verdura",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250830_OVIEDO_SOCIEDAD",
+    "field": "referee",
+    "value": "Adrián Cordero Vega",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250830_GIRONA_SEVILLA",
+    "field": "referee",
+    "value": "Miguel Ortiz Arias",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250830_REALMADR_MALLORCA",
+    "field": "referee",
+    "value": "José Sánchez Martínez",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250831_CELTA_VILLARRE",
+    "field": "referee",
+    "value": "Alejandro Quintero González",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250831_BETIS_ATHBILBA",
+    "field": "referee",
+    "value": "Isidro Díaz de Mera",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250831_ESPANOL_OSASUNA",
+    "field": "referee",
+    "value": "Alejandro Quintero González",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250831_VALLECAN_BARCELON",
+    "field": "referee",
+    "value": "Mateo Busquets Ferrer",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250913_ATHBILBA_ALAVES",
+    "field": "referee",
+    "value": "José Sánchez Martínez",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250913_ATHMADRI_VILLARRE",
+    "field": "referee",
+    "value": "José Munuera Montero",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250914_CELTA_GIRONA",
+    "field": "referee",
+    "value": "Adrián Cordero Vega",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250914_LEVANTE_BETIS",
+    "field": "referee",
+    "value": "Alejandro Muñiz Ruiz",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250914_OSASUNA_VALLECAN",
+    "field": "referee",
+    "value": "César Soto Grado",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250914_BARCELON_VALENCIA",
+    "field": "referee",
+    "value": "Guillermo Cuadra Fernández",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250915_ESPANOL_MALLORCA",
+    "field": "referee",
+    "value": "Alejandro Hernández Hernández",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250919_BETIS_SOCIEDAD",
+    "field": "referee",
+    "value": "Mateo Busquets Ferrer",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20250920_VALENCIA_ATHBILBA",
+    "field": "referee",
+    "value": "Miguel Ortiz Arias",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20251109_VALLECAN_REALMADR",
+    "field": "referee",
+    "value": "Juan Martínez Munuera",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20251121_VALENCIA_LEVANTE",
+    "field": "referee",
+    "value": "Alejandro Muñiz Ruiz",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20251122_ALAVES_CELTA",
+    "field": "referee",
+    "value": "Juan Martínez Munuera",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20251122_OSASUNA_SOCIEDAD",
+    "field": "referee",
+    "value": "Mateo Busquets Ferrer",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20251122_VILLARRE_MALLORCA",
+    "field": "referee",
+    "value": "José Luis Guzmán Mansilla",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20260512_CELTA_LEVANTE",
+    "field": "referee",
+    "value": "Adrián Cordero Vega",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20260512_BETIS_ELCHE",
+    "field": "referee",
+    "value": "Isidro Díaz de Mera",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20260512_OSASUNA_ATHMADRI",
+    "field": "referee",
+    "value": "José Luis Guzmán Mansilla",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  },
+  {
+    "match_id": "SP1_20260524_VILLARRE_ATHMADRI",
+    "field": "referee",
+    "value": "Miguel Sesma Espinosa",
+    "note": "manualne doplneny sudca (chyba v football-data.org)"
+  }
+]

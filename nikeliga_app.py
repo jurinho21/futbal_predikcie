@@ -27,7 +27,18 @@ _LEAGUES = {
     "Eredivisie 🇳🇱":         "data/eredivisie",
     "Ligue 1 🇫🇷":            "data/ligue1",
     "Jupiler Pro League 🇧🇪": "data/proleague",
+    "Premier League 🏴󠁧󠁢󠁥󠁮󠁧󠁿":   "data/premier_league",
+    "Bundesliga 🇩🇪":          "data/bundesliga",
+    "La Liga 🇪🇸":             "data/la_liga",
+    "Serie A 🇮🇹":             "data/serie_a",
+    "Primeira Liga 🇵🇹":       "data/primeira_liga",
 }
+
+_FOOTBALLDATA_DIRS = {"premier_league", "bundesliga", "la_liga", "serie_a", "primeira_liga"}
+
+
+def _is_footballdata(data_dir_str: str) -> bool:
+    return any(d in data_dir_str for d in _FOOTBALLDATA_DIRS)
 
 
 # ---------------------------------------------------------------------------
@@ -145,13 +156,29 @@ def run_backtest(_df, min_matches: int = 30, league: str = "") -> pd.DataFrame:
             if pd.isna(actual):
                 continue
             lam = pred[market]['lambda_total']
-            for ou_key, p in pred[market]['over_under'].items():
+            ou = pred[market].get('over_under_blended') or pred[market]['over_under']
+            for ou_key, p in ou.items():
                 if not ou_key.startswith('O'):
                     continue
                 line = float(ou_key[1:])
                 if abs(line - lam) > 4:
                     continue
-                rows.append({'market': market, 'p_over': float(p), 'actual_over': int(actual > line)})
+                rows.append({'type': 'ou', 'market': market, 'p_over': float(p), 'actual_over': int(actual > line)})
+            x1x2_key = X1X2_KEYS.get(market)
+            if x1x2_key:
+                actual_home = pd.to_numeric(row.get(cols['home_col']), errors='coerce')
+                actual_away = pd.to_numeric(row.get(cols['away_col']), errors='coerce')
+                if not pd.isna(actual_home) and not pd.isna(actual_away):
+                    actual_1x2 = '1' if actual_home > actual_away else ('X' if actual_home == actual_away else '2')
+                    x1x2_data = pred[market].get(x1x2_key, {})
+                    b = x1x2_data.get('blended') or x1x2_data
+                    p1, px, p2 = b.get('1'), b.get('X'), b.get('2')
+                    if p1 and px and p2:
+                        rows.append({
+                            'type': '1x2', 'market': market,
+                            'p1': float(p1), 'pX': float(px), 'p2': float(p2),
+                            'actual_1x2': actual_1x2,
+                        })
     return pd.DataFrame(rows) if rows else pd.DataFrame()
 
 
@@ -215,12 +242,68 @@ def _collect_value_bets(upcoming: list, all_predictions: dict) -> list[dict]:
     return sorted(rows, key=lambda r: -r["_edge"])
 
 
+@st.fragment
+def render_match(match: dict, df, n_lines: int, league_name: str, needs_ref_select: bool):
+    """Každý zápas je samostatný fragment — interakcia v ňom nespúšťa rerender ostatných."""
+    home = match["home"]
+    away = match["away"]
+    date = match["date"]
+    orig_referee = match.get("referee", "")
+    match_key = f"{home}_{away}".replace(" ", "_")
+
+    mot_h = float(st.session_state.get(f"{match_key}_mot_home", 1.0))
+    mot_a = float(st.session_state.get(f"{match_key}_mot_away", 1.0))
+
+    referee = orig_referee
+    if not referee and needs_ref_select:
+        referee = st.session_state.get(f"{match_key}_referee_override", "")
+
+    try:
+        pred = cached_predict(df, home, away, referee or None, mot_h, mot_a, league=league_name)
+    except Exception:
+        pred = None
+
+    ref_note = f" | Rozhodca: {referee}" if referee else " | Rozhodca: neznámy"
+    with st.expander(f"**{home} vs {away}**   {date}{ref_note}", expanded=False):
+        if not pred:
+            st.error("Chyba predikcie")
+            return
+
+        if needs_ref_select and not orig_referee:
+            _referees = sorted(r for r in df["referee"].dropna().unique() if r)
+            st.selectbox(
+                "Rozhodca (neznámy — vyber zo zoznamu):",
+                [""] + _referees,
+                key=f"{match_key}_referee_override",
+            )
+
+        mc1, mc2 = st.columns(2)
+        with mc1:
+            st.select_slider(
+                f"Motivácia — {home}", options=_MOT_OPTIONS, value=mot_h,
+                key=f"{match_key}_mot_home",
+            )
+        with mc2:
+            st.select_slider(
+                f"Motivácia — {away}", options=_MOT_OPTIONS, value=mot_a,
+                key=f"{match_key}_mot_away",
+            )
+        tabs = st.tabs([MARKET_LABELS[m] for m in MARKET_LABELS])
+        for tab, (market, label) in zip(tabs, MARKET_LABELS.items()):
+            with tab:
+                show_market(match_key, market, label, pred[market], n_lines, home, away, df)
+
+
 def _show_backtest(bt_df: pd.DataFrame):
-    st.caption(f"Walk-forward backtest — {len(bt_df)} predikcií na historických zápasoch")
+    has_type = 'type' in bt_df.columns
+    ou_df = bt_df[bt_df['type'] == 'ou'] if has_type else bt_df
+    x1x2_df = bt_df[bt_df['type'] == '1x2'] if has_type else pd.DataFrame()
+    st.caption(f"Walk-forward backtest — {len(ou_df)} O/U predikcií · {len(x1x2_df)} 1X2 predikcií na historických zápasoch")
     bins = [0.0, 0.3, 0.45, 0.55, 0.7, 1.01]
     bin_labels = ["< 30 %", "30–45 %", "45–55 %", "55–70 %", "> 70 %"]
+    st.markdown("#### Over/Under")
     for market, mlabel in MARKET_LABELS.items():
-        mdf = bt_df[bt_df['market'] == market].copy()
+        mdf = ou_df[ou_df['market'] == market].copy()
         if len(mdf) < 15:
             continue
         brier = float(((mdf['p_over'] - mdf['actual_over']) ** 2).mean())
@@ -235,6 +318,37 @@ def _show_backtest(bt_df: pd.DataFrame):
             st.bar_chart(calib.set_index('Bucket')[['Model P', 'Skutočná P']])
         with c2:
             st.dataframe(calib.round(3), hide_index=True, use_container_width=True)
+        st.divider()
+    if x1x2_df.empty:
+        return
+    st.markdown("#### 1X2")
+    for market, mlabel in MARKET_LABELS.items():
+        mdf = x1x2_df[x1x2_df['market'] == market].copy()
+        if len(mdf) < 15:
+            continue
+        mdf['predicted'] = mdf[['p1', 'pX', 'p2']].idxmax(axis=1).map({'p1': '1', 'pX': 'X', 'p2': '2'})
+        acc = float((mdf['predicted'] == mdf['actual_1x2']).mean())
+        mdf['brier'] = (
+            (mdf['p1'] - (mdf['actual_1x2'] == '1').astype(float)) ** 2 +
+            (mdf['pX'] - (mdf['actual_1x2'] == 'X').astype(float)) ** 2 +
+            (mdf['p2'] - (mdf['actual_1x2'] == '2').astype(float)) ** 2
+        ) / 3
+        brier = float(mdf['brier'].mean())
+        st.markdown(f"**{mlabel}** — {len(mdf)} pred. · Brier score: `{brier:.4f}` · Presnosť (top výber): `{acc:.1%}`")
+        outcome_rows = []
+        for outcome, col, label in [('1', 'p1', 'Domáci viac'), ('X', 'pX', 'Rovnako'), ('2', 'p2', 'Hostia viac')]:
+            outcome_rows.append({
+                'Výsledok': label,
+                'Model P (avg)': round(float(mdf[col].mean()), 3),
+                'Skutočná P': round(float((mdf['actual_1x2'] == outcome).mean()), 3),
+                'N': int((mdf['actual_1x2'] == outcome).sum()),
+            })
+        c1, c2 = st.columns([2, 3])
+        with c1:
+            st.dataframe(pd.DataFrame(outcome_rows), hide_index=True, use_container_width=True)
+        with c2:
+            freq_df = pd.DataFrame(outcome_rows).set_index('Výsledok')[['Model P (avg)', 'Skutočná P']]
+            st.bar_chart(freq_df)
         st.divider()
 
 
@@ -270,7 +384,7 @@ def _parse_match_date(date_str: str):
 
 
 @st.cache_data(ttl=300)
-def get_upcoming(data_dir_str: str, days_ahead: int = 3) -> list[dict]:
+def get_upcoming(data_dir_str: str, days_ahead: int = 5) -> list[dict]:
     from datetime import datetime, timedelta
 
     data_dir = Path(data_dir_str)
@@ -311,9 +425,51 @@ def get_upcoming(data_dir_str: str, days_ahead: int = 3) -> list[dict]:
             })
         return upcoming
 
+    # football-data.co.uk ligy — čítaj pre_match riadky priamo z matches.csv
+    if _is_footballdata(data_dir_str):
+        matches_csv = data_dir / "matches.csv"
+        if not matches_csv.exists():
+            return []
+        import csv as _csv
+        upcoming = []
+        with open(matches_csv, encoding="utf-8") as _f:
+            for row in _csv.DictReader(_f):
+                if row.get("status", "").strip() != "pre_match":
+                    continue
+                home = row.get("home_team", "").strip()
+                away = row.get("away_team", "").strip()
+                if not home or not away:
+                    continue
+                date_str = row.get("date", "").strip()
+                match_date = _parse_match_date(date_str) if date_str else None
+                if match_date is not None and not (now <= match_date <= cutoff):
+                    continue
+                upcoming.append({
+                    "home": home,
+                    "away": away,
+                    "date": date_str,
+                    "referee": row.get("referee", "").strip(),
+                    "match_id": row.get("match_id", ""),
+                })
+        return upcoming
+
     # Eredivisie / Pro League — JSON súbory priamo v data_dir (bez index súboru)
+    # Optimalizácia: matches.csv obsahuje odohraté zápasy → preskočíme ich bez čítania JSON
+    # Berieme len full_time záznamy — pre-match záznamy (napr. Ligue 1) treba stále čítať
+    import csv as _csv2
+    _played_ids: set = set()
+    _mc = data_dir / "matches.csv"
+    if _mc.exists():
+        with open(_mc, encoding="utf-8") as _f2:
+            for _row in _csv2.DictReader(_f2):
+                _st = _row.get("status", "").strip().lower().replace("_", "").replace(" ", "")
+                if _st in ("fulltime", "played"):
+                    _played_ids.add(str(_row.get("match_id", "")))
+
     upcoming = []
     for json_path in sorted(data_dir.glob("*.json")):
+        if json_path.stem in _played_ids:
+            continue
         try:
             d = json.loads(json_path.read_text(encoding="utf-8"))
         except Exception:
@@ -500,8 +656,61 @@ def _show_referee_stats(ref_info: dict, market: str):
         )
 
 
+def _last5_totals(df: pd.DataFrame, team: str, side: str, h_col: str, a_col: str) -> str:
+    """Posledných 5 hodnôt totálu (h+a) pre zápasy tímu: side = 'home'/'away'/'all'."""
+    played = df[df["status"] == "full_time"] if "status" in df.columns else df
+    if side == "home":
+        rows = played[played["home_team"] == team].tail(5)
+    elif side == "away":
+        rows = played[played["away_team"] == team].tail(5)
+    else:
+        rows = played[(played["home_team"] == team) | (played["away_team"] == team)].tail(5)
+    vals = (pd.to_numeric(rows[h_col], errors="coerce") + pd.to_numeric(rows[a_col], errors="coerce")).dropna().iloc[::-1]
+    return ", ".join(str(int(v)) for v in vals) if not vals.empty else "—"
+
+
+def _last5_team_vals(df: pd.DataFrame, team: str, side: str, h_col: str, a_col: str) -> str:
+    """Posledných 5 hodnôt individuálnej štatistiky tímu: side = 'home'/'away'/'all'."""
+    played = df[df["status"] == "full_time"] if "status" in df.columns else df
+    if side == "home":
+        rows = played[played["home_team"] == team].tail(5)
+        vals = pd.to_numeric(rows[h_col], errors="coerce").dropna()
+    elif side == "away":
+        rows = played[played["away_team"] == team].tail(5)
+        vals = pd.to_numeric(rows[a_col], errors="coerce").dropna()
+    else:
+        rows = played[(played["home_team"] == team) | (played["away_team"] == team)].tail(5)
+        is_home = rows["home_team"] == team
+        vals = pd.to_numeric(rows[h_col].where(is_home, rows[a_col]), errors="coerce").dropna()
+    return ", ".join(str(int(v)) for v in vals.iloc[::-1]) if not vals.empty else "—"
+
+
+def _last5_form(df: pd.DataFrame, team: str, side: str, h_col: str, a_col: str) -> str:
+    """Posledných 5 výsledkov tímu: V (viac) / R (rovnako) / P (menej) — pre X1X2."""
+    played = df[df["status"] == "full_time"] if "status" in df.columns else df
+    if side == "home":
+        rows = played[played["home_team"] == team].tail(5)
+        tv = pd.to_numeric(rows[h_col], errors="coerce")
+        ov = pd.to_numeric(rows[a_col], errors="coerce")
+    elif side == "away":
+        rows = played[played["away_team"] == team].tail(5)
+        tv = pd.to_numeric(rows[a_col], errors="coerce")
+        ov = pd.to_numeric(rows[h_col], errors="coerce")
+    else:
+        rows = played[(played["home_team"] == team) | (played["away_team"] == team)].tail(5)
+        is_home = rows["home_team"] == team
+        tv = pd.to_numeric(rows[h_col].where(is_home, rows[a_col]), errors="coerce")
+        ov = pd.to_numeric(rows[a_col].where(is_home, rows[h_col]), errors="coerce")
+    result = []
+    for t, o in zip(tv.values, ov.values):
+        if pd.isna(t) or pd.isna(o):
+            continue
+        result.append("V" if t > o else ("R" if t == o else "P"))
+    return ", ".join(reversed(result)) if result else "—"
+
+
 def show_market(match_key: str, market: str, label: str, pred_data: dict,
-                n_lines: int, home_team: str = "", away_team: str = ""):
+                n_lines: int, home_team: str = "", away_team: str = "", df=None):
     lam = pred_data["lambda_total"]
     ou = pred_data.get("over_under_blended") or pred_data["over_under"]
 
@@ -529,6 +738,16 @@ def show_market(match_key: str, market: str, label: str, pred_data: dict,
         for line in show_lines
     }
     _show_ou_block(match_key, market, ou, show_lines, market, label, hit_rates=ht_total)
+
+    if df is not None and home_team and away_team:
+        _hc, _ac = MARKETS[market]["home_col"], MARKETS[market]["away_col"]
+        fc1, fc2 = st.columns(2)
+        with fc1:
+            st.caption(f"Forma doma ({home_team}): {_last5_totals(df, home_team, 'home', _hc, _ac)}")
+            st.caption(f"Forma celkovo ({home_team}): {_last5_totals(df, home_team, 'all', _hc, _ac)}")
+        with fc2:
+            st.caption(f"Forma vonku ({away_team}): {_last5_totals(df, away_team, 'away', _hc, _ac)}")
+            st.caption(f"Forma celkovo ({away_team}): {_last5_totals(df, away_team, 'all', _hc, _ac)}")
 
     if ref_info and ref_info.get("n", 0) > 0:
         _show_referee_stats(ref_info, market)
@@ -567,6 +786,10 @@ def show_market(match_key: str, market: str, label: str, pred_data: dict,
                 for line in lines_h
             }
             _show_ou_block(match_key, f"{market}_home", ou_h, lines_h, market, home_label, hit_rates=ht_h)
+            if df is not None and home_team:
+                _hc, _ac = MARKETS[market]["home_col"], MARKETS[market]["away_col"]
+                st.caption(f"Forma doma: {_last5_team_vals(df, home_team, 'home', _hc, _ac)}")
+                st.caption(f"Forma celkovo: {_last5_team_vals(df, home_team, 'all', _hc, _ac)}")
         with col_a:
             away_label = away_team if away_team else "Hostia"
             st.markdown(f"**{away_label}** — {team_stat_label}: `{lam_a}`")
@@ -579,6 +802,10 @@ def show_market(match_key: str, market: str, label: str, pred_data: dict,
                 for line in lines_a
             }
             _show_ou_block(match_key, f"{market}_away", ou_a, lines_a, market, away_label, hit_rates=ht_a)
+            if df is not None and away_team:
+                _hc, _ac = MARKETS[market]["home_col"], MARKETS[market]["away_col"]
+                st.caption(f"Forma vonku: {_last5_team_vals(df, away_team, 'away', _hc, _ac)}")
+                st.caption(f"Forma celkovo: {_last5_team_vals(df, away_team, 'all', _hc, _ac)}")
 
     if x1x2_key and pred_data.get(x1x2_key):
         st.divider()
@@ -611,6 +838,14 @@ def show_market(match_key: str, market: str, label: str, pred_data: dict,
                 if commits is not None and receives is not None:
                     diff = commits - receives
                     st.caption(f"Robí: {commits:.1f} | Dostáva: {receives:.1f} | {diff:+.1f}")
+                if df is not None:
+                    _hc, _ac = MARKETS[market]["home_col"], MARKETS[market]["away_col"]
+                    if lbl.startswith("1") and home_team:
+                        st.caption(f"Forma doma: {_last5_form(df, home_team, 'home', _hc, _ac)}")
+                        st.caption(f"Forma celkovo: {_last5_form(df, home_team, 'all', _hc, _ac)}")
+                    elif lbl.startswith("2") and away_team:
+                        st.caption(f"Forma vonku: {_last5_form(df, away_team, 'away', _hc, _ac)}")
+                        st.caption(f"Forma celkovo: {_last5_form(df, away_team, 'all', _hc, _ac)}")
 
     h2h_matches = pred_data.get("h2h_matches", [])
     if h2h_matches:
@@ -625,7 +860,9 @@ def show_market(match_key: str, market: str, label: str, pred_data: dict,
             h2h_df[f"{label} spolu"] = pd.to_numeric(h2h_df[stat_cols[0]], errors="coerce") + pd.to_numeric(h2h_df[stat_cols[1]], errors="coerce")
         h2h_df = h2h_df.drop(columns=["match_id"], errors="ignore").rename(columns=col_map)
         if "Dátum" in h2h_df.columns:
-            h2h_df["Dátum"] = pd.to_datetime(h2h_df["Dátum"], errors="coerce").dt.strftime("%d.%m.%Y")
+            h2h_df["Dátum"] = h2h_df["Dátum"].apply(
+                lambda s: d.strftime("%d.%m.%Y") if (d := _parse_match_date(str(s))) else s
+            )
         st.dataframe(h2h_df, hide_index=True, use_container_width=True)
 
 
@@ -649,11 +886,12 @@ with st.sidebar:
     st.caption(f"Pri 50/50: O={balanced:.2f}  U={balanced:.2f}")
     st.divider()
     _source = (
-        "nikeliga.sk"      if "nikeliga"    in data_dir_str
-        else "chanceliga.cz"  if "chanceliga" in data_dir_str
-        else "eredivisie.eu"  if "eredivisie" in data_dir_str
-        else "proleague.be"   if "proleague"  in data_dir_str
-        else "ligue1.com"
+        "nikeliga.sk"             if "nikeliga"        in data_dir_str
+        else "chanceliga.cz"      if "chanceliga"      in data_dir_str
+        else "eredivisie.eu"      if "eredivisie"      in data_dir_str
+        else "proleague.be"       if "proleague"       in data_dir_str
+        else "ligue1.com"         if "ligue1"          in data_dir_str
+        else "football-data.co.uk"
     )
     st.caption(f"Model: Poisson exp-decay={DECAY}")
     st.caption(f"Dáta: {_source}")
@@ -735,26 +973,55 @@ with st.sidebar:
             st.cache_data.clear()
             st.success("Jupiler Pro League aktualizovaná.")
             st.rerun()
-    else:
-        if st.button("🔄 Aktualizovať Ligue 1", use_container_width=True):
+    elif _is_footballdata(data_dir_str):
+        _fd_codes = {
+            "premier_league": "E0", "bundesliga": "D1", "la_liga": "SP1",
+            "serie_a": "I1", "primeira_liga": "P1",
+        }
+        _fd_code = next((v for k, v in _fd_codes.items() if k in data_dir_str), "E0")
+        if st.button("🔄 Aktualizovať dáta", use_container_width=True):
             import subprocess, sys as _sys
-            with st.spinner("Sťahujem nové zápasy ..."):
+            with st.spinner("Sťahujem aktuálne dáta z football-data.co.uk ..."):
                 subprocess.run(
-                    [_sys.executable, str(Path(__file__).parent / "ligue1_scraper.py")],
-                    capture_output=True, text=True,
-                )
-            with st.spinner("Generujem matches.csv ..."):
-                subprocess.run(
-                    [_sys.executable, str(Path(__file__).parent / "ligue1_to_csv.py")],
+                    [_sys.executable, str(Path(__file__).parent / "footballdata_scraper.py"),
+                     "--league", _fd_code, "--force"],
                     capture_output=True, text=True,
                 )
             st.cache_data.clear()
-            st.success("Ligue 1 aktualizovaná.")
+            st.success("Dáta aktualizované.")
+            st.rerun()
+    else:
+        if st.button("🔄 Aktualizovať Ligue 1", use_container_width=True):
+            import subprocess, sys as _sys
+            _errors = []
+            with st.spinner("Sťahujem a aktualizujem zápasy ..."):
+                r1 = subprocess.run(
+                    [_sys.executable, str(Path(__file__).parent / "ligue1_scraper.py"), "--refresh"],
+                    capture_output=True, text=True, encoding="utf-8",
+                )
+                if r1.returncode != 0:
+                    _errors.append(r1.stderr or r1.stdout or "ligue1_scraper zlyhал")
+            with st.spinner("Generujem matches.csv ..."):
+                r2 = subprocess.run(
+                    [_sys.executable, str(Path(__file__).parent / "ligue1_to_csv.py")],
+                    capture_output=True, text=True, encoding="utf-8",
+                )
+                if r2.returncode != 0:
+                    _errors.append(r2.stderr or r2.stdout or "ligue1_to_csv zlyhал")
+            st.cache_data.clear()
+            if _errors:
+                st.warning("Ligue 1 aktualizovaná s chybami:\n\n" + "\n".join(_errors))
+            else:
+                st.success("Ligue 1 aktualizovaná.")
             st.rerun()
 
     if st.button("Reštart", use_container_width=True):
+        import importlib, nikeliga_model, config
+        importlib.reload(config)
+        importlib.reload(nikeliga_model)
         st.cache_data.clear()
-        st.success("Cache vymazaná — predikcie sa prepočítajú.")
+        st.session_state.pop("_manual_pred", None)
+        st.session_state.pop("_bt_results", None)
         st.rerun()
 
 st.title(f"⚽ {league_name} — Fair kurzy bočných trhov")
@@ -768,9 +1035,14 @@ except Exception as e:
 
 upcoming = get_upcoming(data_dir_str) if df is not None else []
 
-if df is None or not upcoming:
+_is_manual_league = (
+    "eredivisie" in data_dir_str or "ligue1" in data_dir_str or
+    "proleague" in data_dir_str or _is_footballdata(data_dir_str)
+)
+
+if df is None or not upcoming or _is_manual_league:
     if df is not None:
-        if "ligue1" in data_dir_str or "proleague" in data_dir_str:
+        if _is_manual_league:
             st.info(
                 f"Načítané historické dáta ({len(df)} zápasov). "
                 "Zadaj tímy manuálne pre predikciu."
@@ -800,10 +1072,21 @@ if df is None or not upcoming:
                 st.markdown(f"### {_mh} vs {_ma}")
                 if _mr:
                     st.caption(f"Rozhodca: {_mr}")
+
+                _manual_upcoming = [{
+                    "home": _mh,
+                    "away": _ma,
+                    "date": "",
+                    "referee": _mr or "",
+                    "match_id": 0,
+                }]
+                show_value_bets(_manual_upcoming, {_mk: _mpred}, DATA_DIR)
+                st.divider()
+
                 _tabs = st.tabs([MARKET_LABELS[m] for m in MARKET_LABELS])
                 for _tab, (_market, _label) in zip(_tabs, MARKET_LABELS.items()):
                     with _tab:
-                        show_market(_mk, _market, _label, _mpred[_market], n_lines, _mh, _ma)
+                        show_market(_mk, _market, _label, _mpred[_market], n_lines, _mh, _ma, df)
         else:
             _lookahead = get_upcoming(data_dir_str, days_ahead=21)
             if _lookahead:
@@ -816,6 +1099,11 @@ if df is None or not upcoming:
                 _date_part = f" ({_next['date']})" if _next.get("date") else ""
                 st.info(f"Žiadne zápasy v najbližších 3 dňoch. Najbližší: **{_label}**{_date_part}")
             else:
+                _fd_codes = {
+                    "premier_league": "E0", "bundesliga": "D1", "la_liga": "SP1",
+                    "serie_a": "I1", "primeira_liga": "P1",
+                }
+                _fd_code = next((v for k, v in _fd_codes.items() if k in data_dir_str), None)
                 fetch_hint = (
                     "`python nikeliga_batch.py fetch 2025 data/nikeliga`"
                     if "nikeliga" in data_dir_str else
@@ -823,6 +1111,8 @@ if df is None or not upcoming:
                     if "chanceliga" in data_dir_str else
                     "`python proleague_scraper.py`"
                     if "proleague" in data_dir_str else
+                    f"`python footballdata_scraper.py --league {_fd_code} --force`"
+                    if _fd_code else
                     "`python eredivisie_to_csv.py`"
                 )
                 st.info(f"Žiadne nadchádzajúce zápasy. Spusti najprv: {fetch_hint}")
@@ -832,13 +1122,15 @@ else:
     st.divider()
 
     all_predictions: dict = {}
+    _needs_ref_select = "chanceliga" in data_dir_str or "ligue1" in data_dir_str or "premier_league" in data_dir_str or "eredivisie" in data_dir_str
     for _m in upcoming:
         _mk = f"{_m['home']}_{_m['away']}".replace(" ", "_")
         try:
             _mot_h = float(st.session_state.get(f"{_mk}_mot_home", 1.0))
             _mot_a = float(st.session_state.get(f"{_mk}_mot_away", 1.0))
+            _ref = _m['referee'] or (st.session_state.get(f"{_mk}_referee_override", "") if _needs_ref_select else "")
             all_predictions[_mk] = cached_predict(
-                df, _m['home'], _m['away'], _m['referee'], _mot_h, _mot_a, league=league_name
+                df, _m['home'], _m['away'], _ref or None, _mot_h, _mot_a, league=league_name
             )
         except Exception:
             pass
@@ -846,41 +1138,8 @@ else:
     show_value_bets(upcoming, all_predictions, DATA_DIR)
     st.divider()
 
-    def render_match(match: dict, pred: dict | None, n_lines: int):
-        home = match["home"]
-        away = match["away"]
-        date = match["date"]
-        referee = match["referee"]
-        match_key = f"{home}_{away}".replace(" ", "_")
-
-        ref_note = f" | Rozhodca: {referee}" if referee else " | Rozhodca: neznámy"
-        with st.expander(f"**{home} vs {away}**   {date}{ref_note}", expanded=False):
-            if not pred:
-                st.error("Chyba predikcie")
-                return
-            mc1, mc2 = st.columns(2)
-            with mc1:
-                st.select_slider(
-                    f"Motivácia — {home}",
-                    options=_MOT_OPTIONS,
-                    value=float(st.session_state.get(f"{match_key}_mot_home", 1.0)),
-                    key=f"{match_key}_mot_home",
-                )
-            with mc2:
-                st.select_slider(
-                    f"Motivácia — {away}",
-                    options=_MOT_OPTIONS,
-                    value=float(st.session_state.get(f"{match_key}_mot_away", 1.0)),
-                    key=f"{match_key}_mot_away",
-                )
-            tabs = st.tabs([MARKET_LABELS[m] for m in MARKET_LABELS])
-            for tab, (market, label) in zip(tabs, MARKET_LABELS.items()):
-                with tab:
-                    show_market(match_key, market, label, pred[market], n_lines, home, away)
-
     for match in upcoming:
-        _mk = f"{match['home']}_{match['away']}".replace(" ", "_")
-        render_match(match, all_predictions.get(_mk), n_lines)
+        render_match(match, df, n_lines, league_name, _needs_ref_select)
 
     st.divider()
     st.caption("Edge = (pravdepodobnosť modelu × kurz bookmakera) − 1. Stávkuj len ak edge > 0.")
@@ -912,14 +1171,26 @@ if df is not None:
                     st.rerun()
                 else:
                     # Skontroluj či sú pending tipy pre minulé zápasy bez výsledkov
-                    from datetime import datetime as _dt2
+                    from datetime import datetime as _dt2, timedelta as _td
                     _fresh = load_tips(DATA_DIR)
                     _pending = _fresh[_fresh["status"] == "pending"] if not _fresh.empty else _fresh
                     _stale = []
                     for _, _tip in _pending.iterrows():
-                        _md = _parse_match_date(str(_tip.get("match_date", "")))
+                        _raw_date = str(_tip.get("match_date", "")).strip()
+                        _match_date_str = "" if _raw_date.lower() in ("nan", "none", "") else _raw_date
+                        _md = _parse_match_date(_match_date_str) if _match_date_str else None
+                        if _md is None:
+                            # Fallback: ak match_date chýba, použi recorded_at + 1 deň
+                            _rec = str(_tip.get("recorded_at", "")).strip()
+                            try:
+                                _rec_dt = _dt2.strptime(_rec[:16], "%Y-%m-%d %H:%M")
+                                if _rec_dt < _dt2.now() - _td(hours=24):
+                                    _md = _rec_dt
+                            except Exception:
+                                pass
                         if _md and _md < _dt2.now():
-                            _stale.append(f"{_tip['home_team']} — {_tip['away_team']} ({_tip['match_date']})")
+                            _label = _match_date_str or str(_tip.get("recorded_at", ""))[:10]
+                            _stale.append(f"{_tip['home_team']} — {_tip['away_team']} ({_label})")
                     if _stale:
                         _refresh_hint = "🔄 Aktualizovať výsledky" if "nikeliga" in data_dir_str else "🔄 Aktualizovať zápasy"
                         st.warning(
@@ -957,3 +1228,91 @@ if df is not None:
                 st.warning("Nedostatok historických dát.")
             else:
                 _show_backtest(bt)
+
+_data_root = Path(__file__).parent / "data"
+_league_tips_frames = []
+for _ld in sorted(_data_root.iterdir()):
+    if _ld.is_dir():
+        _tp = _ld / "tips.csv"
+        if _tp.exists():
+            _lf = pd.read_csv(_tp, dtype=str)
+            _lf.insert(0, "league", _ld.name)
+            _league_tips_frames.append(_lf)
+
+if _league_tips_frames:
+    with st.expander("📊 Všetky tipy — súhrnný prehľad", expanded=False):
+        _all_df = pd.concat(_league_tips_frames, ignore_index=True)
+        _all_df["stake"] = pd.to_numeric(_all_df["stake"], errors="coerce")
+        _all_df["bm_odds"] = pd.to_numeric(_all_df["bm_odds"], errors="coerce")
+        # Prepočítaj profit podľa aktuálneho stake
+        _all_df["profit"] = _all_df.apply(
+            lambda r: round((r["bm_odds"] - 1) * r["stake"], 2) if r["status"] == "won"
+            else (-r["stake"] if r["status"] == "lost" else float("nan")),
+            axis=1,
+        )
+
+        # Filtre
+        _league_filter = st.multiselect(
+            "Filtruj ligu", options=sorted(_all_df["league"].unique()),
+            default=sorted(_all_df["league"].unique()), key="all_tips_league_filter"
+        )
+        _col_f1, _col_f2 = st.columns(2)
+        with _col_f1:
+            _status_filter = st.multiselect(
+                "Filtruj status", options=["won", "lost", "pending"],
+                default=["won", "lost", "pending"], key="all_tips_status_filter"
+            )
+        with _col_f2:
+            _market_options = sorted(_all_df["market"].dropna().unique())
+            _market_filter = st.multiselect(
+                "Filtruj market", options=_market_options,
+                default=_market_options, key="all_tips_market_filter"
+            )
+        _filtered = _all_df[
+            _all_df["league"].isin(_league_filter)
+            & _all_df["status"].isin(_status_filter)
+            & _all_df["market"].isin(_market_filter)
+        ]
+
+        # Metriky celkovo (z filtrovaných dát)
+        _settled = _filtered[_filtered["status"].isin(["won", "lost"])]
+        _total_profit = _settled["profit"].sum()
+        _total_stake = _settled["stake"].sum()
+        _roi = _total_profit / _total_stake if _total_stake > 0 else None
+        _cm1, _cm2, _cm3, _cm4, _cm5 = st.columns(5)
+        _cm1.metric("Celkom tipov", len(_filtered))
+        _cm2.metric("Vyhrané", int((_filtered["status"] == "won").sum()))
+        _cm3.metric("Prehrané", int((_filtered["status"] == "lost").sum()))
+        _cm4.metric("Profit (j.)", f"{_total_profit:+.2f}")
+        _cm5.metric("ROI", f"{_roi:.1%}" if _roi is not None else "—")
+
+        # Súhrn per liga (z filtrovaných dát)
+        st.markdown("**Per liga:**")
+        _league_grp = []
+        for _lg, _grp in _filtered.groupby("league"):
+            _s = _grp[_grp["status"].isin(["won", "lost"])]
+            _p = _s["profit"].sum()
+            _sk = _s["stake"].sum()
+            _league_grp.append({
+                "Liga": _lg,
+                "Tipy": len(_grp),
+                "Won": int((_grp["status"] == "won").sum()),
+                "Lost": int((_grp["status"] == "lost").sum()),
+                "Pending": int((_grp["status"] == "pending").sum()),
+                "Profit": round(_p, 2),
+                "ROI": f"{_p/_sk:.1%}" if _sk > 0 else "—",
+            })
+        if _league_grp:
+            st.dataframe(pd.DataFrame(_league_grp), hide_index=True, use_container_width=True)
+        else:
+            st.info("Žiadne tipy zodpovedajú filtru.")
+
+        # Detailná tabuľka
+        st.markdown("**Detailná história:**")
+        _disp_cols = ["league", "recorded_at", "home_team", "away_team", "market",
+                      "bet_type", "line", "direction", "bm_odds", "edge",
+                      "stake", "status", "actual_value", "profit"]
+        st.dataframe(
+            _filtered[[c for c in _disp_cols if c in _filtered.columns]],
+            hide_index=True, use_container_width=True
+        )

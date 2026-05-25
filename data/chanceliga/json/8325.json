@@ -1,0 +1,36 @@
+{
+  "url": "https://www.chanceliga.cz/zapas/8325-fcs-art",
+  "meta": {
+    "home_team": "1.FC Slovácko",
+    "away_team": "Artis Brno",
+    "round": "Baráž – 2. zápas, Baráž | neděle 31/05/2026, 13:00 | Městský fotbalový stadion Miroslava Valenty",
+    "date": "31/05/2026 13:00",
+    "stadium": "Městský fotbalový stadion Miroslava Valenty"
+  },
+  "events": [],
+  "stats": {
+    "total": {
+      "průměrný_věk": {
+        "home": 27.7,
+        "away": 0
+      },
+      "součet_zápasů": {
+        "home": 756,
+        "away": null
+      },
+      "hráči_s_titulem": {
+        "home": 2,
+        "away": null
+      },
+      "počet_národností": {
+        "home": 11,
+        "away": null
+      }
+    }
+  },
+  "lineups": {
+    "home": [],
+    "away": []
+  },
+  "match_id": 8325
+}
