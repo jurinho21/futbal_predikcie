@@ -10,6 +10,7 @@ import re
 import logging
 import requests
 from bs4 import BeautifulSoup
+from http_utils import SESSION
 
 logger = logging.getLogger(__name__)
 
@@ -42,7 +43,7 @@ STAT_MAP = {
 
 
 def fetch_html(url: str) -> str:
-    resp = requests.get(url, headers=HEADERS, timeout=20)
+    resp = SESSION.get(url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
     return resp.text
 

@@ -382,6 +382,7 @@ def export_sqlite(data_dir: Path, db_path: Path):
 # ---------------------------------------------------------------------------
 
 def main():
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s — %(message)s")
     parser = argparse.ArgumentParser(description="Niké liga batch scraper")
     sub = parser.add_subparsers(dest="cmd")
 

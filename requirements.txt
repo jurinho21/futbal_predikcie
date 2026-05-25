@@ -1,3 +1,4 @@
+streamlit
 requests
 beautifulsoup4
 pandas
@@ -5,4 +6,3 @@ numpy
 scipy
 pdfplumber
 python-dateutil
-pytest

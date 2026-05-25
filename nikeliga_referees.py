@@ -18,8 +18,8 @@ from datetime import date
 from pathlib import Path
 
 import pdfplumber
-import requests
 from bs4 import BeautifulSoup
+from http_utils import SESSION
 
 HEADERS = {
     "User-Agent": (
@@ -65,7 +65,7 @@ def _team_match(short: str, full: str) -> bool:
 def fetch_latest_pdf_url(season_url: str | None = None) -> str | None:
     """Vráti URL najnovšieho 'obsadenie' PDF z futbalsfz.sk."""
     url = season_url or _season_url()
-    resp = requests.get(url, headers=HEADERS, timeout=20)
+    resp = SESSION.get(url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -259,7 +259,7 @@ def patch_referees(data_dir: Path, dry_run: bool = False) -> tuple[int, int]:
         return 0, 0
     print(f"  {pdf_url}")
 
-    resp = requests.get(pdf_url, headers=HEADERS, timeout=30)
+    resp = SESSION.get(pdf_url, headers=HEADERS, timeout=30)
     resp.raise_for_status()
 
     # --- Parsuj PDF ---
@@ -367,7 +367,7 @@ def main():
     args = parser.parse_args()
 
     if args.pdf_url:
-        resp = requests.get(args.pdf_url, headers=HEADERS, timeout=30)
+        resp = SESSION.get(args.pdf_url, headers=HEADERS, timeout=30)
         resp.raise_for_status()
         pdf_matches = parse_pdf_referees(resp.content, debug=args.debug)
         print(f"\nNájdených {len(pdf_matches)} zápasov Niké ligy v PDF:")

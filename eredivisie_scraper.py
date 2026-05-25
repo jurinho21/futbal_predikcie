@@ -12,9 +12,9 @@ import json
 import time
 import logging
 import argparse
-import requests
 from pathlib import Path
 from datetime import datetime
+from http_utils import SESSION
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -69,7 +69,7 @@ STAT_MAP = {
 # ---------------------------------------------------------------------------
 
 def _get(url: str) -> dict:
-    resp = requests.get(url, headers=HEADERS, timeout=20)
+    resp = SESSION.get(url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
     return resp.json()
 

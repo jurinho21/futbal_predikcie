@@ -8,8 +8,8 @@ import sys
 import json
 import csv
 import glob
-import requests
 from pathlib import Path
+from http_utils import SESSION
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -64,7 +64,7 @@ def _v(stats: dict, key: str):
 
 def build_oid_round_map() -> dict:
     print("Sťahujem fixtures.json pre čísla kôl …")
-    data = requests.get(FIXTURES_URL, headers=HEADERS, timeout=20).json()
+    data = SESSION.get(FIXTURES_URL, headers=HEADERS, timeout=20).json()
     mapping = {}
     for rk, rd in data.items():
         if not isinstance(rd, dict):

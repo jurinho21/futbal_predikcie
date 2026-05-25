@@ -13,10 +13,10 @@ import re
 import time
 import logging
 import argparse
-import requests
 from pathlib import Path
 from datetime import datetime
 from collections import deque
+from http_utils import SESSION
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -88,7 +88,7 @@ STAT_MAP = {
 # ---------------------------------------------------------------------------
 
 def _get_html(url: str) -> str:
-    resp = requests.get(url, headers=HEADERS, timeout=20)
+    resp = SESSION.get(url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
     return resp.text
 
@@ -111,7 +111,7 @@ def _fetch_round_slugs(build_hash: str, round_id: str | None, season: str = "202
     if round_id:
         params = f"?roundId={round_id}&params=fr&params=jpl-calendar"
     url = f"{BASE_URL}/_next/data/{build_hash}/fr/jpl-calendar.json{params}"
-    r = requests.get(url, headers={**HEADERS, "Accept": "application/json"}, timeout=20)
+    r = SESSION.get(url, headers={**HEADERS, "Accept": "application/json"}, timeout=20)
     data = r.json()
 
     # Zozbieraj slugy rekurzívne z celej odpovede
@@ -154,7 +154,7 @@ def get_seed_slugs(build_hash: str, season: str = "2025-2026") -> list[str]:
         try:
             url = (f"{BASE_URL}/_next/data/{build_hash}/fr/jpl-calendar.json"
                    f"?roundId={PLAYOFF_ROUND_ID}&gameweekId={gw_id}&params=fr&params=jpl-calendar")
-            r = requests.get(url, headers={**HEADERS, "Accept": "application/json"}, timeout=20)
+            r = SESSION.get(url, headers={**HEADERS, "Accept": "application/json"}, timeout=20)
             found: set[str] = set()
             _collect_slugs(r.json(), season, found)
             new = found - slugs

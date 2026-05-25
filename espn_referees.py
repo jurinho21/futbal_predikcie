@@ -20,7 +20,7 @@ import unicodedata
 from datetime import date, timedelta
 from pathlib import Path
 
-import requests
+from http_utils import SESSION
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -81,7 +81,7 @@ def _map_team(espn_name: str, csv_teams: list[str]) -> str | None:
 def get_game_ids_for_date(league_code: str, date_str: str) -> list[dict]:
     """Vráti zoznam {id, home, away, date} pre daný dátum."""
     url = f"{ESPN_BASE}/{league_code}/scoreboard?dates={date_str}&limit=20"
-    resp = requests.get(url, headers=HEADERS, timeout=15)
+    resp = SESSION.get(url, headers=HEADERS, timeout=15)
     if resp.status_code != 200:
         return []
     events = []
@@ -101,7 +101,7 @@ def get_game_ids_for_date(league_code: str, date_str: str) -> list[dict]:
 def get_referee(league_code: str, game_id: str) -> str:
     """Vráti meno hlavného rozhodcu pre daný game_id."""
     url = f"{ESPN_BASE}/{league_code}/summary?event={game_id}"
-    resp = requests.get(url, headers=HEADERS, timeout=15)
+    resp = SESSION.get(url, headers=HEADERS, timeout=15)
     if resp.status_code != 200:
         return ""
     officials = resp.json().get("gameInfo", {}).get("officials", [])

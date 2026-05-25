@@ -15,9 +15,9 @@ import csv
 import time
 import logging
 import argparse
-import requests
 from io import StringIO
 from pathlib import Path
+from http_utils import SESSION
 from datetime import datetime
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -139,7 +139,7 @@ def parse_csv(content: str, code: str, season_label: str) -> list[dict]:
 def fetch_league(code: str, season: str) -> str:
     url = BASE_URL.format(season=season, code=code)
     logger.info("Sťahujem %s …", url)
-    resp = requests.get(url, headers=HEADERS, timeout=20)
+    resp = SESSION.get(url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
     resp.encoding = "utf-8-sig"
     return resp.text

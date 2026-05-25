@@ -18,7 +18,7 @@ import time
 import unicodedata
 from pathlib import Path
 
-import requests
+from http_utils import SESSION
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -113,7 +113,7 @@ def _resolve_team(api_name: str, csv_names: list[str]) -> str | None:
 
 def fetch_matches(code: str) -> list[dict]:
     url = f"{API_BASE}/competitions/{code}/matches?season={SEASON}"
-    resp = requests.get(url, headers=HEADERS, timeout=20)
+    resp = SESSION.get(url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
     return resp.json().get("matches", [])
 

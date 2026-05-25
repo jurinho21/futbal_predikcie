@@ -13,7 +13,7 @@ import argparse
 import math
 import logging
 from pathlib import Path
-from typing import Optional
+from typing import Optional, TypedDict
 
 try:
     import pandas as pd
@@ -33,6 +33,58 @@ from config import (
 )
 
 logger = logging.getLogger(__name__)
+
+
+# ---------------------------------------------------------------------------
+# TYPES
+# ---------------------------------------------------------------------------
+
+OUDict = dict[str, float]      # {"O4": 0.35, "U4": 0.65, ...}
+HitRateDict = dict[float, str]  # {4.5: "5/10", ...}
+
+
+class X1X2Data(TypedDict, total=False):
+    """Výsledok 1X2 predikcie pre jeden market."""
+    p1: float
+    pX: float
+    p2: float
+    blended: dict
+    home_record: Optional[dict]
+    away_record: Optional[dict]
+    home_commits: float
+    away_commits: float
+    home_receives: float
+    away_receives: float
+
+
+class MarketPrediction(TypedDict, total=False):
+    """Predikcia jedného bočného trhu — výstup _predict_market()."""
+    lambda_home: float
+    lambda_away: float
+    lambda_total: float
+    over_under: OUDict
+    over_under_home: OUDict
+    over_under_away: OUDict
+    over_under_blended: OUDict
+    over_under_home_blended: OUDict
+    over_under_away_blended: OUDict
+    nb_r: Optional[float]
+    nb_r_home: Optional[float]
+    nb_r_away: Optional[float]
+    ref_info: dict
+    home_n: int
+    away_n: int
+    h2h_avg: Optional[float]
+    h2h_matches: list
+    hit_rates_home_total: HitRateDict
+    hit_rates_away_total: HitRateDict
+    hit_rates_h2h_total: HitRateDict
+    hit_rates_home_stat: HitRateDict
+    hit_rates_away_stat: HitRateDict
+    hit_rates_home_opp_stat: HitRateDict
+    hit_rates_away_opp_stat: HitRateDict
+    hit_rates_home_all: HitRateDict
+    hit_rates_away_all: HitRateDict
 
 
 # ---------------------------------------------------------------------------
@@ -80,6 +132,15 @@ def season_blend_weights(n_new: int) -> tuple[float, float]:
     return 0.0, 1.0
 
 
+_REQUIRED_COLS = {"date", "home_team", "away_team"}
+_MARKET_COLS = {
+    "home_fouls", "away_fouls",
+    "home_shots_on_target", "away_shots_on_target",
+    "home_corners", "away_corners",
+    "home_yellow", "away_yellow",
+}
+
+
 def load_data(data_dir: Path) -> pd.DataFrame:
     matches_csv = Path(data_dir) / "matches.csv"
     if not matches_csv.exists():
@@ -87,6 +148,13 @@ def load_data(data_dir: Path) -> pd.DataFrame:
         sys.exit(1)
 
     df = pd.read_csv(matches_csv)
+
+    missing_critical = _REQUIRED_COLS - set(df.columns)
+    if missing_critical:
+        raise ValueError(f"matches.csv chýbajú povinné stĺpce: {missing_critical}")
+    missing_market = _MARKET_COLS - set(df.columns)
+    if missing_market:
+        logger.warning("matches.csv chýbajú market stĺpce (niektoré predikcie budú vynechané): %s", missing_market)
     df["date"] = df["date"].apply(_parse_date)
     df = df.sort_values("date").reset_index(drop=True)
 
@@ -618,7 +686,7 @@ def _predict_market(
     referee: Optional[str], mot_home: float, mot_away: float,
     home_rows: pd.DataFrame, away_rows: pd.DataFrame, h2h_rows: pd.DataFrame,
     current_season: Optional[int] = None,
-) -> dict:
+) -> MarketPrediction:
     """Predikuje jeden market. Volané z predict_match() pre každý market zvlášť."""
     h_col, a_col, tot_col = cols["home_col"], cols["away_col"], cols["total_col"]
 
@@ -691,7 +759,7 @@ def predict_match(
     before_idx: Optional[int] = None,
     mot_home: float = 1.0,
     mot_away: float = 1.0,
-) -> dict:
+) -> dict[str, MarketPrediction]:
     if before_idx is None:
         before_idx = len(df)
 
