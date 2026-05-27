@@ -597,23 +597,27 @@ def show_value_bets(upcoming: list, all_predictions: dict, data_dir: Path):
             col_s, col_d = st.columns(2)
             with col_s:
                 if to_save:
+                    stake = st.number_input("Stake (€)", min_value=0.0, step=1.0, value=0.0, key="vbets_stake")
                     if st.button(f"💾 Uložiť {len(to_save)} vybraných", key="save_vbets_btn", use_container_width=True):
-                        tips_to_save = [{
-                            "match_id":   vbets[i]["_match_id"],
-                            "home_team":  vbets[i]["_home"],
-                            "away_team":  vbets[i]["_away"],
-                            "match_date": vbets[i]["_match_date"],
-                            "market":     vbets[i]["_market"],
-                            "bet_type":   vbets[i]["_bet_type"],
-                            "line":       vbets[i]["_line"],
-                            "direction":  vbets[i]["_direction"],
-                            "model_prob": vbets[i]["_p"],
-                            "bm_odds":    vbets[i]["Kurz"],
-                            "edge":       vbets[i]["_edge"],
-                        } for i in to_save]
-                        n_saved = save_tips(data_dir, tips_to_save, github_token=get_github_token())
-                        st.success(f"Uložených {n_saved} tipov.")
-                        st.rerun()
+                        if stake <= 0:
+                            st.warning("Zadaj stake pred uložením.")
+                        else:
+                            tips_to_save = [{
+                                "match_id":   vbets[i]["_match_id"],
+                                "home_team":  vbets[i]["_home"],
+                                "away_team":  vbets[i]["_away"],
+                                "match_date": vbets[i]["_match_date"],
+                                "market":     vbets[i]["_market"],
+                                "bet_type":   vbets[i]["_bet_type"],
+                                "line":       vbets[i]["_line"],
+                                "direction":  vbets[i]["_direction"],
+                                "model_prob": vbets[i]["_p"],
+                                "bm_odds":    vbets[i]["Kurz"],
+                                "edge":       vbets[i]["_edge"],
+                            } for i in to_save]
+                            n_saved = save_tips(data_dir, tips_to_save, stake=stake, github_token=get_github_token())
+                            st.success(f"Uložených {n_saved} tipov.")
+                            st.rerun()
             with col_d:
                 if to_delete:
                     if st.button(f"🗑️ Vymazať {len(to_delete)} vybraných", key="del_vbets_btn", use_container_width=True):
