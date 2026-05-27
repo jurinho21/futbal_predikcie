@@ -353,7 +353,7 @@ with st.sidebar:
         st.session_state.pop("_bt_results", None)
         st.rerun()
 
-st.title(f"⚽ {league_name} — Fair kurzy bočných trhov")
+st.title(f"⚽ {league_name}")
 
 # Načítaj dáta
 _mtime = _csv_mtime(data_dir_str)
