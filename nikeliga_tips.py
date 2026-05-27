@@ -111,7 +111,7 @@ def _migrate_sqlite_if_needed(data_dir: Path) -> None:
 # VEREJNÉ API
 # ---------------------------------------------------------------------------
 
-def save_tips(data_dir: Path, tips: list[dict], stake: float = 1.0) -> int:
+def save_tips(data_dir: Path, tips: list[dict], stake: float = 1.0, github_token: str | None = None) -> int:
     """
     Uloží nové tipy do CSV (preskočí duplicity).
     Každý tip musí mať: match_id, home_team, away_team, match_date,
@@ -165,6 +165,13 @@ def save_tips(data_dir: Path, tips: list[dict], stake: float = 1.0) -> int:
         if write_header:
             writer.writeheader()
         writer.writerows(new_rows)
+
+    if github_token:
+        try:
+            from github_sync import push_tips_csv
+            push_tips_csv(data_dir, github_token)
+        except Exception as e:
+            logger.warning("GitHub sync zlyhala: %s", e)
 
     return len(new_rows)
 
@@ -277,7 +284,7 @@ def _read_stat_values(d: dict, market: str) -> tuple[Optional[float], Optional[f
     return None, None
 
 
-def settle_tips(data_dir: Path) -> tuple[int, int]:
+def settle_tips(data_dir: Path, github_token: str | None = None) -> tuple[int, int]:
     """
     Vyhodnotí pending tipy podľa výsledkov v data/json/ alebo priamo v data_dir.
     Vracia (vyhodnotené, chyby).
@@ -410,6 +417,14 @@ def settle_tips(data_dir: Path) -> tuple[int, int]:
             errors += 1
 
     df.to_csv(tips_csv, index=False)
+
+    if github_token and settled > 0:
+        try:
+            from github_sync import push_tips_csv
+            push_tips_csv(data_dir, github_token)
+        except Exception as e:
+            logger.warning("GitHub sync zlyhala: %s", e)
+
     return settled, errors
 
 

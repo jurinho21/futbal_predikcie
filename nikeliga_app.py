@@ -13,6 +13,7 @@ import pandas as pd
 from nikeliga_model import load_data
 from nikeliga_tips import settle_tips, load_tips, tips_summary
 from config import DECAY, MARKET_LABELS
+from github_sync import get_github_token
 
 from predictions import cached_predict, run_backtest
 from ui.widgets import (
@@ -468,7 +469,7 @@ if df is not None:
         with c_settle:
             if st.button("✅ Vyhodnoť tipy", key="settle_tips_btn", use_container_width=True):
                 with st.spinner("Vyhodnocujem..."):
-                    settled, errs = settle_tips(DATA_DIR)
+                    settled, errs = settle_tips(DATA_DIR, github_token=get_github_token())
                 if errs:
                     st.warning(f"Vyhodnotených: {settled}, chyby: {errs}")
                     st.rerun()

@@ -14,6 +14,7 @@ from config import (
 from nikeliga_model import fair_odds
 from nikeliga_tips import save_tips
 from predictions import cached_predict, MOT_OPTIONS
+from github_sync import get_github_token
 
 
 # ---------------------------------------------------------------------------
@@ -610,7 +611,7 @@ def show_value_bets(upcoming: list, all_predictions: dict, data_dir: Path):
                             "bm_odds":    vbets[i]["Kurz"],
                             "edge":       vbets[i]["_edge"],
                         } for i in to_save]
-                        n_saved = save_tips(data_dir, tips_to_save)
+                        n_saved = save_tips(data_dir, tips_to_save, github_token=get_github_token())
                         st.success(f"Uložených {n_saved} tipov.")
                         st.rerun()
             with col_d:
