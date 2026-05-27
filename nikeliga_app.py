@@ -24,6 +24,30 @@ from ui.widgets import (
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(levelname)s %(message)s")
 
+# ---------------------------------------------------------------------------
+# Ochrana heslom
+# ---------------------------------------------------------------------------
+def _check_auth() -> bool:
+    try:
+        correct = st.secrets["APP_PASSWORD"]
+    except Exception:
+        return True  # lokálne bez secrets = voľný prístup
+
+    if st.session_state.get("authenticated"):
+        return True
+
+    st.title("🔒 Prístup chránený heslom")
+    pwd = st.text_input("Heslo", type="password")
+    if st.button("Prihlásiť"):
+        if pwd == correct:
+            st.session_state["authenticated"] = True
+            st.rerun()
+        else:
+            st.error("Nesprávne heslo.")
+    st.stop()
+
+_check_auth()
+
 _LEAGUES = {
     "Niké liga 🇸🇰":          "data/nikeliga",
     "Chance liga 🇨🇿":        "data/chanceliga",
